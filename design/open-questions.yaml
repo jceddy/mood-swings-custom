@@ -1,0 +1,53 @@
+# Design decisions and open questions. Shown on the "Open Questions" sheet of the spreadsheet.
+# status: open | decided | parked
+questions:
+  - id: Q1
+    status: decided
+    question: What is the theme of the colorless common cycle (5 cards, replacing the original vanilla-4 cycle)?
+    notes: |
+      Decided: each colorless common is worth 4 and can only be played if there is a mood of one specific color in play
+      (one card per color; e.g. the white one reads "You can only play this card if there is a white mood").
+      Slots X-C01..X-C05 (white, blue, black, red, green).
+      Still to settle when designing the cards: whether "there is a [color] mood" counts any player's moods or only yours
+      (see Q7), and whether any of the five needs a small upside or drawback after playtesting.
+  - id: Q2
+    status: decided
+    question: Colorless distribution - 5 commons + 2 uncommons + 1 rare (8 of 133)?
+    notes: "Decided: 8 of 133 is fine for now."
+  - id: Q3
+    status: open
+    question: Which original-pool cards (max 13 of 133) are worth reprinting?
+    notes: |
+      Probable reprints (role-player commons), pre-assigned to the slot whose role each fits; the Set sheet shows them in the
+      "Reprint candidate" column. Not final: Pacifism (W-C03), Panic (U-C03), Fear (U-C04), Ambition (B-C04), Hate (B-C05),
+      Suspicion (B-C07), Shock (R-C03), Bravado (R-C04), Zeal (R-C05), Compulsion (R-C07), Joy (G-C04), Nostalgia (G-C05),
+      Determination (G-C06). That is 13, exactly the cap (13 of 133 = 9.8%), so any further reprint means dropping one of these.
+      A candidate becomes a reprint when a card file with reprint_of is added.
+  - id: Q4
+    status: decided
+    question: Should the ally/enemy wheel (10 commons) be kept as-is, reskinned, or replaced?
+    notes: |
+      Decided: replace it. Keep the 10-card structure (per color, one "ally" card and one "enemy" card), but the new cards care about
+      2+ moods of the adjacent (ally) or opposing (enemy) colors for a different effect rather than swapping the card's own
+      value between 3 and 6. Slots C01 (ally-count) and C02 (enemy-count) in each color. Colorless moods count as neither.
+      The specific effects are to be designed.
+  - id: Q5
+    status: open
+    question: Which mythic build-around axes does each color get?
+    notes: |
+      To be determined. The mythics will likely shape the direction of the rest of the set, so the other rare/uncommon slot
+      roles may be revised once they exist. The original pool has 5 build-around mythics (Validation, Exhilaration, Bliss,
+      Duplicity, Thrill), each with about 14 partners.
+  - id: Q6
+    status: decided
+    question: How are new cards implemented in the simulator?
+    notes: |
+      Decided: simulator changes (e.g. a colorless color value, play restrictions based on colors in play) will be handled
+      separately. For design purposes a mechanic only has to be implementable in principle; mark cards that would need a
+      new engine primitive with impl_tier 2 (see design/card-schema.md).
+  - id: Q7
+    status: open
+    question: Does a colorless gate ("a white mood in play") count moods of any player, or only your own?
+    notes: |
+      Original-pool precedent for board-wide wording is "there is a ... mood" (any player), e.g. Love and Happiness.
+      Counting any player's moods makes the colorless commons easier to enable but also lets opponents turn them off.
