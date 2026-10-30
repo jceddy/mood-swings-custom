@@ -1,0 +1,953 @@
+# Draft skeleton for the custom set: one entry per card slot.
+# A card claims a slot by naming it in its cards/*.yaml file (field: slot).
+set:
+  name: TBD
+  target_size: 133
+  max_reprint_fraction: 0.1
+  reprint_cap: 13
+  notes: Skeleton v0. Roles, value targets and counts are proposals derived from the original pool's distribution (see baseline/); edit freely.
+slots:
+- id: W-C01
+  color: white
+  rarity: common
+  role: ally-count
+  value: 2-4
+  timing: while/after
+  notes: 'Ally cycle: an effect (not a value swing) that happens or improves with 2+ moods of the adjacent colors (green/blue). Replaces the original value-swapping wheel.'
+- id: W-C02
+  color: white
+  rarity: common
+  role: enemy-count
+  value: 2-4
+  timing: while/after
+  notes: 'Enemy cycle: an effect (not a value swing) that happens or improves with 2+ moods of the opposing colors (black/red). Replaces the original value-swapping wheel.'
+- id: W-C03
+  color: white
+  rarity: common
+  role: interaction-lite
+  value: 1-2
+  timing: after
+  notes: '''Up to two players'' style small interaction in this color''s own verb (W suppress, U bounce, B/R discard-pile removal; G has no removal in the original pool, so use a gift/tempo effect instead).'
+  reprint_candidate: Pacifism
+- id: W-C04
+  color: white
+  rarity: common
+  role: play-grant
+  value: 0-3
+  timing: after
+  notes: Cheap extra-play grant, possibly restricted by color/parity/discard pile.
+- id: W-C05
+  color: white
+  rarity: common
+  role: card-flow
+  value: 0-3
+  timing: after
+  notes: 'Draw/cycle/discard-pile interaction in this color''s flavor (W has none in the original pool: consider a hand-discard bonus instead).'
+- id: W-C06
+  color: white
+  rarity: common
+  role: conditional-3
+  value: 3->5/6
+  timing: any
+  notes: 'Value-3 mood with a state condition: tempo (went first / played this round), hand-discard bonus, or board-state count.'
+- id: W-C07
+  color: white
+  rarity: common
+  role: utility-small
+  value: 2-3
+  timing: after
+  notes: Small effect on a modest body (hand disruption, small steal/give, etc.).
+- id: W-C08
+  color: white
+  rarity: common
+  role: high-value-cost
+  value: 5-6
+  timing: to-play/after
+  notes: High base value balanced by a cost, drawback or delay (to-play cost, bounce-self, gives an opponent a play).
+- id: W-U01
+  color: white
+  rarity: uncommon
+  role: play-grant-restricted
+  value: '2'
+  timing: after
+  notes: Extra play restricted by color/parity/board state (Benevolence/Friendliness/Kindness style).
+- id: W-U02
+  color: white
+  rarity: uncommon
+  role: play-grant-restricted-2
+  value: '2'
+  timing: after
+  notes: Second restricted play grant, differently restricted.
+- id: W-U03
+  color: white
+  rarity: uncommon
+  role: suppress-targeted
+  value: '2'
+  timing: after
+  notes: Suppress a mood for as long as you keep this mood.
+- id: W-U04
+  color: white
+  rarity: uncommon
+  role: suppress-mass
+  value: '2'
+  timing: after
+  notes: Suppress a class of moods (by color/value/number).
+- id: W-U05
+  color: white
+  rarity: uncommon
+  role: deck-hand-flow
+  value: 2-3
+  timing: after
+  notes: Move cards between board/hand/deck (Conviction style).
+- id: W-U06
+  color: white
+  rarity: uncommon
+  role: value-boost
+  value: '3'
+  timing: while+after
+  notes: Value modification / dice-style boost (Encouragement style).
+- id: W-U07
+  color: white
+  rarity: uncommon
+  role: conditional-value
+  value: 2-3
+  timing: while
+  notes: Conditional value.
+- id: W-U08
+  color: white
+  rarity: uncommon
+  role: flex
+  value: 2-3
+  timing: any
+  notes: Open slot.
+- id: W-R01
+  color: white
+  rarity: rare
+  role: reset-effect
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: W-R02
+  color: white
+  rarity: rare
+  role: play-grant-engine
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: W-R03
+  color: white
+  rarity: rare
+  role: suppress-engine
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: W-R04
+  color: white
+  rarity: rare
+  role: turn-order
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: W-R05
+  color: white
+  rarity: rare
+  role: comeback
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: W-R06
+  color: white
+  rarity: rare
+  role: flex
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: W-M01
+  color: white
+  rarity: mythic
+  role: build-around
+  value: 0-2
+  timing: any
+  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+- id: W-M02
+  color: white
+  rarity: mythic
+  role: build-around
+  value: 0-2
+  timing: any
+  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+- id: W-M03
+  color: white
+  rarity: mythic
+  role: build-around
+  value: 0-2
+  timing: any
+  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+- id: U-C01
+  color: blue
+  rarity: common
+  role: ally-count
+  value: 2-4
+  timing: while/after
+  notes: 'Ally cycle: an effect (not a value swing) that happens or improves with 2+ moods of the adjacent colors (white/black). Replaces the original value-swapping wheel.'
+- id: U-C02
+  color: blue
+  rarity: common
+  role: enemy-count
+  value: 2-4
+  timing: while/after
+  notes: 'Enemy cycle: an effect (not a value swing) that happens or improves with 2+ moods of the opposing colors (red/green). Replaces the original value-swapping wheel.'
+- id: U-C03
+  color: blue
+  rarity: common
+  role: interaction-lite
+  value: 1-2
+  timing: after
+  notes: '''Up to two players'' style small interaction in this color''s own verb (W suppress, U bounce, B/R discard-pile removal; G has no removal in the original pool, so use a gift/tempo effect instead).'
+  reprint_candidate: Panic
+- id: U-C04
+  color: blue
+  rarity: common
+  role: play-grant
+  value: 0-3
+  timing: after
+  notes: Cheap extra-play grant, possibly restricted by color/parity/discard pile.
+  reprint_candidate: Fear
+- id: U-C05
+  color: blue
+  rarity: common
+  role: card-flow
+  value: 0-3
+  timing: after
+  notes: 'Draw/cycle/discard-pile interaction in this color''s flavor (W has none in the original pool: consider a hand-discard bonus instead).'
+- id: U-C06
+  color: blue
+  rarity: common
+  role: conditional-3
+  value: 3->5/6
+  timing: any
+  notes: 'Value-3 mood with a state condition: tempo (went first / played this round), hand-discard bonus, or board-state count.'
+- id: U-C07
+  color: blue
+  rarity: common
+  role: utility-small
+  value: 2-3
+  timing: after
+  notes: Small effect on a modest body (hand disruption, small steal/give, etc.).
+- id: U-C08
+  color: blue
+  rarity: common
+  role: high-value-cost
+  value: 5-6
+  timing: to-play/after
+  notes: High base value balanced by a cost, drawback or delay (to-play cost, bounce-self, gives an opponent a play).
+- id: U-U01
+  color: blue
+  rarity: uncommon
+  role: bounce-targeted
+  value: 2-3
+  timing: after
+  notes: Targeted or up-to-two bounce.
+- id: U-U02
+  color: blue
+  rarity: uncommon
+  role: bounce-mass
+  value: 2-3
+  timing: after
+  notes: Color/value-based mass bounce (Hesitation/Fickleness style).
+- id: U-U03
+  color: blue
+  rarity: uncommon
+  role: hand-manipulation
+  value: 2-4
+  timing: after
+  notes: Pass/swap/shuffle hands (Confusion/Doubt style).
+- id: U-U04
+  color: blue
+  rarity: uncommon
+  role: hand-manipulation-2
+  value: 2-3
+  timing: after
+  notes: Second hand/deck-manipulation effect.
+- id: U-U05
+  color: blue
+  rarity: uncommon
+  role: steal-swap
+  value: 2-3
+  timing: after
+  notes: Take or swap a mood.
+- id: U-U06
+  color: blue
+  rarity: uncommon
+  role: rule-change
+  value: '3'
+  timing: while+after
+  notes: Global rule change (Imagination style).
+- id: U-U07
+  color: blue
+  rarity: uncommon
+  role: play-grant-risky
+  value: '2'
+  timing: after
+  notes: Extra play with a bounce-back downside (Insecurity style).
+- id: U-U08
+  color: blue
+  rarity: uncommon
+  role: flex
+  value: 2-3
+  timing: any
+  notes: Open slot.
+- id: U-R01
+  color: blue
+  rarity: rare
+  role: swap-effect
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: U-R02
+  color: blue
+  rarity: rare
+  role: copy-effect
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: U-R03
+  color: blue
+  rarity: rare
+  role: hand-engine
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: U-R04
+  color: blue
+  rarity: rare
+  role: bounce-engine
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: U-R05
+  color: blue
+  rarity: rare
+  role: flex
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: U-R06
+  color: blue
+  rarity: rare
+  role: flex
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: U-M01
+  color: blue
+  rarity: mythic
+  role: build-around
+  value: 0-2
+  timing: any
+  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+- id: U-M02
+  color: blue
+  rarity: mythic
+  role: build-around
+  value: 0-2
+  timing: any
+  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+- id: U-M03
+  color: blue
+  rarity: mythic
+  role: build-around
+  value: 0-2
+  timing: any
+  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+- id: B-C01
+  color: black
+  rarity: common
+  role: ally-count
+  value: 2-4
+  timing: while/after
+  notes: 'Ally cycle: an effect (not a value swing) that happens or improves with 2+ moods of the adjacent colors (blue/red). Replaces the original value-swapping wheel.'
+- id: B-C02
+  color: black
+  rarity: common
+  role: enemy-count
+  value: 2-4
+  timing: while/after
+  notes: 'Enemy cycle: an effect (not a value swing) that happens or improves with 2+ moods of the opposing colors (green/white). Replaces the original value-swapping wheel.'
+- id: B-C03
+  color: black
+  rarity: common
+  role: interaction-lite
+  value: 1-2
+  timing: after
+  notes: '''Up to two players'' style small interaction in this color''s own verb (W suppress, U bounce, B/R discard-pile removal; G has no removal in the original pool, so use a gift/tempo effect instead).'
+- id: B-C04
+  color: black
+  rarity: common
+  role: play-grant
+  value: 0-3
+  timing: after
+  notes: Cheap extra-play grant, possibly restricted by color/parity/discard pile.
+  reprint_candidate: Ambition
+- id: B-C05
+  color: black
+  rarity: common
+  role: card-flow
+  value: 0-3
+  timing: after
+  notes: 'Draw/cycle/discard-pile interaction in this color''s flavor (W has none in the original pool: consider a hand-discard bonus instead).'
+  reprint_candidate: Hate
+- id: B-C06
+  color: black
+  rarity: common
+  role: conditional-3
+  value: 3->5/6
+  timing: any
+  notes: 'Value-3 mood with a state condition: tempo (went first / played this round), hand-discard bonus, or board-state count.'
+- id: B-C07
+  color: black
+  rarity: common
+  role: utility-small
+  value: 2-3
+  timing: after
+  notes: Small effect on a modest body (hand disruption, small steal/give, etc.).
+  reprint_candidate: Suspicion
+- id: B-C08
+  color: black
+  rarity: common
+  role: high-value-cost
+  value: 5-6
+  timing: to-play/after
+  notes: High base value balanced by a cost, drawback or delay (to-play cost, bounce-self, gives an opponent a play).
+- id: B-U01
+  color: black
+  rarity: uncommon
+  role: removal-targeted
+  value: 1-3
+  timing: after
+  notes: Targeted removal to the discard pile.
+- id: B-U02
+  color: black
+  rarity: uncommon
+  role: removal-random-mass
+  value: '3'
+  timing: after
+  notes: Random/mass removal from chosen opponents (Cruelty style).
+- id: B-U03
+  color: black
+  rarity: uncommon
+  role: sweeper-color
+  value: 0-1
+  timing: after
+  notes: Color-based sweeper (Contempt/Bitterness style).
+- id: B-U04
+  color: black
+  rarity: uncommon
+  role: sweeper-color-2
+  value: 0-1
+  timing: after
+  notes: Second color-based sweeper, differently conditioned.
+- id: B-U05
+  color: black
+  rarity: uncommon
+  role: graveyard
+  value: 2-3
+  timing: after
+  notes: Discard-pile recursion / play-from-discard (Angst style).
+- id: B-U06
+  color: black
+  rarity: uncommon
+  role: conditional-value
+  value: 2->6
+  timing: while
+  notes: Discard-pile or board-state scaling.
+- id: B-U07
+  color: black
+  rarity: uncommon
+  role: hand-disruption
+  value: '2'
+  timing: after
+  notes: Paranoia/Suspicion style hand disruption.
+- id: B-U08
+  color: black
+  rarity: uncommon
+  role: flex
+  value: 2-6
+  timing: any
+  notes: Open slot (Betrayal-style high value with a loan).
+- id: B-R01
+  color: black
+  rarity: rare
+  role: graveyard-engine
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: B-R02
+  color: black
+  rarity: rare
+  role: removal-engine
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: B-R03
+  color: black
+  rarity: rare
+  role: cost-engine
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: B-R04
+  color: black
+  rarity: rare
+  role: draw-engine
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: B-R05
+  color: black
+  rarity: rare
+  role: flex
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: B-R06
+  color: black
+  rarity: rare
+  role: flex
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: B-M01
+  color: black
+  rarity: mythic
+  role: build-around
+  value: 0-2
+  timing: any
+  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+- id: B-M02
+  color: black
+  rarity: mythic
+  role: build-around
+  value: 0-2
+  timing: any
+  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+- id: B-M03
+  color: black
+  rarity: mythic
+  role: build-around
+  value: 0-2
+  timing: any
+  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+- id: R-C01
+  color: red
+  rarity: common
+  role: ally-count
+  value: 2-4
+  timing: while/after
+  notes: 'Ally cycle: an effect (not a value swing) that happens or improves with 2+ moods of the adjacent colors (black/green). Replaces the original value-swapping wheel.'
+- id: R-C02
+  color: red
+  rarity: common
+  role: enemy-count
+  value: 2-4
+  timing: while/after
+  notes: 'Enemy cycle: an effect (not a value swing) that happens or improves with 2+ moods of the opposing colors (white/blue). Replaces the original value-swapping wheel.'
+- id: R-C03
+  color: red
+  rarity: common
+  role: interaction-lite
+  value: 1-2
+  timing: after
+  notes: '''Up to two players'' style small interaction in this color''s own verb (W suppress, U bounce, B/R discard-pile removal; G has no removal in the original pool, so use a gift/tempo effect instead).'
+  reprint_candidate: Shock
+- id: R-C04
+  color: red
+  rarity: common
+  role: play-grant
+  value: 0-3
+  timing: after
+  notes: Cheap extra-play grant, possibly restricted by color/parity/discard pile.
+  reprint_candidate: Bravado
+- id: R-C05
+  color: red
+  rarity: common
+  role: card-flow
+  value: 0-3
+  timing: after
+  notes: 'Draw/cycle/discard-pile interaction in this color''s flavor (W has none in the original pool: consider a hand-discard bonus instead).'
+  reprint_candidate: Zeal
+- id: R-C06
+  color: red
+  rarity: common
+  role: conditional-3
+  value: 3->5/6
+  timing: any
+  notes: 'Value-3 mood with a state condition: tempo (went first / played this round), hand-discard bonus, or board-state count.'
+- id: R-C07
+  color: red
+  rarity: common
+  role: utility-small
+  value: 2-3
+  timing: after
+  notes: Small effect on a modest body (hand disruption, small steal/give, etc.).
+  reprint_candidate: Compulsion
+- id: R-C08
+  color: red
+  rarity: common
+  role: high-value-cost
+  value: 5-6
+  timing: to-play/after
+  notes: High base value balanced by a cost, drawback or delay (to-play cost, bounce-self, gives an opponent a play).
+- id: R-U01
+  color: red
+  rarity: uncommon
+  role: sweeper-small
+  value: 0-2
+  timing: after
+  notes: Remove all/any number of small-value moods (Rage/Anger style).
+- id: R-U02
+  color: red
+  rarity: uncommon
+  role: sweeper-numeric
+  value: '2'
+  timing: after
+  notes: Remove moods of a chosen value (Rebellion style).
+- id: R-U03
+  color: red
+  rarity: uncommon
+  role: removal-highest
+  value: '4'
+  timing: after
+  notes: Symmetric removal of highest-value moods (Fury style).
+- id: R-U04
+  color: red
+  rarity: uncommon
+  role: steal-loan
+  value: '2'
+  timing: after
+  notes: Take a mood and give it back later (Arrogance style).
+- id: R-U05
+  color: red
+  rarity: uncommon
+  role: play-grant-drawback
+  value: '2'
+  timing: after
+  notes: Extra play with a remove-after drawback (Gluttony style).
+- id: R-U06
+  color: red
+  rarity: uncommon
+  role: removal-trade
+  value: '3'
+  timing: after
+  notes: Sacrifice-to-remove (Hostility style).
+- id: R-U07
+  color: red
+  rarity: uncommon
+  role: conditional-value
+  value: 3->5
+  timing: while
+  notes: Board-state scaling.
+- id: R-U08
+  color: red
+  rarity: uncommon
+  role: flex
+  value: 2-3
+  timing: any
+  notes: Open slot.
+- id: R-R01
+  color: red
+  rarity: rare
+  role: steal-engine
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: R-R02
+  color: red
+  rarity: rare
+  role: sweeper
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: R-R03
+  color: red
+  rarity: rare
+  role: scoring-engine
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: R-R04
+  color: red
+  rarity: rare
+  role: tempo-engine
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: R-R05
+  color: red
+  rarity: rare
+  role: flex
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: R-R06
+  color: red
+  rarity: rare
+  role: flex
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: R-M01
+  color: red
+  rarity: mythic
+  role: build-around
+  value: 0-2
+  timing: any
+  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+- id: R-M02
+  color: red
+  rarity: mythic
+  role: build-around
+  value: 0-2
+  timing: any
+  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+- id: R-M03
+  color: red
+  rarity: mythic
+  role: build-around
+  value: 0-2
+  timing: any
+  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+- id: G-C01
+  color: green
+  rarity: common
+  role: ally-count
+  value: 2-4
+  timing: while/after
+  notes: 'Ally cycle: an effect (not a value swing) that happens or improves with 2+ moods of the adjacent colors (red/white). Replaces the original value-swapping wheel.'
+- id: G-C02
+  color: green
+  rarity: common
+  role: enemy-count
+  value: 2-4
+  timing: while/after
+  notes: 'Enemy cycle: an effect (not a value swing) that happens or improves with 2+ moods of the opposing colors (blue/black). Replaces the original value-swapping wheel.'
+- id: G-C03
+  color: green
+  rarity: common
+  role: interaction-lite
+  value: 1-2
+  timing: after
+  notes: '''Up to two players'' style small interaction in this color''s own verb (W suppress, U bounce, B/R discard-pile removal; G has no removal in the original pool, so use a gift/tempo effect instead).'
+- id: G-C04
+  color: green
+  rarity: common
+  role: play-grant
+  value: 0-3
+  timing: after
+  notes: Cheap extra-play grant, possibly restricted by color/parity/discard pile.
+  reprint_candidate: Joy
+- id: G-C05
+  color: green
+  rarity: common
+  role: card-flow
+  value: 0-3
+  timing: after
+  notes: 'Draw/cycle/discard-pile interaction in this color''s flavor (W has none in the original pool: consider a hand-discard bonus instead).'
+  reprint_candidate: Nostalgia
+- id: G-C06
+  color: green
+  rarity: common
+  role: conditional-3
+  value: 3->5/6
+  timing: any
+  notes: 'Value-3 mood with a state condition: tempo (went first / played this round), hand-discard bonus, or board-state count.'
+  reprint_candidate: Determination
+- id: G-C07
+  color: green
+  rarity: common
+  role: utility-small
+  value: 2-3
+  timing: after
+  notes: Small effect on a modest body (hand disruption, small steal/give, etc.).
+- id: G-C08
+  color: green
+  rarity: common
+  role: high-value-cost
+  value: 5-6
+  timing: to-play/after
+  notes: High base value balanced by a cost, drawback or delay (to-play cost, bounce-self, gives an opponent a play).
+- id: G-U01
+  color: green
+  rarity: uncommon
+  role: play-grant
+  value: '2'
+  timing: after
+  notes: Play grant with a restriction (Eagerness/Harmony style).
+- id: G-U02
+  color: green
+  rarity: uncommon
+  role: play-grant-2
+  value: '2'
+  timing: after
+  notes: Second play grant, differently restricted.
+- id: G-U03
+  color: green
+  rarity: uncommon
+  role: static-conditional
+  value: 3->6
+  timing: while
+  notes: Static conditional value (parity, counts, colors).
+- id: G-U04
+  color: green
+  rarity: uncommon
+  role: static-conditional-2
+  value: 2-3->6
+  timing: while
+  notes: Second static conditional value.
+- id: G-U05
+  color: green
+  rarity: uncommon
+  role: static-conditional-3
+  value: 0->6
+  timing: while
+  notes: Third static conditional value.
+- id: G-U06
+  color: green
+  rarity: uncommon
+  role: scoring-mod
+  value: '0'
+  timing: while
+  notes: Score a mood an extra time (Enthusiasm style).
+- id: G-U07
+  color: green
+  rarity: uncommon
+  role: hand-reveal-gift
+  value: 3->6
+  timing: after
+  notes: Hand gift for a bonus (Fascination style).
+- id: G-U08
+  color: green
+  rarity: uncommon
+  role: flex
+  value: 2-3
+  timing: any
+  notes: Open slot.
+- id: G-R01
+  color: green
+  rarity: rare
+  role: play-grant-engine
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: G-R02
+  color: green
+  rarity: rare
+  role: scaling-value
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: G-R03
+  color: green
+  rarity: rare
+  role: discard-play-engine
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: G-R04
+  color: green
+  rarity: rare
+  role: board-count-payoff
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: G-R05
+  color: green
+  rarity: rare
+  role: flex
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: G-R06
+  color: green
+  rarity: rare
+  role: flex
+  value: 0-3
+  timing: any
+  notes: Signature effect for the color; usually a low printed value.
+- id: G-M01
+  color: green
+  rarity: mythic
+  role: build-around
+  value: 0-2
+  timing: any
+  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+- id: G-M02
+  color: green
+  rarity: mythic
+  role: build-around
+  value: 0-2
+  timing: any
+  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+- id: G-M03
+  color: green
+  rarity: mythic
+  role: build-around
+  value: 0-2
+  timing: any
+  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+- id: X-C01
+  color: colorless
+  rarity: common
+  role: colorless-gate-white
+  value: '4'
+  timing: to-play
+  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 4; you can only play it if there is a white mood in play. Add a minor upside or drawback only if playtests need it.
+- id: X-C02
+  color: colorless
+  rarity: common
+  role: colorless-gate-blue
+  value: '4'
+  timing: to-play
+  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 4; you can only play it if there is a blue mood in play. Add a minor upside or drawback only if playtests need it.
+- id: X-C03
+  color: colorless
+  rarity: common
+  role: colorless-gate-black
+  value: '4'
+  timing: to-play
+  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 4; you can only play it if there is a black mood in play. Add a minor upside or drawback only if playtests need it.
+- id: X-C04
+  color: colorless
+  rarity: common
+  role: colorless-gate-red
+  value: '4'
+  timing: to-play
+  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 4; you can only play it if there is a red mood in play. Add a minor upside or drawback only if playtests need it.
+- id: X-C05
+  color: colorless
+  rarity: common
+  role: colorless-gate-green
+  value: '4'
+  timing: to-play
+  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 4; you can only play it if there is a green mood in play. Add a minor upside or drawback only if playtests need it.
+- id: X-U01
+  color: colorless
+  rarity: uncommon
+  role: colorless-uncommon
+  value: 2-3
+  timing: any
+  notes: Colorless uncommon.
+- id: X-U02
+  color: colorless
+  rarity: uncommon
+  role: colorless-uncommon
+  value: 2-3
+  timing: any
+  notes: Colorless uncommon.
+- id: X-R01
+  color: colorless
+  rarity: rare
+  role: colorless-rare
+  value: 0-3
+  timing: any
+  notes: Colorless rare.
