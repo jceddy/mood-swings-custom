@@ -13,7 +13,7 @@ rules_text: >-
 status: idea
 reprint_of: null
 impl_tier: 2
-designer: ""
+designer: Dr Potato
 notes: >-
   Contributor suggestion; the name is a placeholder. Variant B of two (see Q8): any opponent can be targeted, and
   an opponent with an empty hand cannot decline (the "Otherwise" branch applies). Stronger and more reliable than
