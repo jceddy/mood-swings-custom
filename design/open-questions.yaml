@@ -70,4 +70,8 @@ questions:
       2. Opponent choice. The drafted text lets the opponent choose between revealing their hand (you take a card and may play it as
          an additional mood) and putting one of their highest value moods into the discard pile. A contributor variant where the
          opponent does not choose is not written up yet (either you pick the branch, or both happen).
+      Hybrids are possible. Sensible one: require only that the target has one or more moods (an empty hand then forces the
+      mood loss, an empty board cannot be hit). The reverse (require only cards in hand) is poor, because an opponent with no
+      moods can decline for free and the card does nothing.
+      Placement: tentatively black flexible mythic slot B-M02; the restricted file holds the slot for now.
       Concern raised: restricted may be too weak, unrestricted too strong; no consensus without playtesting.
