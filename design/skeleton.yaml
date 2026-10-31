@@ -934,9 +934,9 @@ slots:
   color: colorless
   rarity: uncommon
   role: colorless-uncommon
-  value: 2-3
+  value: 0-3
   timing: any
-  notes: Colorless uncommon.
+  notes: Colorless uncommon. Held by Emptiness (printed 1, scales with the colors in play), so the value target is widened.
 - id: X-U02
   color: colorless
   rarity: uncommon
