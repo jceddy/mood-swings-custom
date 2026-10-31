@@ -173,9 +173,9 @@ slots:
   color: white
   rarity: mythic
   role: flexible
-  value: 0-2
+  value: 0-4
   timing: any
-  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
+  notes: Tentatively Restraint (mood-granted extra plays shut off, printed 4), so the value target is widened. Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: W-M03
   color: white
   rarity: mythic
