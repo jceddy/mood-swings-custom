@@ -28,3 +28,8 @@ notes: >-
   you the turn. Combo notes: replaying Scorn or Validation first lets the later replays trigger them; each replay is a play,
   so it also triggers Dominance. impl_tier 2: plays from the discard pile (Angst, Grace, Melancholy) and "that many
   additional moods" (Thrill) already exist; the new piece is the turn-wide lock on other plays.
+  Ruling the contributors lean toward (not final): "this way" refers to the effect of the respective Resurgence, so each
+  Resurgence's lock only allows plays made through its own grant. If a second Resurgence is replayed from the pile (for
+  example Resurgence, Anger blowing it up, then Resurgence), leftover plays from the first are blocked by the second's lock
+  and the second's plays are blocked by the first's, so no moods can be played for the rest of the turn and the replayed
+  Resurgence only wipes the board. Total plays stay fixed by the first Resurgence, so there is no loop. No change to the card text.
