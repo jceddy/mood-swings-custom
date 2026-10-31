@@ -35,7 +35,8 @@ This repo holds the work-in-progress design of a community-designed custom set f
   2+ ally or enemy colored moods for a *different effect*.
 - Probable reprints are role-player commons, pre-assigned to slots as `reprint_candidate` in the skeleton: Pacifism, Panic, Fear, Ambition,
   Hate, Suspicion, Shock, Bravado, Zeal, Compulsion, Joy, Nostalgia, Determination (13, exactly the cap). Not final.
-- **Mythics are undecided** and will likely shape the rest of the set. Other rare/uncommon roles may be revised once they exist.
+- Mythic slots: in each color, M01 is a dedicated build-around and M02/M03 are flexible (need not be build-arounds). The
+  build-around axes themselves are **undecided** (Q5) and will likely shape the rest of the set. Other rare/uncommon roles may be revised once they exist.
 - Open: whether the colorless gate counts any player's moods or only your own (Q7).
 
 ## How the tracking works
@@ -60,6 +61,6 @@ This repo holds the work-in-progress design of a community-designed custom set f
 
 ## Suggested next steps
 
-1. Decide the mythic build-around axes (Q5); revise the other rare and uncommon roles to fit.
+1. Decide the five mythic build-around axes, one per color in the M01 slots (Q5); revise the other rare and uncommon roles to fit.
 2. Design the ally/enemy cycle effects (slots C01/C02 per color) and the 5 colorless gate cards; settle Q7.
 3. Confirm the reprint list, then start filling slots with card files and rebuild the spreadsheet.

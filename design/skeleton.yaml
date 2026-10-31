@@ -172,17 +172,17 @@ slots:
 - id: W-M02
   color: white
   rarity: mythic
-  role: build-around
+  role: flexible
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: W-M03
   color: white
   rarity: mythic
-  role: build-around
+  role: flexible
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: U-C01
   color: blue
   rarity: common
@@ -349,17 +349,17 @@ slots:
 - id: U-M02
   color: blue
   rarity: mythic
-  role: build-around
+  role: flexible
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: U-M03
   color: blue
   rarity: mythic
-  role: build-around
+  role: flexible
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: B-C01
   color: black
   rarity: common
@@ -527,17 +527,17 @@ slots:
 - id: B-M02
   color: black
   rarity: mythic
-  role: build-around
+  role: flexible
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: B-M03
   color: black
   rarity: mythic
-  role: build-around
+  role: flexible
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: R-C01
   color: red
   rarity: common
@@ -706,17 +706,17 @@ slots:
 - id: R-M02
   color: red
   rarity: mythic
-  role: build-around
+  role: flexible
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: R-M03
   color: red
   rarity: mythic
-  role: build-around
+  role: flexible
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: G-C01
   color: green
   rarity: common
@@ -884,17 +884,17 @@ slots:
 - id: G-M02
   color: green
   rarity: mythic
-  role: build-around
+  role: flexible
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: G-M03
   color: green
   rarity: mythic
-  role: build-around
+  role: flexible
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: X-C01
   color: colorless
   rarity: common

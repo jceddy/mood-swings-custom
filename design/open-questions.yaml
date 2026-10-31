@@ -35,15 +35,17 @@ questions:
     status: open
     question: Which mythic build-around axes does each color get?
     notes: |
-      To be determined. The mythics will likely shape the direction of the rest of the set, so the other rare/uncommon slot
+      Decided structure: each color keeps one mythic slot dedicated to a build-around (M01, so 5 in the set, matching the original
+      pool's 5) and the other two (M02, M03) are flexible, so they need not be build-arounds. The axes themselves are still to be
+      determined, so this question stays open. The mythics will likely shape the direction of the rest of the set, so the other rare/uncommon slot
       roles may be revised once they exist. The original pool has 5 build-around mythics (Validation, Exhilaration, Bliss,
       Duplicity, Thrill), each with about 14 partners.
-      Contributor discussion (proposed, not yet agreed): not every mythic has to be a build-around. How easy a card is to
+      Contributor discussion (the flexible slots above follow from this; the Complexity / Power Ratio reading of rarity is still
+      only proposed): not every mythic has to be a build-around. How easy a card is to
       build around is a sliding scale. Guile, Chaos, Malice, Exhilaration and Sneakiness have no obvious plan, while rares such as
       Grief, Rationalization, Regret, Grace, Wrath and Pride need a dedicated deck to reach full power. Rarity is better read
       as Complexity (more words, higher rarity) plus Power Ratio (a card's average value over the ~5 turns of a game,
-      combining its value with how often it gets that value). If adopted, skeleton roles for mythic slots would not
-      all be "build-around", and the "name its synergy axis and plan about 14 partners" note would apply per card.
+      combining its value with how often it gets that value).
   - id: Q6
     status: decided
     question: How are new cards implemented in the simulator?
