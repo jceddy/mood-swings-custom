@@ -1,0 +1,25 @@
+slot: B-C06
+name: Schadenfreude
+color: black
+rarity: common
+base_value: 3
+alt_value: 6
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, if another player discarded a card this turn, this mood's value becomes 6.
+status: idea
+reprint_of: null
+impl_tier: 2
+designer: ""
+notes: >-
+  Simplest of several older community versions of this idea. The others (a counter or value bonus whenever an
+  opponent's mood leaves play, or drawing when an opponent loses a round) were set aside because the pool has no
+  counters or accumulating values, "leaves play" is not pool vocabulary, and trigger wording appears only on mythics.
+  Pattern is the 3->6 conditional (Condescension, Cynicism, Curiosity). "Discarded" means discarded from hand
+  (compare Suspicion); moods going to the discard pile do not count. Other players only act on your turn through your
+  own effects, so in practice this is a combo with hand-discard cards such as Suspicion. impl_tier 2 is provisional:
+  it needs a turn-scoped record of which players discarded a card from hand; if the simulator's turn events already
+  expose that, it is tier 1. Verify before finalising. A stateless scaling rare in the same theme (value increases for
+  each opponent with fewer moods than you) was floated as a separate card.
