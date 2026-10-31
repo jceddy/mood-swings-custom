@@ -1,0 +1,26 @@
+slot: R-R05
+name: FOMO
+color: red
+rarity: rare
+base_value: 7
+alt_value: null
+to_play: true
+while_in_play: true
+after_playing: false
+rules_text: >-
+  To play this card, discard a card from your hand. If you can't do that, you can't play this card. While in play,
+  at the start of each of your turns, you may discard a card from your hand. If you don't, put this mood into the
+  discard pile.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: jceddy
+notes: >-
+  Older community design; "FOMO" (Fear of Missing Out) is a working title. The pool names cards with single emotion words,
+  and "Fear of Missing Out" would sit close to the reprint candidate Fear, so a rename is possible later. Wording follows
+  Bliss (to-play discard cost) and Stubbornness (start-of-turn trigger). Value 7 would be the highest unconditional printed
+  value in the original pool (the next are the 6s); playtest 7 against 6. Power Ratio idea: it is 7 only while the upkeep
+  is paid. The to-play cost plus a recurring cost means two ability timings, so it sits at rare. The cost depends on how
+  the hand refills, and on whether moods last across rounds; both are unverified. impl_tier 1 is provisional: the
+  simulator already has a start-of-turn trigger (Stubbornness); the optional pay-or-lose-it prompt is the only new part.
+  Interacts with hand discard (Suspicion) and with Schadenfreude.

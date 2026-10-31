@@ -686,9 +686,9 @@ slots:
   color: red
   rarity: rare
   role: flex
-  value: 0-3
+  value: 0-7
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Held by FOMO (value 7, recurring discard upkeep), so the value target is widened.
 - id: R-R06
   color: red
   rarity: rare
