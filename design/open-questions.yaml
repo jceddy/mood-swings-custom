@@ -38,6 +38,12 @@ questions:
       To be determined. The mythics will likely shape the direction of the rest of the set, so the other rare/uncommon slot
       roles may be revised once they exist. The original pool has 5 build-around mythics (Validation, Exhilaration, Bliss,
       Duplicity, Thrill), each with about 14 partners.
+      Contributor discussion (proposed, not yet agreed): not every mythic has to be a build-around. How easy a card is to
+      build around is a sliding scale. Guile, Chaos, Malice, Exhilaration and Sneakiness have no obvious plan, while rares such as
+      Grief, Rationalization, Regret, Grace, Wrath and Pride need a dedicated deck to reach full power. Rarity is better read
+      as Complexity (more words, higher rarity) plus Power Ratio (a card's average value over the ~5 turns of a game,
+      combining its value with how often it gets that value). If adopted, skeleton roles for mythic slots would not
+      all be "build-around", and the "name its synergy axis and plan about 14 partners" note would apply per card.
   - id: Q6
     status: decided
     question: How are new cards implemented in the simulator?
@@ -51,3 +57,15 @@ questions:
     notes: |
       Original-pool precedent for board-wide wording is "there is a ... mood" (any player), e.g. Love and Happiness.
       Counting any player's moods makes the colorless commons easier to enable but also lets opponents turn them off.
+  - id: Q8
+    status: open
+    question: For the black mythic idea Coercion (hand-reveal-or-lose-a-mood), should targeting be restricted and should the opponent choose?
+    notes: |
+      Two knobs, to be settled by playtesting (cards/coercion-restricted.yaml and cards/coercion-unrestricted.yaml):
+      1. Targeting. Restricted = the target must have one or more cards in hand and one or more moods, so the card gets no value
+         from an empty hand or empty board (power and reliability are inversely correlated, a common Mood Swings theme; the card is
+         held until an opponent commits to the board). Unrestricted = any opponent, and an opponent with an empty hand cannot decline.
+      2. Opponent choice. The drafted text lets the opponent choose between revealing their hand (you take a card and may play it as
+         an additional mood) and putting one of their highest value moods into the discard pile. A contributor variant where the
+         opponent does not choose is not written up yet (either you pick the branch, or both happen).
+      Concern raised: restricted may be too weak, unrestricted too strong; no consensus without playtesting.

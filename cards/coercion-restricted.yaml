@@ -1,0 +1,24 @@
+name: Coercion (restricted)
+color: black
+rarity: mythic
+base_value: 0
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, choose an opponent who has one or more cards in their hand and one or more moods.
+  That player may reveal their hand. If they do, choose a card from it and put it into your hand, and you may
+  play it as an additional mood this turn. If they don't, that player chooses one of their highest value moods
+  and puts it into the discard pile.
+status: idea
+reprint_of: null
+impl_tier: 2
+designer: ""
+notes: >-
+  Contributor suggestion; the name is a placeholder. Variant A of two (see Q8): targeting is restricted so neither
+  branch can be wasted on an empty hand or empty board, which keeps the opponent's choice real. Fizzles to a plain 0
+  if no opponent qualifies; the intent is that power and how often it works are inversely correlated. Not yet assigned
+  to a black mythic slot (B-M01..B-M03). impl_tier 2: needs a hand reveal visible only to the chooser and an
+  opponent decision prompt. Wording follows Intimidation (reveal, "into your hand", "as an additional mood"),
+  Fury ("one of their highest value moods") and Cruelty/Paranoia (targeting restrictions).
