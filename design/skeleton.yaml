@@ -899,37 +899,37 @@ slots:
   color: colorless
   rarity: common
   role: colorless-gate-white
-  value: '4'
+  value: '5'
   timing: to-play
-  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 4; you can only play it if there is a white mood in play. Add a minor upside or drawback only if playtests need it.
+  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 5; you can only play it if you have a white mood (your own moods only, Q7). Add a minor upside or drawback only if playtests need it; fall back to value 4 if 5 is too strong.
 - id: X-C02
   color: colorless
   rarity: common
   role: colorless-gate-blue
-  value: '4'
+  value: '5'
   timing: to-play
-  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 4; you can only play it if there is a blue mood in play. Add a minor upside or drawback only if playtests need it.
+  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 5; you can only play it if you have a blue mood (your own moods only, Q7). Add a minor upside or drawback only if playtests need it; fall back to value 4 if 5 is too strong.
 - id: X-C03
   color: colorless
   rarity: common
   role: colorless-gate-black
-  value: '4'
+  value: '5'
   timing: to-play
-  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 4; you can only play it if there is a black mood in play. Add a minor upside or drawback only if playtests need it.
+  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 5; you can only play it if you have a black mood (your own moods only, Q7). Add a minor upside or drawback only if playtests need it; fall back to value 4 if 5 is too strong.
 - id: X-C04
   color: colorless
   rarity: common
   role: colorless-gate-red
-  value: '4'
+  value: '5'
   timing: to-play
-  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 4; you can only play it if there is a red mood in play. Add a minor upside or drawback only if playtests need it.
+  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 5; you can only play it if you have a red mood (your own moods only, Q7). Add a minor upside or drawback only if playtests need it; fall back to value 4 if 5 is too strong.
 - id: X-C05
   color: colorless
   rarity: common
   role: colorless-gate-green
-  value: '4'
+  value: '5'
   timing: to-play
-  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 4; you can only play it if there is a green mood in play. Add a minor upside or drawback only if playtests need it.
+  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 5; you can only play it if you have a green mood (your own moods only, Q7). Add a minor upside or drawback only if playtests need it; fall back to value 4 if 5 is too strong.
 - id: X-U01
   color: colorless
   rarity: uncommon

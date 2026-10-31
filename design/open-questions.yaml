@@ -5,11 +5,13 @@ questions:
     status: decided
     question: What is the theme of the colorless common cycle (5 cards, replacing the original vanilla-4 cycle)?
     notes: |
-      Decided: each colorless common is worth 4 and can only be played if there is a mood of one specific color in play
-      (one card per color; e.g. the white one reads "You can only play this card if there is a white mood").
+      Decided: each colorless common is worth 5 and can only be played if you have a mood of one specific color
+      (one card per color; e.g. the white one reads "You can only play this card if you have a white mood").
+      Revised from value 4: a gated colorless 4 was strictly worse than the original colored vanilla 4s with no upside, so the
+      value rose to 5 together with the own-moods gate (Q7). Fall back to 4 if playtests show 5 is too strong.
       Slots X-C01..X-C05 (white, blue, black, red, green).
       Still to settle when designing the cards: whether "there is a [color] mood" counts any player's moods or only yours
-      (decided in Q7: any player's moods count), and whether any of the five needs a small upside or drawback after playtesting.
+      (decided in Q7: only your own moods count), and whether any of the five needs a small upside or drawback after playtesting.
   - id: Q2
     status: decided
     question: Colorless distribution - 5 commons + 2 uncommons + 1 rare (8 of 133)?
@@ -59,8 +61,12 @@ questions:
     notes: |
       Original-pool precedent for board-wide wording is "there is a ... mood" (any player), e.g. Love and Happiness.
       Counting any player's moods makes the colorless commons easier to enable but also lets opponents turn them off.
-      Decided: any player's moods count ("there is a white mood"). Open sub-question: whether a suppressed mood of that color
-      still counts for the gate.
+      Decided first: any player's moods count ("there is a white mood").
+      Revised (final): only your own moods count ("if you have a white mood"), together with raising the value from 4 to 5 (Q1).
+      Reasons: a gated colorless 4 was strictly worse than the old colored vanilla 4s; counting only your moods makes the gate a real
+      cost that justifies the higher value, stops opponents from switching the cards off, and makes the cycle a color-commitment
+      signal. Cost: an opponent's board no longer enables your gate cards, and they cannot be your first play.
+      Open sub-question: whether a suppressed mood of that color still counts for the gate.
   - id: Q8
     status: open
     question: For the black mythic idea Coercion (hand-reveal-or-lose-a-mood), should targeting be restricted and should the opponent choose?

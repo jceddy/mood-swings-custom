@@ -23,7 +23,7 @@ unrestricted or restricted by color, value, and so on.
 | Keyword budget per color | Ability-timing budget; one timing at common |
 | Color pie spell slots | Per-color verbs: suppress (W), bounce (U), discard-pile removal (B/R), play grants (W/G) |
 | Two-color uncommon signposts | Ally/enemy cycle at common (no multicolor cards yet): cards that care about 2+ adjacent or opposing colored moods |
-| Artifacts (colorless) | Colorless commons worth 4 that need a specific color in play (one per color), plus 2 colorless uncommons and a rare |
+| Artifacts (colorless) | Colorless commons worth 5 that need one of your moods of a specific color (one per color), plus 2 colorless uncommons and a rare |
 | Lands | Not applicable |
 
 ## Original-pool numbers used as the baseline

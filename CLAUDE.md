@@ -29,7 +29,7 @@ This repo holds the work-in-progress design of a community-designed custom set f
 ## Set decisions made so far (full detail in `design/open-questions.yaml`)
 
 - Skeleton: 5 colors x (8 common, 8 uncommon, 6 rare, 3 mythic) = 125, plus 8 colorless (5 common, 2 uncommon, 1 rare) = 133.
-- Colorless commons (X-C01..X-C05): value 4 each, and each can only be played if a mood of one specific color is in play
+- Colorless commons (X-C01..X-C05): value 5 each, and each can only be played if you have a mood of one specific color
   (one card per color). Nothing multicolored yet.
 - The original ally/enemy value-swapping wheel (10 commons) is **replaced** by a cycle of cards (slots C01/C02 per color) that care about
   2+ ally or enemy colored moods for a *different effect*.
@@ -37,8 +37,9 @@ This repo holds the work-in-progress design of a community-designed custom set f
   Hate, Suspicion, Shock, Bravado, Zeal, Compulsion, Joy, Nostalgia, Determination (13, exactly the cap). Not final.
 - Mythic slots: in each color, M01 is a dedicated build-around and M02/M03 are flexible (need not be build-arounds). The
   build-around axes themselves are **undecided** (Q5) and will likely shape the rest of the set. Other rare/uncommon roles may be revised once they exist.
-- The colorless gate counts **any player's** moods ("there is a white mood"), decided in Q7. The five gate cards are drafted
-  (X-C01..X-C05, placeholder names); open sub-question: whether a suppressed mood still counts.
+- The colorless gate counts **only your own** moods ("if you have a white mood"), decided in Q7 (originally any player's), and the
+  value was raised from 4 to 5 to match (Q1). The five gate cards are drafted (X-C01..X-C05, placeholder names); open
+  sub-question: whether a suppressed mood still counts.
 
 ## How the tracking works
 
