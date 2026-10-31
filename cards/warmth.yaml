@@ -1,0 +1,24 @@
+slot: G-C01
+name: Warmth
+color: green
+rarity: common
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, if there are two or more red and/or white moods, you may put a card from the discard pile into your hand.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Ally cycle (slot C01), green. The name is a placeholder. Replaces the original value-swapping Enjoyment. Green's allies are red
+  and white; counting follows the original wheel (any player's moods, the two colors combined). Uses green's recursion verb:
+  a free pickup from the discard pile, as in Nostalgia (green common: put a card from the discard pile into your hand, plus an extra
+  play). Unlike black's Yearning (a 1-for-1 swap), green's pickup costs nothing, which is the pool's precedent for green. It
+  overlaps the G-C05 card-flow role (Nostalgia is the reprint candidate), so either G-C05 becomes something other than a
+  discard-pile pickup, or Nostalgia is dropped from the reprint list (Q3) to keep the commons varied. Wording follows Nostalgia and
+  Cynicism ("put a card from the discard pile into ... hand"). impl_tier 1 is provisional: a color count plus an existing pickup
+  from the discard pile.
