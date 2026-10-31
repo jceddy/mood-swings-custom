@@ -8,8 +8,8 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, you may put a card from your hand on the bottom of the deck. If you do, draw a card, then
-  draw another card if there are two or more white and/or black moods.
+  After playing this mood, you may put a card from your hand on the bottom of the deck. If you do, draw a card. If there
+  are two or more white and/or black moods, you may do this a second time.
 status: idea
 reprint_of: null
 impl_tier: 1
@@ -17,8 +17,12 @@ designer: ""
 notes: >-
   Ally cycle (slot C01), blue. The name is a placeholder. Replaces the original value-swapping Obsession. Blue's allies are
   white and black; counting follows the original wheel (any player's moods, the two colors combined). Uses blue's card-flow
-  verb: the loot of Zeal (red common: put a card on the bottom of the deck, then draw), improved by one extra draw when allies
-  are present, so the effect "improves" with 2+ allied moods. It sits near the U-C05 card-flow role, so U-C05 should be a
+  verb: the loot of Zeal (red common: put a card on the bottom of the deck, then draw), which may be done a second time when
+  allies are present, so the effect "improves" with 2+ allied moods. Every loot stays 1 for 1: the pool never lets you draw
+  without also putting a card on the bottom of the deck or discarding (Hate, Zeal, Conviction, Doubt), and an earlier draft
+  drew two cards for one, which broke that. "This" means the whole put-a-card-then-draw cycle. Alternative if the repeat wording
+  confuses players: "put a card ... on the bottom of the deck, or up to two cards if there are two or more white and/or black
+  moods. Then draw that many cards" (Doubt's wording; same 1-for-1, but both cards are chosen before drawing). It sits near the U-C05 card-flow role, so U-C05 should be a
   different kind of card flow (for example discard-pile or hand-swapping) to keep the commons varied. Alternative
   considered: a reveal-the-hand effect when allies are present. impl_tier 1 is provisional: a bottom-of-deck loot and
   a color count already exist as pieces.
