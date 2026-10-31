@@ -9,7 +9,7 @@ questions:
       (one card per color; e.g. the white one reads "You can only play this card if there is a white mood").
       Slots X-C01..X-C05 (white, blue, black, red, green).
       Still to settle when designing the cards: whether "there is a [color] mood" counts any player's moods or only yours
-      (see Q7), and whether any of the five needs a small upside or drawback after playtesting.
+      (decided in Q7: any player's moods count), and whether any of the five needs a small upside or drawback after playtesting.
   - id: Q2
     status: decided
     question: Colorless distribution - 5 commons + 2 uncommons + 1 rare (8 of 133)?
@@ -54,11 +54,13 @@ questions:
       separately. For design purposes a mechanic only has to be implementable in principle; mark cards that would need a
       new engine primitive with impl_tier 2 (see design/card-schema.md).
   - id: Q7
-    status: open
+    status: decided
     question: Does a colorless gate ("a white mood in play") count moods of any player, or only your own?
     notes: |
       Original-pool precedent for board-wide wording is "there is a ... mood" (any player), e.g. Love and Happiness.
       Counting any player's moods makes the colorless commons easier to enable but also lets opponents turn them off.
+      Decided: any player's moods count ("there is a white mood"). Open sub-question: whether a suppressed mood of that color
+      still counts for the gate.
   - id: Q8
     status: open
     question: For the black mythic idea Coercion (hand-reveal-or-lose-a-mood), should targeting be restricted and should the opponent choose?

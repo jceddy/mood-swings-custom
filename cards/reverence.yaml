@@ -15,6 +15,5 @@ impl_tier: 2
 designer: ""
 notes: >-
   Colorless gate cycle (Q1), white member. The name is a placeholder. Wording is the Q1 decision text; "there is a white mood"
-  is any player's mood (board-wide precedent: Love, Happiness), which is the provisional answer to Q7. For "only your own
-  moods" the text would read "if you have a white mood". Open: whether a suppressed white mood still counts. impl_tier 2:
+  is any player's mood (board-wide precedent: Love, Happiness), which was decided in Q7. Open: whether a suppressed white mood still counts. impl_tier 2:
   new engine primitives (a colorless color value and a play restriction on colors in play), handled separately per Q6.

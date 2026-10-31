@@ -15,6 +15,6 @@ impl_tier: 2
 designer: ""
 notes: >-
   Colorless gate cycle (Q1), blue member. The name is a placeholder. Wording is the Q1 decision text; "there is a blue mood"
-  is any player's mood (provisional answer to Q7). For "only your own moods" the text would read "if you have a blue mood".
+  is any player's mood (decided in Q7).
   Open: whether a suppressed blue mood still counts. impl_tier 2: new engine primitives (a colorless color value and a
   play restriction on colors in play), handled separately per Q6.
