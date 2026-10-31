@@ -1,0 +1,24 @@
+slot: U-C01
+name: Rapport
+color: blue
+rarity: common
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, you may put a card from your hand on the bottom of the deck. If you do, draw a card, then
+  draw another card if there are two or more white and/or black moods.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Ally cycle (slot C01), blue. The name is a placeholder. Replaces the original value-swapping Obsession. Blue's allies are
+  white and black; counting follows the original wheel (any player's moods, the two colors combined). Uses blue's card-flow
+  verb: the loot of Zeal (red common: put a card on the bottom of the deck, then draw), improved by one extra draw when allies
+  are present, so the effect "improves" with 2+ allied moods. It sits near the U-C05 card-flow role, so U-C05 should be a
+  different kind of card flow (for example discard-pile or hand-swapping) to keep the commons varied. Alternative
+  considered: a reveal-the-hand effect when allies are present. impl_tier 1 is provisional: a bottom-of-deck loot and
+  a color count already exist as pieces.

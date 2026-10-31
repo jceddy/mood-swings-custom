@@ -1,0 +1,23 @@
+slot: U-C02
+name: Distrust
+color: blue
+rarity: common
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, if there are two or more red and/or green moods, you may put one of them into its player's hand.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Enemy cycle (slot C02), blue. The name is a placeholder. Replaces the original value-swapping Ambivalence. Blue's enemies
+  are red and green; counting follows the original wheel (any player's moods, the two colors combined). Uses blue's own
+  pie verb: bounce to hand, worded as in Hesitation ("put a red or green mood into its player's hand"). It is a weaker common
+  cousin of Hesitation, gated by the 2+ count. "May" because the bounced mood can be your own (as with Fear), and a forced
+  self-bounce would be unfair. Blue would then have two bounce commons with U-C03 (Panic candidate); keep U-C03 the only broad
+  one. Alternative considered: a hand-reveal effect when enemies are present. impl_tier 1 is provisional: a color count
+  plus an existing bounce effect.
