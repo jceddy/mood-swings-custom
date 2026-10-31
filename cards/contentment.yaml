@@ -18,5 +18,5 @@ notes: >-
   gate only counts moods you have (Q7), which is a real cost, so the body is higher than the original vanilla 4s. Earlier
   draft was value 4 with any player's moods; if 5 proves too strong in playtests, fall back to 4. Upside over a vanilla 4:
   having no color, it dodges color sweepers and never feeds an opponent's color-count conditions (it also never feeds
-  your own). Open: whether a suppressed green mood still counts. impl_tier 2: new engine primitives (a colorless color
+  your own). A suppressed green mood still counts as a green mood, so it satisfies the gate (decided). impl_tier 2: new engine primitives (a colorless color
   value and a play restriction on your colors in play), handled separately per Q6.

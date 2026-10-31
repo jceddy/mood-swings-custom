@@ -42,6 +42,8 @@ questions:
       determined, so this question stays open. The mythics will likely shape the direction of the rest of the set, so the other rare/uncommon slot
       roles may be revised once they exist. The original pool has 5 build-around mythics (Validation, Exhilaration, Bliss,
       Duplicity, Thrill), each with about 14 partners.
+      Red axis (tentative): playing red moods, led by Dominance in R-M01 (each time you play another red mood, remove a lower-value
+      opposing mood). Partners would be high-value red moods, red extra-play grants and red play-triggered effects.
       Contributor discussion (the flexible slots above follow from this; the Complexity / Power Ratio reading of rarity is still
       only proposed): not every mythic has to be a build-around. How easy a card is to
       build around is a sliding scale. Guile, Chaos, Malice, Exhilaration and Sneakiness have no obvious plan, while rares such as
@@ -66,7 +68,7 @@ questions:
       Reasons: a gated colorless 4 was strictly worse than the old colored vanilla 4s; counting only your moods makes the gate a real
       cost that justifies the higher value, stops opponents from switching the cards off, and makes the cycle a color-commitment
       signal. Cost: an opponent's board no longer enables your gate cards, and they cannot be your first play.
-      Open sub-question: whether a suppressed mood of that color still counts for the gate.
+      Decided: a suppressed mood still counts as a mood of its color, so it satisfies the gate.
   - id: Q8
     status: open
     question: For the black mythic idea Coercion (hand-reveal-or-lose-a-mood), should targeting be restricted and should the opponent choose?

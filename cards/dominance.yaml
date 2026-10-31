@@ -1,0 +1,26 @@
+slot: R-M01
+name: Dominance
+color: red
+rarity: mythic
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play, each time you play another red mood, you may put one of your opponents' moods with a value lower
+  than that mood's into the discard pile.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: Dr Potato
+notes: >-
+  Contributor suggestion; the name is a placeholder. Proposed red build-around (R-M01): the axis is playing red moods,
+  with high-value and extra-play red moods as partners (see Q5). Wording follows Scorn and Duplicity ("each time you play
+  another mood"), Guile ("one of your opponents' moods") and Shock/Rage ("put ... into the discard pile"). The pool never
+  compares one mood to another (every value condition is a fixed number), so "a value lower than that mood's" is new
+  vocabulary; "that mood" is the red mood just played. Decided: lower than that mood, not a fixed threshold. Ruling needed:
+  when a played red mood's value changes in its own after-playing effect, compare at the moment this trigger resolves.
+  Repeatable removal at mythic is strong, but gated by needing red moods in hand and by the value comparison. Value 2 like
+  Scorn so it is not both an efficient body and an engine. impl_tier 1 is provisional: Scorn and Duplicity already have
+  "each time you play another mood" triggers, and a value comparison is simple.

@@ -38,8 +38,8 @@ This repo holds the work-in-progress design of a community-designed custom set f
 - Mythic slots: in each color, M01 is a dedicated build-around and M02/M03 are flexible (need not be build-arounds). The
   build-around axes themselves are **undecided** (Q5) and will likely shape the rest of the set. Other rare/uncommon roles may be revised once they exist.
 - The colorless gate counts **only your own** moods ("if you have a white mood"), decided in Q7 (originally any player's), and the
-  value was raised from 4 to 5 to match (Q1). The five gate cards are drafted (X-C01..X-C05, placeholder names); open
-  sub-question: whether a suppressed mood still counts.
+  value was raised from 4 to 5 to match (Q1). A suppressed mood still counts as a mood of its color for the gate. The five gate cards
+  are drafted (X-C01..X-C05, placeholder names).
 
 ## How the tracking works
 

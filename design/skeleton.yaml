@@ -702,7 +702,7 @@ slots:
   role: build-around
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Tentatively Dominance (axis proposal - playing red moods, Q5). Build-around mythic. Name its synergy axis and plan about 14 partner cards.
 - id: R-M02
   color: red
   rarity: mythic
