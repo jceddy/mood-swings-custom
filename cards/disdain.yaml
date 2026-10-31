@@ -1,0 +1,22 @@
+slot: B-C02
+name: Disdain
+color: black
+rarity: common
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, if there are two or more white and/or green moods, you may put one of them into the discard pile.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Enemy cycle (slot C02), black. The name is a placeholder. Replaces the original value-swapping Disgust. Black's enemies are
+  white and green; counting follows the original wheel (any player's moods, the two colors combined). Uses black's own pie
+  verb: removal to the discard pile, worded as in Contempt ("put a green or white mood into the discard pile"). It is a weaker
+  common cousin of Contempt, gated by the 2+ count. "May" because the chosen mood can be your own, and a forced self-removal
+  would be unfair. Black would then have two removal commons next to B-C03 (interaction-lite) and Spite; keep B-C03 the only
+  broad one. impl_tier 1 is provisional: a color count plus an existing removal-to-the-discard-pile effect.

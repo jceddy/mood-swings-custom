@@ -1,0 +1,25 @@
+slot: B-C01
+name: Yearning
+color: black
+rarity: common
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, if there are two or more blue and/or red moods, you may discard a card from your hand. If you do,
+  put a card from the discard pile into your hand.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Ally cycle (slot C01), black. The name is a placeholder. Replaces the original value-swapping Pity. Black's allies are
+  blue and red; counting follows the original wheel (any player's moods, the two colors combined). Uses black's
+  discard-pile verb (Angst, Melancholy, Cynicism): a discard-pile loot, choosing a specific card from the pile. It stays 1 for 1 on
+  purpose: the pool never lets you gain a card without paying one (a free "put a card from the discard pile into your hand"
+  would be a net card), the same rule Rapport's loot follows. You can put back the card you just discarded, which does nothing.
+  Wording follows Ambition ("discard a card from your hand. If you do, ...") and Cynicism ("put a card from the discard pile into
+  ... hand"). It sits near the B-U05 graveyard role, so B-U05 should be bigger recursion rather than another small swap.
+  impl_tier 1 is provisional: a color count, a hand discard and a pick from the discard pile already exist as pieces.
