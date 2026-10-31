@@ -880,7 +880,7 @@ slots:
   role: build-around
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Tentatively Resurgence (axis proposal - replay from the discard pile and re-trigger after-playing effects, Q5). Build-around mythic. Name its synergy axis and plan about 14 partner cards.
 - id: G-M02
   color: green
   rarity: mythic
