@@ -8,7 +8,7 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, if there are two or more black and/or red moods, suppress one of them for as long as you have this mood.
+  After playing this mood, if there are two or more black and/or red moods, you may suppress one of them for as long as you have this mood.
 status: idea
 reprint_of: null
 impl_tier: 1
@@ -17,7 +17,8 @@ notes: >-
   Enemy cycle (slot C02), white. The name is a placeholder. Replaces the original value-swapping Discipline. White's
   enemies are black and red; counting follows the original wheel (any player's moods, the two colors combined). Uses
   white's own pie verb: suppression, worded as in Pacifism ("for as long as you have this mood") and Guilt. It is a weaker
-  common cousin of Guilt, gated by the 2+ count. White would then have two suppress commons with W-C03 (Pacifism
+  common cousin of Guilt, gated by the 2+ count. "May" because the chosen mood can be your own, and a forced self-suppression
+  would be unfair (found in the side-by-side pass; every other gated effect in the cycle already said "you may"). White would then have two suppress commons with W-C03 (Pacifism
   candidate); keep W-C03 the only broad one. Alternative considered: Courage-style removal of a mood with a value of 5 or
   more, which is outside white's usual suppress pie. impl_tier 1 is provisional: a color count plus an existing
   suppress-while-you-have-this-mood effect.
