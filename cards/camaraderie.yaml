@@ -1,0 +1,22 @@
+slot: W-C01
+name: Camaraderie
+color: white
+rarity: common
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, if there are two or more green and/or blue moods, you may play an additional mood this turn.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Ally cycle (slot C01), white. The name is a placeholder. Replaces the original value-swapping Loyalty. White's allies are
+  green and blue; counting follows the original wheel ("there are two or more ... moods" counts any player's moods, with
+  the two colors combined). Uses white's own pie verb for the ally card: an extra play, as with Charity (an unconditional
+  extra play at value 1); the condition is why this is value 2. It sits near the W-C04 play-grant role, so W-C04 should be
+  a restricted grant (color or parity) to keep the commons varied. Alternative considered: recursion from the discard pile,
+  which white barely does. impl_tier 1 is provisional: a color count plus an existing extra-play grant.

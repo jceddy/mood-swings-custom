@@ -1,0 +1,24 @@
+slot: X-U01
+name: Emptiness
+color: colorless
+rarity: uncommon
+base_value: 1
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play, this mood's value increases by 1 for each color among all moods. (Colorless moods have no color.)
+status: idea
+reprint_of: null
+impl_tier: 2
+designer: Dr Potato
+notes: >-
+  Contributor suggestion. Wording follows Celebration ("colors among ... moods"), Fickleness/Bitterness ("among all moods") and the
+  "increases by 1 for each" scaling cards (Euphoria, Sadness, Vanity). The parenthetical reminder is new because the original pool
+  has no colorless cards. Range is 2 to 6 (at least one colored mood is almost always in play; all five colors needed for 6), so
+  typical boards give about 3-4. Colorless moods have no color, so it never counts itself, consistent with the colorless gate cycle.
+  A suppressed mood still counts for its color (the ruling made for the gates). Under Imagination every mood is one color, so the
+  count is 1 and the value is 2. Opponents' colors count too, which rewards diverse boards. The printed 1 is below the slot's 2-3
+  target; the pool's scaling cards print 0-2, so the slot target was widened to 0-3. impl_tier 2: the colorless color value (Q6)
+  is a new primitive; the color count itself is like Celebration's.

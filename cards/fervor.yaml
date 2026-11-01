@@ -1,0 +1,24 @@
+slot: R-C01
+name: Fervor
+color: red
+rarity: common
+base_value: 3
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, if there are two or more black and/or green moods, you may play an additional mood this turn.
+  If you do, after scoring, put that mood into the discard pile if it's still in play.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Ally cycle (slot C01), red. The name is a placeholder. Replaces the original value-swapping Excitement. Red's allies are black
+  and green; counting follows the original wheel (any player's moods, the two colors combined). Uses red's own pie verb: an
+  extra play that comes with a price, worded exactly as in Gluttony (uncommon, value 2: an unconditional extra play, whose mood
+  is discarded after scoring). This common is conditional on allies and keeps the same price, so it is a weaker cousin of
+  Gluttony, which is why it is worth 3 like Bravado and Zeal. The extra-play pattern also appears in white's ally card (Camaraderie),
+  but with a different price. It sits near the R-C04 play-grant role (Bravado is the reprint candidate), so keep R-C04 the only
+  broad one. impl_tier 1 is provisional: a color count plus an existing extra-play grant with an after-scoring discard.

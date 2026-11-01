@@ -1,0 +1,22 @@
+slot: W-U03
+name: Solidarity
+color: white
+rarity: uncommon
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play, this mood's value increases by 1 for each other mood with a 2 in its top right corner.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  White partner for the numbers axis. The name is a placeholder. A pairs payoff: matching printed numbers, any player's
+  moods. It replaced a targeted-suppression idea for W-U03 (odd or even, suppress one mood), which was effectively a narrower
+  Pacifism. The text names the number (a 2) instead of "the same number as this mood" because every copy prints a 2, and that
+  avoids any doubt about printed versus current value (wording suggested in review). Worded like "increases by 1 for each"
+  (Euphoria, Envy) and Validation's "with a 0 or 1 in its top right corner". Cooperates with Familiarity (matching numbers)
+  as a small pairs theme. Risk: a board with several 2s boosts it a lot; 2 is a common number. impl_tier 1 is provisional.

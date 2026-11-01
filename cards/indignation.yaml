@@ -1,0 +1,27 @@
+slot: R-C02
+name: Indignation
+color: red
+rarity: common
+base_value: 3
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, if there are two or more white and/or blue moods, you may put one of them with a value of 4 or less
+  into the discard pile.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Enemy cycle (slot C02), red. The name is a placeholder. Replaces the original value-swapping Frustration. Red's enemies are
+  white and blue; counting follows the original wheel (any player's moods, the two colors combined). Uses red's own pie verb:
+  value-threshold removal to the discard pile, worded as in Shock ("put one of their moods with a value of 3 or less into the
+  discard pile"). The threshold is 4 rather than Shock's 3 because the color limit narrows the targets. "May" because the chosen
+  mood can be your own. Red would then have two removal commons next to R-C03 (Shock candidate); keep R-C03 the only broad one.
+  Red removal is value-based while black's (Disdain) is color-based, which keeps the two enemy cards distinct. impl_tier 1 is
+  provisional: a color count plus an existing value-limited removal.
+  Value 3, not 2 (cycle pass at one turn per round): the two-or-more-moods condition is met only about 0% in round 1, 16-35% in
+  round 2 and 52-66% in round 3 (even colors, two players), so the card is often a vanilla early and should not whiff below the
+  modal common value; its effect is a weaker version of Shock (2), which hits up to two moods.

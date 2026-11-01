@@ -5,24 +5,33 @@ questions:
     status: decided
     question: What is the theme of the colorless common cycle (5 cards, replacing the original vanilla-4 cycle)?
     notes: |
-      Decided: each colorless common is worth 4 and can only be played if there is a mood of one specific color in play
-      (one card per color; e.g. the white one reads "You can only play this card if there is a white mood").
+      Decided: each colorless common is worth 5 and can only be played if you have a mood of one specific color
+      (one card per color; e.g. the white one reads "You can only play this card if you have a white mood").
+      Revised from value 4: a gated colorless 4 was strictly worse than the original colored vanilla 4s with no upside, so the
+      value rose to 5 together with the own-moods gate (Q7). Fall back to 4 if playtests show 5 is too strong.
       Slots X-C01..X-C05 (white, blue, black, red, green).
       Still to settle when designing the cards: whether "there is a [color] mood" counts any player's moods or only yours
-      (see Q7), and whether any of the five needs a small upside or drawback after playtesting.
+      (decided in Q7: only your own moods count), and whether any of the five needs a small upside or drawback after playtesting.
   - id: Q2
     status: decided
-    question: Colorless distribution - 5 commons + 2 uncommons + 1 rare (8 of 133)?
-    notes: "Decided: 8 of 133 is fine for now."
+    question: Colorless distribution - 5 commons + 2 uncommons + 1 mythic (8 of 133)?
+    notes: |
+      Decided: 8 of 133 is fine for now. The single top-rarity colorless slot was a rare (X-R01) and became a mythic (X-M01) when
+      Unity, a win-the-round effect with no equal in the original pool, was placed there: the count stays 8, only the split changes,
+      so the set's totals become 45 common, 42 uncommon, 30 rare and 16 mythic. There is no colorless rare.
   - id: Q3
-    status: open
+    status: decided
     question: Which original-pool cards (max 13 of 133) are worth reprinting?
     notes: |
-      Probable reprints (role-player commons), pre-assigned to the slot whose role each fits; the Set sheet shows them in the
-      "Reprint candidate" column. Not final: Pacifism (W-C03), Panic (U-C03), Fear (U-C04), Ambition (B-C04), Hate (B-C05),
-      Suspicion (B-C07), Shock (R-C03), Bravado (R-C04), Zeal (R-C05), Compulsion (R-C07), Joy (G-C04), Nostalgia (G-C05),
-      Determination (G-C06). That is 13, exactly the cap (13 of 133 = 9.8%), so any further reprint means dropping one of these.
-      A candidate becomes a reprint when a card file with reprint_of is added.
+      Decided: 13 reprints (13 of 133 = 9.77%, exactly the cap), role-player commons pre-assigned to the slot whose role each
+      fits; the Set sheet shows them in the "Reprint candidate" column: Pacifism (W-C03), Panic (U-C03), Fear (U-C04), Ambition
+      (B-C04), Hate (B-C05), Suspicion (B-C07), Shock (R-C03), Bravado (R-C04), Zeal (R-C05), Compulsion (R-C07), Joy (G-C04),
+      Nostalgia (G-C05), Determination (G-C06). Nostalgia was dropped for a while because it seemed to overlap Warmth (G-C01), then
+      reinstated: a contributor pointed out that they are different roles (Nostalgia is a 0-value acceleration card with a pickup
+      attached; Warmth is a conditional pickup on a 3-value body). With 13 the list has no headroom, so any further reprint means
+      dropping one.
+      A candidate becomes a reprint when a card file with reprint_of is added (not done yet: the baseline text may be missing printed
+      reminder text, so check against the printed cards first).
   - id: Q4
     status: decided
     question: Should the ally/enemy wheel (10 commons) be kept as-is, reskinned, or replaced?
@@ -35,9 +44,35 @@ questions:
     status: open
     question: Which mythic build-around axes does each color get?
     notes: |
-      To be determined. The mythics will likely shape the direction of the rest of the set, so the other rare/uncommon slot
+      Decided structure: each color keeps one mythic slot dedicated to a build-around (M01, so 5 in the set, matching the original
+      pool's 5) and the other two (M02, M03) are flexible, so they need not be build-arounds. The axes themselves are still to be
+      determined, so this question stays open. The mythics will likely shape the direction of the rest of the set, so the other rare/uncommon slot
       roles may be revised once they exist. The original pool has 5 build-around mythics (Validation, Exhilaration, Bliss,
       Duplicity, Thrill), each with about 14 partners.
+      Red axis (tentative): playing red moods, led by Dominance in R-M01 (each time you play another red mood, remove a lower-value
+      opposing mood). Partners would be high-value red moods, red extra-play grants and red play-triggered effects.
+      Green axis (tentative): replaying from the discard pile and re-triggering after-playing effects, led by Resurgence in G-M01
+      (put your other moods into the discard pile, then replay that many from the whole pile; no other plays that turn). Partners would
+      be cheap moods with strong after-playing effects and discard-pile cards like Grace.
+      Blue axis (tentative): recycling the discard pile and playing many moods, led by Recollection in U-M01 (each time you play another
+      mood, put a discard-pile card on the bottom of the deck and draw a card). Partners would be discard-pile fuel and extra-play
+      cards.
+      White axis (tentative): numbers, meaning printed values and parity (about 20 pool cards already care: Courage, Dignity,
+      Friendliness, Kindness, Repentance, Meekness, Validation, Encouragement, Idealism in white; Shock, Rage, Anger, Hostility,
+      Rebellion, Spite, Anxiety, Cheer, Delight, Embarrassment, Denial, Rejection, Worry elsewhere). W-M02 (Restraint) cuts extra
+      plays, so W-M01 should reward caring about values rather than being a play-grant engine. The mythic is Routine (choose odd or even
+      numbers; each of your other moods with a chosen number in its top right corner gets +1).
+      Black axis (tentative): hand pressure, meaning hand size and hand attacks (about 19 pool cards already touch hands, plus our
+      Coercion, Schadenfreude, FOMO, Yearning, Rapport, Foresight, Wariness). Chosen over a black discard-pile axis because blue (recycle)
+      and green (replay) already use the discard pile; this keeps the five axes distinct (numbers, hand pressure, playing red moods,
+      replaying from the pile, recycling the pile). The mythic is Neglect (at the start of each of your turns, each opponent with no cards in their hand puts one of their moods into
+      the discard pile). Hand sizes are public, so hand-size payoffs are also possible.
+      Contributor discussion (the flexible slots above follow from this; the Complexity / Power Ratio reading of rarity is still
+      only proposed): not every mythic has to be a build-around. How easy a card is to
+      build around is a sliding scale. Guile, Chaos, Malice, Exhilaration and Sneakiness have no obvious plan, while rares such as
+      Grief, Rationalization, Regret, Grace, Wrath and Pride need a dedicated deck to reach full power. Rarity is better read
+      as Complexity (more words, higher rarity) plus Power Ratio (a card's average value over the ~5 turns of a game,
+      combining its value with how often it gets that value).
   - id: Q6
     status: decided
     question: How are new cards implemented in the simulator?
@@ -46,8 +81,45 @@ questions:
       separately. For design purposes a mechanic only has to be implementable in principle; mark cards that would need a
       new engine primitive with impl_tier 2 (see design/card-schema.md).
   - id: Q7
-    status: open
+    status: decided
     question: Does a colorless gate ("a white mood in play") count moods of any player, or only your own?
     notes: |
       Original-pool precedent for board-wide wording is "there is a ... mood" (any player), e.g. Love and Happiness.
       Counting any player's moods makes the colorless commons easier to enable but also lets opponents turn them off.
+      Decided first: any player's moods count ("there is a white mood").
+      Revised (final): only your own moods count ("if you have a white mood"), together with raising the value from 4 to 5 (Q1).
+      Reasons: a gated colorless 4 was strictly worse than the old colored vanilla 4s; counting only your moods makes the gate a real
+      cost that justifies the higher value, stops opponents from switching the cards off, and makes the cycle a color-commitment
+      signal. Cost: an opponent's board no longer enables your gate cards, and they cannot be your first play.
+      Decided: a suppressed mood still counts as a mood of its color, so it satisfies the gate.
+  - id: Q8
+    status: open
+    question: For the black mythic idea Coercion (hand-reveal-or-lose-a-mood), should targeting be restricted and should the opponent choose?
+    notes: |
+      Two knobs, to be settled by playtesting (cards/coercion-restricted.yaml and cards/coercion-unrestricted.yaml):
+      1. Targeting. Restricted = the target must have one or more cards in hand and one or more moods, so the card gets no value
+         from an empty hand or empty board (power and reliability are inversely correlated, a common Mood Swings theme; the card is
+         held until an opponent commits to the board). Unrestricted = any opponent, and an opponent with an empty hand cannot decline.
+      2. Opponent choice. The drafted text lets the opponent choose between revealing their hand (you take a card and may play it as
+         an additional mood) and putting one of their highest value moods into the discard pile. A contributor variant where the
+         opponent does not choose is not written up yet (either you pick the branch, or both happen).
+      Hybrids are possible. Sensible one: require only that the target has one or more moods (an empty hand then forces the
+      mood loss, an empty board cannot be hit). The reverse (require only cards in hand) is poor, because an opponent with no
+      moods can decline for free and the card does nothing.
+      Placement: tentatively black flexible mythic slot B-M02; the restricted file holds the slot for now.
+      Concern raised: restricted may be too weak, unrestricted too strong; no consensus without playtesting.
+  - id: Q9
+    status: open
+    question: Which cards need a playtest check given that moods stay in play across rounds and hands refill only through round losses and card effects?
+    notes: |
+      Moods stay in play after a round is scored, the losing players draw a card at the end of each round (no draw each turn), and each
+      player has one turn per round, so boards grow by about one mood per round.
+      Five checks follow from that:
+      1. Colorless gate commons (value 5): the own-mood gate is paid once, then free for the rest of the game, so check 5 against 4.
+      2. Resurgence: it scales with board size and can replay a whole board (boards grow about one mood per round), so check whether it
+         needs a cap (for example "up to three").
+      3. Recollection: it draws on entry and on each later play (about one per round without extra plays, more with them), so check
+         whether it needs "once each turn".
+      4. Coercion (restricted and unrestricted): hands are often small or empty, so the restricted version fizzles more and the
+         unrestricted one forces more mood losses (see Q8).
+      5. FOMO (value 7): paying a card every round drains the hand quickly, so check whether the mood is discarded too soon for 7 to be fair.

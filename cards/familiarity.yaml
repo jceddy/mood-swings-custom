@@ -1,0 +1,23 @@
+slot: W-C04
+name: Familiarity
+color: white
+rarity: common
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, you may play an additional mood this turn if it has the same number in its top right corner
+  as one of your moods.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  White partner for the numbers axis (design/axes.md). The name is a placeholder. A common extra play restricted by matching
+  numbers, worded like Eagerness (green uncommon: an additional mood if it shares a color with one of your moods) with
+  Friendliness and Kindness's "in its top right corner". It rewards stacking one value. Because 3 is the modal printed value
+  it is easy to enable, which is the main thing to watch. One of three white extra-play partners (with Modesty and
+  Confidence); Restraint (W-M02) shuts them all off, which is a deliberate tension. impl_tier 1 is provisional: an extra-play
+  grant with a printed-number check.

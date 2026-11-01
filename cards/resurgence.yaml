@@ -1,0 +1,35 @@
+slot: G-M01
+name: Resurgence
+color: green
+rarity: mythic
+base_value: 0
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, put all your other moods into the discard pile. Then you may play up to that many
+  additional moods this turn from the discard pile. You can't play any moods this turn except moods played this way.
+status: idea
+reprint_of: null
+impl_tier: 2
+designer: Dr Potato
+notes: >-
+  Contributor suggestion; the name is a placeholder. Proposed green build-around (G-M01): replay from the discard pile and
+  re-trigger after-playing effects (see Q5). Green-flavored version of Thrill (red mythic: put your other moods into your
+  hand, then play that many additional moods). Wording follows Thrill ("play that many additional moods this turn"), Angst
+  ("from the discard pile"), Rage ("all other moods") and "your other moods" instead of "control". Decided: the whole shared
+  discard pile is available, not only the moods just discarded, so opponents' discards can be replayed (precedent:
+  Melancholy, Cynicism, Altruism). Replayed moods have their after-playing effects happen again. The final sentence is the
+  turn-long lock: you can't play moods from hand or by other grants ("played this way" names the action; an earlier draft said
+  "Apart from those moods", which could be read as only the moods just discarded, or as the moods played from the pile), which also stops loops through replayed extra-play
+  moods; the original submission worded this as "you may not play moods from your hand or from other effects", which was
+  ambiguous because the replays themselves are effect plays. With no other moods the number is 0 and the card only costs
+  you the turn. Combo notes: replaying Scorn or Validation first lets the later replays trigger them; each replay is a play,
+  so it also triggers Dominance. impl_tier 2: plays from the discard pile (Angst, Grace, Melancholy) and "that many
+  additional moods" (Thrill) already exist; the new piece is the turn-wide lock on other plays.
+  Ruling the contributors lean toward (not final): "this way" refers to the effect of the respective Resurgence, so each
+  Resurgence's lock only allows plays made through its own grant. If a second Resurgence is replayed from the pile (for
+  example Resurgence, Anger blowing it up, then Resurgence), leftover plays from the first are blocked by the second's lock
+  and the second's plays are blocked by the first's, so no moods can be played for the rest of the turn and the replayed
+  Resurgence only wipes the board. Total plays stay fixed by the first Resurgence, so there is no loop. No change to the card text.

@@ -1,0 +1,26 @@
+slot: W-M02
+name: Restraint
+color: white
+rarity: mythic
+base_value: 4
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play, moods can't let any player play additional moods. (This doesn't affect Hurt Feelings.)
+status: idea
+reprint_of: null
+impl_tier: 2
+designer: Dr Potato
+notes: >-
+  Contributor suggestion; the name is a placeholder. Flexible white mythic (W-M02), not a build-around. The submission read
+  "Each player may only play one mood per turn." Decided: the card only stops plays granted by moods, so Hurt Feelings (a game
+  rule that gives the round loser a second base play, tagged separately in the simulator) is unaffected; a literal cap would
+  have switched off the catch-up rule and favored whoever is ahead. The parenthetical reminder follows Awe, which also mentions
+  Hurt Feelings. It shuts off almost every play grant in the pool and the set (Charity, Hope, Validation, Thrill, Camaraderie,
+  Fervor, Foresight, Resurgence's replays, Coercion's play), which is white's own identity, so it is a deliberate stax tension.
+  Duplicity still repeats after-playing effects. Banked grants (Joy, Generosity) stay banked but can't be used while this is in
+  play (a ruling to confirm). Value 4 is high for a mythic on average (1.40), but there are precedents (Love 4, Sneakiness 5,
+  Chaos 6) and the drawback is real. impl_tier 2: plays are computed per turn from grants, and a cap on mood-granted plays is a
+  new modifier; Hurt Feelings' second play is tagged separately, so exempting it should be straightforward.

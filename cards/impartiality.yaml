@@ -1,0 +1,22 @@
+slot: W-U04
+name: Impartiality
+color: white
+rarity: uncommon
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, choose odd or even. Suppress all other moods with a number of the chosen type in their top
+  right corners until the end of this round. (0 is even.)
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  White partner for the numbers axis. The name is a placeholder. A broader cousin of Repentance (which names one number): one
+  type covers about half the moods, but it only lasts until the end of the round, so it works mainly as a scoring swing, and
+  it hits your own moods too, so you pick the type you aren't using (Routine pairs well). Phrasing follows Routine ("a number
+  of the chosen type") and Repentance ("until the end of this round"). Main risk: it may be too strong for an uncommon;
+  levers are "up to two moods" or limiting it to opponents' moods. impl_tier 1 is provisional.

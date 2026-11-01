@@ -81,10 +81,10 @@ slots:
 - id: W-U03
   color: white
   rarity: uncommon
-  role: suppress-targeted
+  role: numbers-pairs
   value: '2'
-  timing: after
-  notes: Suppress a mood for as long as you keep this mood.
+  timing: while
+  notes: Role changed from suppress-targeted (too close to Pacifism, W-C03) to a numbers-axis pairs payoff, held by Solidarity.
 - id: W-U04
   color: white
   rarity: uncommon
@@ -168,21 +168,21 @@ slots:
   role: build-around
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Tentatively Routine (axis - numbers, meaning printed values and odd/even, Q5). Build-around mythic. Name its synergy axis and plan about 14 partner cards.
 - id: W-M02
   color: white
   rarity: mythic
-  role: build-around
-  value: 0-2
+  role: flexible
+  value: 0-4
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Tentatively Restraint (mood-granted extra plays shut off, printed 4), so the value target is widened. Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: W-M03
   color: white
   rarity: mythic
-  role: build-around
+  role: flexible
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: U-C01
   color: blue
   rarity: common
@@ -345,21 +345,21 @@ slots:
   role: build-around
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Tentatively Recollection (axis proposal - recycle the discard pile and play many moods, Q5). Build-around mythic. Name its synergy axis and plan about 14 partner cards.
 - id: U-M02
   color: blue
   rarity: mythic
-  role: build-around
+  role: flexible
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Tentatively Foresight (draw up to three, bottom that many, extra play). Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: U-M03
   color: blue
   rarity: mythic
-  role: build-around
+  role: flexible
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: B-C01
   color: black
   rarity: common
@@ -523,21 +523,21 @@ slots:
   role: build-around
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Tentatively Neglect (axis - hand pressure, meaning hand size and hand attacks, Q5). Build-around mythic. Name its synergy axis and plan about 14 partner cards.
 - id: B-M02
   color: black
   rarity: mythic
-  role: build-around
+  role: flexible
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Tentatively Coercion (variant to be settled by playtesting, Q8). Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: B-M03
   color: black
   rarity: mythic
-  role: build-around
+  role: flexible
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: R-C01
   color: red
   rarity: common
@@ -686,9 +686,9 @@ slots:
   color: red
   rarity: rare
   role: flex
-  value: 0-3
+  value: 0-7
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Held by FOMO (value 7, recurring discard upkeep), so the value target is widened.
 - id: R-R06
   color: red
   rarity: rare
@@ -702,21 +702,21 @@ slots:
   role: build-around
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Tentatively Dominance (axis proposal - playing red moods, Q5). Build-around mythic. Name its synergy axis and plan about 14 partner cards.
 - id: R-M02
   color: red
   rarity: mythic
-  role: build-around
+  role: flexible
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: R-M03
   color: red
   rarity: mythic
-  role: build-around
+  role: flexible
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: G-C01
   color: green
   rarity: common
@@ -880,63 +880,63 @@ slots:
   role: build-around
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Tentatively Resurgence (axis proposal - replay from the discard pile and re-trigger after-playing effects, Q5). Build-around mythic. Name its synergy axis and plan about 14 partner cards.
 - id: G-M02
   color: green
   rarity: mythic
-  role: build-around
+  role: flexible
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: G-M03
   color: green
   rarity: mythic
-  role: build-around
+  role: flexible
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: X-C01
   color: colorless
   rarity: common
   role: colorless-gate-white
-  value: '4'
+  value: '5'
   timing: to-play
-  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 4; you can only play it if there is a white mood in play. Add a minor upside or drawback only if playtests need it.
+  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 5; you can only play it if you have a white mood (your own moods only, Q7). Add a minor upside or drawback only if playtests need it; fall back to value 4 if 5 is too strong.
 - id: X-C02
   color: colorless
   rarity: common
   role: colorless-gate-blue
-  value: '4'
+  value: '5'
   timing: to-play
-  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 4; you can only play it if there is a blue mood in play. Add a minor upside or drawback only if playtests need it.
+  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 5; you can only play it if you have a blue mood (your own moods only, Q7). Add a minor upside or drawback only if playtests need it; fall back to value 4 if 5 is too strong.
 - id: X-C03
   color: colorless
   rarity: common
   role: colorless-gate-black
-  value: '4'
+  value: '5'
   timing: to-play
-  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 4; you can only play it if there is a black mood in play. Add a minor upside or drawback only if playtests need it.
+  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 5; you can only play it if you have a black mood (your own moods only, Q7). Add a minor upside or drawback only if playtests need it; fall back to value 4 if 5 is too strong.
 - id: X-C04
   color: colorless
   rarity: common
   role: colorless-gate-red
-  value: '4'
+  value: '5'
   timing: to-play
-  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 4; you can only play it if there is a red mood in play. Add a minor upside or drawback only if playtests need it.
+  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 5; you can only play it if you have a red mood (your own moods only, Q7). Add a minor upside or drawback only if playtests need it; fall back to value 4 if 5 is too strong.
 - id: X-C05
   color: colorless
   rarity: common
   role: colorless-gate-green
-  value: '4'
+  value: '5'
   timing: to-play
-  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 4; you can only play it if there is a green mood in play. Add a minor upside or drawback only if playtests need it.
+  notes: Colorless common cycle (replaces the original vanilla-4 cycle). Value 5; you can only play it if you have a green mood (your own moods only, Q7). Add a minor upside or drawback only if playtests need it; fall back to value 4 if 5 is too strong.
 - id: X-U01
   color: colorless
   rarity: uncommon
   role: colorless-uncommon
-  value: 2-3
+  value: 0-3
   timing: any
-  notes: Colorless uncommon.
+  notes: Colorless uncommon. Held by Emptiness (printed 1, scales with the colors in play), so the value target is widened.
 - id: X-U02
   color: colorless
   rarity: uncommon
@@ -944,10 +944,10 @@ slots:
   value: 2-3
   timing: any
   notes: Colorless uncommon.
-- id: X-R01
+- id: X-M01
   color: colorless
-  rarity: rare
-  role: colorless-rare
+  rarity: mythic
+  role: colorless-mythic
   value: 0-3
   timing: any
-  notes: Colorless rare.
+  notes: Colorless mythic (this slot was the colorless rare X-R01). Held by Unity (a win-the-round condition checked at scoring).
