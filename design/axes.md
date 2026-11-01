@@ -40,12 +40,12 @@ and Rejection (same value), Worry (3 or less).
 | `W-U06` | value-boost | Humility (written): +1 to your 0s, 1s and 2s |
 | `W-U07` | conditional-value | Equanimity (written): 6 if four or more moods have even numbers |
 | `R-C03` | interaction-lite | Shock (reprint): removal at value 3 or less |
-| `R-U01` | sweeper-small | sweep by low value |
-| `R-U02` | sweeper-numeric | sweep by chosen value |
+| `R-U01` | sweeper-small | Bullying (written): sweep your opponents' moods of value 2 or less |
+| `R-U02` | sweeper-numeric | Intuition (written): name a number, sweep your opponents' moods with it |
 | `R-U03` | removal-highest | removal of the highest value |
-| `B-C03` | interaction-lite | parity removal, Spite-like |
+| `B-C03` | interaction-lite | Malevolence (written): a flexible Spite: remove an odd or even mood |
 | `G-C07` | utility-small | Cheer/Delight-style discard by value |
-| `U-U03` | hand-manipulation | hand effect that cares about values |
+| `U-U03` | hand-manipulation | Turmoil (written): a chosen player cycles every odd or even card in hand |
 
 **Risks.** Value-threshold cards are narrow, so the axis needs reliable ways to show numbers on the board. Printed values are
 visible, so paper tracking is not an issue.

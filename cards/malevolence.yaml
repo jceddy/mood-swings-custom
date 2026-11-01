@@ -1,0 +1,22 @@
+slot: B-C03
+name: Malevolence
+color: black
+rarity: common
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, choose odd or even. Choose up to two players. For each chosen player, put one of their moods
+  with a number of the chosen type in its top right corner into the discard pile. (0 is even.)
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Black partner for the white numbers axis. The name is a placeholder. The skeleton role (interaction-lite common) matches
+  Spite (black common 1: choose up to two players and put one of their moods with an even value into the discard pile). This
+  version lets you choose odd or even, so it is strictly better than Spite, which is why it prints 2 instead of 1. Phrasing
+  follows Routine ("a number of the chosen type") and Spite ("0 is even"). Black would then have this and Disdain as removal
+  commons; keep B-C03 the only broad one. impl_tier 1 is provisional: Spite's removal with a chosen parity.
