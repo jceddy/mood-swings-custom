@@ -107,3 +107,15 @@ questions:
       moods can decline for free and the card does nothing.
       Placement: tentatively black flexible mythic slot B-M02; the restricted file holds the slot for now.
       Concern raised: restricted may be too weak, unrestricted too strong; no consensus without playtesting.
+  - id: Q9
+    status: open
+    question: Which cards need a playtest check given that moods stay in play across rounds and hands refill only through round losses and card effects?
+    notes: |
+      Moods stay in play after a round is scored, and the losing players draw a card at the end of each round (no draw each turn).
+      Five checks follow from that:
+      1. Colorless gate commons (value 5): the own-mood gate is paid once, then free for the rest of the game, so check 5 against 4.
+      2. Resurgence: it scales with board size and can replay a whole board, so check whether it needs a cap (for example "up to three").
+      3. Recollection: a draw on every play is a large card engine when cards are scarce, so check whether it needs "once each turn".
+      4. Coercion (restricted and unrestricted): hands are often small or empty, so the restricted version fizzles more and the
+         unrestricted one forces more mood losses (see Q8).
+      5. FOMO (value 7): paying a card every turn drains the hand quickly, so check whether the mood is discarded too soon for 7 to be fair.
