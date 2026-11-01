@@ -1,5 +1,5 @@
 slot: W-R05
-name: Forgetful
+name: Forgetfulness
 color: white
 rarity: rare
 base_value: 2
@@ -15,7 +15,7 @@ reprint_of: null
 impl_tier: 2
 designer: ThatWeirdCat
 notes: >-
-  Contributor suggestion; "Forgetful" is the submitted name. The submission read "Whoever won the previous round loses a round win.
+  Contributor suggestion. The submission was named "Forgetful"; renamed Forgetfulness because existing card names are nouns, not adjectives. The submission read "Whoever won the previous round loses a round win.
   After scoring this round, nobody draws a card." Wording: "the winner of the previous round" (Corruption: "the winner of the current
   round"), "loses a round win" kept because Corruption already talks about round wins ("wins two rounds instead of one"), and "no
   one draws a card at the end of the round" (pool says "no one"; Awe's reminder is "(No one draws a card ...)"); "after scoring" was

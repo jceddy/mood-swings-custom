@@ -154,7 +154,7 @@ slots:
   role: comeback
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value. Held by Forgetful (the previous round's winner loses a round win).
+  notes: Signature effect for the color; usually a low printed value. Held by Forgetfulness (the previous round's winner loses a round win).
 - id: W-R06
   color: white
   rarity: rare
