@@ -61,7 +61,7 @@ plays) and plenty of fuel in the pile.
 | `U-C04` | play-grant | Fear (reprint): puts a mood in hand, extra play |
 | `U-C05` | card-flow | Reminiscence (written): pile card to the bottom, draw a card |
 | `U-U07` | play-grant-risky | Impulse (written): extra play, this mood returns to hand after scoring |
-| `U-R03` | hand-engine | Reflection (written): loot on each play |
+| `U-R03` | hand-engine | Reflection (written): discard a card to draw a card on each play, fueling the pile |
 | `U-R04` | bounce-engine | Rumination (written): recycle one of your moods each round |
 | `U-M02` | flexible mythic | Foresight (written): draw, bottom, extra play |
 | `B-C04` | play-grant | Ambition (reprint): discards a card, extra play |
