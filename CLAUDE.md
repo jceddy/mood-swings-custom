@@ -44,8 +44,11 @@ This repo holds the work-in-progress design of a community-designed custom set f
   2+ ally or enemy colored moods for a *different effect*.
 - Probable reprints are role-player commons, pre-assigned to slots as `reprint_candidate` in the skeleton: Pacifism, Panic, Fear, Ambition,
   Hate, Suspicion, Shock, Bravado, Zeal, Compulsion, Joy, Nostalgia, Determination (13, exactly the cap; Q3 decided).
-- Mythic slots: in each color, M01 is a dedicated build-around and M02/M03 are flexible (need not be build-arounds). The
-  build-around axes themselves are **undecided** (Q5) and will likely shape the rest of the set. Other rare/uncommon roles may be revised once they exist.
+- Mythic slots: in each color, M01 is a dedicated build-around and M02/M03 are flexible (need not be build-arounds). Each color has a
+  tentative build-around axis and an M01 mythic (Q5 stays open; see `design/axes.md`): white numbers (Routine), blue recycling the
+  discard pile (Recollection), black hand pressure (Neglect), red playing red moods (Dominance), green replaying from the discard
+  pile (Resurgence). White's partner cards are written; the other four axes' partners are not. Other rare/uncommon roles may be
+  revised once they exist.
 - The colorless gate counts **only your own** moods ("if you have a white mood"), decided in Q7 (originally any player's), and the
   value was raised from 4 to 5 to match (Q1). A suppressed mood still counts as a mood of its color for the gate. The five gate cards
   are drafted (X-C01..X-C05, placeholder names).
@@ -64,7 +67,8 @@ This repo holds the work-in-progress design of a community-designed custom set f
 
 ## Working conventions
 
-- Work on branch `set-skeleton-and-tracking` (not merged to `main` yet). No pull request is open.
+- `main` holds the work so far (PRs #1 and #2 are merged). Do new work on a feature branch off `main` and open a pull request only
+  when asked.
 - The author prefers decisions recorded in `design/open-questions.yaml` (status: decided) as they are made.
 - Keep `design/principles.md`, `README.md` and this file consistent with the skeleton when decisions change.
 - Card text style follows the original pool: "After playing this mood, ...", "While in play, ...", "To play this card, ...".
@@ -73,6 +77,7 @@ This repo holds the work-in-progress design of a community-designed custom set f
 
 ## Suggested next steps
 
-1. Decide the five mythic build-around axes, one per color in the M01 slots (Q5); revise the other rare and uncommon roles to fit.
-2. Design the ally/enemy cycle effects (slots C01/C02 per color) (the 5 colorless gate cards are drafted).
-3. Fill the remaining slots with card files (the reprint list is decided, Q3; reprint card files are not written yet) and rebuild the spreadsheet.
+1. Write partner cards for the blue, black, red and green axes (the plan is in `design/axes.md`; white's are done).
+2. Write the 13 reprint card files (the list is decided, Q3), checking the printed text first because the baseline may lack reminder text.
+3. Fill the remaining commons, uncommons and rares, then rebuild the spreadsheet and check the rule checks.
+4. Resolve Q8 (Coercion's two knobs) and Q9 (playtest checks) once playtest results exist.
