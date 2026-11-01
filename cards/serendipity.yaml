@@ -1,0 +1,26 @@
+slot: R-U05
+name: Serendipity
+color: red
+rarity: uncommon
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, reveal a random card from your hand. You may play it as an additional mood this turn.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ThatWeirdCat
+notes: >-
+  Contributor suggestion; "Serendipity" is the submitted name. The submission read "Pick a random card from your hand. You may play it as
+  an additional mood this turn." Wording: it needed "After playing this mood"; "reveal a random card from your hand" (Curiosity and
+  Paranoia: "reveals a random card from their hand") because the random pick has to be checkable in paper and revealing is a mild
+  information cost; and Intimidation's "You may play it as an additional mood this turn." Decided: value 2 (the submission said 3).
+  Charity (white, value 1) is the same effect with your choice of card, so a random version should not print higher than the other
+  extra-play cards (Gluttony 2); Bravado (3) at least costs a mood. Placed in R-U05 (play-grant-drawback), counting the randomness as
+  the drawback, instead of the flex slot R-U08. The card is revealed and stays in your hand if you decline, so the real costs are bad
+  draws (a gate card you cannot yet play, a card you want to keep) and the information given away. With an empty hand it does
+  nothing. Restraint shuts it off, and a red card played this way triggers Dominance. impl_tier 1 is provisional: an extra-play grant
+  and a random card from a hand (Curiosity, Paranoia) already exist; a grant limited to one specific card is the only new part.

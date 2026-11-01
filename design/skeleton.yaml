@@ -632,7 +632,7 @@ slots:
   role: play-grant-drawback
   value: '2'
   timing: after
-  notes: Extra play with a remove-after drawback (Gluttony style).
+  notes: Extra play with a remove-after drawback (Gluttony style). Held by Serendipity (a random card from your hand, as the drawback).
 - id: R-U06
   color: red
   rarity: uncommon
