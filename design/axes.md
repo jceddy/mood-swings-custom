@@ -126,7 +126,7 @@ Infatuation, Excitement, Frustration, Triumph, Glee, Embarrassment, Animosity as
 | `R-R04` | tempo-engine | Adrenaline (written): first red play each turn grants an extra play |
 | `R-R05` | flex | FOMO (written): value 7, with an upkeep |
 | `G-U01` | play-grant | Thrift (written): extra play from the pile for a 0, 1, 2, or 3 |
-| `G-U02` | play-grant-2 | Renewal (written): extra play from the pile, rented for one round |
+| `G-U02` | play-grant-2 | Renewal (written): re-trigger another of your moods' after-playing effect |
 | `U-C04` | play-grant | Fear (reprint): puts a mood in hand, extra play |
 | `W-U01` | play-grant-restricted | extra play restricted by color (red) |
 
@@ -146,7 +146,7 @@ Altruism and Cynicism (pickups), Bravado, Hostility, Rebellion, Self-Loathing, E
 | `G-C01` | ally-count | Warmth (written): pickup from the pile |
 | `G-C05` | card-flow | Nostalgia (reprint): pickup plus an extra play |
 | `G-U01` | play-grant | Thrift (written): extra play from the pile for a 0, 1, 2, or 3 |
-| `G-U02` | play-grant-2 | Renewal (written): extra play from the pile, rented for one round |
+| `G-U02` | play-grant-2 | Renewal (written): re-trigger another of your moods' after-playing effect |
 | `G-U08` | flex | pile-related flex |
 | `G-R01` | play-grant-engine | Resilience (written): a cheap extra play from the pile each turn |
 | `G-R03` | discard-play-engine | Grace-style engine |

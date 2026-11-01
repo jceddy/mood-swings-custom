@@ -2,20 +2,26 @@ slot: G-U02
 name: Renewal
 color: green
 rarity: uncommon
-base_value: 2
+base_value: 3
 alt_value: null
 to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, you may play an additional mood this turn from the discard pile. If you do, after scoring,
-  put that mood on the bottom of the deck if it's still in play.
+  After playing this mood, you may choose one of your other moods. If you do, that mood's after-playing effect happens
+  an additional time.
 status: idea
 reprint_of: null
-impl_tier: 1
+impl_tier: 2
 designer: ""
 notes: >-
-  Green partner for the replay axis (also useful in red). The name is a placeholder. Harmony with a price: the replayed mood
-  is a one-round rental, then it cycles back into the deck (the "after scoring, ... if it's still in play" wording is
-  Gluttony's and Insecurity's). The price is real because moods otherwise stay in play. Restraint shuts it off. impl_tier 1
-  is provisional.
+  Green partner for the replay axis (re-triggering after-playing effects). The name is a placeholder. It replaces an earlier
+  draft (Harmony plus a one-round-rental price, which was strictly worse than Harmony). It re-triggers an effect without a
+  play or a hand card, a one-shot cousin of Duplicity (mythic: each time you play another mood, its after-playing effect may
+  happen an additional time). Wording: Thrill's and Bravado's "one of your other moods", the pool's "you may ... If you do",
+  and Duplicity's "that mood's after-playing effect happen an additional time". The repeated effect gets fresh choices, as
+  with Duplicity. It can target a mood from an earlier round, since moods stay in play, so its power grows with the board;
+  the main playtest worry is repeating a removal or sweeper effect (Disdain, Indignation) or an extra-play grant
+  (Camaraderie, Fervor), where it effectively pays for itself. Restraint blunts the extra-play cases. Value 3 for an uncommon
+  engine-like effect. impl_tier 2 is provisional: Duplicity repeats effects when a mood is played; repeating the effect of a
+  mood already in play on demand is new.
