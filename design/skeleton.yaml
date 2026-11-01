@@ -950,4 +950,4 @@ slots:
   role: colorless-rare
   value: 0-3
   timing: any
-  notes: Colorless rare.
+  notes: Colorless rare. Held by Unity (a win-the-round condition checked at scoring).

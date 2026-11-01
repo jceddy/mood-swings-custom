@@ -23,7 +23,7 @@ notes: >-
   of those cards lost the parentheses, so the baseline shows it as plain text. Any other to-play cost added to the set should
   use the same reminder-text form. Value 7 would be the highest unconditional printed
   value in the original pool (the next are the 6s); playtest 7 against 6. Power Ratio idea: it is 7 only while the upkeep
-  is paid. The to-play cost plus a recurring cost means two ability timings, so it sits at rare. The cost depends on how
-  the hand refills, and on whether moods last across rounds; both are unverified. impl_tier 1 is provisional: the
+  is paid. The to-play cost plus a recurring cost means two ability timings, so it sits at rare. Moods stay in play after rounds are scored, so
+  the upkeep is paid every turn for the rest of the game, not just for the round; how the hand refills is still unverified. impl_tier 1 is provisional: the
   simulator already has a start-of-turn trigger (Stubbornness); the optional pay-or-lose-it prompt is the only new part.
   Interacts with hand discard (Suspicion) and with Schadenfreude.

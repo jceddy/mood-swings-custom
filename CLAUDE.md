@@ -15,6 +15,7 @@ This repo holds the work-in-progress design of a community-designed custom set f
 
 ## Mood Swings facts that matter for design
 
+- Moods stay in play after a round is scored, so boards grow over the whole game.
 - Cards are called **moods** once in play. Each has a printed value (0 to 12) in the top-right corner, sometimes an alternate value.
   Players score their moods each round; highest total wins the round.
 - No mana or lands. Plays are gated by "one play per turn"; moods can grant extra plays (unrestricted, or restricted by color, value,
