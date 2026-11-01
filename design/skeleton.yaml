@@ -345,7 +345,7 @@ slots:
   role: build-around
   value: 0-2
   timing: any
-  notes: Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Tentatively Recollection (axis proposal - recycle the discard pile and play many moods, Q5). Build-around mythic. Name its synergy axis and plan about 14 partner cards.
 - id: U-M02
   color: blue
   rarity: mythic
