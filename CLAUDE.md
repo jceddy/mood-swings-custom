@@ -22,6 +22,9 @@ This repo holds the work-in-progress design of a community-designed custom set f
 - Ability timings: **to play** (a cost/restriction), **while in play** (static), **after playing** (one-shot). A card can have several.
 - Interaction verbs by color in the original pool: white suppresses, blue bounces to hand, black and red move moods to the discard pile,
   green has no removal. See the Baseline sheet for the full original pool.
+- The baseline's rules text was extracted from the simulator's database, so parenthetical reminder text on the printed cards may be
+  missing there (for example, "If you can't do that, you can't play this card." on every to-play cost is parenthetical on the
+  printed cards but plain text in the baseline). Match the printed form in new cards.
 - The original pool is 133 cards: 48 common, 40 uncommon, 30 rare, 15 mythic. Each color has exactly 8 uncommons, 6 rares and 3 mythics.
   `baseline/original-pool.json` is extracted from MoodSwings-Web's `database/migrations/0003_create_card_catalog.sql` plus later fixes
   (`scripts/extract_baseline.py`). Source repo for the simulator: https://github.com/jceddy/MoodSwings-Web (it has its own CLAUDE.md).
