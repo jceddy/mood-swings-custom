@@ -20,5 +20,7 @@ notes: >-
   cheap mood from the pile and re-trigger its after-playing text. Restraint shuts it off. Playtest question: with Thrift in
   the same deck it is a lot of cheap replays. impl_tier 1 is provisional: Grace's perpetual grant with a printed-number
   filter.
-  Reviewed against Hope (green rare 0: an extra play each turn from hand, any mood): a sidegrade, not a weaker copy. Hope spends a hand
-  card and is unrestricted; Resilience plays from the pile, which saves a scarce hand card, but only cheap moods. The group is fine with it.
+  Compared with Grace (green rare 0), which it follows closely: the same wording and the same extra play each turn from the discard
+  pile, with a printed-number restriction (0, 1, 2, or 3) instead of Grace's color restriction (a mood that shares a color with one of
+  your moods). Neither is strictly better, since each depends on a different condition, which is why it is fine as a separate card.
+  (An earlier note compared it with Hope, which is the wrong comparison: Hope plays from hand.)
