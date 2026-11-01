@@ -51,6 +51,7 @@ This repo holds the work-in-progress design of a community-designed custom set f
 - `cards/<name>.yaml`: one file per card, claiming a slot via its `slot` field. Format in `design/card-schema.md`
   (includes `status`, `reprint_of`, and `impl_tier` for simulator feasibility).
 - `design/open-questions.yaml`: decisions and open questions; shown on the spreadsheet.
+- `design/axes.md`: the tentative mythic build-around axis for each color (Q5) and a partner-slot plan of about 14 slots per axis.
 - Build the deliverable: `pip install -r requirements.txt` then `python scripts/build_xlsx.py` (writes `out/set.xlsx`, which is gitignored).
   Sheets: Set, Summary (progress, value/timing vs the original pool, rule checks), Baseline, Open Questions. After any change, rebuild and
   check the "Rule checks" section for problems (wrong color/rarity for a slot, duplicate slot claims or names, bad `reprint_of`, reprint cap).

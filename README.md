@@ -9,6 +9,7 @@ A community-designed custom set for the Mood Swings TCG
 | `design/skeleton.yaml` | The slot skeleton: one entry per card slot (color, rarity, role, target value) |
 | `design/open-questions.yaml` | Unresolved design decisions |
 | `design/card-schema.md` | Format of a card file |
+| `design/axes.md` | Tentative mythic build-around axes and the partner-slot plan (Q5) |
 | `cards/*.yaml` | One file per card; each claims a skeleton slot |
 | `baseline/original-pool.json` | The original 133-card pool, extracted from the simulator |
 | `scripts/build_xlsx.py` | Builds the current-state spreadsheet |
