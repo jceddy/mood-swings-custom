@@ -168,7 +168,7 @@ slots:
   role: build-around
   value: 0-2
   timing: any
-  notes: Axis (tentative) - numbers, meaning printed values and parity (Q5). Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Tentatively Routine (axis - numbers, meaning printed values and odd/even, Q5). Build-around mythic. Name its synergy axis and plan about 14 partner cards.
 - id: W-M02
   color: white
   rarity: mythic

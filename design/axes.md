@@ -8,7 +8,7 @@ exist yet unless a card name is given. Pool counts come from a text search of th
 
 | Color | M01 slot | Axis | Mythic so far | Pool cards that already fit |
 |---|---|---|---|---|
-| White | `W-M01` | Numbers: printed values and parity | not designed | about 20 |
+| White | `W-M01` | Numbers: printed odd and even values | Routine | about 20 |
 | Blue | `U-M01` | Recycle the discard pile and play many moods | Recollection | extra-play cards, pile fuel |
 | Black | `B-M01` | Hand pressure: hand size and hand attacks | not designed | about 19 |
 | Red | `R-M01` | Playing red moods | Dominance | extra-play cards, high-value red moods |
@@ -17,11 +17,12 @@ exist yet unless a card name is given. Pool counts come from a text search of th
 The axes were chosen to stay distinct. Blue and green both use the discard pile, but in opposite directions (blue drains it, green
 plays from it), so black does not take a third pile axis.
 
-## White: numbers (`W-M01`, not designed)
+## White: numbers (`W-M01`, Routine)
 
 **Idea.** Printed values and parity matter. Restraint (`W-M02`) switches off mood-granted extra plays, so white's M01 should reward
-caring about values, not be a play-grant engine. Mythic directions: a parity or value engine (close to Validation, so the payoff must
-differ), or number control (choose a number and suppress or protect every mood at that value, an extension of Repentance).
+caring about values, not be a play-grant engine. The mythic is Routine: choose odd or even numbers on entry, and each of your other
+moods with a chosen number in its top right corner gets +1. Number control (suppress and lock out a chosen number) was considered and
+could fit `W-M03`.
 
 **Already in the pool:** Courage (5+), Dignity (discard a 0-3), Friendliness (even), Kindness (odd), Repentance (choose a number),
 Meekness (suppress 5+), Encouragement and Idealism (dice), Validation (plays a 0 or 1); elsewhere Shock, Rage, Anger, Hostility,
