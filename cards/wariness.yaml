@@ -2,7 +2,7 @@ slot: G-C02
 name: Wariness
 color: green
 rarity: common
-base_value: 3
+base_value: 4
 alt_value: null
 to_play: false
 while_in_play: false
@@ -19,7 +19,10 @@ notes: >-
   and black; counting follows the original wheel (any player's moods, the two colors combined). Green has no removal in the
   original pool, so the enemy card is a gift and tempo effect (the skeleton's suggestion): giving a card away (Condescension,
   Fascination) in exchange for an extra play (Ambition's "If you do, you may play an additional mood this turn"). Giving the card to
-  another player is worse for you than Ambition's discard, and the 2+ gate adds a condition, so it is worth 3 instead of Ambition's 2.
+  another player is worse for you than Ambition's discard, and the 2+ gate adds a condition, so it was first worth 3 instead of Ambition's 2 (now 4, see the end of these notes).
   The cycle now has three extra-play commons (white's Camaraderie, red's Fervor, this one), each with a different price (none, the
   mood is discarded after scoring, a card given away). If that feels repetitive, this is the one to change. impl_tier 1 is
   provisional: a color count, a gift of a card from hand and an extra play all exist as pieces.
+  Value 4, not 3 (cycle pass at one turn per round): the two-or-more-moods condition is met only about 0% in round 1, 16-35% in
+  round 2 and 52-66% in round 3 (even colors, two players), so the card is often a vanilla early and should not whiff below the
+  modal common value; and giving a card away costs a scarce card and hands one to an opponent, so it needs more than Ambition's 2.

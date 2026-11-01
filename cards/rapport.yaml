@@ -2,7 +2,7 @@ slot: U-C01
 name: Rapport
 color: blue
 rarity: common
-base_value: 2
+base_value: 3
 alt_value: null
 to_play: false
 while_in_play: false
@@ -24,5 +24,5 @@ notes: >-
   confuses players: "put a card ... on the bottom of the deck, or up to two cards if there are two or more white and/or black
   moods. Then draw that many cards" (Doubt's wording; same 1-for-1, but both cards are chosen before drawing). It sits near the U-C05 card-flow role, so U-C05 should be a
   different kind of card flow (for example discard-pile or hand-swapping) to keep the commons varied. Alternative
-  considered: a reveal-the-hand effect when allies are present. impl_tier 1 is provisional: a bottom-of-deck loot and
+  considered: a reveal-the-hand effect when allies are present. Value 3, not 2 (cycle pass at one turn per round): the two-or-more-moods condition is met only about 0% in round 1, 16-35% in round 2 and 52-66% in round 3 (even colors, two players), so the card is often a vanilla early and should not whiff below the modal common value; it is also Zeal (3) with a conditional extra loot, so it should not print lower than Zeal. impl_tier 1 is provisional: a bottom-of-deck loot and
   a color count already exist as pieces.

@@ -2,7 +2,7 @@ slot: W-C02
 name: Vigilance
 color: white
 rarity: common
-base_value: 2
+base_value: 3
 alt_value: null
 to_play: false
 while_in_play: false
@@ -20,5 +20,5 @@ notes: >-
   common cousin of Guilt, gated by the 2+ count. "May" because the chosen mood can be your own, and a forced self-suppression
   would be unfair (found in the side-by-side pass; every other gated effect in the cycle already said "you may"). White would then have two suppress commons with W-C03 (Pacifism
   candidate); keep W-C03 the only broad one. Alternative considered: Courage-style removal of a mood with a value of 5 or
-  more, which is outside white's usual suppress pie. impl_tier 1 is provisional: a color count plus an existing
+  more, which is outside white's usual suppress pie. Value 3, not 2 (cycle pass at one turn per round): the two-or-more-moods condition is met only about 0% in round 1, 16-35% in round 2 and 52-66% in round 3 (even colors, two players), so the card is often a vanilla early and should not whiff below the modal common value; its effect is a weaker version of Pacifism (1), which suppresses up to two moods. impl_tier 1 is provisional: a color count plus an existing
   suppress-while-you-have-this-mood effect.

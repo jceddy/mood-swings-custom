@@ -2,7 +2,7 @@ slot: B-C01
 name: Yearning
 color: black
 rarity: common
-base_value: 2
+base_value: 3
 alt_value: null
 to_play: false
 while_in_play: false
@@ -22,4 +22,4 @@ notes: >-
   would be a net card), the same rule Rapport's loot follows. You can put back the card you just discarded, which does nothing.
   Wording follows Ambition ("discard a card from your hand. If you do, ...") and Cynicism ("put a card from the discard pile into
   ... hand"). It sits near the B-U05 graveyard role, so B-U05 should be bigger recursion rather than another small swap.
-  impl_tier 1 is provisional: a color count, a hand discard and a pick from the discard pile already exist as pieces.
+  Value 3, not 2 (cycle pass at one turn per round): the two-or-more-moods condition is met only about 0% in round 1, 16-35% in round 2 and 52-66% in round 3 (even colors, two players), so the card is often a vanilla early and should not whiff below the modal common value; its effect is a modest 1-for-1 swap. impl_tier 1 is provisional: a color count, a hand discard and a pick from the discard pile already exist as pieces.

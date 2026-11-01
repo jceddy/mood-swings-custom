@@ -2,7 +2,7 @@ slot: R-C02
 name: Indignation
 color: red
 rarity: common
-base_value: 2
+base_value: 3
 alt_value: null
 to_play: false
 while_in_play: false
@@ -22,3 +22,6 @@ notes: >-
   mood can be your own. Red would then have two removal commons next to R-C03 (Shock candidate); keep R-C03 the only broad one.
   Red removal is value-based while black's (Disdain) is color-based, which keeps the two enemy cards distinct. impl_tier 1 is
   provisional: a color count plus an existing value-limited removal.
+  Value 3, not 2 (cycle pass at one turn per round): the two-or-more-moods condition is met only about 0% in round 1, 16-35% in
+  round 2 and 52-66% in round 3 (even colors, two players), so the card is often a vanilla early and should not whiff below the
+  modal common value; its effect is a weaker version of Shock (2), which hits up to two moods.
