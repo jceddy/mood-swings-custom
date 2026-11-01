@@ -31,13 +31,14 @@ and Rejection (same value), Worry (3 or less).
 
 | Slot | Role in the skeleton | What it would do for the axis |
 |---|---|---|
-| `W-C04` | play-grant | extra play restricted by parity |
-| `W-U01` | play-grant-restricted | extra play restricted by value |
-| `W-U02` | play-grant-restricted-2 | the other restriction (parity or value range) |
-| `W-U03` | suppress-targeted | suppress by value |
-| `W-U04` | suppress-mass | suppress all moods of a chosen value |
-| `W-U06` | value-boost | boost low or high printed values |
-| `W-U07` | conditional-value | value depends on other moods' values |
+| `W-C04` | play-grant | Familiarity (written): extra play if it matches the number of one of your moods |
+| `W-U01` | play-grant-restricted | Modesty (written): extra play for a 0, 1, 2, or 3 |
+| `W-U02` | play-grant-restricted-2 | Confidence (written): extra play for a 4, 5, or 6 |
+| `W-U03` | numbers-pairs | Solidarity (written): value up for each other mood with a 2 (replaced a targeted suppress, too close to Pacifism) |
+| `W-U04` | suppress-mass | Impartiality (written): suppress all other moods of the chosen type until the end of the round |
+| `W-U05` | deck-hand-flow | Discernment (written): cycle away cards of the chosen type |
+| `W-U06` | value-boost | Humility (written): +1 to your 0s, 1s and 2s |
+| `W-U07` | conditional-value | Equanimity (written): 6 if four or more moods have even numbers |
 | `R-C03` | interaction-lite | Shock (reprint): removal at value 3 or less |
 | `R-U01` | sweeper-small | sweep by low value |
 | `R-U02` | sweeper-numeric | sweep by chosen value |

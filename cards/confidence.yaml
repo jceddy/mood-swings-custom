@@ -1,0 +1,18 @@
+slot: W-U02
+name: Confidence
+color: white
+rarity: uncommon
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, you may play an additional mood this turn if it has a 4, 5, or 6 in its top right corner.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  White partner for the numbers axis. The name is a placeholder. The high-number counterpart of Modesty, worded like
+  Embarrassment ("a 4, 5, or 6 in its top right corner"). Restraint shuts it off. impl_tier 1 is provisional.

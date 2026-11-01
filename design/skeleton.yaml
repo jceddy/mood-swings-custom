@@ -81,10 +81,10 @@ slots:
 - id: W-U03
   color: white
   rarity: uncommon
-  role: suppress-targeted
+  role: numbers-pairs
   value: '2'
-  timing: after
-  notes: Suppress a mood for as long as you keep this mood.
+  timing: while
+  notes: Role changed from suppress-targeted (too close to Pacifism, W-C03) to a numbers-axis pairs payoff, held by Solidarity.
 - id: W-U04
   color: white
   rarity: uncommon

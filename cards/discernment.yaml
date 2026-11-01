@@ -1,0 +1,21 @@
+slot: W-U05
+name: Discernment
+color: white
+rarity: uncommon
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, choose odd or even. You may put any number of cards from your hand with a number of the
+  chosen type in their top right corners on the bottom of the deck, then draw that many cards. (0 is even.)
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  White partner for the numbers axis. The name is a placeholder. Tunes the hand toward one type: you choose the type to cycle
+  away. Always 1 for 1, in Doubt's wording ("put them on the bottom of the deck, then draw that many cards"). Uses W-U05's
+  deck-hand-flow slot, which the axes plan did not list. impl_tier 1 is provisional: Doubt's cycle with a printed-number
+  filter.
