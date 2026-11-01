@@ -34,7 +34,7 @@ This repo holds the work-in-progress design of a community-designed custom set f
 
 ## Set decisions made so far (full detail in `design/open-questions.yaml`)
 
-- Skeleton: 5 colors x (8 common, 8 uncommon, 6 rare, 3 mythic) = 125, plus 8 colorless (5 common, 2 uncommon, 1 rare) = 133.
+- Skeleton: 5 colors x (8 common, 8 uncommon, 6 rare, 3 mythic) = 125, plus 8 colorless (5 common, 2 uncommon, 1 mythic) = 133.
 - Colorless commons (X-C01..X-C05): value 5 each, and each can only be played if you have a mood of one specific color
   (one card per color). Nothing multicolored yet.
 - The original ally/enemy value-swapping wheel (10 commons) is **replaced** by a cycle of cards (slots C01/C02 per color) that care about

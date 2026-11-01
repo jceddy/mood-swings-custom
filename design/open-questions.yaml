@@ -14,8 +14,11 @@ questions:
       (decided in Q7: only your own moods count), and whether any of the five needs a small upside or drawback after playtesting.
   - id: Q2
     status: decided
-    question: Colorless distribution - 5 commons + 2 uncommons + 1 rare (8 of 133)?
-    notes: "Decided: 8 of 133 is fine for now."
+    question: Colorless distribution - 5 commons + 2 uncommons + 1 mythic (8 of 133)?
+    notes: |
+      Decided: 8 of 133 is fine for now. The single top-rarity colorless slot was a rare (X-R01) and became a mythic (X-M01) when
+      Unity, a win-the-round effect with no equal in the original pool, was placed there: the count stays 8, only the split changes,
+      so the set's totals become 45 common, 42 uncommon, 30 rare and 16 mythic. There is no colorless rare.
   - id: Q3
     status: decided
     question: Which original-pool cards (max 13 of 133) are worth reprinting?

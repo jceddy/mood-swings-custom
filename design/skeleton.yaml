@@ -944,10 +944,10 @@ slots:
   value: 2-3
   timing: any
   notes: Colorless uncommon.
-- id: X-R01
+- id: X-M01
   color: colorless
-  rarity: rare
-  role: colorless-rare
+  rarity: mythic
+  role: colorless-mythic
   value: 0-3
   timing: any
-  notes: Colorless rare. Held by Unity (a win-the-round condition checked at scoring).
+  notes: Colorless mythic (this slot was the colorless rare X-R01). Held by Unity (a win-the-round condition checked at scoring).

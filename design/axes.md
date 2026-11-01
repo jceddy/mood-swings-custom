@@ -168,4 +168,6 @@ shuts off extra plays.
   the other colors.
 - **Hand size.** Blue's draws (Recollection, Foresight, Rapport) make opposing hand-pressure better, and black's pressure punishes
   hand-heavy blue decks.
+- **Unity (`X-M01`, colorless mythic)** cuts across all five axes: it is a payoff for any deck that stacks one color. Extra-play axes
+  (red, blue, green) reach five moods fastest, and Restraint counters it.
 - **Unfilled partner slots:** white's list is the emptiest, so white needs the most new design.

@@ -1,7 +1,7 @@
-slot: X-R01
+slot: X-M01
 name: Unity
 color: colorless
-rarity: rare
+rarity: mythic
 base_value: 3
 alt_value: null
 to_play: false
@@ -18,8 +18,9 @@ notes: >-
   you win the round." Decided: option A, a while-in-play condition checked at scoring, not a one-time check when played; it is
   stateless and gives opponents turns to react. Wording: "have" instead of "control", "that share a color" as in Determination,
   numbers as words, and "after scoring ... win the round" following Sneakiness (its effect happens after scoring and before
-  determining who wins). Placed in the colorless rare slot X-R01 because the skeleton has no colorless mythic slot; a new slot
-  would make the set 134 cards and reopen Q2. Moods stay in play after rounds are scored, so this gets stronger as the game
+  determining who wins). Placed in a colorless mythic slot: it was first put in the colorless rare slot, but its effect (winning the round outright) has
+  no equal in the original pool (Awe, a rare, only cancels scoring; Sneakiness, a mythic, swaps scores), so the group converted
+  that slot to a mythic (X-M01), which keeps the set at 133 cards and the colorless count at 8. Moods stay in play after rounds are scored, so this gets stronger as the game
   progresses: a mono-color deck gets closer to five moods every round, which makes it a late-game win condition and the main
   playtest worry (levers: a threshold of six, or a different count). Unity is colorless, so it does not count toward its own
   five (six moods in total). Suppressed moods still count (the ruling made for the colorless gates). Imagination makes every
