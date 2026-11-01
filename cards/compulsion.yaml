@@ -1,0 +1,19 @@
+slot: R-C07
+name: Compulsion
+color: red
+rarity: common
+base_value: 3
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, choose another player. That player chooses a card from their hand and gives it to you.
+status: draft
+reprint_of: Compulsion
+impl_tier: 1
+designer: original pool
+notes: >-
+  Reprint of the original pool card of the same name, in slot R-C07. The rules text is copied from baseline/original-
+  pool.json, which was extracted from the simulator's database, so any parenthetical reminder text on the printed card may be
+  missing here; check it against the printed card before this is final.

@@ -1,0 +1,20 @@
+slot: R-C03
+name: Shock
+color: red
+rarity: common
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, choose up to two players. For each chosen player, put one of their moods with a value of 3 or
+  less into the discard pile.
+status: draft
+reprint_of: Shock
+impl_tier: 1
+designer: original pool
+notes: >-
+  Reprint of the original pool card of the same name, in slot R-C03. The rules text is copied from baseline/original-
+  pool.json, which was extracted from the simulator's database, so any parenthetical reminder text on the printed card may be
+  missing here; check it against the printed card before this is final.

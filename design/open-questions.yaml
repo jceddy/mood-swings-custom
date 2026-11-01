@@ -30,8 +30,9 @@ questions:
       reinstated: a contributor pointed out that they are different roles (Nostalgia is a 0-value acceleration card with a pickup
       attached; Warmth is a conditional pickup on a 3-value body). With 13 the list has no headroom, so any further reprint means
       dropping one.
-      A candidate becomes a reprint when a card file with reprint_of is added (not done yet: the baseline text may be missing printed
-      reminder text, so check against the printed cards first).
+      A candidate becomes a reprint when a card file with reprint_of is added: all 13 files are written (status draft), with the text
+      copied from the baseline. The baseline may be missing printed reminder text, so each should be checked against the printed card
+      before it is marked final.
   - id: Q4
     status: decided
     question: Should the ally/enemy wheel (10 commons) be kept as-is, reskinned, or replaced?

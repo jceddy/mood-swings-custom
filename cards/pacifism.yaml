@@ -1,0 +1,20 @@
+slot: W-C03
+name: Pacifism
+color: white
+rarity: common
+base_value: 1
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, choose up to two players. For each chosen player, suppress one of their moods. It remains
+  suppressed for as long as you have this mood.
+status: draft
+reprint_of: Pacifism
+impl_tier: 1
+designer: original pool
+notes: >-
+  Reprint of the original pool card of the same name, in slot W-C03. The rules text is copied from baseline/original-
+  pool.json, which was extracted from the simulator's database, so any parenthetical reminder text on the printed card may be
+  missing here; check it against the printed card before this is final.
