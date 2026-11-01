@@ -1,0 +1,20 @@
+slot: R-U07
+name: Ruthlessness
+color: red
+rarity: uncommon
+base_value: 3
+alt_value: 5
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play, this mood's value is 5 if any opponent has no cards in their hand.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Red partner for the hand-pressure axis. The name is a placeholder. A pressure payoff keyed to an empty hand, the near
+  neighbor of Animosity (value 5 if any opponent has three or more cards in hand). It pairs with Neglect (black) and the
+  discard and steal cards (Suspicion, Compulsion, Intrusion). An empty hand is visible to everyone. impl_tier 1 is
+  provisional.

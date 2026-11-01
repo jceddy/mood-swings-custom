@@ -59,10 +59,10 @@ plays) and plenty of fuel in the pile.
 |---|---|---|
 | `U-C01` | ally-count | Rapport (written): loot, repeatable |
 | `U-C04` | play-grant | Fear (reprint): puts a mood in hand, extra play |
-| `U-C05` | card-flow | a different kind of card flow from Rapport's loot |
-| `U-U07` | play-grant-risky | extra play with a risk |
-| `U-R03` | hand-engine | hand-based engine |
-| `U-R04` | bounce-engine | bouncing and replaying moods |
+| `U-C05` | card-flow | Reminiscence (written): pile card to the bottom, draw a card |
+| `U-U07` | play-grant-risky | Impulse (written): extra play, this mood returns to hand after scoring |
+| `U-R03` | hand-engine | Reflection (written): loot on each play |
+| `U-R04` | bounce-engine | Rumination (written): recycle one of your moods each round |
 | `U-M02` | flexible mythic | Foresight (written): draw, bottom, extra play |
 | `B-C04` | play-grant | Ambition (reprint): discards a card, extra play |
 | `B-C07` | utility-small | Suspicion (reprint): fills the pile with hand discards |
@@ -91,12 +91,12 @@ Delight, Fascination, Bliss, Embarrassment, Dignity.
 | `B-C05` | card-flow | Hate (reprint) |
 | `B-C06` | conditional-3 | Schadenfreude (written): rewards discards |
 | `B-C07` | utility-small | Suspicion (reprint): hand discard |
-| `B-U06` | conditional-value | value based on hand sizes |
-| `B-U07` | hand-disruption | Paranoia-style hand disruption |
+| `B-U06` | conditional-value | Composure (written): 6 if you have the most cards in hand |
+| `B-U07` | hand-disruption | Intrusion (written): reveal their hand, discard a card of your choice |
 | `B-M02` | flexible mythic | Coercion (written): reveal your hand or lose your best mood |
 | `R-C07` | utility-small | Compulsion (reprint): take a card |
 | `R-R05` | flex | FOMO (written): hand discards every round |
-| `R-U07` | conditional-value | value depends on an opponent's hand size (Animosity-style) |
+| `R-U07` | conditional-value | Ruthlessness (written): 5 if an opponent has no cards in hand |
 | `G-C02` | enemy-count | Wariness (written): gives a card away |
 | `G-U07` | hand-reveal-gift | hand-reveal gift effect |
 | `G-R02` | scaling-value | value per card in hand (Sloth-style) |
