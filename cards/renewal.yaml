@@ -1,0 +1,21 @@
+slot: G-U02
+name: Renewal
+color: green
+rarity: uncommon
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, you may play an additional mood this turn from the discard pile. If you do, after scoring,
+  put that mood on the bottom of the deck if it's still in play.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Green partner for the replay axis (also useful in red). The name is a placeholder. Harmony with a price: the replayed mood
+  is a one-round rental, then it cycles back into the deck (the "after scoring, ... if it's still in play" wording is
+  Gluttony's and Insecurity's). The price is real because moods otherwise stay in play. Restraint shuts it off. impl_tier 1
+  is provisional.

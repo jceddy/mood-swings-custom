@@ -118,15 +118,15 @@ Infatuation, Excitement, Frustration, Triumph, Glee, Embarrassment, Animosity as
 | `R-C01` | ally-count | Fervor (written): extra play with a price |
 | `R-C04` | play-grant | Bravado (reprint): sacrifices a mood for an extra play |
 | `R-C05` | card-flow | Zeal (reprint): keeps red cards in hand |
-| `R-C06` | conditional-3 | red conditional that reaches 5 or 6 |
-| `R-C08` | high-value-cost | 5-6 value red mood: raises Dominance's reach |
+| `R-C06` | conditional-3 | Exuberance (written): 6 if you have two other red moods |
+| `R-C08` | high-value-cost | Frenzy (written): 6, leaves the discard pile after scoring |
 | `R-U05` | play-grant-drawback | Gluttony-style extra play |
 | `R-U07` | conditional-value | value 3 to 5 conditional |
-| `R-R03` | scoring-engine | scoring engine that rewards many red moods |
-| `R-R04` | tempo-engine | tempo engine |
+| `R-R03` | scoring-engine | Momentum (written): +2 to each red mood you played this round |
+| `R-R04` | tempo-engine | Adrenaline (written): first red play each turn grants an extra play |
 | `R-R05` | flex | FOMO (written): value 7, with an upkeep |
-| `G-U01` | play-grant | extra play, perhaps restricted to a color |
-| `G-U02` | play-grant-2 | second extra-play card |
+| `G-U01` | play-grant | Thrift (written): extra play from the pile for a 0, 1, 2, or 3 |
+| `G-U02` | play-grant-2 | Renewal (written): extra play from the pile, rented for one round |
 | `U-C04` | play-grant | Fear (reprint): puts a mood in hand, extra play |
 | `W-U01` | play-grant-restricted | extra play restricted by color (red) |
 
@@ -145,17 +145,17 @@ Altruism and Cynicism (pickups), Bravado, Hostility, Rebellion, Self-Loathing, E
 |---|---|---|
 | `G-C01` | ally-count | Warmth (written): pickup from the pile |
 | `G-C05` | card-flow | Nostalgia (reprint): pickup plus an extra play |
-| `G-U01` | play-grant | Harmony-style extra play from the pile |
-| `G-U02` | play-grant-2 | second pile-play grant |
+| `G-U01` | play-grant | Thrift (written): extra play from the pile for a 0, 1, 2, or 3 |
+| `G-U02` | play-grant-2 | Renewal (written): extra play from the pile, rented for one round |
 | `G-U08` | flex | pile-related flex |
-| `G-R01` | play-grant-engine | Hope-style engine |
+| `G-R01` | play-grant-engine | Resilience (written): a cheap extra play from the pile each turn |
 | `G-R03` | discard-play-engine | Grace-style engine |
 | `G-R05` | flex | pile-related flex |
 | `B-C04` | play-grant | Ambition (reprint): puts a card in the pile |
 | `B-U05` | graveyard | bigger recursion than Yearning's swap |
 | `B-R01` | graveyard-engine | Melancholy-style engine |
 | `R-C04` | play-grant | Bravado (reprint): sacrifices a mood into the pile |
-| `R-U06` | removal-trade | trades your mood for removal, filling the pile |
+| `R-U06` | removal-trade | Retribution (written): trade one of your moods to remove a weaker one |
 | `U-R02` | copy-effect | copy effect that cares about after-playing text |
 
 **Risks.** Resurgence's play lock means it works best alone on its turn. Blue's Recollection drains the pile it wants, and Restraint

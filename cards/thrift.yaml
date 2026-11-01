@@ -1,0 +1,21 @@
+slot: G-U01
+name: Thrift
+color: green
+rarity: uncommon
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, you may play an additional mood this turn from the discard pile if it has a 0, 1, 2, or 3 in
+  its top right corner.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Green partner for the replay axis (also useful in red). The name is a placeholder. Harmony (green uncommon 2: an additional
+  mood from the discard pile) restricted to cheap moods, which are the best targets for re-triggering after-playing text.
+  Number wording follows Dignity ("a 0, 1, 2, or 3 in its top right corner"). Restraint shuts it off. impl_tier 1 is
+  provisional: Harmony's grant with a printed-number filter.
