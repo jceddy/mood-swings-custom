@@ -1,0 +1,26 @@
+slot: G-R01
+name: Resilience
+color: green
+rarity: rare
+base_value: 0
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play, during each of your turns (including the turn you play this mood), you may play an additional mood from
+  the discard pile if it has a 0, 1, 2, or 3 in its top right corner.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Green partner for the replay axis. The name is a placeholder. A rare engine in Grace's wording ("during each of your turns
+  (including the turn you play this mood)"), restricted by printed number so it stays bounded: each round you can replay one
+  cheap mood from the pile and re-trigger its after-playing text. Restraint shuts it off. Playtest question: with Thrift in
+  the same deck it is a lot of cheap replays. impl_tier 1 is provisional: Grace's perpetual grant with a printed-number
+  filter.
+  Compared with Grace (green rare 0), which it follows closely: the same wording and the same extra play each turn from the discard
+  pile, with a printed-number restriction (0, 1, 2, or 3) instead of Grace's color restriction (a mood that shares a color with one of
+  your moods). Neither is strictly better, since each depends on a different condition, which is why it is fine as a separate card.
+  (An earlier note compared it with Hope, which is the wrong comparison: Hope plays from hand.)

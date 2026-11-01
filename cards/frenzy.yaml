@@ -1,0 +1,21 @@
+slot: R-C08
+name: Frenzy
+color: red
+rarity: common
+base_value: 6
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, after scoring this round, put this mood into the discard pile.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Red partner for the playing-red-moods axis. The name is a placeholder. A high-value rental: it scores 6 once, then leaves,
+  which is a real cost because moods otherwise stay in play. A big red play raises Dominance's reach when it enters, and it
+  feeds the discard pile (green's and blue's fuel) when it leaves. Nearby precedent is Bashfulness (black common, 6: after
+  scoring, if you won, it goes to the bottom of the deck and you draw a card); this one is unconditional and gives no draw.
+  impl_tier 1 is provisional: Bashfulness's after-scoring departure without the condition.

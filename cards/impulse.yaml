@@ -1,0 +1,22 @@
+slot: U-U07
+name: Impulse
+color: blue
+rarity: uncommon
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, you may play an additional mood this turn. If you do, after scoring, put this mood into your
+  hand if it's still in play.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Blue partner for the recycle axis. The name is a placeholder. A risky extra play that is not Insecurity (which puts the
+  extra mood back in your hand): here the risk is losing this mood's board presence, in exchange for getting the card back to
+  replay and re-trigger its after-playing text. Wording follows Insecurity ("after scoring, put that mood into your hand if
+  it's still in play"). Persistence makes the cost real: a mood that would have stayed in play every round leaves after
+  scoring. Restraint shuts it off. impl_tier 1 is provisional.

@@ -1,0 +1,25 @@
+slot: U-R03
+name: Reflection
+color: blue
+rarity: rare
+base_value: 1
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play, each time you play another mood, you may discard a card from your hand. If you do, draw a card.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Blue partner for the recycle axis. The name is a placeholder. A hand engine: a loot on every play, so it pays off with
+  extra plays. It stays 1 for 1 (the pool's draw rule), which makes it the milder cousin of Recollection. Trigger wording
+  follows Scorn, Validation and Duplicity ("each time you play another mood"). With one turn per round it loots about once
+  per round without extra plays. impl_tier 1 is provisional: the reaction timing and the loot both exist.
+  Changed from "put a card from your hand on the bottom of the deck" to "discard a card from your hand": the first version was a
+  weaker Recollection (it did the same thing, but a loot where Recollection gains a card, and only on later plays). Discarding feeds
+  the discard pile, the resource that Recollection, Reminiscence, Warmth and Resurgence spend, so Reflection now creates fuel for
+  the axis. It is still 1 for 1, so it stays inside the draw rule. Wording is Ambition's and Yearning's ("discard a card from your
+  hand. If you do, ..."). Discarding your own cards does not count as another player discarding, so Schadenfreude does not trigger.

@@ -154,7 +154,7 @@ slots:
   role: comeback
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Held by Forgetfulness (the previous round's winner loses a round win).
 - id: W-R06
   color: white
   rarity: rare
@@ -632,7 +632,7 @@ slots:
   role: play-grant-drawback
   value: '2'
   timing: after
-  notes: Extra play with a remove-after drawback (Gluttony style).
+  notes: Extra play with a remove-after drawback (Gluttony style). Held by Serendipity (a random card from your hand, as the drawback).
 - id: R-U06
   color: red
   rarity: uncommon

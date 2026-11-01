@@ -1,0 +1,22 @@
+slot: U-C05
+name: Reminiscence
+color: blue
+rarity: common
+base_value: 3
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, you may put a card from the discard pile on the bottom of the deck. If you do, draw a card.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Blue partner for the recycle axis (design/axes.md). The name is a placeholder. Recollection's cycle as a common one-shot.
+  It bends the pool's rule that a draw is paid from your own hand or board (Hate, Zeal, Doubt, Paranoia) the same way
+  Recollection does: the cost is a discard-pile card that belongs to no one, and the restriction is the depleting pile (it
+  does nothing with an empty pile). Value 3 like Warmth, another unconditional-ish card gain. Open question for the group:
+  keep the free draw, or make it a 1-for-1 swap with the pile. It sits next to Rapport (a hand loot), so the two blue card-
+  flow commons do different things. impl_tier 1 is provisional.
