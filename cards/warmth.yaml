@@ -18,6 +18,7 @@ notes: >-
   and white; counting follows the original wheel (any player's moods, the two colors combined). Uses green's recursion verb:
   a free pickup from the discard pile, as in Nostalgia (green common: put a card from the discard pile into your hand, plus an extra
   play). Unlike black's Yearning (a 1-for-1 swap), green's pickup costs nothing, which is the pool's precedent for green. Nostalgia
-  was therefore dropped from the reprint list (Q3), and G-C05 should be a different kind of card flow to keep the commons varied. Wording follows Nostalgia and
+  stays on the reprint list (Q3): it is a different role, a 0-value acceleration card with a pickup attached, while Warmth is a
+  conditional pickup on a 2-value body. Wording follows Nostalgia and
   Cynicism ("put a card from the discard pile into ... hand"). impl_tier 1 is provisional: a color count plus an existing pickup
   from the discard pile.
