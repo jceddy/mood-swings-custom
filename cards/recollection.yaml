@@ -6,17 +6,22 @@ base_value: 2
 alt_value: null
 to_play: false
 while_in_play: true
-after_playing: false
+after_playing: true
 rules_text: >-
-  While in play, each time you play another mood, you may put a card from the discard pile on the bottom of the deck. If you do,
-  draw a card.
+  After playing this mood, you may put a card from the discard pile on the bottom of the deck. If you do, draw a card. While in
+  play, each time you play another mood, you may do this.
 status: idea
 reprint_of: null
 impl_tier: 1
 designer: Dr Potato
 notes: >-
   Contributor suggestion; the name is a placeholder. Proposed blue build-around (U-M01): recycle the discard pile and play many
-  moods, each play drawing a card (see Q5). Wording fixes from the submission: "each time" instead of "whenever" (Scorn, Validation,
+  moods, each play drawing a card (see Q5). Decided: it also triggers on its own play (Dr Potato's request), written as an after-playing sentence plus the
+  while-in-play trigger rather than "including this one", because the simulator's reaction step skips the played mood itself and
+  its list of reactors is a snapshot from before the play, so a self-trigger would need an engine change; the two-timing form
+  needs none. "You may do this" means the whole put-then-draw cycle, as with Rapport's "a second time". It now always gets one
+  activation on entry when the discard pile has a card, which softens the early-round "empty pile does nothing" restriction.
+  Wording fixes from the original submission: "each time" instead of "whenever" (Scorn, Validation,
   Duplicity), "a card" instead of "a mood" for something in the discard pile, and "on the bottom of the deck". Decided: value 2 (the
   submission offered 3 or 2), in line with the trigger mythics Scorn 2, Validation 1, Duplicity 0. It bends the pool's rule that a
   draw is paid from your own hand or board (Hate, Zeal, Doubt, Paranoia): here the cost is a discard-pile card that belongs to no
