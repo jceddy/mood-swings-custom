@@ -1,0 +1,31 @@
+slot: B-M01
+name: Neglect
+color: black
+rarity: mythic
+base_value: 0
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play, at the start of each of your turns, each opponent with no cards in their hand puts one of their moods into the
+  discard pile.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  The name is a placeholder. Black's build-around mythic for the hand-pressure axis (Q5, design/axes.md): every card that empties
+  or drains hands (Suspicion, Coercion, Compulsion, Paranoia, FOMO's costs) becomes a threat, because an empty hand now costs the
+  opponent a mood each round. Decided: "start of each of your turns" (Stubbornness's wording) with no lever; each player has one
+  turn per round, so this triggers once per round, the same as a start-of-round trigger. It first triggers on your next turn, since
+  the start of the turn you play it has already passed. It keys off "no cards in their hand" because an empty hand is visible
+  to everyone (hand sizes are public, so a hand-size scaling payoff was also possible). The opponent chooses which mood to lose
+  (Fury, "puts one of their moods into the discard pile"); a random mood (Cruelty) was not chosen. It works as a deterrent as well
+  as a payoff: opponents have to keep a card in hand, a tempo cost even when it never triggers. Main playtest worry: it punishes
+  the player who is already behind. A round loser draws one card, plays it, and is empty again, so it can spiral. Levers if
+  playtests say it is too strong: only the first empty-handed opponent each round, only moods with a value of 3 or less, or a
+  start-of-round trigger that skips the first round. Black mythics are printed 0 (Vanity, Malice, Sadness). Considered and not
+  chosen: an empty-hand scaling body (3 per empty-handed opponent; too close to Vanity) and a discard-payoff loot (needs a new
+  discard trigger in the simulator). impl_tier 1 is provisional: a start-of-turn trigger (Stubbornness) and an opponent's choice of
+  mood to put into the discard pile (Fury) already exist.

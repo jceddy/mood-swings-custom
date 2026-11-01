@@ -523,7 +523,7 @@ slots:
   role: build-around
   value: 0-2
   timing: any
-  notes: Axis (tentative) - hand pressure, meaning hand size and hand attacks (Q5). Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Tentatively Neglect (axis - hand pressure, meaning hand size and hand attacks, Q5). Build-around mythic. Name its synergy axis and plan about 14 partner cards.
 - id: B-M02
   color: black
   rarity: mythic

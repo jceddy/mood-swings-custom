@@ -10,7 +10,7 @@ exist yet unless a card name is given. Pool counts come from a text search of th
 |---|---|---|---|---|
 | White | `W-M01` | Numbers: printed odd and even values | Routine | about 20 |
 | Blue | `U-M01` | Recycle the discard pile and play many moods | Recollection | extra-play cards, pile fuel |
-| Black | `B-M01` | Hand pressure: hand size and hand attacks | not designed | about 19 |
+| Black | `B-M01` | Hand pressure: hand size and hand attacks | Neglect | about 19 |
 | Red | `R-M01` | Playing red moods | Dominance | extra-play cards, high-value red moods |
 | Green | `G-M01` | Replay from the discard pile, re-trigger after-playing effects | Resurgence | pile plays, pile fuel |
 
@@ -67,17 +67,18 @@ plays) and plenty of fuel in the pile.
 | `B-C07` | utility-small | Suspicion (reprint): fills the pile with hand discards |
 | `B-C02` | enemy-count | Disdain (written): removal fills the pile |
 | `R-C03` | interaction-lite | Shock (reprint): removal fills the pile |
-| `R-R05` | flex | FOMO (written): discards every turn |
+| `R-R05` | flex | FOMO (written): discards every round |
 | `W-C01` | ally-count | Camaraderie (written): extra play |
 | `G-C04` | play-grant | Joy (reprint): banked extra play |
 
 **Risks.** The pile is a depleting resource and green wants it full. Restraint shuts off extra plays and the axis leans on them.
 
-## Black: hand pressure (`B-M01`, not designed)
+## Black: hand pressure (`B-M01`, Neglect)
 
-**Idea.** Hand size and hand attacks. Mythic directions: a mood whose value scales with the largest opposing hand (this assumes hand
-sizes are public, which is unconfirmed), or a pressure engine such as making opponents discard each time they play (oppressive; it
-would need a cost).
+**Idea.** Hand size and hand attacks. The mythic is Neglect: at the start of each of your turns, each opponent with no cards in their
+hand puts one of their moods into the discard pile. It rewards every card that empties or drains hands, and it taxes opponents even when
+it never triggers, since they must keep a card in hand. Hand sizes are public, so scaling by hand size was also possible. A discard
+engine that makes opponents discard each time they play was considered and rejected as too oppressive.
 
 **Already in the pool:** Vanity (your own empty hand), Suspicion (hand discard), Paranoia (reveal and bottom a card), Guile (discard
 two), Ambition, Intimidation, Curiosity, Confusion, Doubt; elsewhere Compulsion, Animosity, Sloth (+1 per card in hand), Cheer,
@@ -93,7 +94,7 @@ Delight, Fascination, Bliss, Embarrassment, Dignity.
 | `B-U07` | hand-disruption | Paranoia-style hand disruption |
 | `B-M02` | flexible mythic | Coercion (written): reveal your hand or lose your best mood |
 | `R-C07` | utility-small | Compulsion (reprint): take a card |
-| `R-R05` | flex | FOMO (written): hand discards every turn |
+| `R-R05` | flex | FOMO (written): hand discards every round |
 | `R-U07` | conditional-value | value depends on an opponent's hand size (Animosity-style) |
 | `G-C02` | enemy-count | Wariness (written): gives a card away |
 | `G-U07` | hand-reveal-gift | hand-reveal gift effect |
