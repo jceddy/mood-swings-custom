@@ -25,6 +25,7 @@ notes: >-
   five (six moods in total). Suppressed moods still count (the ruling made for the colorless gates). Imagination makes every
   mood share a color, so five moods in total with Imagination in play would win the round. Awe ("no one wins or loses this
   round") should override it. Open rulings: what happens when two players both have Unity and qualify (a tie-break), and
-  whether the usual round consequences (card draw, Hurt Feelings) follow a Unity win. Extra plays help reach five faster, so
+  the usual round consequences should follow a Unity win, since it makes you the round's winner: the losing players draw a card at
+  the end of the round (Hurt Feelings still to confirm). Extra plays help reach five faster, so
   it is a payoff for the red, blue and green extra-play axes; Restraint counters it. impl_tier 2: the colorless color value
   (Q6) and overriding who wins the round are new; Sneakiness already modifies scores before the winner is determined.

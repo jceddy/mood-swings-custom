@@ -24,6 +24,9 @@ notes: >-
   use the same reminder-text form. Value 7 would be the highest unconditional printed
   value in the original pool (the next are the 6s); playtest 7 against 6. Power Ratio idea: it is 7 only while the upkeep
   is paid. The to-play cost plus a recurring cost means two ability timings, so it sits at rare. Moods stay in play after rounds are scored, so
-  the upkeep is paid every turn for the rest of the game, not just for the round; how the hand refills is still unverified. impl_tier 1 is provisional: the
+  the upkeep is paid every turn for the rest of the game, not just for the round; hands refill only when you lose a round (the
+  losing players draw a card at the end of each round) and through card effects, with no draw each turn, so paying a card every
+  turn is a heavy cost: with one play per turn plus the upkeep, a hand empties fast and the mood is likely to be discarded within a
+  few turns unless you have card flow (Zeal, Rapport, Foresight), which is part of why a printed 7 may be fair. impl_tier 1 is provisional: the
   simulator already has a start-of-turn trigger (Stubbornness); the optional pay-or-lose-it prompt is the only new part.
   Interacts with hand discard (Suspicion) and with Schadenfreude.
