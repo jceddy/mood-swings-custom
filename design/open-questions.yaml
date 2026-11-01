@@ -25,7 +25,7 @@ questions:
       (B-C04), Hate (B-C05), Suspicion (B-C07), Shock (R-C03), Bravado (R-C04), Zeal (R-C05), Compulsion (R-C07), Joy (G-C04),
       Nostalgia (G-C05), Determination (G-C06). Nostalgia was dropped for a while because it seemed to overlap Warmth (G-C01), then
       reinstated: a contributor pointed out that they are different roles (Nostalgia is a 0-value acceleration card with a pickup
-      attached; Warmth is a conditional pickup on a 2-value body). With 13 the list has no headroom, so any further reprint means
+      attached; Warmth is a conditional pickup on a 3-value body). With 13 the list has no headroom, so any further reprint means
       dropping one.
       A candidate becomes a reprint when a card file with reprint_of is added (not done yet: the baseline text may be missing printed
       reminder text, so check against the printed cards first).
