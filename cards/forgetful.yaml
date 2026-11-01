@@ -1,0 +1,30 @@
+slot: W-R05
+name: Forgetful
+color: white
+rarity: rare
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, the winner of the previous round loses a round win. This round, no one draws a card at the end of the
+  round.
+status: idea
+reprint_of: null
+impl_tier: 2
+designer: ThatWeirdCat
+notes: >-
+  Contributor suggestion; "Forgetful" is the submitted name. The submission read "Whoever won the previous round loses a round win.
+  After scoring this round, nobody draws a card." Wording: "the winner of the previous round" (Corruption: "the winner of the current
+  round"), "loses a round win" kept because Corruption already talks about round wins ("wins two rounds instead of one"), and "no
+  one draws a card at the end of the round" (pool says "no one"; Awe's reminder is "(No one draws a card ...)"); "after scoring" was
+  dropped as redundant because the draw happens after scoring anyway. Placed in white's comeback rare slot W-R05, since it is an
+  anti-snowball card; the submission gave no color. Rare matches Corruption, which makes an equal-sized round-win swing in the other
+  direction. The game is first to 3 round wins, so removing a win is a large swing. It does nothing in round 1 (no previous round)
+  or if the previous round had no winner (an Awe round). It can hit you: if you won the previous round, you lose the win, so you
+  would play it only when an opponent was ahead. The downside is real: if you trail and play it, you also lose the loser's draw
+  this round, which is exactly the catch-up you would have received. Hurt Feelings is left alone (Awe cancels it, this does not);
+  confirm if the group wants otherwise. impl_tier 2 is provisional: round wins are derived from scored rounds rather than stored,
+  so this needs a negative adjustment (Corruption already has a positive one) plus a switch that cancels the round-end draw (Awe
+  already cancels it).
