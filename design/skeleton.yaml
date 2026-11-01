@@ -752,8 +752,7 @@ slots:
   role: card-flow
   value: 0-3
   timing: after
-  notes: 'Draw/cycle/discard-pile interaction in this color''s flavor (W has none in the original pool: consider a hand-discard bonus instead).'
-  reprint_candidate: Nostalgia
+  notes: 'Draw/cycle/discard-pile interaction in this color''s flavor (W has none in the original pool: consider a hand-discard bonus instead). Nostalgia was dropped as a reprint (Q3) because Warmth (G-C01) is already a free discard-pile pickup, so use a different kind of card flow here.'
 - id: G-C06
   color: green
   rarity: common

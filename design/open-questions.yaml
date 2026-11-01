@@ -17,14 +17,16 @@ questions:
     question: Colorless distribution - 5 commons + 2 uncommons + 1 rare (8 of 133)?
     notes: "Decided: 8 of 133 is fine for now."
   - id: Q3
-    status: open
+    status: decided
     question: Which original-pool cards (max 13 of 133) are worth reprinting?
     notes: |
-      Probable reprints (role-player commons), pre-assigned to the slot whose role each fits; the Set sheet shows them in the
-      "Reprint candidate" column. Not final: Pacifism (W-C03), Panic (U-C03), Fear (U-C04), Ambition (B-C04), Hate (B-C05),
-      Suspicion (B-C07), Shock (R-C03), Bravado (R-C04), Zeal (R-C05), Compulsion (R-C07), Joy (G-C04), Nostalgia (G-C05),
-      Determination (G-C06). That is 13, exactly the cap (13 of 133 = 9.8%), so any further reprint means dropping one of these.
-      A candidate becomes a reprint when a card file with reprint_of is added.
+      Decided: 12 reprints (12 of 133 = 9.0%, one under the cap of 13), role-player commons pre-assigned to the slot whose role each
+      fits; the Set sheet shows them in the "Reprint candidate" column: Pacifism (W-C03), Panic (U-C03), Fear (U-C04), Ambition
+      (B-C04), Hate (B-C05), Suspicion (B-C07), Shock (R-C03), Bravado (R-C04), Zeal (R-C05), Compulsion (R-C07), Joy (G-C04),
+      Determination (G-C06). Nostalgia (G-C05) was dropped from the original list of 13 because Warmth (G-C01) is already a free
+      discard-pile pickup, which leaves G-C05 open for a different kind of card flow and one reprint of headroom.
+      A candidate becomes a reprint when a card file with reprint_of is added (not done yet: the baseline text may be missing printed
+      reminder text, so check against the printed cards first).
   - id: Q4
     status: decided
     question: Should the ally/enemy wheel (10 commons) be kept as-is, reskinned, or replaced?
