@@ -67,7 +67,7 @@ This repo holds the work-in-progress design of a community-designed custom set f
 
 ## Working conventions
 
-- `main` holds the work so far (PRs #1 and #2 are merged). Do new work on a feature branch off `main` and open a pull request only
+- `main` holds the work so far (PRs #1 to #3 are merged). Do new work on a feature branch off `main` and open a pull request only
   when asked.
 - The author prefers decisions recorded in `design/open-questions.yaml` (status: decided) as they are made.
 - Keep `design/principles.md`, `README.md` and this file consistent with the skeleton when decisions change.
@@ -78,6 +78,6 @@ This repo holds the work-in-progress design of a community-designed custom set f
 ## Suggested next steps
 
 1. Write partner cards for the blue, black, red and green axes (the plan is in `design/axes.md`; white's are done).
-2. Write the 13 reprint card files (the list is decided, Q3), checking the printed text first because the baseline may lack reminder text.
+2. Check the 13 reprint card files (written as drafts from the baseline text) against the printed cards for missing reminder text, then mark them final.
 3. Fill the remaining commons, uncommons and rares, then rebuild the spreadsheet and check the rule checks.
 4. Resolve Q8 (Coercion's two knobs) and Q9 (playtest checks) once playtest results exist.

@@ -1,0 +1,19 @@
+slot: G-C06
+name: Determination
+color: green
+rarity: common
+base_value: 3
+alt_value: 6
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play, this mood's value is 6 if there are three or more moods that share a color.
+status: draft
+reprint_of: Determination
+impl_tier: 1
+designer: Maro
+notes: >-
+  Reprint of the original pool card of the same name, in slot G-C06. The rules text is copied from baseline/original-
+  pool.json, which was extracted from the simulator's database, so any parenthetical reminder text on the printed card may be
+  missing here; check it against the printed card before this is final.
