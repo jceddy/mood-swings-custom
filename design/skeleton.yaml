@@ -42,7 +42,7 @@ slots:
   role: card-flow
   value: 0-3
   timing: after
-  notes: 'Draw/cycle/discard-pile interaction in this color''s flavor (W has none in the original pool: consider a hand-discard bonus instead).'
+  notes: 'Draw/cycle/discard-pile interaction in this color''s flavor (W has none in the original pool: consider a hand-discard bonus instead). White has no card flow in the original pool and every version so far was a narrower Discernment or a symmetric loot.'
 - id: W-C06
   color: white
   rarity: common
@@ -56,7 +56,7 @@ slots:
   role: utility-small
   value: 2-3
   timing: after
-  notes: Small effect on a modest body (hand disruption, small steal/give, etc.).
+  notes: Small effect on a modest body (hand disruption, small steal/give, etc.). Held open because the ideas so far copied Suspicion or Intrusion.
 - id: W-C08
   color: white
   rarity: common
@@ -233,7 +233,7 @@ slots:
   role: utility-small
   value: 2-3
   timing: after
-  notes: Small effect on a modest body (hand disruption, small steal/give, etc.).
+  notes: Small effect on a modest body (hand disruption, small steal/give, etc.). Held open because the ideas so far were a weak card swap or a narrower Suspicion.
 - id: U-C08
   color: blue
   rarity: common
@@ -418,7 +418,7 @@ slots:
   role: high-value-cost
   value: 5-6
   timing: to-play/after
-  notes: High base value balanced by a cost, drawback or delay (to-play cost, bounce-self, gives an opponent a play).
+  notes: High base value balanced by a cost, drawback or delay (to-play cost, bounce-self, gives an opponent a play). Held open because a mandatory sacrifice is a weaker Self-Loathing and a discard cost duplicates FOMO.
 - id: B-U01
   color: black
   rarity: uncommon
@@ -737,7 +737,7 @@ slots:
   role: interaction-lite
   value: 1-2
   timing: after
-  notes: '''Up to two players'' style small interaction in this color''s own verb (W suppress, U bounce, B/R discard-pile removal; G has no removal in the original pool, so use a gift/tempo effect instead).'
+  notes: '''Up to two players'' style small interaction in this color''s own verb (W suppress, U bounce, B/R discard-pile removal; G has no removal in the original pool, so use a gift/tempo effect instead). Held open because green has no removal in the original pool, so a small interaction would break its pie. Consider re-roling the slot.'
 - id: G-C04
   color: green
   rarity: common
@@ -768,7 +768,7 @@ slots:
   role: utility-small
   value: 2-3
   timing: after
-  notes: Small effect on a modest body (hand disruption, small steal/give, etc.).
+  notes: Small effect on a modest body (hand disruption, small steal/give, etc.). Held open because the ideas so far were Reminiscence or Suspicion in another color.
 - id: G-C08
   color: green
   rarity: common

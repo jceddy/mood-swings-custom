@@ -1,0 +1,22 @@
+slot: W-C08
+name: Largesse
+color: white
+rarity: common
+base_value: 5
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, each other player draws a card.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  White common, high value with a cost. The name is a placeholder. The original card with this role is Generosity (green, 6:
+  an opponent may play an additional mood on their next turn). The cost here is a card for each opponent instead of an extra
+  play. Cards are the scarcest resource, so the drawback is real, and it scales with the number of opponents; it prints at 5
+  and not 6. It bends the pool's rule that draws are paid for, on purpose, because the draw is the drawback. Wording follows
+  Conviction ("draws a card"). The original pool already has an Altruism, so the first name was dropped. Playtest worry: in 3
+  or 4 player games the cost grows; check that it is not too steep there. impl_tier 1 is provisional.
