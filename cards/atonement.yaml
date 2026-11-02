@@ -1,0 +1,21 @@
+slot: B-U03
+name: Atonement
+color: black
+rarity: uncommon
+base_value: 1
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, choose a color. Put all other moods of the chosen color into the discard pile.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Black uncommon, color sweeper. The name is a placeholder. The original black cards with this role are Contempt and
+  Bitterness (color-based sweepers); this one is symmetric over every player's moods of one color, so it is also a risk to
+  your own board. "All other moods" keeps the played mood itself safe if black is chosen. Because moods stay in play, boards
+  grow, and a color sweeper gets stronger as the game goes on; Unity (five of a color) is a natural target. Value 1 is the
+  price. impl_tier 1 is provisional.

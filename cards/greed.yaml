@@ -1,0 +1,24 @@
+slot: B-R05
+name: Greed
+color: black
+rarity: rare
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, choose an opponent with one or more cards in their hand. That player reveals their hand. Put
+  a card of your choice from it into your hand, then that player draws a card.
+status: idea
+reprint_of: null
+impl_tier: 2
+designer: ""
+notes: >-
+  Black rare, flex. The name is a placeholder. The original card in this space is Intimidation (they pick which card they
+  reveal; you may play it as an additional mood). This version lets you see the hand and choose, and the opponent draws a
+  replacement, so you net a card and their hand size stays the same. That is stronger than Compulsion (value 3, they choose
+  which card to give), so it prints as a rare. It bends the pool's draw rule the way Recollection does; if the group prefers,
+  drop the replacement draw (they just lose the card), which is the Compulsion shape. Targeting restriction follows Paranoia
+  and Intrusion ("a player/an opponent with one or more cards in their hand"). impl_tier 2 is provisional: it reveals a whole
+  hand to the chooser (Coercion and Intrusion have the same need).

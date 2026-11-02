@@ -1,0 +1,27 @@
+slot: G-M02
+name: Wistfulness
+color: green
+rarity: mythic
+base_value: 1
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: true
+rules_text: >-
+  After playing this mood, you may play an additional mood this turn from the discard pile. While in play, each time you
+  play another mood from the discard pile, you may have that mood's after-playing effect happen an additional time.
+status: idea
+reprint_of: null
+impl_tier: 2
+designer: ""
+notes: >-
+  Green flexible mythic (G-M02). The name is a placeholder. It started as a rare in G-R03 (only the repeat clause), which was
+  a worse Duplicity (blue mythic 0: an extra play after playing it, and a repeat each time you play another mood). Adding the
+  first sentence, Harmony's wording ("an additional mood this turn from the discard pile"), gives it a play grant plus an
+  engine, like Duplicity, Validation and Thrill, so it moved up to a mythic slot at value 1 (Duplicity 0, Validation 1, Scorn
+  2). It stays distinct from Duplicity: both the extra play and the repeat are limited to the discard pile, so it spends the
+  pile, not scarce hand cards, and it only doubles pile plays. The repeat applies to the extra play it grants, so on entry
+  the first replay already triggers twice. The repeated effect gets fresh choices, as with Duplicity. Main playtest worry:
+  Resurgence's replays all come from the pile, so each would trigger twice (a strong mythic combo). Restraint shuts off the
+  extra plays that feed it but not the repeat for other pile plays. impl_tier 2 is provisional: Duplicity's repeat restricted
+  to plays from the pile, plus a pile play grant (Harmony).

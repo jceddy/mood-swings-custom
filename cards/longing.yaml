@@ -1,0 +1,22 @@
+slot: B-U05
+name: Longing
+color: black
+rarity: uncommon
+base_value: 3
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, you may discard a card from your hand. If you do, put up to two cards from the discard pile
+  into your hand.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Black uncommon, graveyard recursion. The name is a placeholder. The original card with this role is Angst, and Yearning
+  swaps a card with the pile. This one trades one hand card for up to two from the pile, so it nets a card in hand, which is
+  a bend of the 1-for-1 rule; it feeds the pile first, so it works after Brooding or a sweeper has filled it. Cards in hand
+  are a scarce resource, so a net +1 is real; the discard is the cost. "You may ... If you do" follows pool precedent.
+  impl_tier 1 is provisional: a hand discard and a pile pick both exist as pieces.

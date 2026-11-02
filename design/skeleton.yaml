@@ -126,14 +126,14 @@ slots:
   role: reset-effect
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
 - id: W-R02
   color: white
   rarity: rare
   role: play-grant-engine
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
 - id: W-R03
   color: white
   rarity: rare
@@ -161,7 +161,7 @@ slots:
   role: flex
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
 - id: W-M01
   color: white
   rarity: mythic
@@ -254,7 +254,7 @@ slots:
   role: bounce-mass
   value: 2-3
   timing: after
-  notes: Color/value-based mass bounce (Hesitation/Fickleness style).
+  notes: Color/value-based mass bounce (Hesitation/Fickleness style). Held open because no non-clone idea exists yet.
 - id: U-U03
   color: blue
   rarity: uncommon
@@ -268,21 +268,21 @@ slots:
   role: hand-manipulation-2
   value: 2-3
   timing: after
-  notes: Second hand/deck-manipulation effect.
+  notes: Second hand/deck-manipulation effect. Held open because no non-clone idea exists yet.
 - id: U-U05
   color: blue
   rarity: uncommon
   role: steal-swap
   value: 2-3
   timing: after
-  notes: Take or swap a mood.
+  notes: Take or swap a mood. Held open because no non-clone idea exists yet.
 - id: U-U06
   color: blue
   rarity: uncommon
   role: rule-change
   value: '3'
   timing: while+after
-  notes: Global rule change (Imagination style).
+  notes: Global rule change (Imagination style). Held open because no non-clone idea exists yet.
 - id: U-U07
   color: blue
   rarity: uncommon
@@ -296,7 +296,7 @@ slots:
   role: flex
   value: 2-3
   timing: any
-  notes: Open slot.
+  notes: Open slot. Held open because no non-clone idea exists yet.
 - id: U-R01
   color: blue
   rarity: rare
@@ -432,7 +432,7 @@ slots:
   role: removal-random-mass
   value: '3'
   timing: after
-  notes: Random/mass removal from chosen opponents (Cruelty style).
+  notes: Random/mass removal from chosen opponents (Cruelty style). Held open because no non-clone idea exists yet.
 - id: B-U03
   color: black
   rarity: uncommon
@@ -446,7 +446,7 @@ slots:
   role: sweeper-color-2
   value: 0-1
   timing: after
-  notes: Second color-based sweeper, differently conditioned.
+  notes: Second color-based sweeper, differently conditioned. Held open because no non-clone idea exists yet.
 - id: B-U05
   color: black
   rarity: uncommon
@@ -474,7 +474,7 @@ slots:
   role: flex
   value: 2-6
   timing: any
-  notes: Open slot (Betrayal-style high value with a loan).
+  notes: Open slot (Betrayal-style high value with a loan). Held open because no non-clone idea exists yet.
 - id: B-R01
   color: black
   rarity: rare
@@ -516,7 +516,7 @@ slots:
   role: flex
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Held open for a contributor submission or a later idea.
 - id: B-M01
   color: black
   rarity: mythic
@@ -810,28 +810,28 @@ slots:
   role: static-conditional-3
   value: 0->6
   timing: while
-  notes: Third static conditional value.
+  notes: Third static conditional value. Held open because no non-clone idea exists yet.
 - id: G-U06
   color: green
   rarity: uncommon
   role: scoring-mod
   value: '0'
   timing: while
-  notes: Score a mood an extra time (Enthusiasm style).
+  notes: Score a mood an extra time (Enthusiasm style). Held open because no non-clone idea exists yet.
 - id: G-U07
   color: green
   rarity: uncommon
   role: hand-reveal-gift
   value: 3->6
   timing: after
-  notes: Hand gift for a bonus (Fascination style).
+  notes: Hand gift for a bonus (Fascination style). Held open because no non-clone idea exists yet.
 - id: G-U08
   color: green
   rarity: uncommon
   role: flex
   value: 2-3
   timing: any
-  notes: Open slot.
+  notes: Open slot. Held open because no non-clone idea exists yet.
 - id: G-R01
   color: green
   rarity: rare
@@ -852,7 +852,7 @@ slots:
   role: discard-play-engine
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Reopened because its first card, Wistfulness, moved up to G-M02.
 - id: G-R04
   color: green
   rarity: rare
@@ -866,14 +866,14 @@ slots:
   role: flex
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
 - id: G-R06
   color: green
   rarity: rare
   role: flex
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
 - id: G-M01
   color: green
   rarity: mythic
@@ -887,7 +887,7 @@ slots:
   role: flexible
   value: 0-2
   timing: any
-  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
+  notes: Tentatively Wistfulness (a pile play grant plus a repeat for pile plays). Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: G-M03
   color: green
   rarity: mythic
