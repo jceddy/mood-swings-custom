@@ -2,7 +2,7 @@ slot: G-R02
 name: Vindication
 color: green
 rarity: rare
-base_value: 0
+base_value: 2
 alt_value: null
 to_play: false
 while_in_play: true
@@ -21,3 +21,8 @@ notes: >-
   It no longer fits the black hand-pressure plan for G-R02 (a per-card-in-hand scaler in Sloth's style), so that partner slot
   is dropped from design/axes.md. impl_tier 2 is provisional: round wins are derived from scored rounds, and the simulator
   would read that count for a value.
+  Value raised from 0 to 2 (group review): the game is first to 3 round wins, so at most 2 wins count when a round scores,
+  and +2 per win topped out at +4 on a 0-value body, which is weak for a rare. At value 2 it runs 2, 4, 6 for 0, 1 and 2
+  round wins. That is strictly stronger than the alternative of +3 per win on a 0 body (0, 3, 6): the same ceiling, with a
+  better floor, and no dead 0 in the early rounds when the card is most likely to be played. The total now peaks at 6, in
+  line with Euphoria (about 6 by round three).
