@@ -2,7 +2,7 @@ slot: R-U01
 name: Bullying
 color: red
 rarity: uncommon
-base_value: 3
+base_value: 2
 alt_value: null
 to_play: false
 while_in_play: false
@@ -15,8 +15,10 @@ impl_tier: 1
 designer: ""
 notes: >-
   Red partner for the white numbers axis (design/axes.md). The name is a placeholder. The skeleton role (small sweeper)
-  matches Rage (red uncommon 2: put all other moods with a value of 3 or less into the discard pile). This version is one-
-  sided where Rage hits everyone, with a lower threshold (2 instead of 3), so it is stronger than Rage and prints 3 instead
-  of 2. Persistence makes it hit harder: opponents' cheap moods stack up over the rounds. Worded with Guile's "your
-  opponents' moods" and Rage's "you may put all". Playtest worry: together with Intuition, two one-sided sweeps in one color.
-  impl_tier 1 is provisional: Rage's sweep with an opponents-only filter.
+  matches Rage (red uncommon 2: put all other moods with a value of 3 or less into the discard pile). This version is
+  one-sided where Rage hits everyone, with a lower threshold (2 instead of 3). It first printed at 3 and the group
+  judged it stronger than Rage most of the time (it never hits your own board and costs only the 3s), so it is printed
+  at 2, the same as Rage. Persistence makes it hit harder: opponents' cheap moods stack up over the rounds. Worded with
+  Guile's "your opponents' moods" and Rage's "you may put all". Playtest worry: it is still a one-sided sweep, so check
+  it against Rage; if it is still too good, make the threshold 1 or less. impl_tier 1 is provisional: Rage's sweep with
+  an opponents-only filter.
