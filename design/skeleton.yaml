@@ -737,7 +737,7 @@ slots:
   role: interaction-lite
   value: 1-2
   timing: after
-  notes: '''Up to two players'' style small interaction in this color''s own verb (W suppress, U bounce, B/R discard-pile removal; G has no removal in the original pool, so use a gift/tempo effect instead). Held open because green has no removal in the original pool, so a small interaction would break its pie. Consider re-roling the slot.'
+  notes: '''Up to two players'' style small interaction in this color''s own verb (W suppress, U bounce, B/R discard-pile removal; G has no removal in the original pool, so use a gift/tempo effect instead). Held open because every gift or tempo idea so far was a clone of Generosity or Joy.'
 - id: G-C04
   color: green
   rarity: common
