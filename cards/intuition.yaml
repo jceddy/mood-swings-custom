@@ -2,7 +2,7 @@ slot: R-U02
 name: Intuition
 color: red
 rarity: uncommon
-base_value: 2
+base_value: 1
 alt_value: null
 to_play: false
 while_in_play: false
@@ -15,9 +15,11 @@ reprint_of: null
 impl_tier: 1
 designer: ""
 notes: >-
-  Red partner for the white numbers axis. The name is a placeholder. The skeleton role (numeric sweeper) matches Rebellion
-  (red uncommon 2: choose 0, 1, 2, or 3 and put all other moods with the chosen value into the discard pile). This version
-  hits only your opponents but lets you name any number, so you have to guess what is on their board (printed numbers are
-  visible). Number wording follows Friendliness, Kindness and Validation ("in its top right corner" means the printed value).
-  Playtest worry: it is one-sided like Bullying, and stronger than Rebellion because it never hits you. impl_tier 1 is
-  provisional.
+  Red partner for the white numbers axis. The name is a placeholder. The skeleton role (numeric sweeper) matches
+  Rebellion (red uncommon 2: choose 0, 1, 2, or 3 and put all other moods with the chosen value into the discard pile).
+  This version hits only your opponents and lets you name any number, which made it a strict upgrade over Rebellion at
+  value 2, so it is printed at 1: the lighter body is a cost that grows every round, since moods persist. Printed values
+  are public, so the number choice is a real choice only because a sweep hits every mood with the number (a single-
+  target version collapses to "put an opponent's mood into the discard pile" and was rejected). Number wording follows
+  Friendliness, Kindness and Validation ("in its top right corner" means the printed value). Playtest worry: it is one-
+  sided like Bullying; if it still plays too strongly at 1, drop it to 0. impl_tier 1 is provisional.
