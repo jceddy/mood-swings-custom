@@ -149,7 +149,8 @@ Altruism and Cynicism (pickups), Bravado, Hostility, Rebellion, Self-Loathing, E
 | `G-U02` | play-grant-2 | Renewal (written): re-trigger another of your moods' after-playing effect |
 | `G-U08` | flex | pile-related flex |
 | `G-R01` | play-grant-engine | Resilience (written): a cheap extra play from the pile each turn |
-| `G-R03` | discard-play-engine | Wistfulness (written): replaying from the pile repeats the after-playing effect |
+| `G-M02` | flexible mythic | Wistfulness (written): a pile play grant, and pile plays repeat their after-playing effect |
+| `G-R03` | discard-play-engine | open again (its first card moved up to a mythic) |
 | `G-R05` | flex | pile-related flex |
 | `B-C04` | play-grant | Ambition (reprint): puts a card in the pile |
 | `B-U05` | graveyard | bigger recursion than Yearning's swap |

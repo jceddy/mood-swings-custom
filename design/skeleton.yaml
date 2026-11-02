@@ -852,7 +852,7 @@ slots:
   role: discard-play-engine
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Reopened because its first card, Wistfulness, moved up to G-M02.
 - id: G-R04
   color: green
   rarity: rare
@@ -887,7 +887,7 @@ slots:
   role: flexible
   value: 0-2
   timing: any
-  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
+  notes: Tentatively Wistfulness (a pile play grant plus a repeat for pile plays). Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: G-M03
   color: green
   rarity: mythic
