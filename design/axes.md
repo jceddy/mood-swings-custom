@@ -157,7 +157,7 @@ Altruism and Cynicism (pickups), Bravado, Hostility, Rebellion, Self-Loathing, E
 | `B-R01` | graveyard-engine | Brooding (written): rummage the pile each round |
 | `R-C04` | play-grant | Bravado (reprint): sacrifices a mood into the pile |
 | `R-U06` | removal-trade | Retribution (written): trade one of your moods to remove a weaker one |
-| `U-R02` | copy-effect | copy effect that cares about after-playing text |
+| `U-R02` | copy-effect | Mimicry (written): runs a pile mood's after-playing effect |
 
 **Risks.** Resurgence's play lock means it works best alone on its turn. Blue's Recollection drains the pile it wants, and Restraint
 shuts off extra plays.

@@ -338,7 +338,7 @@ slots:
   role: flex
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
 - id: U-M01
   color: blue
   rarity: mythic
@@ -695,7 +695,7 @@ slots:
   role: flex
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
 - id: R-M01
   color: red
   rarity: mythic
