@@ -41,7 +41,7 @@ and Rejection (same value), Worry (3 or less).
 | `W-U07` | conditional-value | Equanimity (written): 6 if four or more moods have even numbers |
 | `R-C03` | interaction-lite | Shock (reprint): removal at value 3 or less |
 | `R-U01` | sweeper-small | Bullying (written): sweep your opponents' moods of value 2 or less |
-| `R-U02` | sweeper-numeric | Intuition (written): name a number, sweep your opponents' moods with it |
+| `R-U02` | sweeper-numeric | Intuition (written): name a number, sweep every other mood with it |
 | `R-U03` | removal-highest | removal of the highest value |
 | `B-C03` | interaction-lite | Malevolence (written): a flexible Spite: remove an odd or even mood |
 | `G-C07` | utility-small | Cheer/Delight-style discard by value |

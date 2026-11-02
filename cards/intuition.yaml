@@ -8,8 +8,8 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, choose a number. Put all of your opponents' moods with the chosen number in their top right
-  corners into the discard pile.
+  After playing this mood, choose a number. Put all other moods with the chosen number in their top right corners into
+  the discard pile.
 status: idea
 reprint_of: null
 impl_tier: 1
@@ -17,9 +17,10 @@ designer: ""
 notes: >-
   Red partner for the white numbers axis. The name is a placeholder. The skeleton role (numeric sweeper) matches
   Rebellion (red uncommon 2: choose 0, 1, 2, or 3 and put all other moods with the chosen value into the discard pile).
-  This version hits only your opponents and lets you name any number, which made it a strict upgrade over Rebellion at
-  value 2, so it is printed at 1: the lighter body is a cost that grows every round, since moods persist. Printed values
-  are public, so the number choice is a real choice only because a sweep hits every mood with the number (a single-
-  target version collapses to "put an opponent's mood into the discard pile" and was rejected). Number wording follows
-  Friendliness, Kindness and Validation ("in its top right corner" means the printed value). Playtest worry: it is one-
-  sided like Bullying; if it still plays too strongly at 1, drop it to 0. impl_tier 1 is provisional.
+  This version hits every player, including you, and lets you name any number, with Rebellion's "all other moods"
+  wording so the played mood is safe. It is printed at 1, a point lighter than Rebellion. History: it first hit only
+  your opponents and printed at 2, which the group judged a strict upgrade over Rebellion; it then printed at 1 as a
+  one-sided sweep; the group chose to make it symmetric and keep it at 1. A single-target version was rejected because
+  printed values are public, so the number choice would mean nothing. Number wording follows Friendliness, Kindness and
+  Validation ("in its top right corner" means the printed value). Playtest worry: any-number reach makes it a superset
+  of Rebellion's range, so check that a 1-point body is a fair price. impl_tier 1 is provisional.
