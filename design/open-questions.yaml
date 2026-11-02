@@ -127,6 +127,6 @@ questions:
       Ruling and balance watch items from the rares and uncommons written since:
       - Mimicry: what "this mood" means when the copied pile mood refers to itself (proposed: the mood you just played).
       - Plunder: a free extra mood every round, so check whether it needs a value of 0 only.
-      - Barter: very strong against opposing engines, so check whether printed values should have to match.
+      - Barter: it may be strong against opposing engines now that it only needs a lower or equal value, so check whether to restore the same-value condition or require matching printed values.
       - Sanctuary: it protects cheap engines from targeted effects (Barter, Plunder), so check whether a threshold of 1 is fairer.
       - Intuition (1 point) and Bullying (2 points) were lowered after group feedback, so check they are still worth playing.
