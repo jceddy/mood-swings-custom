@@ -1,0 +1,24 @@
+slot: R-U03
+name: Comeuppance
+color: red
+rarity: uncommon
+base_value: 3
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood, each player with the highest total value among their moods puts one of their highest value
+  moods into the discard pile.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Red uncommon, removal of the highest value. The name is a placeholder. The original card with this role is Fury (value 4:
+  each player chooses one of their highest value moods and puts it into the discard pile). Black's Vengeance is the one-sided
+  version where you choose the opponent. This one hits only the players with the highest total value, so it is a catch-up
+  card: it hits you if you are leading, so you play it when behind or tied. It is printed at 3, a point under Fury, because
+  it is conditional and can hit you. Wording follows Anger ("total value") and Fury ("one of their highest value moods").
+  Playtest worry: if two players tie for the lead, both lose a mood, which is fine in a 2-player game but changes the card in
+  a 3-player game. impl_tier 1 is provisional: a total-value comparison and a highest-value pick both exist as pieces.
