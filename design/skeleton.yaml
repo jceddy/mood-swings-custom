@@ -516,7 +516,7 @@ slots:
   role: flex
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Held open for a contributor submission or a later idea.
 - id: B-M01
   color: black
   rarity: mythic

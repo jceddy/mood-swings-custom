@@ -153,7 +153,7 @@ Altruism and Cynicism (pickups), Bravado, Hostility, Rebellion, Self-Loathing, E
 | `G-R05` | flex | pile-related flex |
 | `B-C04` | play-grant | Ambition (reprint): puts a card in the pile |
 | `B-U05` | graveyard | bigger recursion than Yearning's swap |
-| `B-R01` | graveyard-engine | Melancholy-style engine |
+| `B-R01` | graveyard-engine | Brooding (written): rummage the pile each round |
 | `R-C04` | play-grant | Bravado (reprint): sacrifices a mood into the pile |
 | `R-U06` | removal-trade | Retribution (written): trade one of your moods to remove a weaker one |
 | `U-R02` | copy-effect | copy effect that cares about after-playing text |

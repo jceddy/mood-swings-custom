@@ -1,0 +1,23 @@
+slot: B-R04
+name: Despair
+color: black
+rarity: rare
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play, at the end of each round you lose, you draw an additional card.
+status: idea
+reprint_of: null
+impl_tier: 2
+designer: ""
+notes: >-
+  Black rare, draw engine. The name is a placeholder. The original card with this role is Corruption (put up to two cards
+  from the pile on the bottom of the deck and draw that many, or the round winner wins two rounds). Losing players already
+  draw a card at the end of each round; this adds a second one, so it is a comeback engine that pays off when you are behind
+  (inverse correlation). It bends the pool's "draws are paid for" rule, bounded by only working after a loss. Forgetfulness
+  (nobody draws this round) blanks it. Value 2 to start; playtest question: is a free card on every loss too strong with
+  Intrusion and Martyrdom? Wording follows Corruption ("each losing player still draws only one card"). impl_tier 2 is
+  provisional: it changes the number of cards the losing player draws at the end of the round.
