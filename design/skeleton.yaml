@@ -338,7 +338,7 @@ slots:
   role: flex
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
 - id: U-M01
   color: blue
   rarity: mythic
@@ -625,7 +625,7 @@ slots:
   role: steal-loan
   value: '2'
   timing: after
-  notes: Take a mood and give it back later (Arrogance style).
+  notes: Take a mood and give it back later (Arrogance style). Held open because every idea so far was a clone of an existing card.
 - id: R-U05
   color: red
   rarity: uncommon
@@ -653,7 +653,7 @@ slots:
   role: flex
   value: 2-3
   timing: any
-  notes: Open slot.
+  notes: Open slot. Held open because every idea so far was a clone of an existing card.
 - id: R-R01
   color: red
   rarity: rare
@@ -695,7 +695,7 @@ slots:
   role: flex
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
 - id: R-M01
   color: red
   rarity: mythic

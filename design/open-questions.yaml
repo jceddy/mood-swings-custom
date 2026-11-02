@@ -124,3 +124,9 @@ questions:
       4. Coercion (restricted and unrestricted): hands are often small or empty, so the restricted version fizzles more and the
          unrestricted one forces more mood losses (see Q8).
       5. FOMO (value 7): paying a card every round drains the hand quickly, so check whether the mood is discarded too soon for 7 to be fair.
+      Ruling and balance watch items from the rares and uncommons written since:
+      - Mimicry: what "this mood" means when the copied pile mood refers to itself (proposed: the mood you just played).
+      - Plunder: a free extra mood every round, so check whether it needs a value of 0 only.
+      - Barter: it may be strong against opposing engines now that it only needs a lower or equal value, so check whether to restore the same-value condition or require matching printed values.
+      - Sanctuary: it protects cheap engines from targeted effects (Barter, Plunder), so check whether a threshold of 1 is fairer.
+      - Intuition (1 point) and Bullying (2 points) were lowered after group feedback, so check they are still worth playing.
