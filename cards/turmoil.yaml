@@ -8,8 +8,9 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, choose odd or even and choose a player. That player puts each card from their hand with a
-  number of the chosen type in its top right corner on the bottom of the deck, then draws that many cards. (0 is even.)
+  After playing this mood, choose odd or even and choose a player. That player reveals their hand, puts each card from
+  it with a number of the chosen type in its top right corner on the bottom of the deck, then draws that many cards. (0
+  is even.)
 status: idea
 reprint_of: null
 impl_tier: 1
@@ -18,6 +19,6 @@ notes: >-
   Blue partner for the white numbers axis. The name is a placeholder. A forced cycle of one type, 1 for 1: you can target an
   opponent (it strips their best cards of that type for random replacements, which is variance) or yourself (shed off-type
   cards). Worded like Doubt ("put them on the bottom of the deck, then draw that many cards") and Routine ("a number of the
-  chosen type"). Hand sizes are public but contents are not, so the target shows the cards they put back. Overlaps
+  chosen type"). In paper the chosen player has to reveal their hand, because nobody else can check which cards have a number of the chosen type and the cards go face-down onto the deck (the pool's Doubt reveals for the same reason). That also shows the whole hand to the table, which makes this a mild information attack too. Overlaps
   Discernment (W-U05) when you target yourself; Discernment is optional and self-only, this is mandatory and can hit anyone.
   impl_tier 1 is provisional: Doubt's cycle forced on another player with a printed-number filter.
