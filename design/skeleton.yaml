@@ -126,14 +126,14 @@ slots:
   role: reset-effect
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
 - id: W-R02
   color: white
   rarity: rare
   role: play-grant-engine
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
 - id: W-R03
   color: white
   rarity: rare
@@ -161,7 +161,7 @@ slots:
   role: flex
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
 - id: W-M01
   color: white
   rarity: mythic
@@ -866,14 +866,14 @@ slots:
   role: flex
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
 - id: G-R06
   color: green
   rarity: rare
   role: flex
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value.
+  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
 - id: G-M01
   color: green
   rarity: mythic

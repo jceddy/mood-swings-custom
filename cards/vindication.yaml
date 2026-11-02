@@ -1,0 +1,23 @@
+slot: G-R02
+name: Vindication
+color: green
+rarity: rare
+base_value: 0
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play, this mood's value increases by 2 for each round you have won.
+status: idea
+reprint_of: null
+impl_tier: 2
+designer: ""
+notes: >-
+  Green rare, scaling value. The name is a placeholder. The original cards with this role are Sloth (+1 per card in your
+  hand) and Euphoria (+1 per mood in play). This one scales with round wins instead, which is a new axis: the game is first
+  to 3 round wins, so it is worth up to +4 before the last round. It is a snowball card (it rewards leading), capped by the
+  game length; Forgetfulness, which removes a round win, pushes it back. Wording echoes Bashfulness ("if you won the round").
+  It no longer fits the black hand-pressure plan for G-R02 (a per-card-in-hand scaler in Sloth's style), so that partner slot
+  is dropped from design/axes.md. impl_tier 2 is provisional: round wins are derived from scored rounds, and the simulator
+  would read that count for a value.

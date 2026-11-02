@@ -1,0 +1,24 @@
+slot: G-R03
+name: Wistfulness
+color: green
+rarity: rare
+base_value: 0
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play, each time you play another mood from the discard pile, you may have that mood's after-playing effect
+  happen an additional time.
+status: idea
+reprint_of: null
+impl_tier: 2
+designer: ""
+notes: >-
+  Green rare, pile engine. The name is a placeholder. The original card with this role is Grace (an extra play from the pile
+  each turn); Resilience is its sibling here. This is the payoff for pile plays instead of another grant: Duplicity ("each
+  time you play another mood, you may have that mood's after-playing effect happen an additional time") restricted to moods
+  played from the discard pile, which is why it is a rare and not a mythic. It pairs with Thrift, Resilience, Resurgence
+  (every replay doubles) and Renewal. The repeated effect gets fresh choices, as with Duplicity. Playtest worry: Resurgence
+  plus this in one deck, since every replayed mood triggers twice. Restraint shuts off the extra plays that feed it.
+  impl_tier 2 is provisional: Duplicity's repeat restricted to plays from the discard pile.

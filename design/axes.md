@@ -99,7 +99,7 @@ Delight, Fascination, Bliss, Embarrassment, Dignity.
 | `R-U07` | conditional-value | Ruthlessness (written): 5 if an opponent has no cards in hand |
 | `G-C02` | enemy-count | Wariness (written): gives a card away |
 | `G-U07` | hand-reveal-gift | hand-reveal gift effect |
-| `G-R02` | scaling-value | value per card in hand (Sloth-style) |
+| `G-R02` | scaling-value | (slot now used by Vindication, rounds-won scaling; no longer a hand-pressure partner) |
 | `U-U04` | hand-manipulation-2 | hand manipulation |
 
 Black's list is mostly filled already; six of the 14 are written or marked. The open need is payoffs.
@@ -149,7 +149,7 @@ Altruism and Cynicism (pickups), Bravado, Hostility, Rebellion, Self-Loathing, E
 | `G-U02` | play-grant-2 | Renewal (written): re-trigger another of your moods' after-playing effect |
 | `G-U08` | flex | pile-related flex |
 | `G-R01` | play-grant-engine | Resilience (written): a cheap extra play from the pile each turn |
-| `G-R03` | discard-play-engine | Grace-style engine |
+| `G-R03` | discard-play-engine | Wistfulness (written): replaying from the pile repeats the after-playing effect |
 | `G-R05` | flex | pile-related flex |
 | `B-C04` | play-grant | Ambition (reprint): puts a card in the pile |
 | `B-U05` | graveyard | bigger recursion than Yearning's swap |

@@ -1,0 +1,21 @@
+slot: G-R04
+name: Kinship
+color: green
+rarity: rare
+base_value: 1
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play, each of your moods that shares a color with another of your moods has its value increased by 1.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Green rare, board-count payoff. The name is a placeholder. The original cards with this role are Euphoria (+1 per mood in
+  play) and Love (12 with all five colors). This one rewards color concentration on your own board: in a deck that leans on
+  one or two colors, most of your moods get +1 once you have a pair. It also helps Unity (five of a color). Colorless moods
+  have no color, so they neither get the bonus nor give it. Green's pie is full of "shares a color" cards (Determination,
+  Eagerness, Grace), so the phrasing is in family. impl_tier 1 is provisional: a color-sharing check across your own moods.
