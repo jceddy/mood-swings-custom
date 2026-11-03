@@ -8,7 +8,8 @@ to_play: false
 while_in_play: true
 after_playing: false
 rules_text: >-
-  While in play — This mood's value is 6 if there are three or more different values among your moods.
+  While in play — This mood's value is 6 if there are three or more different values among your moods. (Moods are cards
+  in play.)
 status: idea
 reprint_of: null
 impl_tier: 1
@@ -21,4 +22,6 @@ notes: >-
   values, which is checkable in paper by looking at your own moods ("value" means the current value). It has no color
   requirement, so it works in any deck, and it asks for the opposite of Solidarity and Familiarity (matching numbers) in
   the white numbers plan. Playtest worry: three different values is easy to reach on a board of five or more moods; four
-  is the fallback. impl_tier 1 is provisional: a count of distinct values over your own moods.
+  is the fallback. impl_tier 1 is provisional: a count of distinct values over your own moods. The reminder text about
+  moods being cards in play was added, following the printed cards that count moods or put your own moods into the
+  discard pile.

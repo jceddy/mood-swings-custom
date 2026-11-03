@@ -8,15 +8,17 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood — You may put one of your other moods into the discard pile. If you do, you may put a mood
-  with a lower value than that mood's into the discard pile.
+  After playing this mood — You may put one of your other moods into the discard pile (moods are cards in play). If you
+  do, you may put a mood with a lower value than that mood's into the discard pile.
 status: idea
 reprint_of: null
 impl_tier: 1
 designer: ""
 notes: >-
-  Red partner for the green replay axis and the red axis. The name is a placeholder. A removal trade: sacrifice one of your
-  moods to remove a weaker one, and the sacrifice fills the discard pile (green's replay fuel). The comparison wording
-  follows Dominance ("a value lower than that mood's"); the value is compared as it was in play. Nearby precedent is
-  Hostility (red uncommon: put one of your black or green moods into the discard pile, then up to two moods with a value of 3
-  or less). The second step is optional so the card is not stuck when there is no legal target. impl_tier 1 is provisional.
+  Red partner for the green replay axis and the red axis. The name is a placeholder. A removal trade: sacrifice one of
+  your moods to remove a weaker one, and the sacrifice fills the discard pile (green's replay fuel). The comparison
+  wording follows Dominance ("a value lower than that mood's"); the value is compared as it was in play. Nearby
+  precedent is Hostility (red uncommon: put one of your black or green moods into the discard pile, then up to two moods
+  with a value of 3 or less). The second step is optional so the card is not stuck when there is no legal target.
+  impl_tier 1 is provisional. The reminder text about moods being cards in play was added, following the printed cards
+  that count moods or put your own moods into the discard pile.
