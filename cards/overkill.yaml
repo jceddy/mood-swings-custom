@@ -1,0 +1,23 @@
+slot: R-M03
+name: Overkill
+color: red
+rarity: mythic
+base_value: 0
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play — This mood's value is 1 more than the highest value among your opponents' moods.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Red mythic, flexible slot, a floating body. The name is a placeholder. It is always worth one more than the biggest
+  mood any opponent has, so it counters decks of big moods; with an empty opposing board it is worth 1. Sadness and
+  Vanity, the original scaling mythics, are simple static scalers of the same kind. It is static and public (values are
+  visible), so nothing prompts anyone in async play. Fairness (W-R03) suppresses one of the highest value moods each
+  round and is likely to hit this one. Playtest worry: an opponent's big mood raises it too, so its value is volatile,
+  and it is better against wide boards of small moods than against one big mood; the fallback is "equal to" the highest
+  value instead of 1 more. impl_tier 1 is provisional: a value read from the highest value among opponents' moods.

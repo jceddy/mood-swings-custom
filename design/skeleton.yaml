@@ -356,10 +356,10 @@ slots:
 - id: U-M03
   color: blue
   rarity: mythic
-  role: flexible
+  role: deck-play
   value: 0-2
-  timing: any
-  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
+  timing: after
+  notes: Held by Epiphany. Flexible mythic. Judge it by complexity and power ratio (Q5).
 - id: B-C01
   color: black
   rarity: common
@@ -704,17 +704,17 @@ slots:
 - id: R-M02
   color: red
   rarity: mythic
-  role: flexible
+  role: red-payoff
   value: 0-2
-  timing: any
-  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
+  timing: while
+  notes: Held by Blaze. Flexible mythic. Judge it by complexity and power ratio (Q5).
 - id: R-M03
   color: red
   rarity: mythic
-  role: flexible
+  role: floating-body
   value: 0-2
-  timing: any
-  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
+  timing: while
+  notes: Held by Overkill. Flexible mythic. Judge it by complexity and power ratio (Q5).
 - id: G-C01
   color: green
   rarity: common
@@ -892,7 +892,7 @@ slots:
   role: flexible
   value: 0-2
   timing: any
-  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
+  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis. Held open because the ideas in the mythic re-role pass were a third pile-replay mythic, a card-draw engine (a pie bend) or a color-adding card that makes Unity trivial; it wants a green mythic outside the pile axis.
 - id: X-C01
   color: colorless
   rarity: common
