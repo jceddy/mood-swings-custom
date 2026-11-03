@@ -648,10 +648,10 @@ slots:
 - id: R-U08
   color: red
   rarity: uncommon
-  role: flex
-  value: 2-3
-  timing: any
-  notes: Open slot. Held open because every idea so far was a clone of an existing card.
+  role: conditional-hand
+  value: 2->7
+  timing: while
+  notes: Held by Hellbent, a submission from Dr Potato (an empty hand makes it worth 7). The value target was widened from 2-3.
 - id: R-R01
   color: red
   rarity: rare

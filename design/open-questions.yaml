@@ -134,6 +134,7 @@ questions:
       - Embargo: a skipped turn for one card, so check whether it needs two cards or a block on the first play only.
       - Interruption (rare): it blanks one full turn for every other player, so check the strength against a combo turn; the fallback is to hit only a chosen player.
       - Free-play cycle (Fear, Nostalgia, Levity, Remorse, Rashness): five unconditional free extra plays at common, so check how strong extra-play engines get, and whether Rashness needs "a value of 0" only.
+      - Hellbent: the round leader runs their hand dry first (losers draw at the end of a round), so it favors the leader; check the snowball, with an alternate value of 6 as the fallback.
       - Haunting: the burst size next turn with a big pile and a big hand, since each play triggers play engines; the fallback is "up to three".
       - Levity: a free play that enables extra-play engines, so check the fallback of choosing between cycling and the extra play.
       - Counterplay: it strips the after-playing effects of opponents' additional moods and spares you, so check it is not dead against decks without extra plays and whether it needs to be symmetric.
