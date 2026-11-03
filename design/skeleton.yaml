@@ -53,10 +53,10 @@ slots:
 - id: W-C07
   color: white
   rarity: common
-  role: tempo-lock
-  value: 2-3
+  role: play-grant-cycle
+  value: 0
   timing: after
-  notes: Re-roled to tempo-lock and held by Interruption. The old role copied an original card and every idea was a clone.
+  notes: Held by Levity, a submission from Dr Potato. The earlier tempo-lock common here (Interruption) was promoted to the W-R06 rare.
 - id: W-C08
   color: white
   rarity: common
@@ -158,10 +158,10 @@ slots:
 - id: W-R06
   color: white
   rarity: rare
-  role: flex
+  role: turn-silence
   value: 0-3
-  timing: any
-  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
+  timing: after
+  notes: Held by Interruption, promoted from a common after a group comment (it hits every other player and also strips after-playing effects for their next turn).
 - id: W-M01
   color: white
   rarity: mythic
