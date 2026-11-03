@@ -137,7 +137,7 @@ questions:
       - Haunting: the burst size next turn with a big pile and a big hand, since each play triggers play engines; the fallback is "up to three".
       - Levity: a free play that enables extra-play engines, so check the fallback of choosing between cycling and the extra play.
       - Counterplay: it strips the after-playing effects of opponents' additional moods and spares you, so check it is not dead against decks without extra plays and whether it needs to be symmetric.
-      - Vendetta: it needs the simulator to know which effect moved a mood, and it prompts its holder on an opponent's turn when one of their moods is removed.
+      - Vendetta: mandatory and random, so nobody is prompted; check that a random pick among moods with a value of 3 or less is not too harsh on cheap engines (fallback: a value of 1 or less), and that the simulator can tell which player controls an effect.
       - Culling: it also hits your own board, so check it works when you are behind.
       - Legacy: check that it does not break the draw rule with a sacrifice engine such as Martyrdom.
       - Intuition (1 point) and Bullying (2 points) were lowered after group feedback, so check they are still worth playing.
