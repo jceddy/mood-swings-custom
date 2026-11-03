@@ -272,10 +272,10 @@ slots:
 - id: U-U05
   color: blue
   rarity: uncommon
-  role: play-cap
+  role: effect-cap
   value: 3
   timing: while
-  notes: Re-roled to play-cap and held by Counterplay. The old role copied an original card and every idea was a clone. The first Counterplay was a reactive bounce, replaced because it prompts the holder on every opponent play in async digital play.
+  notes: Re-roled to effect-cap and held by Counterplay. The old role copied an original card and every idea was a clone. Earlier versions were a reactive bounce (it prompts the holder on every opponent play in async digital play) and a play cap (too close to Restraint).
 - id: U-U06
   color: blue
   rarity: uncommon

@@ -8,21 +8,27 @@ to_play: false
 while_in_play: true
 after_playing: false
 rules_text: >-
-  While in play — Your opponents can't play more than one additional mood each turn.
+  While in play — The after-playing effects of additional moods your opponents play don't happen. (This doesn't affect
+  Hurt Feelings.)
 status: idea
 reprint_of: null
 impl_tier: 2
 designer: ""
 notes: >-
-  Blue uncommon, re-roled from steal-swap to a play cap on opponents. The name is a placeholder. Barter (U-R01) and
-  Plunder (R-R01) already cover swaps and steals. The original pool has no card that caps another player's plays;
-  Restraint (W-M02) forbids extra plays for everyone and Obstinacy (G-C08) limits only you. This one lets each opponent
-  play one additional mood a turn at most, so a combo turn is capped at two plays (the base play and one more), while
-  decks that use one or two extra plays barely notice it. It does not affect Hurt Feelings' second base play. It is a
-  static rule, so it never asks anything of its holder. History: it first read "each time an opponent plays an
-  additional mood, after its after-playing effect, you may put that mood into its player's hand". The group pointed out
-  two problems: in digital asynchronous play that asks the holder to answer every extra play (impossible with 20 or more
-  plays in a turn), and a bounce after the effect is a gift to a combo deck, since the mood returns to hand to be
-  replayed. Printed at 3 because the effect only matters against extra-play decks. Playtest worry: it may be dead
-  against decks without extra plays. impl_tier 2 is provisional: a per-opponent cap on extra plays while this mood is in
-  play, the same hook Restraint needs.
+  Blue uncommon, re-roled from steal-swap to an effect cap on opponents' extra plays. The name is a placeholder. Barter
+  (U-R01) and Plunder (R-R01) already cover swaps and steals. The original pool has no card that stops after-playing
+  effects. It sits in the same family as Restraint (W-M02: no additional moods for any player), but it differs:
+  Restraint stops the extra plays for everyone, this one still lets opponents play additional moods and only strips
+  their after-playing effects, and it spares you. Hurt Feelings' second base play is a round attribute, not an
+  additional mood, so a normal one-play turn is never affected, and the base play keeps its effect; the parenthetical
+  copies Restraint's. It hits effect chains: green's replay decks (every replayed mood in Resurgence or Wistfulness
+  loses its effect), Mimicry, Renewal, and Fear or Foresight-style extra plays. It does not hit "while in play" engines
+  (Dominance, Momentum, Adrenaline, Recollection's repeat), because those are not after-playing effects. It is a static
+  rule, so it never asks anything of its holder. History: it first read "each time an opponent plays an additional mood,
+  after its after-playing effect, you may put that mood into its player's hand", which the group rejected for two
+  reasons: in digital asynchronous play it asks the holder to answer every extra play, and a bounce after the effect is
+  a gift to a combo deck. The second version capped opponents at one additional mood per turn, which the group judged
+  almost the same as Restraint; the group then suggested limiting the effects, not the plays. Printed at 3 because it
+  only matters in effect-chain matchups. Playtest worry: it spares you, like Resurface; a symmetric version ("The after-
+  playing effects of additional moods don't happen") is the fallback. impl_tier 2 is provisional: skip the after-playing
+  effect of a mood played through an extra-play grant (not Hurt Feelings) while this mood is in play.
