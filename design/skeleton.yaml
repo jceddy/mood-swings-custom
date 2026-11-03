@@ -123,17 +123,17 @@ slots:
 - id: W-R01
   color: white
   rarity: rare
-  role: reset-effect
+  role: round-reset
   value: 0-3
-  timing: any
-  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
+  timing: after
+  notes: Re-roled to round-reset and held by Leveling. The old role copied an original card or had no non-clone idea.
 - id: W-R02
   color: white
   rarity: rare
-  role: play-grant-engine
+  role: numbers-play-engine
   value: 0-3
-  timing: any
-  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
+  timing: while
+  notes: Re-roled to numbers-play-engine and held by Resonance. The old role copied an original card or had no non-clone idea.
 - id: W-R03
   color: white
   rarity: rare
@@ -335,10 +335,10 @@ slots:
 - id: U-R06
   color: blue
   rarity: rare
-  role: flex
+  role: bounce-shield
   value: 0-3
-  timing: any
-  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
+  timing: while
+  notes: Re-roled to bounce-shield and held by Elusiveness. The old role copied an original card or had no non-clone idea.
 - id: U-M01
   color: blue
   rarity: mythic
@@ -512,10 +512,10 @@ slots:
 - id: B-R06
   color: black
   rarity: rare
-  role: flex
+  role: discard-thief
   value: 0-3
-  timing: any
-  notes: Signature effect for the color; usually a low printed value. Held open for a contributor submission or a later idea.
+  timing: while
+  notes: Re-roled to discard-thief and held by Opportunism. The old role copied an original card or had no non-clone idea.
 - id: B-M01
   color: black
   rarity: mythic
@@ -690,10 +690,10 @@ slots:
 - id: R-R06
   color: red
   rarity: rare
-  role: flex
+  role: slow-burn
   value: 0-3
-  timing: any
-  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
+  timing: while
+  notes: Re-roled to slow-burn and held by Wildfire. The old role copied an original card or had no non-clone idea.
 - id: R-M01
   color: red
   rarity: mythic
@@ -847,10 +847,10 @@ slots:
 - id: G-R03
   color: green
   rarity: rare
-  role: discard-play-engine
+  role: pile-fuel
   value: 0-3
-  timing: any
-  notes: Signature effect for the color; usually a low printed value. Reopened because its first card, Wistfulness, moved up to G-M02.
+  timing: while
+  notes: Re-roled to pile-fuel and held by Mulch. The old role copied an original card or had no non-clone idea.
 - id: G-R04
   color: green
   rarity: rare
@@ -861,17 +861,17 @@ slots:
 - id: G-R05
   color: green
   rarity: rare
-  role: flex
+  role: time-scaling
   value: 0-3
-  timing: any
-  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
+  timing: while
+  notes: Re-roled to time-scaling and held by Growth. The old role copied an original card or had no non-clone idea.
 - id: G-R06
   color: green
   rarity: rare
   role: flex
   value: 0-3
   timing: any
-  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card.
+  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card. Held open again because every idea in the rare re-role pass was a clone of Hope, Altruism or a snowball.
 - id: G-M01
   color: green
   rarity: mythic

@@ -150,8 +150,8 @@ Altruism and Cynicism (pickups), Bravado, Hostility, Rebellion, Self-Loathing, E
 | `G-U08` | flex | pile-related flex |
 | `G-R01` | play-grant-engine | Resilience (written): a cheap extra play from the pile each turn |
 | `G-M02` | flexible mythic | Wistfulness (written): a pile play grant, and pile plays repeat their after-playing effect |
-| `G-R03` | discard-play-engine | open again (its first card moved up to a mythic) |
-| `G-R05` | flex | pile-related flex |
+| `G-R03` | pile-fuel | Mulch (written): puts the top card of the deck into the pile each round |
+| `G-R05` | time-scaling | Growth (written): value grows each round (not a pile card any more) |
 | `B-C04` | play-grant | Remorse (written): moves a pile card to the deck, so it needs pile fuel |
 | `B-U05` | graveyard | Longing (written): trade a hand card for up to two from the pile |
 | `B-R01` | graveyard-engine | Brooding (written): rummage the pile each round |
