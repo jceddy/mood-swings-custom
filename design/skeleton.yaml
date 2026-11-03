@@ -279,10 +279,10 @@ slots:
 - id: U-U06
   color: blue
   rarity: uncommon
-  role: rule-change
-  value: '3'
-  timing: while+after
-  notes: Global rule change (Imagination style). Held open because no non-clone idea exists yet.
+  role: rule-change-hands
+  value: 3
+  timing: while
+  notes: Held by Open Hands, requested by the group as something about revealing someone's hand (opponents play with their hands revealed). Global rule change, Imagination style.
 - id: U-U07
   color: blue
   rarity: uncommon
