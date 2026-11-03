@@ -1,0 +1,23 @@
+slot: U-C07
+name: Prudence
+color: blue
+rarity: common
+base_value: 3
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood — Look at the top two cards of the deck. Put any number of them on the bottom of the deck and
+  the rest back on top in any order.
+status: idea
+reprint_of: null
+impl_tier: 2
+designer: ""
+notes: >-
+  Blue common, re-roled from utility-small to a deck look. The name is a placeholder. The original pool has no card that
+  looks at the deck (Foresight and the loot cards draw). This one is card quality with no card advantage: you see what
+  the next draw will be and can send it away. The deck is shared, so what you leave on top is also what a round loser
+  draws, which gives it a small interaction. It is checkable in paper because only the player looking sees the cards.
+  Playtest worry: low impact for a common; check that it is worth a play. impl_tier 2 is provisional: a hidden view of
+  the top of the deck with a reorder.

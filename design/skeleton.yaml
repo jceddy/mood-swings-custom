@@ -39,10 +39,10 @@ slots:
 - id: W-C05
   color: white
   rarity: common
-  role: card-flow
+  role: protection-short
   value: 0-3
   timing: after
-  notes: 'Draw/cycle/discard-pile interaction in this color''s flavor (W has none in the original pool: consider a hand-discard bonus instead). White has no card flow in the original pool and every version so far was a narrower Discernment or a symmetric loot.'
+  notes: Re-roled to protection-short and held by Refuge. The old role copied an original card and every idea was a clone.
 - id: W-C06
   color: white
   rarity: common
@@ -53,10 +53,10 @@ slots:
 - id: W-C07
   color: white
   rarity: common
-  role: utility-small
+  role: tempo-lock
   value: 2-3
   timing: after
-  notes: Small effect on a modest body (hand disruption, small steal/give, etc.). Held open because the ideas so far copied Suspicion or Intrusion.
+  notes: Re-roled to tempo-lock and held by Interruption. The old role copied an original card and every idea was a clone.
 - id: W-C08
   color: white
   rarity: common
@@ -230,10 +230,10 @@ slots:
 - id: U-C07
   color: blue
   rarity: common
-  role: utility-small
+  role: deck-look
   value: 2-3
   timing: after
-  notes: Small effect on a modest body (hand disruption, small steal/give, etc.). Held open because the ideas so far were a weak card swap or a narrower Suspicion.
+  notes: Re-roled to deck-look and held by Prudence. The old role copied an original card and every idea was a clone.
 - id: U-C08
   color: blue
   rarity: common
@@ -251,10 +251,10 @@ slots:
 - id: U-U02
   color: blue
   rarity: uncommon
-  role: bounce-mass
+  role: bounce-threshold
   value: 2-3
   timing: after
-  notes: Color/value-based mass bounce (Hesitation/Fickleness style). Held open because no non-clone idea exists yet.
+  notes: Re-roled to bounce-threshold and held by Resurface. The old role copied an original card and every idea was a clone.
 - id: U-U03
   color: blue
   rarity: uncommon
@@ -265,17 +265,17 @@ slots:
 - id: U-U04
   color: blue
   rarity: uncommon
-  role: hand-manipulation-2
+  role: tempo-shift
   value: 2-3
   timing: after
-  notes: Second hand/deck-manipulation effect. Held open because no non-clone idea exists yet.
+  notes: Re-roled to tempo-shift and held by Overcommit. The old role copied an original card and every idea was a clone.
 - id: U-U05
   color: blue
   rarity: uncommon
-  role: steal-swap
-  value: 2-3
-  timing: after
-  notes: Take or swap a mood. Held open because no non-clone idea exists yet.
+  role: effect-cap
+  value: 3
+  timing: while
+  notes: Re-roled to effect-cap and held by Counterplay. The old role copied an original card and every idea was a clone. Earlier versions were a reactive bounce (it prompts the holder on every opponent play in async digital play) and a play cap (too close to Restraint).
 - id: U-U06
   color: blue
   rarity: uncommon
@@ -293,10 +293,10 @@ slots:
 - id: U-U08
   color: blue
   rarity: uncommon
-  role: flex
+  role: play-grant-hand
   value: 2-3
-  timing: any
-  notes: Open slot. Held open because no non-clone idea exists yet.
+  timing: after
+  notes: Re-roled to play-grant-hand and held by Catch-up. The old role copied an original card and every idea was a clone.
 - id: U-R01
   color: blue
   rarity: rare
@@ -415,10 +415,10 @@ slots:
 - id: B-C08
   color: black
   rarity: common
-  role: high-value-cost
+  role: hand-pressure-symmetric
   value: 5-6
-  timing: to-play/after
-  notes: High base value balanced by a cost, drawback or delay (to-play cost, bounce-self, gives an opponent a play). Held open because a mandatory sacrifice is a weaker Self-Loathing and a discard cost duplicates FOMO.
+  timing: after
+  notes: Re-roled to hand-pressure-symmetric and held by Ruin. The old role copied an original card and every idea was a clone.
 - id: B-U01
   color: black
   rarity: uncommon
@@ -429,10 +429,10 @@ slots:
 - id: B-U02
   color: black
   rarity: uncommon
-  role: removal-random-mass
-  value: '3'
+  role: removal-by-count
+  value: 3
   timing: after
-  notes: Random/mass removal from chosen opponents (Cruelty style). Held open because no non-clone idea exists yet.
+  notes: Re-roled to removal-by-count and held by Culling. The old role copied an original card and every idea was a clone.
 - id: B-U03
   color: black
   rarity: uncommon
@@ -443,10 +443,10 @@ slots:
 - id: B-U04
   color: black
   rarity: uncommon
-  role: sweeper-color-2
+  role: death-trigger
   value: 0-1
-  timing: after
-  notes: Second color-based sweeper, differently conditioned. Held open because no non-clone idea exists yet.
+  timing: while
+  notes: Re-roled to death-trigger and held by Legacy. The old role copied an original card and every idea was a clone.
 - id: B-U05
   color: black
   rarity: uncommon
@@ -471,10 +471,10 @@ slots:
 - id: B-U08
   color: black
   rarity: uncommon
-  role: flex
-  value: 2-6
-  timing: any
-  notes: Open slot (Betrayal-style high value with a loan). Held open because no non-clone idea exists yet.
+  role: turn-denial
+  value: 2-3
+  timing: after
+  notes: Re-roled to turn-denial and held by Embargo. The old role copied an original card and every idea was a clone.
 - id: B-R01
   color: black
   rarity: rare
@@ -622,10 +622,10 @@ slots:
 - id: R-U04
   color: red
   rarity: uncommon
-  role: steal-loan
-  value: '2'
-  timing: after
-  notes: Take a mood and give it back later (Arrogance style). Held open because every idea so far was a clone of an existing card.
+  role: retaliation
+  value: 2
+  timing: while
+  notes: Re-roled to retaliation and held by Vendetta. The old role copied an original card and every idea was a clone.
 - id: R-U05
   color: red
   rarity: uncommon
@@ -734,10 +734,10 @@ slots:
 - id: G-C03
   color: green
   rarity: common
-  role: interaction-lite
-  value: 1-2
-  timing: after
-  notes: '''Up to two players'' style small interaction in this color''s own verb (W suppress, U bounce, B/R discard-pile removal; G has no removal in the original pool, so use a gift/tempo effect instead). Held open because every gift or tempo idea so far was a clone of Generosity or Joy.'
+  role: conditional-underdog
+  value: 3->6
+  timing: while
+  notes: Re-roled to conditional-underdog and held by Resolve. The old role copied an original card and every idea was a clone.
 - id: G-C04
   color: green
   rarity: common
@@ -807,10 +807,10 @@ slots:
 - id: G-U05
   color: green
   rarity: uncommon
-  role: static-conditional-3
+  role: conditional-pile
   value: 0->6
   timing: while
-  notes: Third static conditional value. Held open because no non-clone idea exists yet.
+  notes: Re-roled to conditional-pile and held by Accumulation. The old role copied an original card and every idea was a clone.
 - id: G-U06
   color: green
   rarity: uncommon
@@ -940,10 +940,10 @@ slots:
 - id: X-U02
   color: colorless
   rarity: uncommon
-  role: colorless-uncommon
-  value: 2-3
-  timing: any
-  notes: Colorless uncommon.
+  role: colorless-payoff
+  value: 0-3
+  timing: while
+  notes: Re-roled to colorless-payoff and held by Neutrality. The old role copied an original card and every idea was a clone.
 - id: X-M01
   color: colorless
   rarity: mythic
