@@ -142,7 +142,7 @@ questions:
       - Mulch: with Resilience or Thrift it is free plays from the top of the deck, which is card advantage.
       - Growth: counters on paper, and a slow card that opponents can remove.
       - Open Hands: a face-up hand for the whole game may feel oppressive in paper, and the information may matter little against decks that ignore hands.
-      - Epiphany: a free mood of your choice from the top three cards, so check whether cards are too scarce for it; the fallbacks are to reveal two cards or restore the 0-to-3 filter, and the option if it feels weak is to play up to two of the three.
+      - Epiphany: a free card of your choice from the top three cards, played from the hand; it is close to Nostalgia, so check it does not feel like a narrower Nostalgia at mythic rarity; the fallbacks are the unrestricted extra play, revealing four cards, or playing up to two of the three (or revealing two cards if it is too strong).
       - Blaze: a quadratic payoff for red moods that may snowball; the fallback is a cap such as "up to three".
       - Overkill: always one more than the biggest opposing mood, so check its volatility; the fallback is "equal to" instead of 1 more.
       - Grudge: up to two extra plays each turn when the chosen opponent has 2 round wins, so check the burst against the free-play cycle, Haunting and Resonance; check its replacement effect with Elusiveness.
