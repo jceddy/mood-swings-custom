@@ -1,0 +1,29 @@
+slot: W-C07
+name: Levity
+color: white
+rarity: common
+base_value: 0
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood — You may put this mood on the bottom of the deck. If you do, draw a card. You may play an
+  additional mood this turn. (Moods are cards in play.)
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: Dr Potato
+notes: >-
+  White common, play grant with a cycle, submitted by Dr Potato (the original text had no reminder text and a hyphen
+  where the printed form uses an em dash). The name is a placeholder. Playing it is free: the extra play refunds the
+  play spent on it, and you either keep a 0-point body or put it on the bottom of the deck and replace it with a fresh
+  card, one for one. Its relatives in the original pool are Charity (white common, 1: the same unconditional extra
+  play), Hate (black common, 0: puts any mood on the bottom and draws), and Fear and Nostalgia (blue and green commons,
+  0: a zero-cost body plus an extra play); this is Charity with a cycle option, a point lighter. The set had no
+  unconditional extra play in white (Camaraderie and Familiarity are conditional). White has no card flow in the
+  original pool, so the cycle is a small pie bend. Alone it is modest; its real use is as a free play that triggers
+  engines that count plays (Recollection, Reflection, Urgency, Scorn-style triggers, and Duplicity, whose repeated
+  effect grants a second extra play). The reminder text follows Hate. It took the W-C07 slot from the common
+  Interruption, which was promoted to a rare (W-R06). Playtest worry: a free enabler for extra-play decks; the fallback
+  is a choice of cycling or the extra play, not both. impl_tier 1 is provisional.

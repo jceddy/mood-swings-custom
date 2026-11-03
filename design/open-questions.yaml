@@ -131,6 +131,8 @@ questions:
       - Sanctuary: it protects cheap engines from targeted effects (Barter, Plunder), so check whether a threshold of 1 is fairer.
       - Overcommit: three plays in one turn, then none, so check the burst against Dominance and Momentum decks.
       - Embargo: a skipped turn for one card, so check whether it needs two cards or a block on the first play only.
+      - Interruption (rare): it blanks one full turn for every other player, so check the strength against a combo turn; the fallback is to hit only a chosen player.
+      - Levity: a free play that enables extra-play engines, so check the fallback of choosing between cycling and the extra play.
       - Counterplay: it strips the after-playing effects of opponents' additional moods and spares you, so check it is not dead against decks without extra plays and whether it needs to be symmetric.
       - Vendetta: it needs the simulator to know which effect moved a mood, and it prompts its holder on an opponent's turn when one of their moods is removed.
       - Culling: it also hits your own board, so check it works when you are behind.
