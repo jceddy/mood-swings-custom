@@ -10,11 +10,11 @@ after_playing: true
 rules_text: >-
   After playing this mood, you may put a card from the discard pile into your hand. You may play an additional mood this
   turn.
-status: draft
+status: final
 reprint_of: Nostalgia
 impl_tier: 1
 designer: Maro
 notes: >-
-  Reprint of the original pool card of the same name, in slot G-C05. The rules text is copied from baseline/original-
-  pool.json, which was extracted from the simulator's database, so any parenthetical reminder text on the printed card may be
-  missing here; check it against the printed card before this is final.
+  Reprint of the original pool card of the same name, in slot G-C05. The rules text was checked against the printed card
+  image (MoodSwings-Web, web-static/img/cards/MSW/128-nostalgia.webp), card number 0128. The wording and value match the
+  simulator's text.

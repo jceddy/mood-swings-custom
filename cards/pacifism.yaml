@@ -9,12 +9,14 @@ while_in_play: false
 after_playing: true
 rules_text: >-
   After playing this mood, choose up to two players. For each chosen player, suppress one of their moods. It remains
-  suppressed for as long as you have this mood.
-status: draft
+  suppressed for as long as you have this mood. (While suppressed, that mood has a value of 0. Turn it sideways to keep
+  track.)
+status: final
 reprint_of: Pacifism
 impl_tier: 1
 designer: Maro
 notes: >-
-  Reprint of the original pool card of the same name, in slot W-C03. The rules text is copied from baseline/original-
-  pool.json, which was extracted from the simulator's database, so any parenthetical reminder text on the printed card may be
-  missing here; check it against the printed card before this is final.
+  Reprint of the original pool card of the same name, in slot W-C03. The rules text was checked against the printed card
+  image (MoodSwings-Web, web-static/img/cards/MSW/20-pacifism.webp), card number 0020. The printed card adds the
+  reminder that a suppressed mood has a value of 0 and is turned sideways. The simulator's text lacks the reminder text,
+  which is restored here.
