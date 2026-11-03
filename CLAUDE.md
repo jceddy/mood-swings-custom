@@ -32,7 +32,7 @@ This repo holds the work-in-progress design of a community-designed custom set f
   missing there (for example, "If you can't do that, you can't play this card." on every to-play cost is parenthetical on the
   printed cards but plain text in the baseline). Match the printed form in new cards.
 - The printed card images are in MoodSwings-Web under `web-static/img/cards/MSW/<number>-<name>.webp` (convert to PNG to view). Checked for the
-  13 reprints: the wording matches the baseline, except that four printed cards carry reminder text the baseline lacks (Pacifism: suppressed
+  13 original reprints (Ambition and Bravado were replaced later): the wording matches the baseline, except that four printed cards carry reminder text the baseline lacks (Pacifism: suppressed
   moods have a value of 0 and are turned sideways; Hate, Bravado and Determination: "Moods are cards in play."). Printed cards also write
   the ability line as "After playing this mood — Choose ..." (em dash, capital after it) and "While in play — This mood's value is ...";
   the simulator text uses a comma. Our card files use the printed form (decided, all cards converted).
@@ -47,8 +47,9 @@ This repo holds the work-in-progress design of a community-designed custom set f
   (one card per color). Nothing multicolored yet.
 - The original ally/enemy value-swapping wheel (10 commons) is **replaced** by a cycle of cards (slots C01/C02 per color) that care about
   2+ ally or enemy colored moods for a *different effect*.
-- Probable reprints are role-player commons, pre-assigned to slots as `reprint_candidate` in the skeleton: Pacifism, Panic, Fear, Ambition,
-  Hate, Suspicion, Shock, Bravado, Zeal, Compulsion, Joy, Nostalgia, Determination (13, exactly the cap; Q3 decided).
+- Reprints are role-player commons, pre-assigned to slots as `reprint_candidate` in the skeleton: Pacifism, Panic, Fear, Hate, Suspicion,
+  Shock, Zeal, Compulsion, Joy, Nostalgia, Determination (11; the cap is 13). Ambition and Bravado were replaced by the new cards Remorse
+  and Rashness to complete the zero-point free-play cycle (Q3, Q10).
 - Mythic slots: in each color, M01 is a dedicated build-around and M02/M03 are flexible (need not be build-arounds). Each color has a
   tentative build-around axis and an M01 mythic (Q5 stays open; see `design/axes.md`): white numbers (Routine), blue recycling the
   discard pile (Recollection), black hand pressure (Neglect), red playing red moods (Dominance), green replaying from the discard

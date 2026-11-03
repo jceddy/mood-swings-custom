@@ -384,11 +384,10 @@ slots:
 - id: B-C04
   color: black
   rarity: common
-  role: play-grant
-  value: 0-3
+  role: play-grant-cycle
+  value: 0
   timing: after
-  notes: Cheap extra-play grant, possibly restricted by color/parity/discard pile.
-  reprint_candidate: Ambition
+  notes: Held by Remorse, the black member of the zero-point free-play cycle (Fear, Nostalgia, Levity, Remorse, Rashness). It replaced the reprint Ambition.
 - id: B-C05
   color: black
   rarity: common
@@ -537,7 +536,7 @@ slots:
   role: flexible
   value: 0-2
   timing: any
-  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
+  notes: Held by Haunting, a submission from Dr Potato (first submitted as a green mythic). Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5).
 - id: R-C01
   color: red
   rarity: common
@@ -563,11 +562,10 @@ slots:
 - id: R-C04
   color: red
   rarity: common
-  role: play-grant
-  value: 0-3
+  role: play-grant-cycle
+  value: 0
   timing: after
-  notes: Cheap extra-play grant, possibly restricted by color/parity/discard pile.
-  reprint_candidate: Bravado
+  notes: Held by Rashness, the red member of the zero-point free-play cycle (Fear, Nostalgia, Levity, Remorse, Rashness). It replaced the reprint Bravado.
 - id: R-C05
   color: red
   rarity: common
