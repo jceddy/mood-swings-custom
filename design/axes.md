@@ -123,6 +123,7 @@ Infatuation, Excitement, Frustration, Triumph, Glee, Embarrassment, Animosity as
 | `R-U05` | play-grant-drawback | Gluttony-style extra play |
 | `R-U07` | conditional-value | value 3 to 5 conditional |
 | `R-R03` | scoring-engine | Momentum (written): +2 to each red mood you played this round |
+| `R-M02` | flexible mythic | Blaze (written): each red mood gets +1 for every red mood you have |
 | `R-R04` | tempo-engine | Adrenaline (written): first red play each turn grants an extra play |
 | `R-R05` | flex | FOMO (written): value 7, with an upkeep |
 | `G-U01` | play-grant | Thrift (written): extra play from the pile for a 0, 1, 2, or 3 |
