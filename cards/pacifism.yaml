@@ -8,7 +8,7 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, choose up to two players. For each chosen player, suppress one of their moods. It remains
+  After playing this mood — Choose up to two players. For each chosen player, suppress one of their moods. It remains
   suppressed for as long as you have this mood. (While suppressed, that mood has a value of 0. Turn it sideways to keep
   track.)
 status: final

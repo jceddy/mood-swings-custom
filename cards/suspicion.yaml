@@ -8,7 +8,7 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, choose any number of players. Each chosen player discards a card from their hand.
+  After playing this mood — Choose any number of players. Each chosen player discards a card from their hand.
 status: final
 reprint_of: Suspicion
 impl_tier: 1

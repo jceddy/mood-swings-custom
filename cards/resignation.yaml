@@ -8,7 +8,7 @@ to_play: true
 while_in_play: false
 after_playing: false
 rules_text: >-
-  To play this card, put a card from your hand on the bottom of the deck. (If you can't do that, you can't play this
+  To play this card — Put a card from your hand on the bottom of the deck. (If you can't do that, you can't play this
   card.)
 status: idea
 reprint_of: null

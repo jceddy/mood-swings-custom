@@ -8,8 +8,8 @@ to_play: false
 while_in_play: true
 after_playing: true
 rules_text: >-
-  After playing this mood, choose odd numbers or even numbers. While in play, each of your other moods with a number of the
-  chosen type in its top right corner has its value increased by 1. (0 is even.)
+  After playing this mood — Choose odd numbers or even numbers. While in play — Each of your other moods with a number
+  of the chosen type in its top right corner has its value increased by 1. (0 is even.)
 status: idea
 reprint_of: null
 impl_tier: 1

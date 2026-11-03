@@ -8,7 +8,7 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, choose a color. Put all other moods of the chosen color into the discard pile.
+  After playing this mood — Choose a color. Put all other moods of the chosen color into the discard pile.
 status: idea
 reprint_of: null
 impl_tier: 1

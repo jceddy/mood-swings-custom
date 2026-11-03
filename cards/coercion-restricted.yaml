@@ -8,10 +8,10 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, choose an opponent who has one or more cards in their hand and one or more moods.
-  That player may reveal their hand. If they do, choose a card from it and put it into your hand, and you may
-  play it as an additional mood this turn. If they don't, that player chooses one of their highest value moods
-  and puts it into the discard pile.
+  After playing this mood — Choose an opponent who has one or more cards in their hand and one or more moods. That
+  player may reveal their hand. If they do, choose a card from it and put it into your hand, and you may play it as an
+  additional mood this turn. If they don't, that player chooses one of their highest value moods and puts it into the
+  discard pile.
 status: idea
 reprint_of: null
 impl_tier: 2

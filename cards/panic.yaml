@@ -8,8 +8,8 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, choose up to two players. For each chosen player, put one of their moods into their hand. You
-  can't put this mood into your hand this way.
+  After playing this mood — Choose up to two players. For each chosen player, put one of their moods into their hand.
+  You can't put this mood into your hand this way.
 status: final
 reprint_of: Panic
 impl_tier: 1

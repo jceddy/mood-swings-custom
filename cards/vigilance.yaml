@@ -8,7 +8,8 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, if there are two or more black and/or red moods, you may suppress one of them for as long as you have this mood.
+  After playing this mood — If there are two or more black and/or red moods, you may suppress one of them for as long as
+  you have this mood.
 status: idea
 reprint_of: null
 impl_tier: 1

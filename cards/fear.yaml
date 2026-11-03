@@ -8,7 +8,7 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, you may put another one of your moods into your hand. You may play an additional mood this
+  After playing this mood — You may put another one of your moods into your hand. You may play an additional mood this
   turn.
 status: final
 reprint_of: Fear

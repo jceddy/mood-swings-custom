@@ -8,7 +8,7 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, choose odd or even and choose a player. That player reveals their hand, puts each card from
+  After playing this mood — Choose odd or even and choose a player. That player reveals their hand, puts each card from
   it with a number of the chosen type in its top right corner on the bottom of the deck, then draws that many cards. (0
   is even.)
 status: idea

@@ -8,8 +8,8 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, if there are two or more black and/or green moods, you may play an additional mood this turn.
-  If you do, after scoring, put that mood into the discard pile if it's still in play.
+  After playing this mood — If there are two or more black and/or green moods, you may play an additional mood this
+  turn. If you do, after scoring, put that mood into the discard pile if it's still in play.
 status: idea
 reprint_of: null
 impl_tier: 1

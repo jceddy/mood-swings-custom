@@ -8,8 +8,8 @@ to_play: false
 while_in_play: true
 after_playing: true
 rules_text: >-
-  After playing this mood, you may put a card from the discard pile on the bottom of the deck. If you do, draw a card. While in
-  play, each time you play another mood, you may do this.
+  After playing this mood — You may put a card from the discard pile on the bottom of the deck. If you do, draw a card.
+  While in play — Each time you play another mood, you may do this.
 status: idea
 reprint_of: null
 impl_tier: 1

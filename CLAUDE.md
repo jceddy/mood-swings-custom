@@ -34,8 +34,8 @@ This repo holds the work-in-progress design of a community-designed custom set f
 - The printed card images are in MoodSwings-Web under `web-static/img/cards/MSW/<number>-<name>.webp` (convert to PNG to view). Checked for the
   13 reprints: the wording matches the baseline, except that four printed cards carry reminder text the baseline lacks (Pacifism: suppressed
   moods have a value of 0 and are turned sideways; Hate, Bravado and Determination: "Moods are cards in play."). Printed cards also write
-  the ability line as "After playing this mood — Choose ..." (em dash, capital after it) and "While in play — This mood's value is ...",
-  while the simulator text and our card files use a comma. Whether to switch our files to the printed form is an open style question.
+  the ability line as "After playing this mood — Choose ..." (em dash, capital after it) and "While in play — This mood's value is ...";
+  the simulator text uses a comma. Our card files use the printed form (decided, all cards converted).
 - The original pool is 133 cards: 48 common, 40 uncommon, 30 rare, 15 mythic. Each color has exactly 8 uncommons, 6 rares and 3 mythics.
   `baseline/original-pool.json` is extracted from MoodSwings-Web's `database/migrations/0003_create_card_catalog.sql` plus later fixes
   (`scripts/extract_baseline.py`). Source repo for the simulator: https://github.com/jceddy/MoodSwings-Web (it has its own CLAUDE.md).
@@ -76,7 +76,7 @@ This repo holds the work-in-progress design of a community-designed custom set f
   when asked.
 - The author prefers decisions recorded in `design/open-questions.yaml` (status: decided) as they are made.
 - Keep `design/principles.md`, `README.md` and this file consistent with the skeleton when decisions change.
-- Card text style follows the original pool: "After playing this mood, ...", "While in play, ...", "To play this card, ...".
+- Card text style follows the printed cards: "After playing this mood — Choose ...", "While in play — This mood's value is ...", "To play this card — Discard ..." (em dash, then a capital letter).
 - If you use shell heredocs to write files with apostrophes, prefer the file-writing tool instead; heredocs with quotes were unreliable
   in the original session's shell.
 

@@ -8,8 +8,8 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, if there are two or more blue and/or black moods, you may give a card from your hand to another player.
-  If you do, you may play an additional mood this turn.
+  After playing this mood — If there are two or more blue and/or black moods, you may give a card from your hand to
+  another player. If you do, you may play an additional mood this turn.
 status: idea
 reprint_of: null
 impl_tier: 1

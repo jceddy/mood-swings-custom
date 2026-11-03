@@ -8,8 +8,8 @@ to_play: true
 while_in_play: true
 after_playing: false
 rules_text: >-
-  To play this card, discard a card from your hand. (If you can't do that, you can't play this card.) While in play,
-  at the start of each of your turns, you may discard a card from your hand. If you don't, put this mood into the
+  To play this card — Discard a card from your hand. (If you can't do that, you can't play this card.) While in play —
+  At the start of each of your turns, you may discard a card from your hand. If you don't, put this mood into the
   discard pile.
 status: idea
 reprint_of: null
