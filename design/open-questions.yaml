@@ -141,7 +141,7 @@ questions:
       - Wildfire: random removal of moods with a value of 1 or less hits your own cheap moods too; the fallback is opponents' moods only.
       - Mulch: with Resilience or Thrift it is free plays from the top of the deck, which is card advantage.
       - Growth: counters on paper, and a slow card that opponents can remove.
-      - Epiphany: a free mood from the deck, so check whether cards are too scarce for it; the fallback is to reveal the top three cards and play one.
+      - Epiphany: a free mood of your choice from the top three cards, so check whether cards are too scarce for it; the fallbacks are to reveal two cards or restore the 0-to-3 filter, and the option if it feels weak is to play up to two of the three.
       - Blaze: a quadratic payoff for red moods that may snowball; the fallback is a cap such as "up to three".
       - Overkill: always one more than the biggest opposing mood, so check its volatility; the fallback is "equal to" instead of 1 more.
       - Grudge: up to two extra plays each turn when the chosen opponent has 2 round wins, so check the burst against the free-play cycle, Haunting and Resonance; check its replacement effect with Elusiveness.

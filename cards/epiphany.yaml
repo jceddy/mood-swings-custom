@@ -8,22 +8,25 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood — Reveal cards from the top of the deck until you reveal a card with a 0, 1, 2, or 3 in its
-  top right corner. You may play that card as an additional mood this turn. Put the other revealed cards, and that card
-  if you don't play it, on the bottom of the deck in a random order.
+  After playing this mood — Reveal the top three cards of the deck. You may play one of them as an additional mood this
+  turn. Put the rest on the bottom of the deck in a random order.
 status: idea
 reprint_of: null
-impl_tier: 2
+impl_tier: 1
 designer: ""
 notes: >-
   Blue mythic, flexible slot, a free play from the deck. The name is a placeholder. The original pool has no card that
   plays from the deck: Serendipity (this set's red uncommon) plays a random card from your hand, and Foresight (U-M02)
-  draws cards and puts cards back, so it nets zero cards. This one nets you a mood: it reveals cards until it finds one
-  that is a 0, 1, 2 or 3, which is most moods, and lets you play it as an additional mood, with its after-playing
-  effect. The cards it passes over go to the bottom of the deck in a random order, so it also reshuffles what the next
-  round loser draws. The order is random, not chosen (it was first "in any order"), so digital clients never ask a
-  player to order cards; "in a random order" is the wording Altruism uses for the rest of the discard pile. Everything
-  happens on the owner's turn and the revealed cards are public, so no hidden information leaks and nothing prompts
-  anyone in async play. Playtest worry: cards are scarce, so a free mood may be a lot for one card; the fallback is to
-  reveal only the top three cards and play one of them, without the 0-to-3 filter. It pairs with the free-play cycle.
-  impl_tier 2 is provisional: a reveal-until loop on the deck, then a play from the revealed cards.
+  draws cards and puts cards back, so it nets zero cards. This one reveals the top three cards of the deck and lets you
+  play the best of them as an additional mood, with its after-playing effect, so it nets you a mood and a choice. The
+  cards you don't play go to the bottom of the deck in a random order, so it also reshuffles what the next round loser
+  draws; the order is random, not chosen, so digital clients never ask a player to order cards (the wording is
+  Altruism's, for the rest of the discard pile). Everything happens on the owner's turn and the revealed cards are
+  public, so no hidden information leaks and nothing prompts anyone in async play. History: it first revealed cards
+  until it found a 0, 1, 2 or 3 and played that card (a random mood of low value, with no choice), with the cards passed
+  over put on the bottom in any order, then in a random order. A group comment said it hit on complexity but felt really
+  bad on power, so it became the three-card version that had been named as the fallback: the 0-to-3 filter is gone, you
+  pick the best of three, and any value is allowed. Playtest worry: cards are scarce, so a free mood of your choice may
+  be a lot for one card; the fallback is to restore the filter, or to reveal two cards. A further option, if it still
+  feels weak, is to play up to two of the three. It pairs with the free-play cycle. impl_tier 1 is provisional: a reveal
+  of three cards, a play from the revealed cards, and a random move of the rest to the bottom of the deck.
