@@ -10,11 +10,11 @@ color: white           # white | blue | black | red | green | colorless
 rarity: common         # common | uncommon | rare | mythic
 base_value: 1          # 0-12; the printed value
 alt_value: null        # the conditional value, if any
-to_play: false         # has a "To play this card, ..." cost
-while_in_play: false   # has a "While in play, ..." ability
-after_playing: true    # has an "After playing this mood, ..." effect
+to_play: false         # has a "To play this card — ..." cost
+while_in_play: false   # has a "While in play — ..." ability
+after_playing: true    # has an "After playing this mood — ..." effect
 rules_text: >-
-  After playing this mood, ...
+  After playing this mood — ...
 status: idea           # idea | draft | playtest | final
 reprint_of: null       # exact name from the original pool, if this is a reprint
 impl_tier: 1           # 1 = composes existing simulator effect primitives

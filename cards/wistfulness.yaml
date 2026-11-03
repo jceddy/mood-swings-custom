@@ -8,8 +8,8 @@ to_play: false
 while_in_play: true
 after_playing: true
 rules_text: >-
-  After playing this mood, you may play an additional mood this turn from the discard pile. While in play, each time you
-  play another mood from the discard pile, you may have that mood's after-playing effect happen an additional time.
+  After playing this mood — You may play an additional mood this turn from the discard pile. While in play — Each time
+  you play another mood from the discard pile, you may have that mood's after-playing effect happen an additional time.
 status: idea
 reprint_of: null
 impl_tier: 2

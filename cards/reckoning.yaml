@@ -8,7 +8,7 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, you may have each player choose one of their moods. If you do, put all moods that weren't
+  After playing this mood — You may have each player choose one of their moods. If you do, put all moods that weren't
   chosen into the discard pile.
 status: idea
 reprint_of: null

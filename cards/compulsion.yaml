@@ -8,12 +8,12 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, choose another player. That player chooses a card from their hand and gives it to you.
-status: draft
+  After playing this mood — Choose another player. That player chooses a card from their hand and gives it to you.
+status: final
 reprint_of: Compulsion
 impl_tier: 1
 designer: Maro
 notes: >-
-  Reprint of the original pool card of the same name, in slot R-C07. The rules text is copied from baseline/original-
-  pool.json, which was extracted from the simulator's database, so any parenthetical reminder text on the printed card may be
-  missing here; check it against the printed card before this is final.
+  Reprint of the original pool card of the same name, in slot R-C07. The rules text was checked against the printed card
+  image (MoodSwings-Web, web-static/img/cards/MSW/86-compulsion.webp), card number 0086. The wording and value match the
+  simulator's text.

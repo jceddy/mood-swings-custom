@@ -8,26 +8,31 @@ to_play: false
 while_in_play: true
 after_playing: false
 rules_text: >-
-  While in play, after scoring, if you have five or more moods that share a color, you win the round.
+  While in play — After scoring, if you have five or more moods that share a color, you win the round. (Moods are cards
+  in play.)
 status: idea
 reprint_of: null
 impl_tier: 2
 designer: Dr Potato
 notes: >-
-  Contributor suggestion. The submission read "APtM: if you control 5 or more moods of the same color, when scoring this round,
-  you win the round." Decided: option A, a while-in-play condition checked at scoring, not a one-time check when played; it is
-  stateless and gives opponents turns to react. Wording: "have" instead of "control", "that share a color" as in Determination,
-  numbers as words, and "after scoring ... win the round" following Sneakiness (its effect happens after scoring and before
-  determining who wins). Placed in a colorless mythic slot: it was first put in the colorless rare slot, but its effect (winning the round outright) has
-  no equal in the original pool (Awe, a rare, only cancels scoring; Sneakiness, a mythic, swaps scores), so the group converted
-  that slot to a mythic (X-M01), which keeps the set at 133 cards and the colorless count at 8. Moods stay in play after rounds are scored, so this gets stronger as the game
-  progresses: a mono-color deck gets closer to five moods every round, which makes it a late-game win condition and the main
-  playtest worry (levers: a threshold of six, or a different count). Unity is colorless, so it does not count toward its own
-  five (six moods in total). Each player has one turn per round and one play per turn, so six moods without extra plays takes six
-  rounds: it is effectively a payoff for extra-play decks, and "stronger as the game progresses" applies mostly to them. Suppressed moods still count (the ruling made for the colorless gates). Imagination makes every
-  mood share a color, so five moods in total with Imagination in play would win the round. Awe ("no one wins or loses this
-  round") should override it. Open rulings: what happens when two players both have Unity and qualify (a tie-break), and
-  the usual round consequences should follow a Unity win, since it makes you the round's winner: the losing players draw a card at
-  the end of the round (Hurt Feelings still to confirm). Extra plays help reach five faster, so
-  it is a payoff for the red, blue and green extra-play axes; Restraint counters it. impl_tier 2: the colorless color value
-  (Q6) and overriding who wins the round are new; Sneakiness already modifies scores before the winner is determined.
+  Contributor suggestion. The submission read "APtM: if you control 5 or more moods of the same color, when scoring this
+  round, you win the round." Decided: option A, a while-in-play condition checked at scoring, not a one-time check when
+  played; it is stateless and gives opponents turns to react. Wording: "have" instead of "control", "that share a color"
+  as in Determination, numbers as words, and "after scoring ... win the round" following Sneakiness (its effect happens
+  after scoring and before determining who wins). Placed in a colorless mythic slot: it was first put in the colorless
+  rare slot, but its effect (winning the round outright) has no equal in the original pool (Awe, a rare, only cancels
+  scoring; Sneakiness, a mythic, swaps scores), so the group converted that slot to a mythic (X-M01), which keeps the
+  set at 133 cards and the colorless count at 8. Moods stay in play after rounds are scored, so this gets stronger as
+  the game progresses: a mono-color deck gets closer to five moods every round, which makes it a late-game win condition
+  and the main playtest worry (levers: a threshold of six, or a different count). Unity is colorless, so it does not
+  count toward its own five (six moods in total). Each player has one turn per round and one play per turn, so six moods
+  without extra plays takes six rounds: it is effectively a payoff for extra-play decks, and "stronger as the game
+  progresses" applies mostly to them. Suppressed moods still count (the ruling made for the colorless gates).
+  Imagination makes every mood share a color, so five moods in total with Imagination in play would win the round. Awe
+  ("no one wins or loses this round") should override it. Open rulings: what happens when two players both have Unity
+  and qualify (a tie-break), and the usual round consequences should follow a Unity win, since it makes you the round's
+  winner: the losing players draw a card at the end of the round (Hurt Feelings still to confirm). Extra plays help
+  reach five faster, so it is a payoff for the red, blue and green extra-play axes; Restraint counters it. impl_tier 2:
+  the colorless color value (Q6) and overriding who wins the round are new; Sneakiness already modifies scores before
+  the winner is determined. The reminder text about moods being cards in play was added, following the printed cards
+  that count moods or put your own moods into the discard pile.

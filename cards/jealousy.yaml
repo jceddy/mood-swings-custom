@@ -8,16 +8,18 @@ to_play: false
 while_in_play: true
 after_playing: false
 rules_text: >-
-  While in play, at the start of each of your turns, each opponent with more moods than you puts one of their moods into
-  the discard pile.
+  While in play — At the start of each of your turns, each opponent with more moods than you puts one of their moods
+  into the discard pile. (Moods are cards in play.)
 status: idea
 reprint_of: null
 impl_tier: 1
 designer: ""
 notes: >-
-  Black rare, removal engine. The name is a placeholder. The original card with this role is Rejection (a one-shot removal
-  that needs two moods sharing a color or a value). This one is an anti-snowball engine: each round, every opponent who is
-  ahead of you on board loses a mood of their choice. Because moods stay in play and boards grow by about one per round, it
-  taxes whoever builds wider, and it only works while you are behind on board (an inverse-correlation card). "Has more moods
-  than you" is Stubbornness's wording. It conflicts on purpose with Unity and the extra-play decks, which want wide boards.
-  Opponents choose the mood they lose (Fury, Cruelty). impl_tier 1 is provisional.
+  Black rare, removal engine. The name is a placeholder. The original card with this role is Rejection (a one-shot
+  removal that needs two moods sharing a color or a value). This one is an anti-snowball engine: each round, every
+  opponent who is ahead of you on board loses a mood of their choice. Because moods stay in play and boards grow by
+  about one per round, it taxes whoever builds wider, and it only works while you are behind on board (an inverse-
+  correlation card). "Has more moods than you" is Stubbornness's wording. It conflicts on purpose with Unity and the
+  extra-play decks, which want wide boards. Opponents choose the mood they lose (Fury, Cruelty). impl_tier 1 is
+  provisional. The reminder text about moods being cards in play was added, following the printed cards that count moods
+  or put your own moods into the discard pile.

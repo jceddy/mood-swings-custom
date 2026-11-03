@@ -8,7 +8,7 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, choose odd or even. Choose up to two players. For each chosen player, put one of their moods
+  After playing this mood — Choose odd or even. Choose up to two players. For each chosen player, put one of their moods
   with a number of the chosen type in its top right corner into the discard pile. (0 is even.)
 status: idea
 reprint_of: null

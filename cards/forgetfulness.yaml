@@ -8,8 +8,8 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, the winner of the previous round loses a round win. This round, no one draws a card at the end of the
-  round.
+  After playing this mood — The winner of the previous round loses a round win. This round, no one draws a card at the
+  end of the round.
 status: idea
 reprint_of: null
 impl_tier: 2

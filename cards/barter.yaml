@@ -8,7 +8,7 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood, you may choose one of your other moods and one of an opponent's moods with a value less than
+  After playing this mood — You may choose one of your other moods and one of an opponent's moods with a value less than
   or equal to that mood's. If you do, you and that opponent swap them.
 status: idea
 reprint_of: null
