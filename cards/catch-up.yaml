@@ -2,7 +2,7 @@ slot: U-U08
 name: Catch-up
 color: blue
 rarity: uncommon
-base_value: 2
+base_value: 3
 alt_value: null
 to_play: false
 while_in_play: false
@@ -19,5 +19,8 @@ notes: >-
   cards with this role are Benevolence, Friendliness and Kindness (extra plays gated by color or number). This one gates
   the extra play by hand size, which is public in paper. Because cards in hand are scarce, it is a comeback play grant:
   it turns on when you have run your hand down. The hand is counted after this mood leaves it. Ties do not count.
-  Playtest worry: it can be very good in a deck that runs its hand dry, and dead in a deck that hoards. impl_tier 1 is
-  provisional: a hand-size comparison on an extra-play grant.
+  History: it was first printed at 2; a group comment called the effect pretty weak (the hand is counted after this card
+  leaves it, ties do not count, so the condition is often false), and it was bumped to 3, still inside the slot's value
+  target of 2 to 3. The fallback if it still does not get played is to count ties ("as many cards in hand as or fewer
+  cards than each other player"). Playtest worry: it can be very good in a deck that runs its hand dry, and dead in a
+  deck that hoards. impl_tier 1 is provisional: a hand-size comparison on an extra-play grant.
