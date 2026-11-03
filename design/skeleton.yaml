@@ -179,10 +179,10 @@ slots:
 - id: W-M03
   color: white
   rarity: mythic
-  role: flexible
+  role: play-grant-engine
   value: 0-2
   timing: any
-  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
+  notes: Held by Grudge, a submission from Dr Potato (a comeback play-grant engine keyed to an opponent's round wins, submitted as a rare and placed here). Flexible mythic. Judge it by complexity and power ratio (Q5).
 - id: U-C01
   color: blue
   rarity: common

@@ -1,0 +1,38 @@
+slot: W-M03
+name: Grudge
+color: white
+rarity: mythic
+base_value: 0
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: true
+rules_text: >-
+  After playing this mood — Choose an opponent. While in play — During each of your turns (including the turn you play
+  this mood), you may play an additional mood for each round the chosen player has won. While in play — If this mood
+  would leave play, put it on the bottom of the deck instead. (Leaving play includes being put into the discard pile or
+  into a player's hand.)
+status: idea
+reprint_of: null
+impl_tier: 3
+designer: Dr Potato
+notes: >-
+  White mythic, flexible slot, submitted by Dr Potato as a white rare for the play-grant-engine role (W-R02, 0 points).
+  It was placed in W-M03 instead, and Resonance stays in W-R02: the replacement effect and the dynamic target make it
+  mythic-level in complexity, and a mythic costs no other card. The name is a placeholder. The wording was cleaned up:
+  "additional" for "extra", "each round the chosen player has won" for "each round win the chosen player has", "this
+  mood" for "this card", and "(including the turn you play this mood)" copies Hope and Resilience so the first use is
+  not ambiguous. It gives you up to two extra plays each turn, since the game ends at 3 round wins; at 0 wins it does
+  nothing, so it is a comeback engine (white: Forgetfulness, Compassion, Pride), and it stacks with Hurt Feelings, which
+  already gives the loser a second base play. No written card uses an opponent's round wins as a number, so it is not a
+  clone. Relatives in the original pool: Hope (green rare, 0: an unconditional extra play each turn), Stubbornness (red
+  rare: an extra play while another player has more moods) and Pride (white rare: a one-shot burst when behind on
+  moods). The second ability is a replacement effect: it stops the card from being recycled or re-cast to pick a new
+  opponent (Rumination, Fear, Mimicry, Resurgence), and removal, sweeps and bounces only send it to the bottom of the
+  deck; it interacts with Elusiveness (two replacement effects) and, because nothing enters the discard pile, Vendetta
+  and Legacy do not trigger. It is static, so it never prompts anyone in async play. Playtest worry: at 2 round wins the
+  chosen opponent gives you three plays a turn exactly when you are one loss from the game, and it stacks with the free-
+  play cycle, Haunting and Resonance; the answers are Interruption (blanks extra plays for a turn), Restraint and
+  Counterplay. Forgetfulness lowers the chosen player's wins, which cuts your extra plays. In 3 or 4 player games it
+  follows only the chosen opponent. impl_tier 3 is provisional: a replacement hook on a mood leaving play, plus an
+  extra-play count read from another player's round wins.
