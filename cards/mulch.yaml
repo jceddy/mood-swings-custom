@@ -1,0 +1,24 @@
+slot: G-R03
+name: Mulch
+color: green
+rarity: rare
+base_value: 0
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play — At the start of each of your turns, you may put the top card of the deck into the discard pile.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Green rare, re-roled from a discard-pile play engine to pile fuel, since the pile engines (Resilience, Thrift,
+  Wistfulness, Resurgence) already exist and nothing in the set fills the pile from the deck. The name is a placeholder.
+  It feeds Accumulation, Remorse, Mimicry, Haunting and every pile play, and with Resilience or Thrift it plays the top
+  card of the deck. The optional choice is on your own turn. The top card becomes face up in the pile, so no hidden
+  information leaks and the next draw is changed for everyone. Playtest worry: with Resilience or Thrift it is free
+  plays from the top of the deck, which is card advantage; the fallback is to put the card into the pile only on turns
+  when you cannot play from it. impl_tier 1 is provisional: a start-of-turn trigger that moves the top card of the deck
+  to the discard pile.

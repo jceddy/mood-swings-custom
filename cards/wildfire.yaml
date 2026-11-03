@@ -1,0 +1,25 @@
+slot: R-R06
+name: Wildfire
+color: red
+rarity: rare
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play — At the start of each of your turns, a random mood with a value of 1 or less is put into the discard
+  pile.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Red rare, flex slot, a slow burn. The name is a placeholder. The original pool has no recurring random removal (Rage
+  and Shock are one-shots, Cruelty is random but one-shot). Each round one random mood with a value of 1 or less, from
+  any player's board, goes into the discard pile, so it ticks down the cheap engines (most engine rares in the set print
+  at 0 or 1, including yours). It is mandatory and random, so nobody is asked anything. It is safe for itself at a value
+  of 2. It triggers once per round, since each player has one turn per round. Legacy (B-U04) draws a card when it
+  removes one of yours. Playtest worry: it hits your own cheap moods as well, and a deck of cheap moods can run out of
+  board; the fallback is to name opponents' moods only. impl_tier 1 is provisional: a start-of-turn trigger and a random
+  pick among moods with a value of 1 or less.
