@@ -131,7 +131,8 @@ questions:
       - Sanctuary: it protects cheap engines from targeted effects (Barter, Plunder), so check whether a threshold of 1 is fairer.
       - Overcommit: three plays in one turn, then none, so check the burst against Dominance and Momentum decks.
       - Embargo: a skipped turn for one card, so check whether it needs two cards or a block on the first play only.
-      - Counterplay and Vendetta: they need the simulator to know which plays were extra and which effect moved a mood.
+      - Counterplay: a static cap of one additional mood per opponent turn, so check it is not dead against decks without extra plays.
+      - Vendetta: it needs the simulator to know which effect moved a mood, and it prompts its holder on an opponent's turn when one of their moods is removed.
       - Culling: it also hits your own board, so check it works when you are behind.
       - Legacy: check that it does not break the draw rule with a sacrifice engine such as Martyrdom.
       - Intuition (1 point) and Bullying (2 points) were lowered after group feedback, so check they are still worth playing.

@@ -76,6 +76,7 @@ This repo holds the work-in-progress design of a community-designed custom set f
   when asked.
 - The author prefers decisions recorded in `design/open-questions.yaml` (status: decided) as they are made.
 - Keep `design/principles.md`, `README.md` and this file consistent with the skeleton when decisions change.
+- Digital asynchronous play: avoid "may" reactions that prompt a player during an opponent's turn (found on Counterplay, where every extra play would have asked its holder). Prefer static effects, mandatory triggers, or effects that only fire on your own turn. Vendetta still needs a target choice, but only when one of its holder's moods is removed.
 - Card text style follows the printed cards: "After playing this mood — Choose ...", "While in play — This mood's value is ...", "To play this card — Discard ..." (em dash, then a capital letter).
 - If you use shell heredocs to write files with apostrophes, prefer the file-writing tool instead; heredocs with quotes were unreliable
   in the original session's shell.
