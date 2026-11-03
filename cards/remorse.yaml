@@ -1,0 +1,26 @@
+slot: B-C04
+name: Remorse
+color: black
+rarity: common
+base_value: 0
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood — You may put a card from the discard pile on the bottom of the deck. If you do, draw a card.
+  You may play an additional mood this turn.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Black common, play grant, the black member of the zero-point free-play cycle (Fear in blue, Nostalgia in green, Levity
+  in white, Rashness in red; each is 0 points with a small effect and an unconditional extra play). The name is a
+  placeholder. It replaced the reprint Ambition (discard a card for an extra play) in B-C04. It is Nostalgia (green:
+  take a card from the discard pile into your hand, then an extra play) with a different engine: a pile card goes to the
+  bottom of the deck and you draw the top card, so it is a card gained for free with a random result, the same card
+  advantage as Nostalgia. Its effect text matches Reminiscence (U-C05, blue common, 3 points) plus a free extra play at
+  0; cross-color copies of an effect are normal in the pool (Hate and Zeal). Playtest worry: one of five free enablers
+  for extra-play engines (see Q9); the card advantage needs a non-empty discard pile, which is almost always true after
+  the first round. impl_tier 1 is provisional.

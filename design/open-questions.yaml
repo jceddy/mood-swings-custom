@@ -26,7 +26,8 @@ questions:
       Decided: 13 reprints (13 of 133 = 9.77%, exactly the cap), role-player commons pre-assigned to the slot whose role each
       fits; the Set sheet shows them in the "Reprint candidate" column: Pacifism (W-C03), Panic (U-C03), Fear (U-C04), Ambition
       (B-C04), Hate (B-C05), Suspicion (B-C07), Shock (R-C03), Bravado (R-C04), Zeal (R-C05), Compulsion (R-C07), Joy (G-C04),
-      Nostalgia (G-C05), Determination (G-C06). Nostalgia was dropped for a while because it seemed to overlap Warmth (G-C01), then
+      Nostalgia (G-C05), Determination (G-C06). Later change (Q10): Ambition and Bravado were replaced by two new cards, Remorse and
+      Rashness, so the set now has 11 reprints (11 of 133 = 8.27%) and the other 11 files are final. Nostalgia was dropped for a while because it seemed to overlap Warmth (G-C01), then
       reinstated: a contributor pointed out that they are different roles (Nostalgia is a 0-value acceleration card with a pickup
       attached; Warmth is a conditional pickup on a 3-value body). With 13 the list has no headroom, so any further reprint means
       dropping one.
@@ -132,9 +133,22 @@ questions:
       - Overcommit: three plays in one turn, then none, so check the burst against Dominance and Momentum decks.
       - Embargo: a skipped turn for one card, so check whether it needs two cards or a block on the first play only.
       - Interruption (rare): it blanks one full turn for every other player, so check the strength against a combo turn; the fallback is to hit only a chosen player.
+      - Free-play cycle (Fear, Nostalgia, Levity, Remorse, Rashness): five unconditional free extra plays at common, so check how strong extra-play engines get, and whether Rashness needs "a value of 0" only.
+      - Hellbent: the round leader runs their hand dry first (losers draw at the end of a round), so it favors the leader; check the snowball, with an alternate value of 6 as the fallback.
+      - Haunting: the burst size next turn with a big pile and a big hand, since each play triggers play engines; the fallback is "up to three".
       - Levity: a free play that enables extra-play engines, so check the fallback of choosing between cycling and the extra play.
       - Counterplay: it strips the after-playing effects of opponents' additional moods and spares you, so check it is not dead against decks without extra plays and whether it needs to be symmetric.
-      - Vendetta: it needs the simulator to know which effect moved a mood, and it prompts its holder on an opponent's turn when one of their moods is removed.
+      - Vendetta: mandatory and random, so nobody is prompted; check that a random pick among moods with a value of 3 or less is not too harsh on cheap engines (fallback: a value of 1 or less), and that the simulator can tell which player controls an effect.
       - Culling: it also hits your own board, so check it works when you are behind.
       - Legacy: check that it does not break the draw rule with a sacrifice engine such as Martyrdom.
       - Intuition (1 point) and Bullying (2 points) were lowered after group feedback, so check they are still worth playing.
+  - id: Q10
+    status: decided
+    question: Should every color have a zero-point common with a small effect and an unconditional extra play?
+    notes: |
+      Decided: yes. Fear (blue) and Nostalgia (green) are reprints from the original pool and Charity (white) was the original free
+      play; the set completes the cycle with Levity (white, a submission from Dr Potato: put this mood on the bottom of the deck to
+      draw a card), Remorse (black: a card from the discard pile to the bottom of the deck, then draw a card) and Rashness (red: remove
+      an opponent's mood with a value of 1 or less). Remorse replaced the reprint Ambition (B-C04) and Rashness replaced the reprint
+      Bravado (R-C04), so the reprint count dropped from 13 to 11 (Q3). The red card uses opponents' moods only; the original proposal
+      said "a mood". Playtest watch items are listed in Q9.

@@ -64,7 +64,7 @@ plays) and plenty of fuel in the pile.
 | `U-R03` | hand-engine | Reflection (written): discard a card to draw a card on each play, fueling the pile |
 | `U-R04` | bounce-engine | Rumination (written): recycle one of your moods each round |
 | `U-M02` | flexible mythic | Foresight (written): draw, bottom, extra play |
-| `B-C04` | play-grant | Ambition (reprint): discards a card, extra play |
+| `B-C04` | play-grant | Remorse (written): a pile card to the bottom of the deck, draw a card, extra play |
 | `B-C07` | utility-small | Suspicion (reprint): fills the pile with hand discards |
 | `B-C02` | enemy-count | Disdain (written): removal fills the pile |
 | `R-C03` | interaction-lite | Shock (reprint): removal fills the pile |
@@ -87,7 +87,7 @@ Delight, Fascination, Bliss, Embarrassment, Dignity.
 
 | Slot | Role in the skeleton | What it would do for the axis |
 |---|---|---|
-| `B-C04` | play-grant | Ambition (reprint): discard for an extra play |
+| `B-C04` | play-grant | Remorse (written): pile to deck, draw, extra play (replaced the Ambition reprint) |
 | `B-C05` | card-flow | Hate (reprint) |
 | `B-C06` | conditional-3 | Schadenfreude (written): rewards discards |
 | `B-C07` | utility-small | Suspicion (reprint): hand discard |
@@ -116,7 +116,7 @@ Infatuation, Excitement, Frustration, Triumph, Glee, Embarrassment, Animosity as
 | Slot | Role in the skeleton | What it would do for the axis |
 |---|---|---|
 | `R-C01` | ally-count | Fervor (written): extra play with a price |
-| `R-C04` | play-grant | Bravado (reprint): sacrifices a mood for an extra play |
+| `R-C04` | play-grant | Rashness (written): removes an opponent's cheap mood, extra play |
 | `R-C05` | card-flow | Zeal (reprint): keeps red cards in hand |
 | `R-C06` | conditional-3 | Exuberance (written): 6 if you have two other red moods |
 | `R-C08` | high-value-cost | Frenzy (written): 6, leaves the discard pile after scoring |
@@ -152,10 +152,10 @@ Altruism and Cynicism (pickups), Bravado, Hostility, Rebellion, Self-Loathing, E
 | `G-M02` | flexible mythic | Wistfulness (written): a pile play grant, and pile plays repeat their after-playing effect |
 | `G-R03` | discard-play-engine | open again (its first card moved up to a mythic) |
 | `G-R05` | flex | pile-related flex |
-| `B-C04` | play-grant | Ambition (reprint): puts a card in the pile |
+| `B-C04` | play-grant | Remorse (written): moves a pile card to the deck, so it needs pile fuel |
 | `B-U05` | graveyard | Longing (written): trade a hand card for up to two from the pile |
 | `B-R01` | graveyard-engine | Brooding (written): rummage the pile each round |
-| `R-C04` | play-grant | Bravado (reprint): sacrifices a mood into the pile |
+| `R-C04` | play-grant | Rashness (written): removal fills the pile, extra play |
 | `R-U06` | removal-trade | Retribution (written): trade one of your moods to remove a weaker one |
 | `U-R02` | copy-effect | Mimicry (written): runs a pile mood's after-playing effect |
 
@@ -164,10 +164,10 @@ shuts off extra plays.
 
 ## Cross-axis notes
 
-- **Slots that serve more than one axis:** `B-C04` (Ambition: black, blue, green), `B-C07` (Suspicion: black, blue), `R-C04` (Bravado:
+- **Slots that serve more than one axis:** `B-C04` (Remorse: black, blue, green), `B-C07` (Suspicion: black, blue), `R-C04` (Rashness:
   red, green), `R-R05` (FOMO: red, black, blue), `R-C03` (Shock: white, blue). Their value is high; avoid cutting them.
 - **Extra-play density.** Red, blue and green axes all lean on extra plays, and white's Restraint (`W-M02`) is a deliberate counter.
-  Watch for too many extra-play commons (Camaraderie, Fervor, Wariness, Joy, Bravado, Ambition, Fear are already planned).
+  Watch for too many extra-play commons (Camaraderie, Fervor, Wariness, Joy, Fear, Nostalgia, Levity, Remorse and Rashness are already planned).
 - **Discard pile.** Blue drains it and green plays from it. That is a built-in interaction, not a conflict, but both need fuel from
   the other colors.
 - **Hand size.** Blue's draws (Recollection, Foresight, Rapport) make opposing hand-pressure better, and black's pressure punishes

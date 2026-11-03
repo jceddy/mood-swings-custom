@@ -1,0 +1,26 @@
+slot: R-C04
+name: Rashness
+color: red
+rarity: common
+base_value: 0
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood — You may put one of your opponents' moods with a value of 1 or less into the discard pile.
+  You may play an additional mood this turn.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Red common, play grant, the red member of the zero-point free-play cycle (Fear in blue, Nostalgia in green, Levity in
+  white, Remorse in black; each is 0 points with a small effect and an unconditional extra play). The name is a
+  placeholder. It replaced the reprint Bravado (sacrifice a mood for an extra play) in R-C04. The small effect is
+  removal of a mood with a value of 1 or less. The proposal was "a mood" of any player; the opponents'-moods-only
+  wording was used because hitting your own moods is never useful, and it needs no mood reminder, as with Shock. Because
+  the extra play is unconditional, the removal is free. Most engine rares in the set print at 0 or 1 (Plunder, Jealousy,
+  Neglect, Adrenaline, Brooding, Rumination, Reflection and others), so this is cheap hate against engines, cheaper than
+  Shock (a play, value 3 or less, up to two players). It may be the strongest card in the cycle. Fallbacks: "a value of
+  0" only, or no extra play when you remove something. impl_tier 1 is provisional.
