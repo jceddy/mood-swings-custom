@@ -100,7 +100,7 @@ Delight, Fascination, Bliss, Embarrassment, Dignity.
 | `G-C02` | enemy-count | Wariness (written): gives a card away |
 | `G-U07` | hand-reveal-gift | hand-reveal gift effect |
 | `G-R02` | scaling-value | (slot now used by Vindication, rounds-won scaling; no longer a hand-pressure partner) |
-| `U-U04` | hand-manipulation-2 | hand manipulation |
+| `U-U04` | tempo-shift | (slot re-roled to Overcommit, a tempo shift; no longer a hand-pressure partner) |
 
 Black's list is mostly filled already; six of the 14 are written or marked. The open need is payoffs.
 

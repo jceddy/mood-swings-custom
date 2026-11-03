@@ -1,0 +1,23 @@
+slot: U-U02
+name: Resurface
+color: blue
+rarity: uncommon
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood — Choose a player. That player puts all their moods with a value of 4 or more into their hand.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Blue uncommon, re-roled from color-based mass bounce to a value-threshold bounce. The name is a placeholder. The
+  original cards with this role are Hesitation (bounce red and green moods) and Fickleness (bounce the most common
+  color), which bounce by color. This one bounces by value, against one player, so it hits the big moods and spares the
+  cheap ones. It is the bounce mirror of Shock (remove 3 or less) and Courage (white, remove 5 or more). Bouncing costs
+  them a play to replay each mood, so a player with several big moods loses a lot of tempo. Playtest worry: it can undo
+  several rounds of building for the target. impl_tier 1 is provisional: a threshold filter on one player's moods plus a
+  bounce.

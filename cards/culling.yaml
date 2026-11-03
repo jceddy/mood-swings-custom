@@ -1,0 +1,24 @@
+slot: B-U02
+name: Culling
+color: black
+rarity: uncommon
+base_value: 3
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood — Each player with three or more moods puts one of their moods into the discard pile. (Moods
+  are cards in play.)
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Black uncommon, re-roled from random mass removal to removal by mood count. The name is a placeholder. The original
+  card with this role is Cruelty (choose opponents with two or more moods; each puts a random one into the discard
+  pile). This one is non-random and symmetric: each player with three or more moods, including you, chooses a mood to
+  lose. It taxes wide boards, which fits a game where boards grow by about one mood a round, and it is a one-shot cousin
+  of Jealousy (B-R02). It is the closest card to an original (Cruelty). Playtest worry: it also hits your own board, so
+  it works best when you are behind or have two moods. impl_tier 1 is provisional: a mood-count filter and a pick of
+  one's own mood.

@@ -1,0 +1,23 @@
+slot: G-C03
+name: Resolve
+color: green
+rarity: common
+base_value: 3
+alt_value: 6
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play — This mood's value is 6 if you have won fewer rounds than each other player.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Green common, re-roled from a small interaction to an underdog value. The name is a placeholder. Green has no removal
+  in the original pool, so every interaction idea was a gift or a clone of Generosity or Joy. The original cards with
+  this role are Chivalry and Triumph (tempo conditions: went first or not). This one keys on round wins, which are
+  public (first to 3 wins the game): it is on while you are behind in round wins. Vindication (G-R02) is the opposite, a
+  snowball scaling card. With equal wins the condition is false (ties do not count). Playtest worry: it is only on when
+  behind, and it turns off as soon as you catch up. impl_tier 1 is provisional: a comparison of round-win counts, which
+  the simulator already holds.

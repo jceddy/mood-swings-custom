@@ -1,0 +1,22 @@
+slot: W-C07
+name: Interruption
+color: white
+rarity: common
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood — Choose a player. That player can't play additional moods during their next turn.
+status: idea
+reprint_of: null
+impl_tier: 2
+designer: ""
+notes: >-
+  White common, re-roled from utility-small to a tempo lock. The name is a placeholder. The original pool has no card
+  that restricts another player's plays; Restraint (W-M02) is the global, permanent version. This is a one-turn,
+  targeted version that only blocks extra plays, aimed at the extra-play decks (red, blue and green axes). It does not
+  stop the base play or Hurt Feelings' second base play. It is the lightest of three tempo cards with Embargo (B-U08,
+  blocks all plays for a card) and Overcommit (U-U04, a self-imposed shift). Playtest worry: it can be wasted against
+  decks without extra plays. impl_tier 2 is provisional: a per-player flag on extra plays for one turn.

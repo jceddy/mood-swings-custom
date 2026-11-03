@@ -1,0 +1,23 @@
+slot: U-U05
+name: Counterplay
+color: blue
+rarity: uncommon
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play — Each time an opponent plays an additional mood, after its after-playing effect, you may put that mood
+  into its player's hand.
+status: idea
+reprint_of: null
+impl_tier: 2
+designer: ""
+notes: >-
+  Blue uncommon, re-roled from steal-swap to a reactive bounce. The name is a placeholder. Barter (U-R01) and Plunder
+  (R-R01) already cover swaps and steals. The original pool has no reactive blue card, but Scorn, Validation and
+  Duplicity react to plays. This one punishes extra plays: the opponent keeps the after-playing effect but loses the
+  mood from the board and has to replay it. Its trigger wording follows the pool's "each time you play another mood" and
+  runs after the effect. Playtest worry: it is only live against extra-play decks, and it may need an "only once each
+  turn" cap. impl_tier 2 is provisional: the simulator already tracks extra plays and has a reaction after another play.
