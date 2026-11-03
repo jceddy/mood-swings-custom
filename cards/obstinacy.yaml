@@ -1,0 +1,22 @@
+slot: G-C08
+name: Obstinacy
+color: green
+rarity: common
+base_value: 5
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play, you can only play one mood per turn.
+status: idea
+reprint_of: null
+impl_tier: 2
+designer: ""
+notes: >-
+  Green common, high value with a cost. The name is a placeholder. The original card with this role is Generosity (green, 6:
+  an opponent may play an additional mood on their next turn). Here the drawback is on your own plays, and it bites green's
+  own extra-play cards (Joy, Wistfulness, Duplicity), so the 5-point body has a real downside only in extra-play decks, which
+  is why it prints at 5 and not 6. It uses the concept of Restraint (W-M02), but only for yourself. Playtest worry: it may be
+  a free 5 in decks that never use extra plays. impl_tier 2 is provisional: a per-player play limit while this mood is in
+  play; Restraint already needs the hook.
