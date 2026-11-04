@@ -10,6 +10,7 @@ after_playing: true
 rules_text: >-
   After playing this mood — You may discard any number of cards from your hand. If you do, you may play that many
   additional moods from the discard pile on your next turn.
+emphasis: [next]
 status: idea
 reprint_of: null
 impl_tier: 2
@@ -31,3 +32,4 @@ notes: >-
   pile and a big hand, since each play triggers "each time you play another mood" engines; a cap such as "up to three"
   is the fallback. impl_tier 2 is provisional: a banked count of extra plays from the pile for the next turn, the same
   shape as Joy.
+  The word next is bold in the MSE set, as in the printed Joy (on your next turn).
