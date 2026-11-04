@@ -22,6 +22,6 @@ notes: >-
   2). It stays distinct from Duplicity: both the extra play and the repeat are limited to the discard pile, so it spends the
   pile, not scarce hand cards, and it only doubles pile plays. The repeat applies to the extra play it grants, so on entry
   the first replay already triggers twice. The repeated effect gets fresh choices, as with Duplicity. Main playtest worry:
-  Resurgence's replays all come from the pile, so each would trigger twice (a strong mythic combo). Restraint shuts off the
+  Reinvigoration's replays all come from the pile, so each would trigger twice (a strong mythic combo). Restraint shuts off the
   extra plays that feed it but not the repeat for other pile plays. impl_tier 2 is provisional: Duplicity's repeat restricted
   to plays from the pile, plus a pile play grant (Harmony).

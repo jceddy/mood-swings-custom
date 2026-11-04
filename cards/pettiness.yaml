@@ -1,0 +1,24 @@
+slot: B-U08
+name: Pettiness
+color: black
+rarity: uncommon
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood — You may discard a card from your hand. If you do, choose a player. That player can't play
+  moods during their next turn.
+status: idea
+reprint_of: null
+impl_tier: 2
+designer: ""
+notes: >-
+  Black uncommon, re-roled from a Betrayal-style flex to turn denial. The name is a placeholder. The original pool has
+  no card that blocks all of a player's plays; Betrayal gives one of your moods away until scoring. Moods persist and
+  each player gets one play per turn, so skipping a turn is about the same as removing one mood the target would have
+  added, and the price is a card from your hand. It is the strongest of three tempo cards with Rudeness (W-C07,
+  extra plays only) and Overconfidence (U-U04). It does not stop Hurt Feelings' second base play. Playtest worry: a skipped
+  turn may be too big for a card; the fallback is to block only the first play or to require two cards. impl_tier 2 is
+  provisional: a one-turn play ban on a chosen player.

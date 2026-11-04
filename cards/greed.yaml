@@ -18,7 +18,7 @@ notes: >-
   Black rare, flex. The name is a placeholder. The original card in this space is Intimidation (they pick which card they
   reveal; you may play it as an additional mood). This version lets you see the hand and choose, and the opponent draws a
   replacement, so you net a card and their hand size stays the same. That is stronger than Compulsion (value 3, they choose
-  which card to give), so it prints as a rare. It bends the pool's draw rule the way Recollection does; if the group prefers,
+  which card to give), so it prints as a rare. It bends the pool's draw rule the way Reverie does; if the group prefers,
   drop the replacement draw (they just lose the card), which is the Compulsion shape. Targeting restriction follows Paranoia
-  and Intrusion ("a player/an opponent with one or more cards in their hand"). impl_tier 2 is provisional: it reveals a whole
-  hand to the chooser (Coercion and Intrusion have the same need).
+  and Nosiness ("a player/an opponent with one or more cards in their hand"). impl_tier 2 is provisional: it reveals a whole
+  hand to the chooser (Entitlement and Nosiness have the same need).

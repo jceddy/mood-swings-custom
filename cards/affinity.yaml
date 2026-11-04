@@ -1,0 +1,25 @@
+slot: W-R02
+name: Affinity
+color: white
+rarity: rare
+base_value: 1
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play — The first time each turn you play a mood with the same number in its top right corner as another of
+  your moods, you may play an additional mood this turn.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  White rare, re-roled from a generic play-grant engine to a numbers play engine. The name is a placeholder. It is
+  Familiarity (W-C04, a one-shot extra play if the extra mood matches a number you have) turned into an engine, and it
+  fits white's numbers axis. The cap of once each turn follows Adrenaline (R-R04, "the first time you play a red mood
+  each turn") so a deck full of duplicates cannot chain forever; the optional choice is on your own turn, so it never
+  prompts another player in async play. Affinity is one more free-play enabler (see Q9), and the free-play cycle (Fear,
+  Nostalgia, Levity, Remorse, Rashness) stacks with it. Restraint, Defensiveness and Rudeness answer it. Playtest
+  worry: decks with many cards of the same number get a free extra play every turn. impl_tier 1 is provisional: a number
+  match against your other moods, on the same hook as Adrenaline.

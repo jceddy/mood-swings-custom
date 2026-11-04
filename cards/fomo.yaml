@@ -27,6 +27,6 @@ notes: >-
   player has one turn per round, so the upkeep is paid once per round for the rest of the game; hands refill only when you lose a
   round (the losing players draw a card at the end of each round) and through card effects, so paying a card every round on top of
   the card you play is a heavy cost: a hand empties fast and the mood is likely to be discarded within a couple of rounds unless
-  you have card flow (Zeal, Rapport, Foresight), which is part of why a printed 7 may be fair. impl_tier 1 is provisional: the
+  you have card flow (Zeal, Rapport, Premonition), which is part of why a printed 7 may be fair. impl_tier 1 is provisional: the
   simulator already has a start-of-turn trigger (Stubbornness); the optional pay-or-lose-it prompt is the only new part.
   Interacts with hand discard (Suspicion) and with Schadenfreude.

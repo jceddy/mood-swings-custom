@@ -8,19 +8,19 @@ exist yet unless a card name is given. Pool counts come from a text search of th
 
 | Color | M01 slot | Axis | Mythic so far | Pool cards that already fit |
 |---|---|---|---|---|
-| White | `W-M01` | Numbers: printed odd and even values | Routine | about 20 |
-| Blue | `U-M01` | Recycle the discard pile and play many moods | Recollection | extra-play cards, pile fuel |
+| White | `W-M01` | Numbers: printed odd and even values | Orderliness | about 20 |
+| Blue | `U-M01` | Recycle the discard pile and play many moods | Reverie | extra-play cards, pile fuel |
 | Black | `B-M01` | Hand pressure: hand size and hand attacks | Neglect | about 19 |
 | Red | `R-M01` | Playing red moods | Dominance | extra-play cards, high-value red moods |
-| Green | `G-M01` | Replay from the discard pile, re-trigger after-playing effects | Resurgence | pile plays, pile fuel |
+| Green | `G-M01` | Replay from the discard pile, re-trigger after-playing effects | Reinvigoration | pile plays, pile fuel |
 
 The axes were chosen to stay distinct. Blue and green both use the discard pile, but in opposite directions (blue drains it, green
 plays from it), so black does not take a third pile axis.
 
-## White: numbers (`W-M01`, Routine)
+## White: numbers (`W-M01`, Orderliness)
 
 **Idea.** Printed values and parity matter. Restraint (`W-M02`) switches off mood-granted extra plays, so white's M01 should reward
-caring about values, not be a play-grant engine. The mythic is Routine: choose odd or even numbers on entry, and each of your other
+caring about values, not be a play-grant engine. The mythic is Orderliness: choose odd or even numbers on entry, and each of your other
 moods with a chosen number in its top right corner gets +1. Number control (suppress and lock out a chosen number) was considered and
 could fit `W-M03`.
 
@@ -40,9 +40,9 @@ and Rejection (same value), Worry (3 or less).
 | `W-U06` | value-boost | Humility (written): +1 to your 0s, 1s and 2s |
 | `W-U07` | conditional-value | Equanimity (written): 6 if four or more moods have even numbers |
 | `R-C03` | interaction-lite | Shock (reprint): removal at value 3 or less |
-| `R-U01` | sweeper-small | Bullying (written): sweep your opponents' moods of value 2 or less |
+| `R-U01` | sweeper-small | Belligerence (written): sweep your opponents' moods of value 2 or less |
 | `R-U02` | sweeper-numeric | Intuition (written): name a number, sweep every other mood with it |
-| `R-U03` | removal-highest | Comeuppance (written): the leaders lose their highest value mood |
+| `R-U03` | removal-highest | Righteousness (written): the leaders lose their highest value mood |
 | `B-C03` | interaction-lite | Malevolence (written): a flexible Spite: remove an odd or even mood |
 | `G-C07` | utility-small | Cheer/Delight-style discard by value |
 | `U-U03` | hand-manipulation | Turmoil (written): a chosen player cycles every odd or even card in hand |
@@ -50,7 +50,7 @@ and Rejection (same value), Worry (3 or less).
 **Risks.** Value-threshold cards are narrow, so the axis needs reliable ways to show numbers on the board. Printed values are
 visible, so paper tracking is not an issue.
 
-## Blue: recycle the discard pile and play many moods (`U-M01`, Recollection)
+## Blue: recycle the discard pile and play many moods (`U-M01`, Reverie)
 
 **Idea.** Each play draws a card by sending a discard-pile card to the bottom of the deck. The axis wants plenty of plays (extra
 plays) and plenty of fuel in the pile.
@@ -63,7 +63,7 @@ plays) and plenty of fuel in the pile.
 | `U-U07` | play-grant-risky | Impulse (written): extra play, this mood returns to hand after scoring |
 | `U-R03` | hand-engine | Reflection (written): discard a card to draw a card on each play, fueling the pile |
 | `U-R04` | bounce-engine | Rumination (written): recycle one of your moods each round |
-| `U-M02` | flexible mythic | Foresight (written): draw, bottom, extra play |
+| `U-M02` | flexible mythic | Premonition (written): draw, bottom, extra play |
 | `B-C04` | play-grant | Remorse (written): a pile card to the bottom of the deck, draw a card, extra play |
 | `B-C07` | utility-small | Suspicion (reprint): fills the pile with hand discards |
 | `B-C02` | enemy-count | Disdain (written): removal fills the pile |
@@ -92,15 +92,15 @@ Delight, Fascination, Bliss, Embarrassment, Dignity.
 | `B-C06` | conditional-3 | Schadenfreude (written): rewards discards |
 | `B-C07` | utility-small | Suspicion (reprint): hand discard |
 | `B-U06` | conditional-value | Composure (written): 6 if you have the most cards in hand |
-| `B-U07` | hand-disruption | Intrusion (written): reveal their hand, discard a card of your choice |
-| `B-M02` | flexible mythic | Coercion (written): reveal your hand or lose your best mood |
+| `B-U07` | hand-disruption | Nosiness (written): reveal their hand, discard a card of your choice |
+| `B-M02` | flexible mythic | Entitlement (written): reveal your hand or lose your best mood |
 | `R-C07` | utility-small | Compulsion (reprint): take a card |
 | `R-R05` | flex | FOMO (written): hand discards every round |
 | `R-U07` | conditional-value | Ruthlessness (written): 5 if an opponent has no cards in hand |
 | `G-C02` | enemy-count | Wariness (written): gives a card away |
 | `G-U07` | hand-reveal-gift | hand-reveal gift effect |
 | `G-R02` | scaling-value | (slot now used by Vindication, rounds-won scaling; no longer a hand-pressure partner) |
-| `U-U04` | tempo-shift | (slot re-roled to Overcommit, a tempo shift; no longer a hand-pressure partner) |
+| `U-U04` | tempo-shift | (slot re-roled to Overconfidence, a tempo shift; no longer a hand-pressure partner) |
 
 Black's list is mostly filled already; six of the 14 are written or marked. The open need is payoffs.
 
@@ -122,19 +122,19 @@ Infatuation, Excitement, Frustration, Triumph, Glee, Embarrassment, Animosity as
 | `R-C08` | high-value-cost | Frenzy (written): 6, leaves the discard pile after scoring |
 | `R-U05` | play-grant-drawback | Gluttony-style extra play |
 | `R-U07` | conditional-value | value 3 to 5 conditional |
-| `R-R03` | scoring-engine | Momentum (written): +2 to each red mood you played this round |
-| `R-M02` | flexible mythic | Blaze (written): each red mood gets +1 for every red mood you have |
+| `R-R03` | scoring-engine | Verve (written): +2 to each red mood you played this round |
+| `R-M02` | flexible mythic | Ardor (written): each red mood gets +1 for every red mood you have |
 | `R-R04` | tempo-engine | Adrenaline (written): first red play each turn grants an extra play |
 | `R-R05` | flex | FOMO (written): value 7, with an upkeep |
 | `G-U01` | play-grant | Thrift (written): extra play from the pile for a 0, 1, 2, or 3 |
-| `G-U02` | play-grant-2 | Renewal (written): re-trigger another of your moods' after-playing effect |
+| `G-U02` | play-grant-2 | Optimism (written): re-trigger another of your moods' after-playing effect |
 | `U-C04` | play-grant | Fear (reprint): puts a mood in hand, extra play |
 | `W-U01` | play-grant-restricted | extra play restricted by color (red) |
 
 **Risks.** Restraint shuts off extra plays. Dominance wants opposing moods with lower values, which White's value-boost cards
 (`W-U06`) work against.
 
-## Green: replay from the discard pile (`G-M01`, Resurgence)
+## Green: replay from the discard pile (`G-M01`, Reinvigoration)
 
 **Idea.** Put your board into the discard pile, then replay moods from the whole pile with their after-playing effects happening
 again. The axis wants discard-pile plays, fuel for the pile, and cheap moods with strong after-playing effects.
@@ -147,21 +147,21 @@ Altruism and Cynicism (pickups), Bravado, Hostility, Rebellion, Self-Loathing, E
 | `G-C01` | ally-count | Warmth (written): pickup from the pile |
 | `G-C05` | card-flow | Nostalgia (reprint): pickup plus an extra play |
 | `G-U01` | play-grant | Thrift (written): extra play from the pile for a 0, 1, 2, or 3 |
-| `G-U02` | play-grant-2 | Renewal (written): re-trigger another of your moods' after-playing effect |
+| `G-U02` | play-grant-2 | Optimism (written): re-trigger another of your moods' after-playing effect |
 | `G-U08` | flex | Perseverance (written): not a pile card; grows by 2 after scoring while you are behind in rounds |
 | `G-R01` | play-grant-engine | Resilience (written): a cheap extra play from the pile each turn |
 | `G-M02` | flexible mythic | Wistfulness (written): a pile play grant, and pile plays repeat their after-playing effect |
-| `G-M03` | flexible mythic | Fruition (written): not a pile card; moods worth 6 or more score an extra time, a payoff for green's 3 to 6 cycle |
-| `G-R03` | pile-fuel | Mulch (written): puts the top card of the deck into the pile each round |
-| `G-R05` | time-scaling | Growth (written): value grows each round (not a pile card any more) |
+| `G-M03` | flexible mythic | Fulfillment (written): not a pile card; moods worth 6 or more score an extra time, a payoff for green's 3 to 6 cycle |
+| `G-R03` | pile-fuel | Wastefulness (written): puts the top card of the deck into the pile each round |
+| `G-R05` | time-scaling | Maturity (written): value grows each round (not a pile card any more) |
 | `B-C04` | play-grant | Remorse (written): moves a pile card to the deck, so it needs pile fuel |
 | `B-U05` | graveyard | Longing (written): trade a hand card for up to two from the pile |
 | `B-R01` | graveyard-engine | Brooding (written): rummage the pile each round |
 | `R-C04` | play-grant | Rashness (written): removal fills the pile, extra play |
-| `R-U06` | removal-trade | Retribution (written): trade one of your moods to remove a weaker one |
-| `U-R02` | copy-effect | Mimicry (written): runs a pile mood's after-playing effect |
+| `R-U06` | removal-trade | Vindictiveness (written): trade one of your moods to remove a weaker one |
+| `U-R02` | copy-effect | Admiration (written): runs a pile mood's after-playing effect |
 
-**Risks.** Resurgence's play lock means it works best alone on its turn. Blue's Recollection drains the pile it wants, and Restraint
+**Risks.** Reinvigoration's play lock means it works best alone on its turn. Blue's Reverie drains the pile it wants, and Restraint
 shuts off extra plays.
 
 ## Cross-axis notes
@@ -172,7 +172,7 @@ shuts off extra plays.
   Watch for too many extra-play commons (Camaraderie, Fervor, Wariness, Joy, Fear, Nostalgia, Levity, Remorse and Rashness are already planned).
 - **Discard pile.** Blue drains it and green plays from it. That is a built-in interaction, not a conflict, but both need fuel from
   the other colors.
-- **Hand size.** Blue's draws (Recollection, Foresight, Rapport) make opposing hand-pressure better, and black's pressure punishes
+- **Hand size.** Blue's draws (Reverie, Premonition, Rapport) make opposing hand-pressure better, and black's pressure punishes
   hand-heavy blue decks.
 - **Unity (`X-M01`, colorless mythic)** cuts across all five axes: it is a payoff for any deck that stacks one color. Extra-play axes
   (red, blue, green) reach five moods fastest, and Restraint counters it.

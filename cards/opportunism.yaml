@@ -16,7 +16,7 @@ designer: ""
 notes: >-
   Black rare, flex slot, a discard thief. The name is a placeholder. The original pool has no card that benefits from
   opponents' discards (Schadenfreude, in this set, only gives a bonus value). It turns opponents' discard costs and your
-  own hand attacks into cards for you: FOMO's upkeep, Suspicion, Ruin, Intrusion and Haunting-style discards all feed
+  own hand attacks into cards for you: FOMO's upkeep, Suspicion, Dejection, Nosiness and Haunting-style discards all feed
   it. It is mandatory and automatic, and the discarded card is face up in the pile, so no hidden information is involved
   and nothing prompts anyone in async play. Hand sizes are public, so the swing is visible. Playtest worry: it may be
   too strong against decks that discard as a cost; the fallback is "the first card each turn". impl_tier 2 is

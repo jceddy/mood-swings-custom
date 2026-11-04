@@ -53,19 +53,19 @@ questions:
       Duplicity, Thrill), each with about 14 partners.
       Red axis (tentative): playing red moods, led by Dominance in R-M01 (each time you play another red mood, remove a lower-value
       opposing mood). Partners would be high-value red moods, red extra-play grants and red play-triggered effects.
-      Green axis (tentative): replaying from the discard pile and re-triggering after-playing effects, led by Resurgence in G-M01
+      Green axis (tentative): replaying from the discard pile and re-triggering after-playing effects, led by Reinvigoration in G-M01
       (put your other moods into the discard pile, then replay that many from the whole pile; no other plays that turn). Partners would
       be cheap moods with strong after-playing effects and discard-pile cards like Grace.
-      Blue axis (tentative): recycling the discard pile and playing many moods, led by Recollection in U-M01 (each time you play another
+      Blue axis (tentative): recycling the discard pile and playing many moods, led by Reverie in U-M01 (each time you play another
       mood, put a discard-pile card on the bottom of the deck and draw a card). Partners would be discard-pile fuel and extra-play
       cards.
       White axis (tentative): numbers, meaning printed values and parity (about 20 pool cards already care: Courage, Dignity,
       Friendliness, Kindness, Repentance, Meekness, Validation, Encouragement, Idealism in white; Shock, Rage, Anger, Hostility,
       Rebellion, Spite, Anxiety, Cheer, Delight, Embarrassment, Denial, Rejection, Worry elsewhere). W-M02 (Restraint) cuts extra
-      plays, so W-M01 should reward caring about values rather than being a play-grant engine. The mythic is Routine (choose odd or even
+      plays, so W-M01 should reward caring about values rather than being a play-grant engine. The mythic is Orderliness (choose odd or even
       numbers; each of your other moods with a chosen number in its top right corner gets +1).
       Black axis (tentative): hand pressure, meaning hand size and hand attacks (about 19 pool cards already touch hands, plus our
-      Coercion, Schadenfreude, FOMO, Yearning, Rapport, Foresight, Wariness). Chosen over a black discard-pile axis because blue (recycle)
+      Entitlement, Schadenfreude, FOMO, Yearning, Rapport, Premonition, Wariness). Chosen over a black discard-pile axis because blue (recycle)
       and green (replay) already use the discard pile; this keeps the five axes distinct (numbers, hand pressure, playing red moods,
       replaying from the pile, recycling the pile). The mythic is Neglect (at the start of each of your turns, each opponent with no cards in their hand puts one of their moods into
       the discard pile). Hand sizes are public, so hand-size payoffs are also possible.
@@ -96,7 +96,7 @@ questions:
       Decided: a suppressed mood still counts as a mood of its color, so it satisfies the gate.
   - id: Q8
     status: open
-    question: For the black mythic idea Coercion (hand-reveal-or-lose-a-mood), should targeting be restricted and should the opponent choose?
+    question: For the black mythic idea Entitlement (hand-reveal-or-lose-a-mood), should targeting be restricted and should the opponent choose?
     notes: |
       Two knobs, to be settled by playtesting (cards/coercion-restricted.yaml and cards/coercion-unrestricted.yaml):
       1. Targeting. Restricted = the target must have one or more cards in hand and one or more moods, so the card gets no value
@@ -118,49 +118,49 @@ questions:
       player has one turn per round, so boards grow by about one mood per round.
       Five checks follow from that:
       1. Colorless gate commons (value 5): the own-mood gate is paid once, then free for the rest of the game, so check 5 against 4.
-      2. Resurgence: it scales with board size and can replay a whole board (boards grow about one mood per round), so check whether it
+      2. Reinvigoration: it scales with board size and can replay a whole board (boards grow about one mood per round), so check whether it
          needs a cap (for example "up to three").
-      3. Recollection: it draws on entry and on each later play (about one per round without extra plays, more with them), so check
+      3. Reverie: it draws on entry and on each later play (about one per round without extra plays, more with them), so check
          whether it needs "once each turn".
-      4. Coercion (restricted and unrestricted): hands are often small or empty, so the restricted version fizzles more and the
+      4. Entitlement (restricted and unrestricted): hands are often small or empty, so the restricted version fizzles more and the
          unrestricted one forces more mood losses (see Q8).
       5. FOMO (value 7): paying a card every round drains the hand quickly, so check whether the mood is discarded too soon for 7 to be fair.
       Ruling and balance watch items from the rares and uncommons written since:
-      - Mimicry: what "this mood" means when the copied pile mood refers to itself (proposed: the mood you just played).
-      - Plunder: a free extra mood every round, so check whether it needs a value of 0 only.
-      - Barter: it may be strong against opposing engines now that it only needs a lower or equal value, so check whether to restore the same-value condition or require matching printed values.
-      - Sanctuary: it protects cheap engines from targeted effects (Barter, Plunder), so check whether a threshold of 1 is fairer.
-      - Overcommit: three plays in one turn, then none, so check the burst against Dominance and Momentum decks.
-      - Embargo: a skipped turn for one card, so check whether it needs two cards or a block on the first play only.
-      - Interruption (rare): it blanks one full turn for every other player, so check the strength against a combo turn; the fallback is to hit only a chosen player.
+      - Admiration: what "this mood" means when the copied pile mood refers to itself (proposed: the mood you just played).
+      - Covetousness: a free extra mood every round, so check whether it needs a value of 0 only.
+      - Shrewdness: it may be strong against opposing engines now that it only needs a lower or equal value, so check whether to restore the same-value condition or require matching printed values.
+      - Reassurance: it protects cheap engines from targeted effects (Shrewdness, Covetousness), so check whether a threshold of 1 is fairer.
+      - Overconfidence: three plays in one turn, then none, so check the burst against Dominance and Verve decks.
+      - Pettiness: a skipped turn for one card, so check whether it needs two cards or a block on the first play only.
+      - Rudeness (rare): it blanks one full turn for every other player, so check the strength against a combo turn; the fallback is to hit only a chosen player.
       - Free-play cycle (Fear, Nostalgia, Levity, Remorse, Rashness): five unconditional free extra plays at common, so check how strong extra-play engines get, and whether Rashness needs "a value of 0" only.
-      - Leveling: every mood scores 2 for a round, so check the swing; the fallback is a cap of 3 per mood.
-      - Resonance: another free-play enabler for decks with duplicate numbers; the once-a-turn cap is the safety.
+      - Levelheadedness: every mood scores 2 for a round, so check the swing; the fallback is a cap of 3 per mood.
+      - Affinity: another free-play enabler for decks with duplicate numbers; the once-a-turn cap is the safety.
       - Elusiveness: opponents' removal becomes a bounce, so check it against combo decks; the fallback is to bounce only moods with a value of 3 or less.
       - Opportunism: it turns discard costs into your cards, so check it against FOMO and Suspicion decks; the fallback is the first card each turn.
-      - Wildfire: random removal of moods with a value of 1 or less hits your own cheap moods too; the fallback is opponents' moods only.
-      - Mulch: with Resilience or Thrift it is free plays from the top of the deck, which is card advantage.
-      - Growth: it prints 2 and grows by 2 each round (2, 4, 6, 8), so check it is not too strong when left alone, and that opponents have time to remove it; counters on paper; the fallback is to grow by 1.
-      - Compost: it removes two random cards from the deck for pile fuel, so check it is not too weak; the fallback is one card.
-      - Abundance: it needs moods with a current value of 1 or 2 to do anything (the group kept the current-value version over the printed-number one), so check it against wide boards; the fallback is a value of 3 or less.
+      - Volatility: random removal of moods with a value of 1 or less hits your own cheap moods too; the fallback is opponents' moods only.
+      - Wastefulness: with Resilience or Thrift it is free plays from the top of the deck, which is card advantage.
+      - Maturity: it prints 2 and grows by 2 each round (2, 4, 6, 8), so check it is not too strong when left alone, and that opponents have time to remove it; counters on paper; the fallback is to grow by 1.
+      - Carelessness: it removes two random cards from the deck for pile fuel, so check it is not too weak; the fallback is one card.
+      - Gratitude: it needs moods with a current value of 1 or 2 to do anything (the group kept the current-value version over the printed-number one), so check it against wide boards; the fallback is a value of 3 or less.
       - Honesty: showing the hand once may matter more in paper than in digital, and colorless cards in hand make it false.
-      - Bloom: +2 to every mood of a chosen color each round is very strong in mono-color decks; the fallback is +1.
-      - Open Hands: a face-up hand for the whole game may feel oppressive in paper, and the information may matter little against decks that ignore hands.
+      - Vitality: +2 to every mood of a chosen color each round is very strong in mono-color decks; the fallback is +1.
+      - Candor: a face-up hand for the whole game may feel oppressive in paper, and the information may matter little against decks that ignore hands.
       - Replacement ordering (Elusiveness and Grudge, and any other pair that applies to one event): decided. Triggers and replacement effects are applied starting with the active player and then player by player in turn order (the simulator already resolves after-scoring effects per controller in turn order). When one player controls more than one applying effect, which is the usual case for Elusiveness and Grudge, that player chooses the order.
       - Perseverance: it grows by 2 after scoring while you have won fewer rounds than each other player, on top of the card losers draw and Hurt Feelings, so check that falling behind does not become attractive and that it is not too strong at match point (2, 4, 6 in a 2-player game); the fallbacks are a growth of 1 or a value of 1.
-      - Fruition: each mood worth 6 or more scores twice, so three conditional moods at 6 can run away; the fallbacks are a threshold of 7 or scoring only one such mood an extra time.
-      - Epiphany: a free card of your choice from the top three cards, played from the hand; it is close to Nostalgia, so check it does not feel like a narrower Nostalgia at mythic rarity; the fallbacks are the unrestricted extra play, revealing four cards, or playing up to two of the three (or revealing two cards if it is too strong).
-      - Blaze: a quadratic payoff for red moods that may snowball; the fallback is a cap such as "up to three".
-      - Overkill: always one more than the biggest opposing mood, so check its volatility; the fallback is "equal to" instead of 1 more.
-      - Grudge: up to two extra plays each turn when the chosen opponent has 2 round wins, so check the burst against the free-play cycle, Haunting and Resonance; check its replacement effect with Elusiveness.
+      - Fulfillment: each mood worth 6 or more scores twice, so three conditional moods at 6 can run away; the fallbacks are a threshold of 7 or scoring only one such mood an extra time.
+      - Inspiration: a free card of your choice from the top three cards, played from the hand; it is close to Nostalgia, so check it does not feel like a narrower Nostalgia at mythic rarity; the fallbacks are the unrestricted extra play, revealing four cards, or playing up to two of the three (or revealing two cards if it is too strong).
+      - Ardor: a quadratic payoff for red moods that may snowball; the fallback is a cap such as "up to three".
+      - Competitiveness: always one more than the biggest opposing mood, so check its volatility; the fallback is "equal to" instead of 1 more.
+      - Grudge: up to two extra plays each turn when the chosen opponent has 2 round wins, so check the burst against the free-play cycle, Haunting and Affinity; check its replacement effect with Elusiveness.
       - Hellbent: the round leader runs their hand dry first (losers draw at the end of a round), so it favors the leader; check the snowball, with an alternate value of 6 as the fallback.
       - Haunting: the burst size next turn with a big pile and a big hand, since each play triggers play engines; the fallback is "up to three".
       - Levity: a free play that enables extra-play engines, so check the fallback of choosing between cycling and the extra play.
-      - Counterplay: it strips the after-playing effects of opponents' additional moods and spares you, so check it is not dead against decks without extra plays and whether it needs to be symmetric.
-      - Vendetta: mandatory and random, so nobody is prompted; check that a random pick among moods with a value of 3 or less is not too harsh on cheap engines (fallback: a value of 1 or less), and that the simulator can tell which player controls an effect.
-      - Culling: it also hits your own board, so check it works when you are behind.
-      - Legacy: check that it does not break the draw rule with a sacrifice engine such as Martyrdom.
-      - Intuition (1 point) and Bullying (2 points) were lowered after group feedback, so check they are still worth playing.
+      - Defensiveness: it strips the after-playing effects of opponents' additional moods and spares you, so check it is not dead against decks without extra plays and whether it needs to be symmetric.
+      - Rancor: mandatory and random, so nobody is prompted; check that a random pick among moods with a value of 3 or less is not too harsh on cheap engines (fallback: a value of 1 or less), and that the simulator can tell which player controls an effect.
+      - Heartlessness: it also hits your own board, so check it works when you are behind.
+      - Sentimentality: check that it does not break the draw rule with a sacrifice engine such as Martyrdom.
+      - Intuition (1 point) and Belligerence (2 points) were lowered after group feedback, so check they are still worth playing.
   - id: Q10
     status: decided
     question: Should every color have a zero-point common with a small effect and an unconditional extra play?

@@ -16,5 +16,5 @@ designer: ""
 notes: >-
   Red partner for the hand-pressure axis. The name is a placeholder. A pressure payoff keyed to an empty hand, the near
   neighbor of Animosity (value 5 if any opponent has three or more cards in hand). It pairs with Neglect (black) and the
-  discard and steal cards (Suspicion, Compulsion, Intrusion). An empty hand is visible to everyone. impl_tier 1 is
+  discard and steal cards (Suspicion, Compulsion, Nosiness). An empty hand is visible to everyone. impl_tier 1 is
   provisional.

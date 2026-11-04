@@ -18,7 +18,7 @@ designer: ""
 notes: >-
   Blue partner for the white numbers axis. The name is a placeholder. A forced cycle of one type, 1 for 1: you can target an
   opponent (it strips their best cards of that type for random replacements, which is variance) or yourself (shed off-type
-  cards). Worded like Doubt ("put them on the bottom of the deck, then draw that many cards") and Routine ("a number of the
+  cards). Worded like Doubt ("put them on the bottom of the deck, then draw that many cards") and Orderliness ("a number of the
   chosen type"). In paper the chosen player has to reveal their hand, because nobody else can check which cards have a number of the chosen type and the cards go face-down onto the deck (the pool's Doubt reveals for the same reason). That also shows the whole hand to the table, which makes this a mild information attack too. Overlaps
   Discernment (W-U05) when you target yourself; Discernment is optional and self-only, this is mandatory and can hit anyone.
   impl_tier 1 is provisional: Doubt's cycle forced on another player with a printed-number filter.

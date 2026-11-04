@@ -20,4 +20,4 @@ notes: >-
   gates and rewards a deck that plays several. Printed values are 5, so each gate mood adds 2 on top of its own 5.
   Playtest worry: it needs colorless moods to be in the deck, and the gate commons require a mood of a color to be
   played. impl_tier 1 is provisional: a count of moods without a color. The "(Moods are cards in play.)" reminder was
-  added in the clone check, because it counts moods, as Variety and Unity do.
+  added in the clone check, because it counts moods, as Restlessness and Unity do.

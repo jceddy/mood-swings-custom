@@ -16,9 +16,9 @@ impl_tier: 2
 designer: ""
 notes: >-
   Red rare, sweeper. The name is a placeholder. The original card with this role is Wrath (put all other moods into the
-  discard pile). Red already has five sweepers (Rage, Rebellion, Bullying, Intuition and Wrath), so this one is a reset that
+  discard pile). Red already has five sweepers (Rage, Rebellion, Belligerence, Intuition and Wrath), so this one is a reset that
   spares one mood per player instead of another threshold sweep. It helps whoever is behind on board, since the player with
-  the wider board loses more, and it floods the discard pile for blue and green (Recollection, Mimicry, Resurgence). Each
+  the wider board loses more, and it floods the discard pile for blue and green (Reverie, Admiration, Reinvigoration). Each
   player keeps their best mood, so scores shrink to one mood each. Rules check needed: the choices are simultaneous, so in
   paper each player points to a mood at the same time. A player with no moods chooses nothing. The played mood is one of your
   moods and may be chosen or not. Playtest worry: it gives the player with the better single mood a big edge. impl_tier 2 is

@@ -16,11 +16,11 @@ impl_tier: 2
 designer: ""
 notes: >-
   Blue common, re-roled from utility-small to a deck look. The name is a placeholder. The original pool has no card that
-  looks at the deck (Foresight and the loot cards draw). This one is card quality with no card advantage: you see what
+  looks at the deck (Premonition and the loot cards draw). This one is card quality with no card advantage: you see what
   the next draw will be and can send it away. The deck is shared, so what you leave on top is also what a round loser
   draws, which gives it a small interaction. It is checkable in paper because only the player looking sees the cards.
   Playtest worry: low impact for a common; check that it is worth a play. impl_tier 2 is provisional: a hidden view of
   the top of the deck with a reorder. The ordering of the cards left on top is deliberate and stays: it is at most two
-  cards, and reorganizing the top of the deck is part of the card's power. (Epiphany, which can reveal any number of
+  cards, and reorganizing the top of the deck is part of the card's power. (Inspiration, which can reveal any number of
   cards, uses a random order for the cards it sends to the bottom, so digital clients never ask a player to order an
   unbounded number of cards.)

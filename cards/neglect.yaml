@@ -16,7 +16,7 @@ impl_tier: 1
 designer: ""
 notes: >-
   The name is a placeholder. Black's build-around mythic for the hand-pressure axis (Q5, design/axes.md): every card that empties
-  or drains hands (Suspicion, Coercion, Compulsion, Paranoia, FOMO's costs) becomes a threat, because an empty hand now costs the
+  or drains hands (Suspicion, Entitlement, Compulsion, Paranoia, FOMO's costs) becomes a threat, because an empty hand now costs the
   opponent a mood each round. Decided: "start of each of your turns" (Stubbornness's wording) with no lever; each player has one
   turn per round, so this triggers once per round, the same as a start-of-round trigger. It first triggers on your next turn, since
   the start of the turn you play it has already passed. It keys off "no cards in their hand" because an empty hand is visible

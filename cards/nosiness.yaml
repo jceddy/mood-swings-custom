@@ -1,0 +1,21 @@
+slot: B-U07
+name: Nosiness
+color: black
+rarity: uncommon
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood — Choose an opponent with one or more cards in their hand. That player reveals their hand and
+  discards a card of your choice from it.
+status: idea
+reprint_of: null
+impl_tier: 2
+designer: ""
+notes: >-
+  Black partner for the hand-pressure axis. The name is a placeholder. Targeted discard: you see the hand and choose, which
+  is stronger than Suspicion (the player chooses, but it hits any number of players) and cheaper than Entitlement. The targeting
+  restriction follows Paranoia ("a player with one or more cards in their hand"). With hands this small, taking the best card
+  is a real swing. impl_tier 2 is provisional: it reveals a whole hand to the chooser, and Entitlement has the same need.
