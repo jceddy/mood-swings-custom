@@ -2,13 +2,13 @@ slot: G-R05
 name: Growth
 color: green
 rarity: rare
-base_value: 0
+base_value: 2
 alt_value: null
 to_play: false
 while_in_play: true
 after_playing: false
 rules_text: >-
-  While in play — At the start of each of your turns, this mood's value permanently increases by 1.
+  While in play — At the start of each of your turns, this mood's value permanently increases by 2.
 status: idea
 reprint_of: null
 impl_tier: 2
@@ -17,8 +17,12 @@ notes: >-
   Green rare, re-roled from a pile-related flex to time scaling. The name is a placeholder. The original scaling cards
   count something on the board or in a hand (Euphoria counts moods, Sloth counts cards in hand) and Vindication counts
   round wins; this one counts time. "Permanently" is in the original pool (cards that permanently change a mood's
-  value), so the simulator has a precedent, and on paper it needs a counter such as a die. It gains 1 each round, so a
-  mood that stays in play for five rounds is worth five. It is bounced or removed like any other mood, and a replayed
-  copy starts again at 0. It is mandatory and automatic, so it never prompts anyone. Playtest worry: the counters on
-  paper; a slow card that opponents can simply remove. impl_tier 2 is provisional: a per-mood value counter that the
-  simulator already needs for permanent changes.
+  value), so the simulator has a precedent, and on paper it needs a counter such as a die. It prints 2 and gains 2 each
+  round, so a mood that stays in play for five rounds is worth 12. History: it first printed 0 and gained 1 each round;
+  the group asked for it to start at 2 and grow by 2. Because it prints a 2, it qualifies for Abundance (G-U06, which
+  scores moods with a 0, 1 or 2 in the top right corner an extra time) for its whole life, which is a deliberate
+  synergy. It is bounced or removed like any other mood, and a replayed copy starts again at 2. It is mandatory and
+  automatic, so it never prompts anyone. Playtest worry: it is now a fast clock (the value is 2, 4, 6, 8 in consecutive
+  rounds), so check it is not too strong when left alone, and that opponents have time to remove it; the fallback is to
+  grow by 1 or to start at 1. Counters on paper are the other worry. impl_tier 2 is provisional: a per-mood value
+  counter that the simulator already needs for permanent changes.
