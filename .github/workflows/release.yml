@@ -1,11 +1,20 @@
 name: Release
 
-# Pushing a tag such as v0.1.0 builds the current-state spreadsheet and publishes a GitHub release with it.
+# Publishes a GitHub release with the current-state spreadsheet. Two ways to start it:
+#   - push a tag such as 0.2.4 (a leading "v" also works), or
+#   - run it by hand from the Actions tab and type a version: the tag is created on the selected branch.
 # The release notes are design/release-notes.md plus a snapshot line from the build.
 on:
   push:
     tags:
-      - "v*"
+      - "[0-9]*"
+      - "v[0-9]*"
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version to release, for example 0.2.4 (the tag is created if it does not exist)"
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -13,6 +22,8 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+    env:
+      VERSION: ${{ inputs.version || github.ref_name }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -28,10 +39,11 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           {
-            echo "Snapshot at $GITHUB_REF_NAME: $(head -n 1 build.log | sed 's/^wrote [^:]*: //')."
+            echo "Snapshot at $VERSION: $(head -n 1 build.log | sed 's/^wrote [^:]*: //')."
             echo
             cat design/release-notes.md
           } > notes.md
-          gh release create "$GITHUB_REF_NAME" mood-swings-custom-set.xlsx \
-            --title "Custom set snapshot $GITHUB_REF_NAME" \
+          gh release create "$VERSION" mood-swings-custom-set.xlsx \
+            --target "$GITHUB_SHA" \
+            --title "Custom set snapshot $VERSION" \
             --notes-file notes.md

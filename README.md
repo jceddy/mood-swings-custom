@@ -23,7 +23,7 @@ pip install -r requirements.txt
 python scripts/build_xlsx.py        # writes out/set.xlsx
 ```
 
-A build of the spreadsheet is attached to each [release](../../releases): pushing a tag such as `v0.1.0` runs `.github/workflows/release.yml`, which rebuilds it (and stops if a rule check fails) and publishes it with `design/release-notes.md` as the notes.
+A build of the spreadsheet is attached to each [release](../../releases): pushing a tag such as `0.2.4` (or running the workflow by hand from the Actions tab and typing a version) runs `.github/workflows/release.yml`, which rebuilds it (and stops if a rule check fails) and publishes it with `design/release-notes.md` as the notes.
 
 Sheets: **Set** (every slot and the card filling it), **Summary** (progress, distribution vs the original pool, rule checks),
 **Baseline** (the original pool), **Open Questions**.
