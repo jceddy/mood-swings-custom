@@ -35,4 +35,6 @@ notes: >-
   play cycle, Haunting and Resonance; the answers are Interruption (blanks extra plays for a turn), Restraint and
   Counterplay. Forgetfulness lowers the chosen player's wins, which cuts your extra plays. In 3 or 4 player games it
   follows only the chosen opponent. impl_tier 3 is provisional: a replacement hook on a mood leaving play, plus an
-  extra-play count read from another player's round wins.
+  extra-play count read from another player's round wins. Ordering (Q9): when Elusiveness and Grudge both apply to the
+  same event, effects apply starting with the active player and then in turn order, as the author described; when one
+  player controls both, which is the usual case, that player chooses the order (decided).

@@ -25,6 +25,7 @@ This repo holds the work-in-progress design of a community-designed custom set f
   Players score their moods each round; highest total wins the round.
 - No mana or lands. Plays are gated by "one play per turn"; moods can grant extra plays (unrestricted, or restricted by color, value,
   discard pile, and so on).
+- When several triggers or replacement effects apply to the same event, they are applied starting with the active player and then player by player in turn order (stated by the author; the simulator already resolves after-scoring effects per controller in turn order). When one player controls more than one, that player chooses the order (decided).
 - Ability timings: **to play** (a cost/restriction), **while in play** (static), **after playing** (one-shot). A card can have several.
 - Interaction verbs by color in the original pool: white suppresses, blue bounces to hand, black and red move moods to the discard pile,
   green has no removal. See the Baseline sheet for the full original pool.
