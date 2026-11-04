@@ -1,0 +1,25 @@
+slot: U-M02
+name: Premonition
+color: blue
+rarity: mythic
+base_value: 0
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood — Draw up to three cards, then put that many cards from your hand on the bottom of the deck.
+  You may play an additional mood this turn.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: Dr Potato
+notes: >-
+  Contributor suggestion; the name is a placeholder. Flexible blue mythic (U-M02), not a build-around. Wording fixes from the
+  submission: "the deck" instead of "your deck" (standard games share one deck, and the pool says "the deck"), "from your hand"
+  made explicit, numbers as words, and Charity/Fear's phrasing for the extra play. Decided: draw first, then put cards on the
+  bottom. Every other loot in the pool bottoms first and then draws (Hate, Zeal, Doubt, Paranoia); drawing first lets you see
+  three new cards and keep the best from your whole hand, which is the card's power. Still 1 for 1, so there is no draw
+  abuse, even with Duplicity or Reinvigoration replays. A cantrip that replaces its own play and digs three cards deep, with a 0
+  value body; it reads closer to a strong rare, so judge it by complexity and power ratio (Q5). impl_tier 1 is provisional:
+  draws, bottom-of-deck from hand and extra plays already exist; behavior when the deck runs short is unchecked.

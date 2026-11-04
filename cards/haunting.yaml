@@ -16,16 +16,16 @@ impl_tier: 2
 designer: Dr Potato
 notes: >-
   Black mythic, flexible slot, submitted by Dr Potato. It was first submitted as a green mythic, then moved to black
-  because green already has a powerful recursion mythic (Resurgence). The name is a placeholder. The wording was cleaned
+  because green already has a powerful recursion mythic (Reinvigoration). The name is a placeholder. The wording was cleaned
   up: "any number of cards from your hand" is the pool's phrasing (Doubt, Discernment), and "If you do" ties the extra
   plays to the discard; "on your next turn" matches Joy. It turns hand cards into extra plays next turn, picked from the
   whole discard pile, including moods other players discarded or sacrificed. It is not card advantage, because the
   discarded cards stay in the pile; the price is a delay of one round, and in exchange the plays are free and you choose
   the best moods in the pile (discarding four cards gives a five-play turn). Black already has pile plays in the
   original pool (Angst, Melancholy, Grief); this one is delayed and scales with your hand, where Grief gives a flat two,
-  and Resurgence (green) scales with your board and happens this turn. It pairs with Longing, Brooding, Ruin, Martyrdom
-  and Legacy, which fill or use the pile. The delay gives opponents a full round to answer: Interruption (W-R06) blanks
-  next turn's extra plays exactly, and Restraint, Counterplay and Embargo also work. Emptying your hand exposes you to
+  and Reinvigoration (green) scales with your board and happens this turn. It pairs with Longing, Brooding, Dejection, Martyrdom
+  and Sentimentality, which fill or use the pile. The delay gives opponents a full round to answer: Rudeness (W-R06) blanks
+  next turn's extra plays exactly, and Restraint, Defensiveness and Pettiness also work. Emptying your hand exposes you to
   Neglect (B-M01) if an opponent has one in play. Everything happens on its owner's turns, so nothing prompts another
   player in async play. Paper needs a marker for the number of banked plays. Playtest worry: the burst size with a big
   pile and a big hand, since each play triggers "each time you play another mood" engines; a cap such as "up to three"

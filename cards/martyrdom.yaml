@@ -18,7 +18,7 @@ notes: >-
   Black rare, cost engine. The name is a placeholder. The original card with this role is Envy (a to-play sacrifice that
   makes the mood scale with the moodiest opponent). This one is an upkeep engine: each round you may pay a mood from
   your board to make every opponent discard a card, which turns board into hand pressure (it pairs with Neglect,
-  Suspicion, Intrusion and Ruthlessness). Persistence makes the cost real, since a mood normally stays in play, and the
+  Suspicion, Nosiness and Ruthlessness). Persistence makes the cost real, since a mood normally stays in play, and the
   sacrificed mood feeds the discard pile. Discard wording is Suspicion's ("discards a card from their hand"). impl_tier
   1 is provisional: a start-of-turn trigger, a sacrifice and a hand discard all exist as pieces. The reminder text about
   moods being cards in play was added, following the printed cards that count moods or put your own moods into the

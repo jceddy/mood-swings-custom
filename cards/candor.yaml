@@ -1,0 +1,28 @@
+slot: U-U06
+name: Candor
+color: blue
+rarity: uncommon
+base_value: 3
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play — Your opponents play with their hands revealed.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Blue uncommon, rule change, requested by the group as "something about revealing someone's hand". The name is a
+  placeholder; the slot's role was a global rule change in the style of Imagination, held open until now because every
+  idea was a clone. It is a one-sided information rule: for as long as it is in play you see every opponent's hand. It
+  needs no choices or prompts, so nothing is asked of anyone in digital asynchronous play. It rewards every hand-size
+  and hand-content card in the set (Composure, Temperance, Anticipation, Grievance, Nosiness, Greed, Hellbent and the
+  reveal cards). In paper, opponents keep their hands face up; in digital it is a display flag, so the simulator only
+  needs to show an opponent's hand to the holder. It does nothing mechanically, so it is pure information; the printed
+  value of 3 is its price, and it dies to any removal. The nearest originals are Imagination (a global rule change) and
+  Curiosity and Paranoia (they reveal one random card). The other design considered for the slot was Exchange (an
+  active, informed one-for-one trade of cards after revealing a hand). Playtest worry: it may feel oppressive in paper
+  to play with a hand face up for the whole game, and the information may matter little against decks that ignore hands.
+  impl_tier 1 is provisional: a visibility flag on opponents' hands.

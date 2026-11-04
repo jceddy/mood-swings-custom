@@ -1,0 +1,40 @@
+slot: U-M03
+name: Inspiration
+color: blue
+rarity: mythic
+base_value: 0
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood — Reveal the top three cards of the deck. Put one of them into your hand and the rest on the
+  bottom of the deck in a random order. You may play that card as an additional mood this turn.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Blue mythic, flexible slot, a free card and play from the deck. The name is a placeholder. The original pool has no
+  card that takes a card from the deck: Whimsy (this set's red uncommon) plays a random card from your hand, and
+  Premonition (U-M02) draws cards and puts cards back, so it nets zero cards. This one reveals the top three cards of the
+  deck, lets you pick one and put it into your hand, and lets you play that card as an additional mood this turn, so it
+  nets you a card and a choice. The cards you don't take go to the bottom of the deck in a random order, so it also
+  reshuffles what the next round loser draws; the order is random, not chosen, so digital clients never ask a player to
+  order cards (the wording is Altruism's, for the rest of the discard pile). The chosen card goes into your hand first,
+  so the play uses the ordinary play-from-hand logic (a group suggestion for the digital clients), and if you do not
+  play it you keep it. "You may play it as an additional mood this turn" is Intimidation's wording. Everything happens
+  on the owner's turn and the revealed cards are public, so no hidden information leaks and nothing prompts anyone in
+  async play. Your public hand size goes up by one, which Hellbent, Temperance, Anticipation and Grievance notice. History:
+  it first revealed cards until it found a 0, 1, 2 or 3 and played that card from the reveal (with the passed-over cards
+  on the bottom in any order, then in a random order). A group comment said it hit on complexity but felt really bad on
+  power, so it became the three-card version that had been named as the fallback (pick the best of three, any value); a
+  second comment said it felt awesome and asked for the chosen card to go into the hand so it is played from there,
+  which is this version. The extra play is restricted to that card, so the power stays where the group liked it; an
+  unrestricted extra play ("You may play an additional mood this turn") was considered and is strictly stronger.
+  Playtest worry: it is now close to Nostalgia (green common, 0 points: a card from the discard pile into your hand,
+  plus an unrestricted extra play), which has a better choice when the pile is large, so check it does not feel like a
+  narrower Nostalgia at mythic rarity; the fallbacks are the unrestricted extra play, revealing four cards, or playing
+  up to two of the three. A free card of your choice may also be a lot while cards are scarce; a weaker fallback is to
+  reveal two cards. It pairs with the free-play cycle. impl_tier 1 is provisional: a reveal of three cards, a pick into
+  the hand, a random move of the rest to the bottom of the deck, and a restricted extra play.

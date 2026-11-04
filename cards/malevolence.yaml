@@ -18,5 +18,5 @@ notes: >-
   Black partner for the white numbers axis. The name is a placeholder. The skeleton role (interaction-lite common) matches
   Spite (black common 1: choose up to two players and put one of their moods with an even value into the discard pile). This
   version lets you choose odd or even, so it is strictly better than Spite, which is why it prints 2 instead of 1. Phrasing
-  follows Routine ("a number of the chosen type") and Spite ("0 is even"). Black would then have this and Disdain as removal
+  follows Orderliness ("a number of the chosen type") and Spite ("0 is even"). Black would then have this and Disdain as removal
   commons; keep B-C03 the only broad one. impl_tier 1 is provisional: Spite's removal with a chosen parity.

@@ -1,0 +1,27 @@
+slot: U-R01
+name: Shrewdness
+color: blue
+rarity: rare
+base_value: 1
+alt_value: null
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood — You may choose one of your other moods and one of an opponent's moods with a value less than
+  or equal to that mood's. If you do, you and that opponent swap them.
+status: idea
+reprint_of: null
+impl_tier: 2
+designer: ""
+notes: >-
+  Blue rare, swap effect. The name is a placeholder. The original card with this role is Avoidance (choose left or right and
+  everyone passes a mood around); Instability (red) is the one-for-one trade where the opponent chooses. This one swaps one
+  of your moods for one of an opponent's moods that has a value less than or equal to yours, so it is mostly a swap of
+  effects and costs you score: you hand over a mood and take their engine (many engines print at 0 to 3). "Less than or equal
+  to that mood's" follows Dominance's "a value lower than that mood's". Both moods keep their place in play, and neither
+  after-playing effect happens again. "Value" means the current value, which both players can see. History: it first required
+  the two moods to have the same value; the group judged that too specific and suggested "less than or equal to", which was
+  applied. Playtest worry: it is easy to use and may be strong against opposing engines (for example giving a vanilla 3 for a
+  0-value engine). The fallbacks are to require matching printed values, or to restore the same-value condition. impl_tier 2
+  is provisional: an ownership swap between two chosen moods, with a value comparison.

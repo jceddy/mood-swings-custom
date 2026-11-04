@@ -52,9 +52,9 @@ This repo holds the work-in-progress design of a community-designed custom set f
   Shock, Zeal, Compulsion, Joy, Nostalgia, Determination (11; the cap is 13). Ambition and Bravado were replaced by the new cards Remorse
   and Rashness to complete the zero-point free-play cycle (Q3, Q10).
 - Mythic slots: in each color, M01 is a dedicated build-around and M02/M03 are flexible (need not be build-arounds). Each color has a
-  tentative build-around axis and an M01 mythic (Q5 stays open; see `design/axes.md`): white numbers (Routine), blue recycling the
-  discard pile (Recollection), black hand pressure (Neglect), red playing red moods (Dominance), green replaying from the discard
-  pile (Resurgence). White's partner cards are written; the other four axes' partners are not. Other rare/uncommon roles may be
+  tentative build-around axis and an M01 mythic (Q5 stays open; see `design/axes.md`): white numbers (Orderliness), blue recycling the
+  discard pile (Reverie), black hand pressure (Neglect), red playing red moods (Dominance), green replaying from the discard
+  pile (Reinvigoration). White's partner cards are written; the other four axes' partners are not. Other rare/uncommon roles may be
   revised once they exist.
 - The colorless gate counts **only your own** moods ("if you have a white mood"), decided in Q7 (originally any player's), and the
   value was raised from 4 to 5 to match (Q1). A suppressed mood still counts as a mood of its color for the gate. The five gate cards
@@ -78,7 +78,7 @@ This repo holds the work-in-progress design of a community-designed custom set f
   when asked.
 - The author prefers decisions recorded in `design/open-questions.yaml` (status: decided) as they are made.
 - Keep `design/principles.md`, `README.md` and this file consistent with the skeleton when decisions change.
-- Digital asynchronous play: avoid "may" reactions that prompt a player during an opponent's turn (found on Counterplay, where every extra play would have asked its holder). Prefer static effects, mandatory triggers, or effects that only fire on your own turn. Random picks (Cruelty-style) are a good way to avoid choices. There are no known optional reactions on an opponent's turn in the set.
+- Digital asynchronous play: avoid "may" reactions that prompt a player during an opponent's turn (found on Defensiveness, where every extra play would have asked its holder). Prefer static effects, mandatory triggers, or effects that only fire on your own turn. Random picks (Cruelty-style) are a good way to avoid choices. There are no known optional reactions on an opponent's turn in the set.
 - Card text style follows the printed cards: "After playing this mood — Choose ...", "While in play — This mood's value is ...", "To play this card — Discard ..." (em dash, then a capital letter).
 - If you use shell heredocs to write files with apostrophes, prefer the file-writing tool instead; heredocs with quotes were unreliable
   in the original session's shell.
@@ -88,4 +88,4 @@ This repo holds the work-in-progress design of a community-designed custom set f
 1. Write partner cards for the blue, black, red and green axes (the plan is in `design/axes.md`; white's are done).
 2. Done: the 13 reprint card files were checked against the printed card images and marked final.
 3. Fill the remaining commons, uncommons and rares, then rebuild the spreadsheet and check the rule checks.
-4. Resolve Q8 (Coercion's two knobs) and Q9 (playtest checks) once playtest results exist.
+4. Resolve Q8 (Entitlement's two knobs) and Q9 (playtest checks) once playtest results exist.

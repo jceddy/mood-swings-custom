@@ -42,7 +42,7 @@ slots:
   role: protection-short
   value: 0-3
   timing: after
-  notes: Re-roled to protection-short and held by Refuge. The old role copied an original card and every idea was a clone.
+  notes: Re-roled to protection-short and held by Solace. The old role copied an original card and every idea was a clone.
 - id: W-C06
   color: white
   rarity: common
@@ -56,7 +56,7 @@ slots:
   role: play-grant-cycle
   value: 0
   timing: after
-  notes: Held by Levity, a submission from Dr Potato. The earlier tempo-lock common here (Interruption) was promoted to the W-R06 rare.
+  notes: Held by Levity, a submission from Dr Potato. The earlier tempo-lock common here (Rudeness) was promoted to the W-R06 rare.
 - id: W-C08
   color: white
   rarity: common
@@ -126,14 +126,14 @@ slots:
   role: round-reset
   value: 0-3
   timing: after
-  notes: Re-roled to round-reset and held by Leveling. The old role copied an original card or had no non-clone idea.
+  notes: Re-roled to round-reset and held by Levelheadedness. The old role copied an original card or had no non-clone idea.
 - id: W-R02
   color: white
   rarity: rare
   role: numbers-play-engine
   value: 0-3
   timing: while
-  notes: Re-roled to numbers-play-engine and held by Resonance. The old role copied an original card or had no non-clone idea.
+  notes: Re-roled to numbers-play-engine and held by Affinity. The old role copied an original card or had no non-clone idea.
 - id: W-R03
   color: white
   rarity: rare
@@ -161,14 +161,14 @@ slots:
   role: turn-silence
   value: 0-3
   timing: after
-  notes: Held by Interruption, promoted from a common after a group comment (it hits every other player and also strips after-playing effects for their next turn).
+  notes: Held by Rudeness, promoted from a common after a group comment (it hits every other player and also strips after-playing effects for their next turn).
 - id: W-M01
   color: white
   rarity: mythic
   role: build-around
   value: 0-2
   timing: any
-  notes: Tentatively Routine (axis - numbers, meaning printed values and odd/even, Q5). Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Tentatively Orderliness (axis - numbers, meaning printed values and odd/even, Q5). Build-around mythic. Name its synergy axis and plan about 14 partner cards.
 - id: W-M02
   color: white
   rarity: mythic
@@ -254,7 +254,7 @@ slots:
   role: bounce-threshold
   value: 2-3
   timing: after
-  notes: Re-roled to bounce-threshold and held by Resurface. The old role copied an original card and every idea was a clone.
+  notes: Re-roled to bounce-threshold and held by Chagrin. The old role copied an original card and every idea was a clone.
 - id: U-U03
   color: blue
   rarity: uncommon
@@ -268,21 +268,21 @@ slots:
   role: tempo-shift
   value: 2-3
   timing: after
-  notes: Re-roled to tempo-shift and held by Overcommit. The old role copied an original card and every idea was a clone.
+  notes: Re-roled to tempo-shift and held by Overconfidence. The old role copied an original card and every idea was a clone.
 - id: U-U05
   color: blue
   rarity: uncommon
   role: effect-cap
   value: 3
   timing: while
-  notes: Re-roled to effect-cap and held by Counterplay. The old role copied an original card and every idea was a clone. Earlier versions were a reactive bounce (it prompts the holder on every opponent play in async digital play) and a play cap (too close to Restraint).
+  notes: Re-roled to effect-cap and held by Defensiveness. The old role copied an original card and every idea was a clone. Earlier versions were a reactive bounce (it prompts the holder on every opponent play in async digital play) and a play cap (too close to Restraint).
 - id: U-U06
   color: blue
   rarity: uncommon
   role: rule-change-hands
   value: 3
   timing: while
-  notes: Held by Open Hands, requested by the group as something about revealing someone's hand (opponents play with their hands revealed). Global rule change, Imagination style.
+  notes: Held by Candor, requested by the group as something about revealing someone's hand (opponents play with their hands revealed). Global rule change, Imagination style.
 - id: U-U07
   color: blue
   rarity: uncommon
@@ -296,7 +296,7 @@ slots:
   role: play-grant-hand
   value: 2-3
   timing: after
-  notes: Re-roled to play-grant-hand and held by Catch-up. The old role copied an original card and every idea was a clone.
+  notes: Re-roled to play-grant-hand and held by Desperation. The old role copied an original card and every idea was a clone.
 - id: U-R01
   color: blue
   rarity: rare
@@ -345,21 +345,21 @@ slots:
   role: build-around
   value: 0-2
   timing: any
-  notes: Tentatively Recollection (axis proposal - recycle the discard pile and play many moods, Q5). Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Tentatively Reverie (axis proposal - recycle the discard pile and play many moods, Q5). Build-around mythic. Name its synergy axis and plan about 14 partner cards.
 - id: U-M02
   color: blue
   rarity: mythic
   role: flexible
   value: 0-2
   timing: any
-  notes: Tentatively Foresight (draw up to three, bottom that many, extra play). Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
+  notes: Tentatively Premonition (draw up to three, bottom that many, extra play). Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: U-M03
   color: blue
   rarity: mythic
   role: deck-play
   value: 0-2
   timing: after
-  notes: Held by Epiphany. Flexible mythic. Judge it by complexity and power ratio (Q5).
+  notes: Held by Inspiration. Flexible mythic. Judge it by complexity and power ratio (Q5).
 - id: B-C01
   color: black
   rarity: common
@@ -417,7 +417,7 @@ slots:
   role: hand-pressure-symmetric
   value: 5-6
   timing: after
-  notes: Re-roled to hand-pressure-symmetric and held by Ruin. The old role copied an original card and every idea was a clone.
+  notes: Re-roled to hand-pressure-symmetric and held by Dejection. The old role copied an original card and every idea was a clone.
 - id: B-U01
   color: black
   rarity: uncommon
@@ -431,7 +431,7 @@ slots:
   role: removal-by-count
   value: 3
   timing: after
-  notes: Re-roled to removal-by-count and held by Culling. The old role copied an original card and every idea was a clone.
+  notes: Re-roled to removal-by-count and held by Heartlessness. The old role copied an original card and every idea was a clone.
 - id: B-U03
   color: black
   rarity: uncommon
@@ -445,7 +445,7 @@ slots:
   role: death-trigger
   value: 0-1
   timing: while
-  notes: Re-roled to death-trigger and held by Legacy. The old role copied an original card and every idea was a clone.
+  notes: Re-roled to death-trigger and held by Sentimentality. The old role copied an original card and every idea was a clone.
 - id: B-U05
   color: black
   rarity: uncommon
@@ -473,7 +473,7 @@ slots:
   role: turn-denial
   value: 2-3
   timing: after
-  notes: Re-roled to turn-denial and held by Embargo. The old role copied an original card and every idea was a clone.
+  notes: Re-roled to turn-denial and held by Pettiness. The old role copied an original card and every idea was a clone.
 - id: B-R01
   color: black
   rarity: rare
@@ -529,7 +529,7 @@ slots:
   role: flexible
   value: 0-2
   timing: any
-  notes: Tentatively Coercion (variant to be settled by playtesting, Q8). Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
+  notes: Tentatively Entitlement (variant to be settled by playtesting, Q8). Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis.
 - id: B-M03
   color: black
   rarity: mythic
@@ -623,14 +623,14 @@ slots:
   role: retaliation
   value: 2
   timing: while
-  notes: Re-roled to retaliation and held by Vendetta. The old role copied an original card and every idea was a clone.
+  notes: Re-roled to retaliation and held by Rancor. The old role copied an original card and every idea was a clone.
 - id: R-U05
   color: red
   rarity: uncommon
   role: play-grant-drawback
   value: '2'
   timing: after
-  notes: Extra play with a remove-after drawback (Gluttony style). Held by Serendipity (a random card from your hand, as the drawback).
+  notes: Extra play with a remove-after drawback (Gluttony style). Held by Whimsy (a random card from your hand, as the drawback).
 - id: R-U06
   color: red
   rarity: uncommon
@@ -693,7 +693,7 @@ slots:
   role: slow-burn
   value: 0-3
   timing: while
-  notes: Re-roled to slow-burn and held by Wildfire. The old role copied an original card or had no non-clone idea.
+  notes: Re-roled to slow-burn and held by Volatility. The old role copied an original card or had no non-clone idea.
 - id: R-M01
   color: red
   rarity: mythic
@@ -707,14 +707,14 @@ slots:
   role: red-payoff
   value: 0-2
   timing: while
-  notes: Held by Blaze. Flexible mythic. Judge it by complexity and power ratio (Q5).
+  notes: Held by Ardor. Flexible mythic. Judge it by complexity and power ratio (Q5).
 - id: R-M03
   color: red
   rarity: mythic
   role: floating-body
   value: 0-2
   timing: while
-  notes: Held by Overkill. Flexible mythic. Judge it by complexity and power ratio (Q5).
+  notes: Held by Competitiveness. Flexible mythic. Judge it by complexity and power ratio (Q5).
 - id: G-C01
   color: green
   rarity: common
@@ -766,7 +766,7 @@ slots:
   role: pile-fuel
   value: 2-3
   timing: after
-  notes: Re-roled to pile-fuel and held by Compost. The old role copied an original card or had no non-clone idea.
+  notes: Re-roled to pile-fuel and held by Carelessness. The old role copied an original card or had no non-clone idea.
 - id: G-C08
   color: green
   rarity: common
@@ -808,14 +808,14 @@ slots:
   role: conditional-pile
   value: 0->6
   timing: while
-  notes: Re-roled to conditional-pile and held by Accumulation. The old role copied an original card and every idea was a clone.
+  notes: Re-roled to conditional-pile and held by Possessiveness. The old role copied an original card and every idea was a clone.
 - id: G-U06
   color: green
   rarity: uncommon
   role: cheap-mood-scoring
   value: 0
   timing: while
-  notes: Re-roled to cheap-mood-scoring and held by Abundance. The old role copied an original card or had no non-clone idea.
+  notes: Re-roled to cheap-mood-scoring and held by Gratitude. The old role copied an original card or had no non-clone idea.
 - id: G-U07
   color: green
   rarity: uncommon
@@ -850,7 +850,7 @@ slots:
   role: pile-fuel
   value: 0-3
   timing: while
-  notes: Re-roled to pile-fuel and held by Mulch. The old role copied an original card or had no non-clone idea.
+  notes: Re-roled to pile-fuel and held by Wastefulness. The old role copied an original card or had no non-clone idea.
 - id: G-R04
   color: green
   rarity: rare
@@ -864,21 +864,21 @@ slots:
   role: time-scaling
   value: 0-3
   timing: while
-  notes: Re-roled to time-scaling and held by Growth. The old role copied an original card or had no non-clone idea.
+  notes: Re-roled to time-scaling and held by Maturity. The old role copied an original card or had no non-clone idea.
 - id: G-R06
   color: green
   rarity: rare
   role: color-flex
   value: 0-3
   timing: while
-  notes: Re-roled to color-flex and held by Bloom. The old role copied an original card or had no non-clone idea.
+  notes: Re-roled to color-flex and held by Vitality. The old role copied an original card or had no non-clone idea.
 - id: G-M01
   color: green
   rarity: mythic
   role: build-around
   value: 0-2
   timing: any
-  notes: Tentatively Resurgence (axis proposal - replay from the discard pile and re-trigger after-playing effects, Q5). Build-around mythic. Name its synergy axis and plan about 14 partner cards.
+  notes: Tentatively Reinvigoration (axis proposal - replay from the discard pile and re-trigger after-playing effects, Q5). Build-around mythic. Name its synergy axis and plan about 14 partner cards.
 - id: G-M02
   color: green
   rarity: mythic
@@ -892,7 +892,7 @@ slots:
   role: flexible
   value: 0-2
   timing: any
-  notes: Fruition (written). A build-around for the 3 to 6 conditional cycle, a green mythic outside the pile axis. It is the high-end bookend of Abundance.
+  notes: Fulfillment (written). A build-around for the 3 to 6 conditional cycle, a green mythic outside the pile axis. It is the high-end bookend of Gratitude.
 - id: X-C01
   color: colorless
   rarity: common

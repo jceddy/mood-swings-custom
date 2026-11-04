@@ -18,14 +18,14 @@ notes: >-
   7 if you have no cards in your hand"; it is written as the static "While in play — This mood's value is 7 if ..." (the
   printed form for a continuous condition), because "becomes" would be a one-time check when it is played, as on
   Schadenfreude. The skeleton's value target for the slot (2 to 3) was widened to 2 to 7. It is a self-version of
-  Ruthlessness (R-U07, red: 5 if an opponent has no cards in hand) and the extreme of Austerity (W-C06, white: 5 if you
+  Ruthlessness (R-U07, red: 5 if an opponent has no cards in hand) and the extreme of Temperance (W-C06, white: 5 if you
   have fewer cards in hand than each other player); Vanity (black mythic) already has an empty-hand payoff but it scales
   with your moods. Misery (original black uncommon, 2 to 8) shows uncommons already reach 7 or 8 with an easy condition,
   so 7 for an empty hand is in line. It is a good fit for red, all in with no safety net, and pairs with the free-play
-  cycle (Rashness, Remorse, Levity, Fear), Haunting (discards your whole hand), Ruin and Martyrdom. It is anti-
+  cycle (Rashness, Remorse, Levity, Fear), Haunting (discards your whole hand), Dejection and Martyrdom. It is anti-
   synergistic with an opposing Neglect (B-M01), which punishes an empty hand. It is static, so it never prompts anyone
   in digital asynchronous play, and hand sizes are public, so it is checkable in paper. Playtest worry: the player who
   loses a round draws a card at the end of it and the winner does not, so the player who is ahead tends to run their
   hand dry first, which makes Hellbent a snowball card for the leader, the opposite direction from the comeback cards
-  (Austerity, Resolve, Catch-up); the fallback is an alternate value of 6. impl_tier 1 is provisional: a hand-size check
+  (Temperance, Resolve, Desperation); the fallback is an alternate value of 6. impl_tier 1 is provisional: a hand-size check
   on a value.

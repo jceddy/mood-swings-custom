@@ -16,10 +16,10 @@ impl_tier: 3
 designer: ""
 notes: >-
   Blue rare, flex slot, a bounce shield. The name is a placeholder. The original pool has no replacement effect.
-  Opponents' sweeps and removal (Rage, Intuition, Bullying, Reckoning, Culling and others) become bounces of your moods,
+  Opponents' sweeps and removal (Rage, Intuition, Belligerence, Reckoning, Heartlessness and others) become bounces of your moods,
   so you keep the cards and lose only the tempo; it is blue's verb (bounce) applied as protection. It is mandatory and
   automatic, so it never prompts anyone in digital asynchronous play. Because nothing is put into the discard pile,
-  discard-pile triggers do not happen: Vendetta (R-U04) and Legacy (B-U04) do not trigger on a replaced move, and the
+  discard-pile triggers do not happen: Rancor (R-U04) and Sentimentality (B-U04) do not trigger on a replaced move, and the
   pile does not grow. It does not affect your own sacrifices (Martyrdom, Bravado-style costs). Playtest worry: a
   replayed mood re-triggers its after-playing effect, which can help a combo deck; the fallback is to bounce only moods
   with a value of 3 or less. impl_tier 3 is provisional: it needs a replacement hook on a mood moving from play to the

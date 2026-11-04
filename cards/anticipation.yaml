@@ -19,7 +19,7 @@ notes: >-
   sizes are public, so it is checkable in paper. History: it first used the comparative condition "more cards in hand
   than each other player", which was identical to Composure (B-U06, black), found in the clone check, so it now uses an
   absolute threshold of four. Hands refill only through round losses and card effects, so four cards is a real hoard. It
-  still sits against Equity (blue rare), which makes larger-handed opponents put a card back, and it is the inverse of
-  Austerity (white: fewer cards in hand than each other player). Playtest worry: it asks you to keep cards in hand while
+  still sits against Grievance (blue rare), which makes larger-handed opponents put a card back, and it is the inverse of
+  Temperance (white: fewer cards in hand than each other player). Playtest worry: it asks you to keep cards in hand while
   the set wants you to spend them, so check whether four is ever true on the turn it matters; three is the fallback.
   impl_tier 1 is provisional: a hand-size threshold check.

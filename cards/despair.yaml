@@ -19,5 +19,5 @@ notes: >-
   draw a card at the end of each round; this adds a second one, so it is a comeback engine that pays off when you are behind
   (inverse correlation). It bends the pool's "draws are paid for" rule, bounded by only working after a loss. Forgetfulness
   (nobody draws this round) blanks it. Value 2 to start; playtest question: is a free card on every loss too strong with
-  Intrusion and Martyrdom? Wording follows Corruption ("each losing player still draws only one card"). impl_tier 2 is
+  Nosiness and Martyrdom? Wording follows Corruption ("each losing player still draws only one card"). impl_tier 2 is
   provisional: it changes the number of cards the losing player draws at the end of the round.

@@ -19,7 +19,7 @@ notes: >-
   rule that gives the round loser a second base play, tagged separately in the simulator) is unaffected; a literal cap would
   have switched off the catch-up rule and favored whoever is ahead. The parenthetical reminder follows Awe, which also mentions
   Hurt Feelings. It shuts off almost every play grant in the pool and the set (Charity, Hope, Validation, Thrill, Camaraderie,
-  Fervor, Foresight, Resurgence's replays, Coercion's play), which is white's own identity, so it is a deliberate stax tension.
+  Fervor, Premonition, Reinvigoration's replays, Entitlement's play), which is white's own identity, so it is a deliberate stax tension.
   Duplicity still repeats after-playing effects. Banked grants (Joy, Generosity) stay banked but can't be used while this is in
   play (a ruling to confirm). Value 4 is high for a mythic on average (1.40), but there are precedents (Love 4, Sneakiness 5,
   Chaos 6) and the drawback is real. impl_tier 2: plays are computed per turn from grants, and a cap on mood-granted plays is a
