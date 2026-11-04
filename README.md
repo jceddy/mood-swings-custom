@@ -15,6 +15,8 @@ Working title: **Emotional Baggage** (set code `XEMB`; the group may still chang
 | `cards/*.yaml` | One file per card; each claims a skeleton slot |
 | `baseline/original-pool.json` | The original 133-card pool, extracted from the simulator |
 | `design/release-notes.md` | Instructions for reading the spreadsheet; the body of each release |
+| `design/playtest.yaml` | What to check in play testing, per card (source of the Playtest sheets and the checklist) |
+| `design/playtest-checklist.md` | The play test checklist, generated from `design/playtest.yaml` by `scripts/build_playtest_md.py` |
 | `scripts/build_xlsx.py` | Builds the current-state spreadsheet |
 | `scripts/extract_baseline.py` | Regenerates the baseline from a MoodSwings-Web checkout |
 
@@ -28,7 +30,7 @@ python scripts/build_xlsx.py        # writes out/set.xlsx
 A build of the spreadsheet is attached to each [release](../../releases): pushing a tag such as `0.2.4` (or running the workflow by hand from the Actions tab and typing a version) runs `.github/workflows/release.yml`, which rebuilds it (and stops if a rule check fails) and publishes it with `design/release-notes.md` as the notes.
 
 Sheets: **Set** (every slot and the card filling it), **Summary** (progress, distribution vs the original pool, rule checks),
-**Baseline** (the original pool), **Open Questions**.
+**Baseline** (the original pool), **Open Questions**, **Playtest** (one row per card with what to check and columns for the results) and **Playtest games** (whole-game checks and a game log).
 
 ## Set constraints
 
