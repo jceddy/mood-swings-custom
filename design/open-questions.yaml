@@ -171,3 +171,17 @@ questions:
       an opponent's mood with a value of 1 or less). Remorse replaced the reprint Ambition (B-C04) and Rashness replaced the reprint
       Bravado (R-C04), so the reprint count dropped from 13 to 11 (Q3). The red card uses opponents' moods only; the original proposal
       said "a mood". Playtest watch items are listed in Q9.
+  - id: Q11
+    status: decided
+    question: What is the set called, and what is its set code?
+    notes: |
+      Decided for now: Emotional Baggage, code XEMB. The name fits the set's recurring themes: moods stay in play all game, hands are
+      scarce, many effects replay or force the discard pile, and many card names are carried feelings (Grudge, Remorse, Grievance,
+      Rancor, Despair, Sentimentality, Nostalgia). The group is still discussing it, so it may change; the name and code live in
+      design/skeleton.yaml (set name and code) and in the MSE template's default set code.
+      Set code convention: an X followed by a three-letter abbreviation, so a community set cannot be mistaken for, or collide
+      with, a later official set. A four-letter code can never equal a three-letter one such as the original MSW, and an X
+      is rare as the first letter of an official abbreviation. The simulator's sets table (MoodSwings-Web, migration 0015) allows
+      codes of up to 10 characters and requires both the code and the set name to be unique (name up to 60 characters), and card
+      images live in a folder named after the code, so keep it uppercase letters only.
+      Other names considered: Mood Board (XMBD), Mixed Feelings (XMXF), Afterglow (XAFG), Highs and Lows (XHAL), Temperaments (XTMP).

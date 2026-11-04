@@ -1,6 +1,6 @@
 # Mood Swings custom set: current-state spreadsheet
 
-This release is a snapshot of the community-designed custom set for the Mood Swings TCG (about 133 cards). The attached file `mood-swings-custom-set.xlsx` is built from the card files and design notes in this repository at the tagged commit. Download it and open it in Excel, LibreOffice or Google Sheets.
+This release is a snapshot of the community-designed custom set for the Mood Swings TCG (about 133 cards), working title **Emotional Baggage** (set code `XEMB`). The attached file `mood-swings-custom-set.xlsx` is built from the card files and design notes in this repository at the tagged commit. Download it and open it in Excel, LibreOffice or Google Sheets.
 
 ## How to read the spreadsheet
 

@@ -1,7 +1,8 @@
 # Draft skeleton for the custom set: one entry per card slot.
 # A card claims a slot by naming it in its cards/*.yaml file (field: slot).
 set:
-  name: TBD
+  name: Emotional Baggage
+  code: XEMB
   target_size: 133
   max_reprint_fraction: 0.1
   reprint_cap: 13

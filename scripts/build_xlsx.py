@@ -146,7 +146,7 @@ def main():
 
     # --- Summary sheet
     sm = wb.create_sheet("Summary")
-    sm.append(["Set:", meta.get("name", "TBD")])
+    sm.append(["Set:", meta.get("name", "TBD") + (" (%s)" % meta["code"] if meta.get("code") else "")])
     candidates = sum(1 for s in slots if s.get("reprint_candidate"))
     sm.append(["Slots", len(slots), "Cards", len(cards), "Reprints", len(reprints), "Reprint cap", meta["reprint_cap"],
                "Reprint candidates", candidates])

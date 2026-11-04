@@ -43,6 +43,7 @@ This repo holds the work-in-progress design of a community-designed custom set f
 
 ## Set decisions made so far (full detail in `design/open-questions.yaml`)
 
+- Set name and code: **Emotional Baggage, XEMB** (tentative, the group is still discussing; Q11). Set codes for community sets are an X plus a three-letter abbreviation so they cannot collide with a later official code. Card names are single mood words (feelings or dispositions), as in the original pool.
 - Skeleton: 5 colors x (8 common, 8 uncommon, 6 rare, 3 mythic) = 125, plus 8 colorless (5 common, 2 uncommon, 1 mythic) = 133.
 - Colorless commons (X-C01..X-C05): value 5 each, and each can only be played if you have a mood of one specific color
   (one card per color). Nothing multicolored yet.

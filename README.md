@@ -1,6 +1,8 @@
 # mood-swings-custom
 A community-designed custom set for the Mood Swings TCG
 
+Working title: **Emotional Baggage** (set code `XEMB`; the group may still change it, see `design/open-questions.yaml` Q11).
+
 ## Layout
 
 | Path | Purpose |
