@@ -43,6 +43,7 @@ This repo holds the work-in-progress design of a community-designed custom set f
 
 ## Set decisions made so far (full detail in `design/open-questions.yaml`)
 
+- Set name and code: **Emotional Baggage, XEMB** (tentative, the group is still discussing; Q11). Set codes for community sets are an X plus a three-letter abbreviation so they cannot collide with a later official code. Card names are single mood words (feelings or dispositions), as in the original pool.
 - Skeleton: 5 colors x (8 common, 8 uncommon, 6 rare, 3 mythic) = 125, plus 8 colorless (5 common, 2 uncommon, 1 mythic) = 133.
 - Colorless commons (X-C01..X-C05): value 5 each, and each can only be played if you have a mood of one specific color
   (one card per color). Nothing multicolored yet.
@@ -85,7 +86,15 @@ This repo holds the work-in-progress design of a community-designed custom set f
 
 ## Suggested next steps
 
-1. Write partner cards for the blue, black, red and green axes (the plan is in `design/axes.md`; white's are done).
-2. Done: the 13 reprint card files were checked against the printed card images and marked final.
-3. Fill the remaining commons, uncommons and rares, then rebuild the spreadsheet and check the rule checks.
-4. Resolve Q8 (Entitlement's two knobs) and Q9 (playtest checks) once playtest results exist.
+All 133 slots are filled (122 cards are still `idea`, the 11 reprints are `final`). What is left is checking that the cards work.
+
+1. Play test. The checklist is `design/playtest-checklist.md`, generated from `design/playtest.yaml` (edit the yaml, then run
+   `python scripts/build_playtest_md.py`); the spreadsheet has the same list as the Playtest sheet with result columns. Test tier 1
+   (could break the game) first. Paper first, with proxies printed from the MSE set file in `jceddy/edition1`.
+2. After each test, move the card's `status` to `draft` or `playtest`, and record the decision in `design/open-questions.yaml`
+   (Q8 for the two Entitlement versions, Q9 for the other watch items). Apply a chosen fallback in the card file, with the reason
+   in its notes.
+3. Resolve Q5 (the mythic build-around axes, see `design/axes.md`) once the axis decks have been played.
+4. Cards that need new simulator effects are impl tier 2 (37 cards); three are paper only (tier 3: Admiration, Elusiveness,
+   Grudge). Simulator work is handled separately.
+5. Releases: pushing a tag or running the Release workflow publishes the spreadsheet (`.github/workflows/release.yml`).

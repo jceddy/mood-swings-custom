@@ -1,0 +1,219 @@
+# What to check in play testing. This file is the source of truth for the checklist:
+#   - design/playtest-checklist.md is generated from it (python scripts/build_playtest_md.py)
+#   - the "Playtest" and "Playtest games" sheets of the spreadsheet are built from it (python scripts/build_xlsx.py)
+# Card names must match the name in a card file. Tiers: 1 could break the game, 2 interactions, 3 possibly too weak,
+# 4 rules and clarity. A card that is not listed here only gets the general check (strength, clarity, fun).
+# Keep the text free of the sequence colon-space inside plain values, or quote the value.
+tiers:
+  1: Could break the game (test first)
+  2: Interactions
+  3: Possibly too weak
+  4: Rules and clarity
+
+cards:
+  # --- tier 1
+  - card: Fulfillment
+    tier: 1
+    check: Each of your moods worth 6 or more scores twice. Three conditional moods at 6 can run away.
+    fallback: A threshold of 7, or score only one such mood an extra time (Enthusiasm style).
+  - card: Ardor
+    tier: 1
+    check: Each of your red moods gets its value increased by the number of red moods you have, a quadratic payoff that may snowball.
+    fallback: A cap such as "up to three".
+  - card: Reinvigoration
+    tier: 1
+    check: It scales with board size and can replay a whole board (boards grow about one mood per round).
+    fallback: A cap such as "up to three".
+  - card: Reverie
+    tier: 1
+    check: It draws on entry and on each later play (about one per round, more with extra plays).
+    fallback: Once each turn.
+  - card: Maturity
+    tier: 1
+    check: Prints 2 and grows by 2 each round (2, 4, 6, 8). Is it too strong when left alone, and do opponents have time to remove it? On paper it needs a counter such as a die.
+    fallback: Grow by 1.
+  - card: Vitality
+    tier: 1
+    check: +2 to every mood of a chosen color each round is very strong in mono-color decks.
+    fallback: +1.
+  - card: Overconfidence
+    tier: 1
+    check: Three plays in one turn, then none. Check the burst against Dominance and Verve decks.
+    fallback: None chosen yet.
+  - card: Haunting
+    tier: 1
+    check: The burst size next turn with a big pile and a big hand, since each play triggers play engines.
+    fallback: '"Up to three".'
+  - card: Grudge
+    tier: 1
+    check: Up to two extra plays each turn when the chosen opponent has 2 round wins. Check the burst against the free-play cycle, Haunting and Affinity, and its replacement effect with Elusiveness.
+    fallback: None chosen yet.
+  - card: Rudeness
+    tier: 1
+    check: Blanks one full turn for every other player. Check the strength against a combo turn.
+    fallback: Hit only a chosen player.
+  - card: Levelheadedness
+    tier: 1
+    check: Every mood scores 2 for a round. Check the swing.
+    fallback: A cap of 3 per mood.
+  - card: Affinity
+    tier: 1
+    check: Another free-play enabler, for decks with duplicate numbers.
+    fallback: The once-a-turn cap is the safety.
+  - card: Fear
+    tier: 1
+    check: One of the five free-play commons (Fear, Nostalgia, Levity, Remorse, Rashness). Five unconditional free extra plays at common, so check how strong extra-play engines get.
+    fallback: See Levity and Rashness.
+  - card: Nostalgia
+    tier: 1
+    check: One of the five free-play commons. Pickup from the discard pile plus an extra play.
+    fallback: See Levity and Rashness.
+  - card: Levity
+    tier: 1
+    check: A free play that enables extra-play engines.
+    fallback: Choose between cycling and the extra play.
+  - card: Remorse
+    tier: 1
+    check: One of the five free-play commons. A card from the discard pile to the bottom of the deck, then draw, plus the extra play.
+    fallback: See Levity and Rashness.
+  - card: Rashness
+    tier: 1
+    check: One of the five free-play commons. Removal plus an extra play.
+    fallback: Remove only a mood with a value of 0.
+  - card: Reverence
+    tier: 1
+    check: Colorless gate common, value 5. The own-mood gate is paid once and then free for the rest of the game, so check 5 against 4.
+    fallback: Value 4.
+  - card: Detachment
+    tier: 1
+    check: Colorless gate common, value 5. The own-mood gate is paid once and then free, so check 5 against 4.
+    fallback: Value 4.
+  - card: Resentment
+    tier: 1
+    check: Colorless gate common, value 5. The own-mood gate is paid once and then free, so check 5 against 4.
+    fallback: Value 4.
+  - card: Impatience
+    tier: 1
+    check: Colorless gate common, value 5. The own-mood gate is paid once and then free, so check 5 against 4.
+    fallback: Value 4.
+  - card: Contentment
+    tier: 1
+    check: Colorless gate common, value 5. The own-mood gate is paid once and then free, so check 5 against 4.
+    fallback: Value 4.
+  - card: FOMO
+    tier: 1
+    check: Value 7, and paying a card every round drains the hand quickly. Is the mood discarded too soon for 7 to be fair?
+    fallback: None chosen yet.
+  # --- tier 2
+  - card: Entitlement (restricted)
+    tier: 2
+    check: Q8. Hands are often small or empty, so the restricted version fizzles more. Compare it with the unrestricted version.
+    fallback: Switch to the unrestricted version, or the hybrid that only needs the target to have one or more moods.
+  - card: Entitlement (unrestricted)
+    tier: 2
+    check: Q8. The backup version. An opponent with an empty hand cannot decline, so it forces more mood losses. Compare it with the restricted version.
+    fallback: Switch to the restricted version, or the hybrid that only needs the target to have one or more moods.
+  - card: Elusiveness
+    tier: 2
+    check: Opponents' removal becomes a bounce. Check it against combo decks, and the replacement ordering with Grudge (active player first, then turn order; the controller chooses between their own effects).
+    fallback: Bounce only moods with a value of 3 or less.
+  - card: Reassurance
+    tier: 2
+    check: Protects cheap engines from targeted effects (Shrewdness, Covetousness).
+    fallback: A threshold of 1.
+  - card: Shrewdness
+    tier: 2
+    check: It may be strong against opposing engines now that it only needs a lower or equal value.
+    fallback: Restore the same-value condition, or require matching printed values.
+  - card: Covetousness
+    tier: 2
+    check: A free extra mood every round.
+    fallback: Only moods with a value of 0.
+  - card: Opportunism
+    tier: 2
+    check: It turns discard costs into your cards. Check it against FOMO and Suspicion decks.
+    fallback: The first card each turn.
+  - card: Pettiness
+    tier: 2
+    check: A skipped turn for one card.
+    fallback: Two cards, or block only the first play.
+  - card: Competitiveness
+    tier: 2
+    check: Always one more than the biggest opposing mood. Check its volatility.
+    fallback: '"Equal to" instead of one more.'
+  - card: Gratitude
+    tier: 2
+    check: Needs moods with a current value of 1 or 2 to do anything. Check it against wide boards.
+    fallback: A value of 3 or less.
+  - card: Hellbent
+    tier: 2
+    check: The round leader runs their hand dry first (losers draw at the end of a round), so it favors the leader. Check the snowball.
+    fallback: An alternate value of 6.
+  - card: Perseverance
+    tier: 2
+    check: Grows by 2 after scoring while you have won fewer rounds than each other player (2, 4, 6 in a 2-player game). Does falling behind become attractive, and is it too strong at match point? Needs a counter on paper.
+    fallback: Growth of 1, or a value of 1.
+  - card: Volatility
+    tier: 2
+    check: Random removal of moods with a value of 1 or less hits your own cheap moods too.
+    fallback: Opponents' moods only.
+  - card: Wastefulness
+    tier: 2
+    check: With Resilience or Thrift it is free plays from the top of the deck, which is card advantage.
+    fallback: None chosen yet.
+  - card: Rancor
+    tier: 2
+    check: Mandatory and random, so nobody is prompted. Is a random pick among moods with a value of 3 or less too harsh on cheap engines? The simulator must be able to tell which player controls the effect.
+    fallback: A value of 1 or less.
+  - card: Heartlessness
+    tier: 2
+    check: It also hits your own board. Check it works when you are behind.
+    fallback: None chosen yet.
+  - card: Sentimentality
+    tier: 2
+    check: Check that it does not break the draw rule with a sacrifice engine such as Martyrdom.
+    fallback: None chosen yet.
+  # --- tier 3
+  - card: Carelessness
+    tier: 3
+    check: Removes two random cards from the deck for pile fuel. Is it too weak?
+    fallback: One card.
+  - card: Intuition
+    tier: 3
+    check: Lowered to 1 point after group feedback. Is it still worth playing?
+    fallback: Raise the value again.
+  - card: Belligerence
+    tier: 3
+    check: Lowered to 2 points after group feedback. Is it still worth playing?
+    fallback: Raise the value again.
+  - card: Candor
+    tier: 3
+    check: A face-up hand for the whole game may feel oppressive on paper, and the information may matter little against decks that ignore hands.
+    fallback: None chosen yet.
+  - card: Defensiveness
+    tier: 3
+    check: Strips the after-playing effects of opponents' additional moods and spares you. Is it dead against decks without extra plays, and does it need to be symmetric?
+    fallback: Make it symmetric.
+  - card: Inspiration
+    tier: 3
+    check: A free card of your choice from the top three cards. Close to Nostalgia, so does it feel like a narrower Nostalgia at mythic rarity?
+    fallback: The unrestricted extra play, reveal four cards, play up to two of the three, or reveal two cards if too strong.
+  # --- tier 4
+  - card: Admiration
+    tier: 4
+    check: What does "this mood" mean when the copied pile mood refers to itself? Proposed ruling is the mood you just played. Paper only (impl tier 3).
+    fallback: None chosen yet.
+  - card: Honesty
+    tier: 4
+    check: Showing the hand once may matter more on paper than in digital, and colorless cards in hand make it false.
+    fallback: None chosen yet.
+
+games:
+  - check: Game length. How many rounds does a game last, and how fast do boards grow (about one mood per round)?
+  - check: Do hands run dry too fast? Hands only refill when you lose a round and through card effects.
+  - check: Color balance. Win rates by color, and mono-color against two-color decks.
+  - check: Axis decks. Do the five axis decks work (white numbers, blue recycling, black hand pressure, red red moods, green pile and 6s)?
+  - check: Extra-play engines. How strong does the pile of free plays, grants and burst turns get when combined?
+  - check: A 3 to 4 player game. Hurt Feelings, the trailing condition of Perseverance, and Rancor and Entitlement with several opponents.
+  - check: Replacement and trigger ordering. Does the rule hold in play (active player first, then turn order; the controller chooses between their own effects)?
+  - check: Paper counters. Can permanent value changes (Maturity, Perseverance) be tracked easily on paper?

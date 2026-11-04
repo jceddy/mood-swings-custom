@@ -8,6 +8,8 @@ design/open-questions.yaml, and writes one workbook:
   Summary         progress, distribution vs the original pool, and rule checks
   Baseline        the original 133-card pool for reference
   Open Questions  unresolved design decisions
+  Playtest        one row per card with what to check (from design/playtest.yaml) and columns for the results
+  Playtest games  the whole-game checks and a blank game log
 """
 import collections
 import json
@@ -18,6 +20,7 @@ import yaml
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
+from openpyxl.worksheet.datavalidation import DataValidation
 
 ROOT = Path(__file__).resolve().parent.parent
 COLORS = ["white", "blue", "black", "red", "green", "colorless"]
@@ -146,7 +149,7 @@ def main():
 
     # --- Summary sheet
     sm = wb.create_sheet("Summary")
-    sm.append(["Set:", meta.get("name", "TBD")])
+    sm.append(["Set:", meta.get("name", "TBD") + (" (%s)" % meta["code"] if meta.get("code") else "")])
     candidates = sum(1 for s in slots if s.get("reprint_candidate"))
     sm.append(["Slots", len(slots), "Cards", len(cards), "Reprints", len(reprints), "Reprint cap", meta["reprint_cap"],
                "Reprint candidates", candidates])
@@ -200,6 +203,48 @@ def main():
     write_table(oq, ["Id", "Status", "Question", "Notes / options"],
                 [[q.get("id", ""), q.get("status", "open"), q.get("question", ""), q.get("notes", "")] for q in questions],
                 [8, 10, 60, 90])
+
+    # --- Playtest sheets (design/playtest.yaml)
+    playtest = load_yaml(ROOT / "design" / "playtest.yaml")
+    watch = {e["card"]: e for e in playtest["cards"]}
+    names = {c["name"] for c in cards}
+    for n in watch:
+        if n not in names:
+            problems.append("playtest.yaml: unknown card %r" % n)
+    tier_title = playtest["tiers"]
+    pt_rows = []
+    for c in cards:
+        e = watch.get(c["name"])
+        pt_rows.append([
+            e["tier"] if e else 0, tier_title[e["tier"]] if e else "General check only", c["name"], c.get("slot") or "(backup)",
+            c["color"], c["rarity"], c.get("status", ""), c.get("rules_text", ""),
+            e["check"] if e else "General: is the strength right, is the text clear, is it fun?",
+            e["fallback"] if e else "", "", "", "", "", "",
+        ])
+    pt_rows.sort(key=lambda r: (r[0] == 0, r[0], COLORS.index(r[4]), r[2]))
+    pt = wb.create_sheet("Playtest")
+    write_table(pt, ["Tier", "Tier name", "Card", "Slot", "Color", "Rarity", "Status", "Rules text", "What to check", "Fallback",
+                     "Strength", "Clarity", "Fun", "Fallback chosen", "Notes"],
+                pt_rows, [6, 22, 18, 9, 10, 10, 9, 60, 60, 36, 12, 10, 10, 20, 40], color_col=4)
+    last = len(pt_rows) + 1
+    for col, options in (("K", "too strong,fair,too weak"), ("L", "clear,unclear"), ("M", "fun,neutral,not fun")):
+        dv = DataValidation(type="list", formula1='"%s"' % options, allow_blank=True)
+        pt.add_data_validation(dv)
+        dv.add("%s2:%s%d" % (col, col, last))
+    pg = wb.create_sheet("Playtest games")
+    pg_rows = [[g["check"], ""] for g in playtest["games"]]
+    write_table(pg, ["Whole-game check", "Result"], pg_rows, [100, 60])
+    pg.append([])
+    pg.append(["Game log"])
+    pg[pg.max_row][0].font = Font(bold=True)
+    pg.append(["Game / players", "Decks", "Rounds", "Winner", "Notes"])
+    for cell in pg[pg.max_row]:
+        cell.fill, cell.font = HEADER_FILL, HEADER_FONT
+    for _ in range(12):
+        pg.append([])
+    pg.auto_filter.ref = None
+    for letter, width in (("C", 10), ("D", 20), ("E", 50)):
+        pg.column_dimensions[letter].width = width
 
     wb.save(out)
     print("wrote %s: %d slots, %d cards, %d problem(s)" % (out, len(slots), len(cards), len(problems)))
