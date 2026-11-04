@@ -1,0 +1,26 @@
+slot: G-U07
+name: Honesty
+color: green
+rarity: uncommon
+base_value: 3
+alt_value: 6
+to_play: false
+while_in_play: false
+after_playing: true
+rules_text: >-
+  After playing this mood — Reveal your hand. If each card in it shares a color with one of your moods, this mood's
+  value becomes 6.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Green uncommon, re-roled from a hand-reveal gift (Fascination style) to a hand-reveal payoff. The name is a
+  placeholder. The group has liked hand-reveal cards (see Open Hands). Fascination (original: reveal a blue or black
+  card from your hand and give it to another player for 7), Condescension and Cynicism (black) give a card for a bonus;
+  here the cost is showing your own whole hand once, and the payoff is true when every card in it shares a color with
+  one of your moods (this mood is green, so green cards count). It rewards mono and two-color decks and works well with
+  Kinship, Unity and Hellbent; an empty hand counts as true. Colorless cards in hand count against you, since they share
+  no color. It is on the owner's turn with no choices, so nothing prompts anyone in async play. Playtest worry: showing
+  a hand once may matter more in paper than in digital; the fallback is to reveal only part of the hand. impl_tier 1 is
+  provisional: a reveal of your own hand and a color check against your moods.

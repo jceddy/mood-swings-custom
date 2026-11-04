@@ -1,0 +1,25 @@
+slot: G-R06
+name: Bloom
+color: green
+rarity: rare
+base_value: 1
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play — At the start of each of your turns, choose a color. Until the end of this round, each of your moods of
+  that color has its value increased by 2.
+status: idea
+reprint_of: null
+impl_tier: 2
+designer: ""
+notes: >-
+  Green rare, re-roled from a generic flex to a recurring color anthem. The name is a placeholder. Each round you choose
+  which color gets +2 per mood, so it works with any deck and is very strong in mono-color decks. It is a cousin of
+  Blaze (R-M02, red: +1 per red mood for each red mood) and Momentum (R-R03, +2 to each red mood played this round) but
+  cross-color and chosen every round; Kinship (G-R04) is the pairs version. The choice is on your own turn, and each
+  player has one turn per round, so it triggers once per round. It affects your moods of that color at scoring time,
+  including ones played later in the round. It never prompts anyone on an opponent's turn. Playtest worry: strong in
+  decks of one color, so check it against Unity and Blaze decks; the fallback is +1 instead of +2. impl_tier 2 is
+  provisional: a start-of-turn color choice and a round-long color-keyed value bonus.
