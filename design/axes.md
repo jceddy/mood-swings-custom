@@ -148,7 +148,7 @@ Altruism and Cynicism (pickups), Bravado, Hostility, Rebellion, Self-Loathing, E
 | `G-C05` | card-flow | Nostalgia (reprint): pickup plus an extra play |
 | `G-U01` | play-grant | Thrift (written): extra play from the pile for a 0, 1, 2, or 3 |
 | `G-U02` | play-grant-2 | Renewal (written): re-trigger another of your moods' after-playing effect |
-| `G-U08` | flex | Perseverance (written): not a pile card; grows when you lose a round |
+| `G-U08` | flex | Perseverance (written): not a pile card; grows by 2 after scoring while you are behind in rounds |
 | `G-R01` | play-grant-engine | Resilience (written): a cheap extra play from the pile each turn |
 | `G-M02` | flexible mythic | Wistfulness (written): a pile play grant, and pile plays repeat their after-playing effect |
 | `G-M03` | flexible mythic | Fruition (written): not a pile card; moods worth 6 or more score an extra time, a payoff for green's 3 to 6 cycle |

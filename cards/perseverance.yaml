@@ -8,20 +8,32 @@ to_play: false
 while_in_play: true
 after_playing: false
 rules_text: >-
-  While in play — After scoring, if you didn't win the round, this mood's value permanently increases by 1.
+  While in play — After scoring, if you have won fewer rounds than each other player, this mood's value permanently increases by 2.
 status: idea
 reprint_of: null
 impl_tier: 1
 designer: ""
 notes: >-
-  Green uncommon, flexible slot. The name is a placeholder (Resilience is taken). It is the loss-side partner of
-  Vindication: Vindication counts the rounds you won, this one grows on rounds you lost. Green already helps players who are
-  behind (Resolve, Warmth), and this adds a card that gets stronger as a player falls behind. It is not a pile card, so the old
-  "pile-related flex" plan for this slot in design/axes.md is dropped; the pile-replay cards already number Harmony, Thrift,
-  Grace, Resilience and Resurgence. Chosen over a payoff for playing from the pile (Revival), a count of printed 0s (Emptiness)
-  and a different-color extra play (Variegation, too close to a flipped Eagerness). Wording: "didn't win the round" covers every
-  player who is not the winner, so there is no tie case (ties for the win go to whoever played earliest). It follows the
-  wording of Bashfulness ("if you won the round") and Growth ("permanently increases"). Mandatory trigger with no choice, so no
-  prompts in the digital clients. Awe (no scoring, so after-scoring effects don't happen) does not grow it. A loser also
-  draws a card and gets Hurt Feelings, so this stacks with the catch-up that the rules already give; value 2 and +1 per lost round keeps it modest: 2, 3, 4 after 0, 1 and 2 lost rounds, and around 5 only in a long game. impl_tier 1: the simulator already has after-scoring triggers and permanent value changes
-  (Growth).
+  Green uncommon, flexible slot, a catch-up card. The name is a placeholder (Resilience is taken). It is the trailing-side
+  partner of Vindication: Vindication counts the rounds you won, this one grows while you are behind in rounds. Green
+  already helps players who are behind (Resolve, Warmth); this adds a card that gets stronger the longer a player is behind.
+  It is not a pile card, so the old "pile-related flex" plan for this slot in design/axes.md is dropped; the pile-replay
+  cards already number Harmony, Thrift, Grace, Resilience and Resurgence. Chosen over a payoff for playing from the pile
+  (Revival), a count of printed 0s (Emptiness) and a different-color extra play (Variegation, too close to a flipped
+  Eagerness).
+  History: it first grew by 1 after any round you didn't win (2, 3, 4). The group noted that in a 2-player game (first to 3
+  round wins, so a player is out on the third lost round) that tops out at 4, which is worse than the common Resolve (a 3
+  that is a 6 whenever you have won fewer rounds), and it grew almost as fast as Growth in games of 3 or more players,
+  where you lose most rounds. It now grows by 2, but only while you have won fewer rounds than each other player. Growth
+  stays at +2 each round and a rare: it grows every round with no condition, so it is always at least as strong.
+  Numbers: in a 2-player game it is 2, 4, 6 after 0, 1 and 2 lost rounds, so it reaches 6 in the round where one more loss
+  ends the game, the same point at which Resolve is a 6, but it starts slower and the growth is permanent. In games of 3 or
+  more players only a player who is strictly behind every other player grows, which stops it from becoming a cheap Growth.
+  Timing: the simulator records the round winner before after-scoring effects happen (GameService::scoreRoundAndAdvance), so
+  the round that was just scored already counts when the condition is checked. A player who loses round 1 of a 2-player
+  game has won 0 rounds against 1 and grows. A player who wins a round but is still behind (for example 1 round against 2)
+  also grows. Wording follows Resolve ("won fewer rounds than each other player") and Growth ("permanently increases").
+  Mandatory trigger with no choice, so no prompts in the digital clients. Awe (no scoring, so after-scoring effects don't
+  happen) does not grow it. A loser also draws a card, and in games of 3 or more the lowest scorer gets Hurt Feelings, so this
+  stacks with the catch-up the rules already give. impl_tier 1: the simulator already has after-scoring triggers, a round
+  win count and permanent value changes (Growth).

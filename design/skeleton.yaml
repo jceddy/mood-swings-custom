@@ -829,7 +829,7 @@ slots:
   role: flex
   value: 2-3
   timing: any
-  notes: Perseverance (written). Loss-side partner of Vindication, a mandatory after-scoring growth trigger. It replaces the old pile-related flex plan because the pile-replay cards already number five.
+  notes: Perseverance (written). A catch-up card, the trailing-side partner of Vindication, a mandatory after-scoring growth trigger that only grows while you have won fewer rounds than each other player. It replaces the old pile-related flex plan because the pile-replay cards already number five.
 - id: G-R01
   color: green
   rarity: rare
