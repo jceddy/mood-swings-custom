@@ -9,6 +9,7 @@ while_in_play: false
 after_playing: true
 rules_text: >-
   After playing this mood — You may play an additional mood on your next turn.
+emphasis: [next]
 status: final
 reprint_of: Joy
 impl_tier: 1
