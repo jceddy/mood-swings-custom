@@ -3,7 +3,7 @@ name: Restlessness
 color: green
 rarity: uncommon
 base_value: 3
-alt_value: null
+alt_value: 6
 to_play: false
 while_in_play: true
 after_playing: false
@@ -25,3 +25,5 @@ notes: >-
   is the fallback. impl_tier 1 is provisional: a count of distinct values over your own moods. The reminder text about
   moods being cards in play was added, following the printed cards that count moods or put your own moods into the
   discard pile.
+  The alternate value 6 is the lower-left die (value 3 printed, 6 when the condition holds), as on the other conditional
+  cards; the card file used to have no alternate value, which left the lower-left die off in the MSE set.
