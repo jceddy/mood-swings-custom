@@ -12,6 +12,7 @@ A community-designed custom set for the Mood Swings TCG
 | `design/axes.md` | Tentative mythic build-around axes and the partner-slot plan (Q5) |
 | `cards/*.yaml` | One file per card; each claims a skeleton slot |
 | `baseline/original-pool.json` | The original 133-card pool, extracted from the simulator |
+| `design/release-notes.md` | Instructions for reading the spreadsheet; the body of each release |
 | `scripts/build_xlsx.py` | Builds the current-state spreadsheet |
 | `scripts/extract_baseline.py` | Regenerates the baseline from a MoodSwings-Web checkout |
 
@@ -21,6 +22,8 @@ A community-designed custom set for the Mood Swings TCG
 pip install -r requirements.txt
 python scripts/build_xlsx.py        # writes out/set.xlsx
 ```
+
+A build of the spreadsheet is attached to each [release](../../releases): pushing a tag such as `v0.1.0` runs `.github/workflows/release.yml`, which rebuilds it (and stops if a rule check fails) and publishes it with `design/release-notes.md` as the notes.
 
 Sheets: **Set** (every slot and the card filling it), **Summary** (progress, distribution vs the original pool, rule checks),
 **Baseline** (the original pool), **Open Questions**.
