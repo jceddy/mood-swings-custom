@@ -829,7 +829,7 @@ slots:
   role: flex
   value: 2-3
   timing: any
-  notes: Open slot. Held open because no non-clone idea exists yet. Held open again because every idea in the green re-role pass was a third pile-replay card (Harmony, Thrift and Grace exist), a milled-card play that duplicates Epiphany, or a symmetric pile pickup for round losers.
+  notes: Perseverance (written). Loss-side partner of Vindication, a mandatory after-scoring growth trigger. It replaces the old pile-related flex plan because the pile-replay cards already number five.
 - id: G-R01
   color: green
   rarity: rare

@@ -1,0 +1,27 @@
+slot: G-U08
+name: Perseverance
+color: green
+rarity: uncommon
+base_value: 2
+alt_value: null
+to_play: false
+while_in_play: true
+after_playing: false
+rules_text: >-
+  While in play — After scoring, if you didn't win the round, this mood's value permanently increases by 1.
+status: idea
+reprint_of: null
+impl_tier: 1
+designer: ""
+notes: >-
+  Green uncommon, flexible slot. The name is a placeholder (Resilience is taken). It is the loss-side partner of
+  Vindication: Vindication counts the rounds you won, this one grows on rounds you lost. Green already helps players who are
+  behind (Resolve, Warmth), and this adds a card that gets stronger as a player falls behind. It is not a pile card, so the old
+  "pile-related flex" plan for this slot in design/axes.md is dropped; the pile-replay cards already number Harmony, Thrift,
+  Grace, Resilience and Resurgence. Chosen over a payoff for playing from the pile (Revival), a count of printed 0s (Emptiness)
+  and a different-color extra play (Variegation, too close to a flipped Eagerness). Wording: "didn't win the round" covers every
+  player who is not the winner, so there is no tie case (ties for the win go to whoever played earliest). It follows the
+  wording of Bashfulness ("if you won the round") and Growth ("permanently increases"). Mandatory trigger with no choice, so no
+  prompts in the digital clients. Awe (no scoring, so after-scoring effects don't happen) does not grow it. A loser also
+  draws a card and gets Hurt Feelings, so this stacks with the catch-up that the rules already give; value 2 and +1 per lost round keeps it modest: 2, 3, 4 after 0, 1 and 2 lost rounds, and around 5 only in a long game. impl_tier 1: the simulator already has after-scoring triggers and permanent value changes
+  (Growth).
