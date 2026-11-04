@@ -146,6 +146,7 @@ questions:
       - Honesty: showing the hand once may matter more in paper than in digital, and colorless cards in hand make it false.
       - Bloom: +2 to every mood of a chosen color each round is very strong in mono-color decks; the fallback is +1.
       - Open Hands: a face-up hand for the whole game may feel oppressive in paper, and the information may matter little against decks that ignore hands.
+      - Ruling needed: Elusiveness (an opponent's effect that would put your mood into the discard pile puts it into your hand instead) and Grudge (if it would leave play, put it on the bottom of the deck instead) can both apply to one event. Proposed ruling: the mood's owner chooses which replacement applies, as with other competing replacement effects.
       - Epiphany: a free card of your choice from the top three cards, played from the hand; it is close to Nostalgia, so check it does not feel like a narrower Nostalgia at mythic rarity; the fallbacks are the unrestricted extra play, revealing four cards, or playing up to two of the three (or revealing two cards if it is too strong).
       - Blaze: a quadratic payoff for red moods that may snowball; the fallback is a cap such as "up to three".
       - Overkill: always one more than the biggest opposing mood, so check its volatility; the fallback is "equal to" instead of 1 more.
