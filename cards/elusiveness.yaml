@@ -25,4 +25,4 @@ notes: >-
   with a value of 3 or less. impl_tier 3 is provisional: it needs a replacement hook on a mood moving from play to the
   discard pile by an opponent's effect. Ordering (Q9): when Elusiveness and Grudge both apply to the same event, effects
   apply starting with the active player and then in turn order, as the author described; when one player controls both,
-  which is the usual case, that player is proposed to choose the order (to be confirmed).
+  which is the usual case, that player chooses the order (decided).
