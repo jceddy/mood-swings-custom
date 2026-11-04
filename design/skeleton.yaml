@@ -892,7 +892,7 @@ slots:
   role: flexible
   value: 0-2
   timing: any
-  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis. Held open because the ideas in the mythic re-role pass were a third pile-replay mythic, a card-draw engine (a pie bend) or a color-adding card that makes Unity trivial; it wants a green mythic outside the pile axis. Held open again in the green re-role pass.
+  notes: Fruition (written). A build-around for the 3 to 6 conditional cycle, a green mythic outside the pile axis. It is the high-end bookend of Abundance.
 - id: X-C01
   color: colorless
   rarity: common
