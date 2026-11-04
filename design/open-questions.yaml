@@ -140,7 +140,11 @@ questions:
       - Opportunism: it turns discard costs into your cards, so check it against FOMO and Suspicion decks; the fallback is the first card each turn.
       - Wildfire: random removal of moods with a value of 1 or less hits your own cheap moods too; the fallback is opponents' moods only.
       - Mulch: with Resilience or Thrift it is free plays from the top of the deck, which is card advantage.
-      - Growth: counters on paper, and a slow card that opponents can remove.
+      - Growth: it prints 2 and grows by 2 each round (2, 4, 6, 8), so check it is not too strong when left alone, and that opponents have time to remove it; counters on paper; the fallback is to grow by 1.
+      - Compost: it removes two random cards from the deck for pile fuel, so check it is not too weak; the fallback is one card.
+      - Abundance: it needs moods with a current value of 1 or 2 to do anything (the group kept the current-value version over the printed-number one), so check it against wide boards; the fallback is a value of 3 or less.
+      - Honesty: showing the hand once may matter more in paper than in digital, and colorless cards in hand make it false.
+      - Bloom: +2 to every mood of a chosen color each round is very strong in mono-color decks; the fallback is +1.
       - Open Hands: a face-up hand for the whole game may feel oppressive in paper, and the information may matter little against decks that ignore hands.
       - Epiphany: a free card of your choice from the top three cards, played from the hand; it is close to Nostalgia, so check it does not feel like a narrower Nostalgia at mythic rarity; the fallbacks are the unrestricted extra play, revealing four cards, or playing up to two of the three (or revealing two cards if it is too strong).
       - Blaze: a quadratic payoff for red moods that may snowball; the fallback is a cap such as "up to three".

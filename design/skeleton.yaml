@@ -763,10 +763,10 @@ slots:
 - id: G-C07
   color: green
   rarity: common
-  role: utility-small
+  role: pile-fuel
   value: 2-3
   timing: after
-  notes: Small effect on a modest body (hand disruption, small steal/give, etc.). Held open because the ideas so far were Reminiscence or Suspicion in another color.
+  notes: Re-roled to pile-fuel and held by Compost. The old role copied an original card or had no non-clone idea.
 - id: G-C08
   color: green
   rarity: common
@@ -812,24 +812,24 @@ slots:
 - id: G-U06
   color: green
   rarity: uncommon
-  role: scoring-mod
-  value: '0'
+  role: cheap-mood-scoring
+  value: 0
   timing: while
-  notes: Score a mood an extra time (Enthusiasm style). Held open because no non-clone idea exists yet.
+  notes: Re-roled to cheap-mood-scoring and held by Abundance. The old role copied an original card or had no non-clone idea.
 - id: G-U07
   color: green
   rarity: uncommon
-  role: hand-reveal-gift
+  role: hand-reveal-payoff
   value: 3->6
   timing: after
-  notes: Hand gift for a bonus (Fascination style). Held open because no non-clone idea exists yet.
+  notes: Re-roled to hand-reveal-payoff and held by Honesty. The old role copied an original card or had no non-clone idea.
 - id: G-U08
   color: green
   rarity: uncommon
   role: flex
   value: 2-3
   timing: any
-  notes: Open slot. Held open because no non-clone idea exists yet.
+  notes: Open slot. Held open because no non-clone idea exists yet. Held open again because every idea in the green re-role pass was a third pile-replay card (Harmony, Thrift and Grace exist), a milled-card play that duplicates Epiphany, or a symmetric pile pickup for round losers.
 - id: G-R01
   color: green
   rarity: rare
@@ -868,10 +868,10 @@ slots:
 - id: G-R06
   color: green
   rarity: rare
-  role: flex
+  role: color-flex
   value: 0-3
-  timing: any
-  notes: Signature effect for the color; usually a low printed value. Held open because every idea so far was a clone of an existing card. Held open again because every idea in the rare re-role pass was a clone of Hope, Altruism or a snowball.
+  timing: while
+  notes: Re-roled to color-flex and held by Bloom. The old role copied an original card or had no non-clone idea.
 - id: G-M01
   color: green
   rarity: mythic
@@ -892,7 +892,7 @@ slots:
   role: flexible
   value: 0-2
   timing: any
-  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis. Held open because the ideas in the mythic re-role pass were a third pile-replay mythic, a card-draw engine (a pie bend) or a color-adding card that makes Unity trivial; it wants a green mythic outside the pile axis.
+  notes: Flexible mythic. Not required to be a build-around; judge it by complexity and power ratio (Q5). If it does build around something, name the axis. Held open because the ideas in the mythic re-role pass were a third pile-replay mythic, a card-draw engine (a pie bend) or a color-adding card that makes Unity trivial; it wants a green mythic outside the pile axis. Held open again in the green re-role pass.
 - id: X-C01
   color: colorless
   rarity: common
