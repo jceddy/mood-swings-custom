@@ -35,7 +35,7 @@ cards:
   - card: Vitality
     tier: 1
     check: +2 to every mood of a chosen color each round, including moods played later that round (Q12), is very strong in mono-color decks and rewards extra plays.
-    fallback: +1.
+    fallback: "+1."
   - card: Overconfidence
     tier: 1
     check: Three plays in one turn, then none. Check the burst against Dominance and Verve decks.
