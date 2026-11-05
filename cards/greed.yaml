@@ -21,4 +21,5 @@ notes: >-
   which card to give), so it prints as a rare. It bends the pool's draw rule the way Reverie does; if the group prefers,
   drop the replacement draw (they just lose the card), which is the Compulsion shape. Targeting restriction follows Paranoia
   and Nosiness ("a player/an opponent with one or more cards in their hand"). impl_tier 2 is provisional: it reveals a whole
-  hand to the chooser (Entitlement and Nosiness have the same need).
+  hand to all players, not privately (Entitlement and Nosiness have the same need). "Reveal" always means to all players, so
+  the other players see which card is taken.
