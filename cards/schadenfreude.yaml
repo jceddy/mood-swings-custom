@@ -8,7 +8,11 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood — If another player discarded a card this turn, this mood's value becomes 6.
+  After playing this mood — If another player discarded a card or had a mood put into the discard pile this turn, this
+  mood's value becomes 6.
+rulings:
+  - Counts a card another player discarded from their hand, and a mood of another player that was put into the discard pile from play, by any effect and at any point earlier this turn.
+  - Does not count your own discards or your own moods, and does not count a mood that was returned to a hand or the deck instead of the discard pile (for example, bounced).
 status: idea
 reprint_of: null
 impl_tier: 2
@@ -17,9 +21,12 @@ notes: >-
   Simplest of several older community versions of this idea. The others (a counter or value bonus whenever an
   opponent's mood leaves play, or drawing when an opponent loses a round) were set aside because the pool has no
   counters or accumulating values, "leaves play" is not pool vocabulary, and trigger wording appears only on mythics.
-  Pattern is the 3->6 conditional (Condescension, Cynicism, Curiosity). "Discarded" means discarded from hand
-  (compare Suspicion); moods going to the discard pile do not count. Other players only act on your turn through your
-  own effects, so in practice this is a combo with hand-discard cards such as Suspicion. impl_tier 2 is provisional:
-  it needs a turn-scoped record of which players discarded a card from hand; if the simulator's turn events already
+  Pattern is the 3->6 conditional (Condescension, Cynicism, Curiosity). Reworded to count both
+  kinds of loss: a card another player discarded from their hand (compare Suspicion), and one of their moods put into the
+  discard pile from play (black and red removal). It was hand discards only at first. Other players only act on your turn
+  through your own effects, so in practice this is a combo with a discard or removal effect played earlier in the turn;
+  the wider trigger makes it easier to turn on, so check that a common 3 to 6 is still fair. A mood that is bounced or
+  otherwise leaves play without going to the discard pile does not count. impl_tier 2 is provisional:
+  it needs a turn-scoped record of which players discarded a card from hand or had a mood put into the discard pile; if the simulator's turn events already
   expose that, it is tier 1. Verify before finalising. A stateless scaling rare in the same theme (value increases for
   each opponent with fewer moods than you) was floated as a separate card.
