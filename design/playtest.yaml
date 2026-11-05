@@ -139,7 +139,7 @@ cards:
     fallback: Two cards, or block only the first play.
   - card: Competitiveness
     tier: 2
-    check: Always one more than the biggest opposing mood. Check its volatility.
+    check: Always one more than the biggest opposing mood that does not have this ability (so two of them settle on the same value). Check its volatility.
     fallback: '"Equal to" instead of one more.'
   - card: Gratitude
     tier: 2

@@ -88,7 +88,7 @@ be too weak, and tier 4 about rules questions.
   - Fallback: The first card each turn.
 - [ ] **Pettiness** (black uncommon, B-U08): A skipped turn for one card.
   - Fallback: Two cards, or block only the first play.
-- [ ] **Competitiveness** (red mythic, R-M03): Always one more than the biggest opposing mood. Check its volatility.
+- [ ] **Competitiveness** (red mythic, R-M03): Always one more than the biggest opposing mood that does not have this ability (so two of them settle on the same value). Check its volatility.
   - Fallback: "Equal to" instead of one more.
 - [ ] **Gratitude** (green uncommon, G-U06): Needs moods with a current value of 1 or 2 to do anything. Check it against wide boards.
   - Fallback: A value of 3 or less.
