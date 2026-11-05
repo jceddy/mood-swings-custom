@@ -189,8 +189,8 @@ questions:
     status: decided
     question: Does Vitality's boost apply to moods of the chosen color that are played after it triggers?
     notes: |
-      Decided: yes, which was the original intent. The card text now says so: "Until the end of this round, each of your moods of that
-      color, including ones you play later this round, has its value increased by 2." Vitality triggers at the start of your turn,
+      Decided: yes, which was the original intent. The rules text is unchanged and a reminder says so: "Until the end of this round, each of your moods of that
+      color has its value increased by 2. (This includes moods you play later this round.)" Vitality triggers at the start of your turn,
       you choose a color, and each of your moods of that color gets +2 until the end of the round, even if Vitality leaves play (ruling),
       whenever it was played. So the digital implementation applies the boost to every mood of the chosen color you control at
       scoring time, including ones played after the trigger (it first did not, while the group was still discussing it).

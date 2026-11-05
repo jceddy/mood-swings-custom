@@ -9,7 +9,7 @@ while_in_play: true
 after_playing: false
 rules_text: >-
   While in play — At the start of each of your turns, choose a color. Until the end of this round, each of your moods of
-  that color, including ones you play later this round, has its value increased by 2.
+  that color has its value increased by 2. (This includes moods you play later this round.)
 rulings:
   - Triggers at the start of your turn. The effect lasts until the end of the round, even if Vitality leaves play, and it applies to your moods of the chosen color whenever they were played, including moods you play after it triggers.
 status: idea
@@ -22,7 +22,7 @@ notes: >-
   Ardor (R-M02, red: +1 per red mood for each red mood) and Verve (R-R03, +2 to each red mood played this round) but
   cross-color and chosen every round; Kinship (G-R04) is the pairs version. The choice is on your own turn, and each
   player has one turn per round, so it triggers once per round. It affects your moods of that color at scoring
-  time, including ones played after it triggers (the text says so; the group wanted that as the original intent, Q12), and the boost
+  time, including ones played after it triggers (the reminder text says so; the group wanted that as the original intent, Q12), and the boost
   stays if Vitality leaves play. It never prompts anyone on an opponent's turn. Playtest worry: strong in
   decks of one color, so check it against Unity and Ardor decks; the fallback is +1 instead of +2. impl_tier 2 is
   provisional: a start-of-turn color choice and a round-long color-keyed value bonus.
