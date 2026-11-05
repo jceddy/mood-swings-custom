@@ -34,7 +34,7 @@ cards:
     fallback: Grow by 1.
   - card: Vitality
     tier: 1
-    check: +2 to every mood of a chosen color each round is very strong in mono-color decks.
+    check: +2 to every mood of a chosen color each round is very strong in mono-color decks. For now (Q12, still being discussed) it only boosts the moods in play when it triggers, so check whether that makes it too weak.
     fallback: +1.
   - card: Overconfidence
     tier: 1
@@ -139,7 +139,7 @@ cards:
     fallback: Two cards, or block only the first play.
   - card: Competitiveness
     tier: 2
-    check: Always one more than the biggest opposing mood. Check its volatility.
+    check: Always one more than the biggest opposing mood that does not have this ability (so two of them settle on the same value). Check its volatility.
     fallback: '"Equal to" instead of one more.'
   - card: Gratitude
     tier: 2

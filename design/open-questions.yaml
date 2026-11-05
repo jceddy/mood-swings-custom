@@ -144,14 +144,14 @@ questions:
       - Carelessness: it removes two random cards from the deck for pile fuel, so check it is not too weak; the fallback is one card.
       - Gratitude: it needs moods with a current value of 1 or 2 to do anything (the group kept the current-value version over the printed-number one), so check it against wide boards; the fallback is a value of 3 or less.
       - Honesty: showing the hand once may matter more in paper than in digital, and colorless cards in hand make it false.
-      - Vitality: +2 to every mood of a chosen color each round is very strong in mono-color decks; the fallback is +1.
+      - Vitality: +2 to every mood of a chosen color each round is very strong in mono-color decks; the fallback is +1. Ruling: it triggers at the start of your turn, affects the moods in play at that moment and lasts until the end of the round even if Vitality leaves play. Whether it boosts moods played after it triggers is still being discussed (Q12; for now it does not), so check it is not too weak.
       - Candor: a face-up hand for the whole game may feel oppressive in paper, and the information may matter little against decks that ignore hands.
       - Replacement ordering (Elusiveness and Grudge, and any other pair that applies to one event): decided. Triggers and replacement effects are applied starting with the active player and then player by player in turn order (the simulator already resolves after-scoring effects per controller in turn order). When one player controls more than one applying effect, which is the usual case for Elusiveness and Grudge, that player chooses the order.
       - Perseverance: it grows by 2 after scoring while you have won fewer rounds than each other player, on top of the card losers draw and Hurt Feelings, so check that falling behind does not become attractive and that it is not too strong at match point (2, 4, 6 in a 2-player game); the fallbacks are a growth of 1 or a value of 1.
       - Fulfillment: each mood worth 6 or more scores twice, so three conditional moods at 6 can run away; the fallbacks are a threshold of 7 or scoring only one such mood an extra time.
       - Inspiration: a free card of your choice from the top three cards, played from the hand; it is close to Nostalgia, so check it does not feel like a narrower Nostalgia at mythic rarity; the fallbacks are the unrestricted extra play, revealing four cards, or playing up to two of the three (or revealing two cards if it is too strong).
       - Ardor: a quadratic payoff for red moods that may snowball; the fallback is a cap such as "up to three".
-      - Competitiveness: always one more than the biggest opposing mood, so check its volatility; the fallback is "equal to" instead of 1 more.
+      - Competitiveness: always one more than the biggest opposing mood that does not have this ability (two of them would otherwise read each other forever), so check its volatility; the fallback is "equal to" instead of 1 more, keeping the exclusion.
       - Grudge: up to two extra plays each turn when the chosen opponent has 2 round wins, so check the burst against the free-play cycle, Haunting and Affinity; check its replacement effect with Elusiveness.
       - Hellbent: the round leader runs their hand dry first (losers draw at the end of a round), so it favors the leader; check the snowball, with an alternate value of 6 as the fallback.
       - Haunting: the burst size next turn with a big pile and a big hand, since each play triggers play engines; the fallback is "up to three".
@@ -185,3 +185,16 @@ questions:
       codes of up to 10 characters and requires both the code and the set name to be unique (name up to 60 characters), and card
       images live in a folder named after the code, so keep it uppercase letters only.
       Other names considered: Mood Board (XMBD), Mixed Feelings (XMXF), Afterglow (XAFG), Highs and Lows (XHAL), Temperaments (XTMP).
+  - id: Q12
+    status: open
+    question: Does Vitality's boost apply to moods of the chosen color that are played after it triggers?
+    notes: |
+      Not settled; the group is still discussing it. Vitality triggers at the start of your turn, you choose a color, and each of
+      your moods of that color gets +2 until the end of the round, even if Vitality leaves play (ruling). The open part is the moods
+      played after it triggers, later in the same turn.
+      For now the digital implementation does not apply the boost to them (only moods in play when it triggers), and the ruling on the
+      card says so as tentative. The other reading, which the earlier card notes assumed, is that every mood of the color you have at
+      scoring time gets the boost, including ones played later. That is stronger: it rewards extra plays and playing into the
+      chosen color, and it makes a start-of-turn color choice more of a commitment. Check it in playtests (see the Vitality items in
+      Q9 and the playtest checklist), and if the group settles it, change the ruling in cards/vitality.yaml (and the card text, if the
+      wording needs to say "in play").

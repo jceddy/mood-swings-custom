@@ -6,7 +6,7 @@ This release is a snapshot of the community-designed custom set for the Mood Swi
 
 | Sheet | What it shows |
 |---|---|
-| **Set** | Every card slot of the set (for example `W-C03` is the third white common) with its role and target value and timing, and the card filling it: status, name, value, ability timing, rules text, reprint, simulator implementation tier, designer and notes. A slot with no name is still open. |
+| **Set** | Every card slot of the set (for example `W-C03` is the third white common) with its role and target value and timing, and the card filling it: status, name, value, ability timing, rules text, reprint, simulator implementation tier, designer, notes and any rulings (how the card works in play, which do not change its text). A slot with no name is still open. |
 | **Summary** | Progress per color and rarity (filled / slots), how many cards are final versus ideas, the average printed value and ability-timing counts compared with the original pool, and the **Rule checks** section. It should say "none: all checks pass". |
 | **Baseline** | The original 133-card pool, for comparison and for checking that a new card is not a clone. |
 | **Open Questions** | Design decisions still to make (status `open`) and ones already made (status `decided`), with the notes behind them. |

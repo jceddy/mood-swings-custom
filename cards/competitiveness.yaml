@@ -8,7 +8,8 @@ to_play: false
 while_in_play: true
 after_playing: false
 rules_text: >-
-  While in play — This mood's value is 1 more than the highest value among your opponents' moods.
+  While in play — This mood's value is 1 more than the highest value among your opponents' moods that don't have this
+  ability. (If there are no such moods, this mood's value is 1.)
 status: idea
 reprint_of: null
 impl_tier: 1
@@ -21,3 +22,13 @@ notes: >-
   round and is likely to hit this one. Playtest worry: an opponent's big mood raises it too, so its value is volatile,
   and it is better against wide boards of small moods than against one big mood; the fallback is "equal to" the highest
   value instead of 1 more. impl_tier 1 is provisional: a value read from the highest value among opponents' moods.
+  Loop fix (found while implementing it digitally): with a Competitiveness on each side, each one read the other's value,
+  which reads the first one's, and neither could settle. The text now ignores opposing moods that have this ability, so
+  two Competitivenesses are both worth 1 more than the best of the opposing moods that don't have it, and they settle on
+  the same value. The wording refers to the ability instead of the name so it survives renames (like Deflection's "cards
+  with that name", it needs no rewrite when the name changes). No other card reads the value of other moods as a static
+  ability that something could read back (Dominance, Fairness, Covetousness, Volatility, Reassurance, Fulfillment and
+  Gratitude act at one moment or do not change values), so this is the only loop. The fallback "equal to" would still need
+  the same exclusion.
+  Reminder text (requested): the parenthetical says what happens with nothing to count, so it is worth 1, in the style of the
+  printed reminder texts. It covers both an opponent with no moods and an opponent whose only moods have this ability.
