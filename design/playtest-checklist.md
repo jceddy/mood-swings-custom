@@ -33,7 +33,7 @@ be too weak, and tier 4 about rules questions.
   - Fallback: Once each turn.
 - [ ] **Maturity** (green rare, G-R05): Prints 2 and grows by 2 each round (2, 4, 6, 8). Is it too strong when left alone, and do opponents have time to remove it? On paper it needs a counter such as a die.
   - Fallback: Grow by 1.
-- [ ] **Vitality** (green rare, G-R06): +2 to every mood of a chosen color each round is very strong in mono-color decks.
+- [ ] **Vitality** (green rare, G-R06): +2 to every mood of a chosen color each round is very strong in mono-color decks. By the ruling it only boosts the moods in play when it triggers, so check whether that makes it too weak.
   - Fallback: 1.0
 - [ ] **Overconfidence** (blue uncommon, U-U04): Three plays in one turn, then none. Check the burst against Dominance and Verve decks.
   - Fallback: None chosen yet.

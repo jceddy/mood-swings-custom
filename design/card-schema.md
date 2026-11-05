@@ -17,6 +17,8 @@ rules_text: >-
   After playing this mood — ...
 emphasis: []           # optional: words printed in bold in the rules text, for example [next]. The first occurrence of each
                        # word gets the bold (used by the MSE set builder; the card text here stays plain)
+rulings: []            # optional: rulings for how the card works in play, one string each (shown in the Rulings column
+                       # of the spreadsheet). A ruling does not change the card text
 status: idea           # idea | draft | playtest | final
 reprint_of: null       # exact name from the original pool, if this is a reprint
 impl_tier: 1           # 1 = composes existing simulator effect primitives

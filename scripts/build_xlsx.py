@@ -136,16 +136,17 @@ def main():
             c.get("status", "open") if c else "open", c.get("name", ""),
             value_str(c) if c else "", timing_str(c) if c else "", c.get("rules_text", ""),
             c.get("reprint_of", "") or "", c.get("impl_tier", ""), c.get("designer", ""), c.get("notes", "") if c else s["notes"],
+            "\n".join(c.get("rulings") or []) if c else "",
         ])
     for c in unslotted:
         rows.append([
             "(none)", c.get("color", ""), c.get("rarity", ""), "", "", "", "", c.get("status", ""), c.get("name", ""),
             value_str(c), timing_str(c), c.get("rules_text", ""), c.get("reprint_of", "") or "",
-            c.get("impl_tier", ""), c.get("designer", ""), c.get("notes", ""),
+            c.get("impl_tier", ""), c.get("designer", ""), c.get("notes", ""), "\n".join(c.get("rulings") or []),
         ])
     write_table(ws, ["Slot", "Color", "Rarity", "Role", "Target value", "Target timing", "Reprint candidate", "Status", "Name",
-                     "Value", "Timing", "Rules text", "Reprint of", "Impl tier", "Designer", "Notes"],
-                rows, [8, 10, 10, 22, 11, 12, 14, 10, 18, 9, 12, 60, 14, 9, 10, 50], color_col=1)
+                     "Value", "Timing", "Rules text", "Reprint of", "Impl tier", "Designer", "Notes", "Rulings"],
+                rows, [8, 10, 10, 22, 11, 12, 14, 10, 18, 9, 12, 60, 14, 9, 10, 50, 50], color_col=1)
 
     # --- Summary sheet
     sm = wb.create_sheet("Summary")
