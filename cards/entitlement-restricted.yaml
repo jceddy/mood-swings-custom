@@ -20,6 +20,6 @@ notes: >-
   Contributor suggestion; the name is a placeholder. Variant A of two (see Q8): targeting is restricted so neither
   branch can be wasted on an empty hand or empty board, which keeps the opponent's choice real. Fizzles to a plain 0
   if no opponent qualifies; the intent is that power and how often it works are inversely correlated. Tentatively
-  holds the flexible black mythic slot B-M02; whichever variant wins playtesting takes it. impl_tier 2: needs a hand reveal visible only to the chooser and an
-  opponent decision prompt. Wording follows Intimidation (reveal, "into your hand", "as an additional mood"),
+  holds the flexible black mythic slot B-M02; whichever variant wins playtesting takes it. impl_tier 2: needs a hand reveal shown to all players (not a private
+  reveal) and an opponent decision prompt. Wording follows Intimidation (reveal, "into your hand", "as an additional mood"),
   Fury ("one of their highest value moods") and Cruelty/Paranoia (targeting restrictions).

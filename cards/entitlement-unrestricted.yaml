@@ -18,5 +18,5 @@ notes: >-
   Contributor suggestion; the name is a placeholder. Variant B of two (see Q8): any opponent can be targeted, and
   an opponent with an empty hand cannot decline (the "Otherwise" branch applies). Stronger and more reliable than
   variant A, which is the knob to playtest. Unslotted alternate to variant A, which holds B-M02 for now. Same
-  implementation needs as variant A. The contributors' variant where the opponent does not choose is not
+  implementation needs as variant A (a hand reveal shown to all players, and an opponent decision prompt). The contributors' variant where the opponent does not choose is not
   written up yet.

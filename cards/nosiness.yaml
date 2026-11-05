@@ -18,4 +18,4 @@ notes: >-
   Black partner for the hand-pressure axis. The name is a placeholder. Targeted discard: you see the hand and choose, which
   is stronger than Suspicion (the player chooses, but it hits any number of players) and cheaper than Entitlement. The targeting
   restriction follows Paranoia ("a player with one or more cards in their hand"). With hands this small, taking the best card
-  is a real swing. impl_tier 2 is provisional: it reveals a whole hand to the chooser, and Entitlement has the same need.
+  is a real swing. impl_tier 2 is provisional: it reveals a whole hand to all players (not a private reveal), and Entitlement has the same need.
