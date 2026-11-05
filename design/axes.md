@@ -89,7 +89,7 @@ Delight, Fascination, Bliss, Embarrassment, Dignity.
 |---|---|---|
 | `B-C04` | play-grant | Remorse (written): pile to deck, draw, extra play (replaced the Ambition reprint) |
 | `B-C05` | card-flow | Hate (reprint) |
-| `B-C06` | conditional-3 | Schadenfreude (written): rewards discards |
+| `B-C06` | conditional-3 | Schadenfreude (written): rewards discards and removal |
 | `B-C07` | utility-small | Suspicion (reprint): hand discard |
 | `B-U06` | conditional-value | Composure (written): 6 if you have the most cards in hand |
 | `B-U07` | hand-disruption | Nosiness (written): reveal their hand, discard a card of your choice |
