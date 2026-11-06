@@ -42,7 +42,7 @@ cards:
     fallback: None chosen yet.
   - card: Haunting
     tier: 1
-    check: The burst size next turn with a big pile and a big hand, since each play triggers play engines.
+    check: The burst size next turn with a big pile and a big hand, since each play triggers play engines. Now a 0 whose plays are kept only if you still have it at the start of your next turn, so check it is still playable when opponents can remove it (Rashness, Shock) and not too strong when it survives.
     fallback: '"Up to three".'
   - card: Grudge
     tier: 1

@@ -39,7 +39,7 @@ be too weak, and tier 4 about rules questions.
   - Fallback: +1.
 - [ ] **Overconfidence** (blue uncommon, U-U04): Three plays in one turn, then none. Check the burst against Dominance and Verve decks.
   - Fallback: None chosen yet.
-- [ ] **Haunting** (black mythic, B-M03): The burst size next turn with a big pile and a big hand, since each play triggers play engines.
+- [ ] **Haunting** (black mythic, B-M03): The burst size next turn with a big pile and a big hand, since each play triggers play engines. Now a 0 whose plays are kept only if you still have it at the start of your next turn, so check it is still playable when opponents can remove it (Rashness, Shock) and not too strong when it survives.
   - Fallback: "Up to three".
 - [ ] **Grudge** (white mythic, W-M03): Up to two extra plays each turn when the chosen opponent has 2 round wins. Check the burst against the free-play cycle, Haunting and Affinity, and its replacement effect with Elusiveness.
   - Fallback: None chosen yet.
