@@ -43,7 +43,7 @@ and Rejection (same value), Worry (3 or less).
 | `R-U01` | sweeper-small | Belligerence (written): sweep your opponents' moods of value 2 or less |
 | `R-U02` | sweeper-numeric | Intuition (written): name a number, sweep every other mood with it |
 | `R-U03` | removal-highest | Righteousness (written): the leaders lose their highest value mood |
-| `B-C03` | interaction-lite | Malevolence (written): a flexible Spite: remove an odd or even mood |
+| `B-C03` | interaction-lite | Malevolence (written): a flexible Spite: choose odd or even, each target picks which mood of that type goes |
 | `G-C07` | utility-small | Cheer/Delight-style discard by value |
 | `U-U03` | hand-manipulation | Turmoil (written): a chosen player cycles every odd or even card in hand |
 

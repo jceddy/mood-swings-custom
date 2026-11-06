@@ -8,8 +8,10 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood — Choose odd or even. Choose up to two players. For each chosen player, put one of their moods
-  with a number of the chosen type in its top right corner into the discard pile. (0 is even.)
+  After playing this mood — Choose odd or even. Choose up to two players. Each chosen player puts one of their moods with
+  a number of the chosen type in its top right corner into the discard pile. (0 is even.)
+rulings:
+  - You choose odd or even and the players; each chosen player chooses which of their moods with a number of that type goes. A player with no such mood loses nothing.
 status: idea
 reprint_of: null
 impl_tier: 1
@@ -17,6 +19,15 @@ designer: ""
 notes: >-
   Black partner for the white numbers axis. The name is a placeholder. The skeleton role (interaction-lite common) matches
   Spite (black common 1: choose up to two players and put one of their moods with an even value into the discard pile). This
-  version lets you choose odd or even, so it is strictly better than Spite, which is why it prints 2 instead of 1. Phrasing
-  follows Orderliness ("a number of the chosen type") and Spite ("0 is even"). Black would then have this and Disdain as removal
-  commons; keep B-C03 the only broad one. impl_tier 1 is provisional: Spite's removal with a chosen parity.
+  version lets you choose odd or even. Phrasing follows Orderliness ("a number of the chosen type") and Spite ("0 is even").
+  Black would then have this and Disdain as removal commons; keep B-C03 the only broad one.
+  History: first the caster also chose which mood went ("For each chosen player, put one of their moods ..."), like Spite,
+  Shock and Courage. With the parity free, that was strictly better than Spite and nearly "remove their best mood" from up to two
+  players for 2, stronger than the original removal commons (Spite even only, Shock a value of 3 or less, Courage 5 or more).
+  A group suggestion: the targeted player chooses which mood goes. Now: the caster chooses the parity and the players, and each
+  chosen player puts one of their moods of that type into the discard pile (Fury's wording, "puts one of their moods"), so
+  they give up their cheapest. It is still a real decision, since you pick the parity where their valuable mood stands alone,
+  and with a lone mood it removes it, which makes it more reliable than Spite but less powerful against a wide board. It is
+  no longer strictly better than Spite, so the value stays at 2 for now (reliability up, impact down); the fallback is 1 if
+  it is too weak. The target's choice is a mandatory prompt on your turn (as with Suspicion and Fury), not an optional reaction.
+  impl_tier 1 is provisional: Spite's removal with a chosen parity and the owner's choice of mood (Fury).
