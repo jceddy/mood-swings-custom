@@ -128,3 +128,87 @@ or the starting hands, so those are not assessed here.
 
 Status changes: none yet. No card has enough evidence to move from `idea`; the free-play commons and the gates will be
 retested in E1b.
+
+## Session 1b: E1 mirror (2 games)
+
+**Source.** The simulator exports of games 500 and 501 (6 November, evening): the same Duel setup, both players on the original E1
+list (not E1b), the two testers from session 1. Haunting was already the new version here (printed 0, plays kept only if you still
+have it). The logs show every mood played, the cards moved and drawn by each effect, and the scores.
+
+### Summary
+
+| | |
+|---|---|
+| Result | The tester who was seat 0 (P1) won both games: 3 to 0 in rounds in game 500, 3 to 2 in game 501 (5 rounds, the longest game so far). |
+| Scores | Game 500: 5 to 2, 5 to 2, 10 to 7. Game 501: 0 to 2, 5 to 7, 12 to 7, 12 to 7, 12 to 12. |
+| Biggest turn | **10 plays in one turn** (game 500, round 1, from the opening hand). |
+| Ties | One: game 501, round 5, 12 to 12, won by the player who played first. |
+| Time | 18 and 11 minutes. |
+
+### Insights
+
+1. **The engine can go off, and it does not win by points.** In game 500 round 1, P1 played 10 moods: Rashness, Overconfidence,
+   Affinity, Reverie, Fear (which bounced Rashness), Rashness again, Reinvigoration, then Affinity, Reverie and Overconfidence from
+   the pile. The opening hand was Rashness, Overconfidence, Affinity, Reverie and Reinvigoration (the draws came from Reverie
+   during the turn), a very good hand for this deck. The turn scored only 5 against 2, but it did three other things: two
+   Rashness removed two of the opponent's three cheap moods, Reverie drew four cards, and the lead held (the Overconfidence
+   penalty meant P1 could not play in round 2 and still won it 5 to 2). So the burst converts into tempo, removal and cards more than
+   points. It is possible from an opening hand, so it can decide a game early, but it needs several of the deck's best cards at once.
+2. **Reverie is the keystone.** All four cards drawn in that turn came from Reverie's "each time you play another mood" trigger,
+   and its loot kept feeding the chain. This is worth a close look: with a long chain it draws a card per play. It was also the
+   card that looked weak in session 1, because it was never played with a chain.
+3. **Rashness is a real removal card in this deck.** Its extra play is not what matters here: against a board of cheap moods it
+   cleared two of three. Against the baseline (all 3s) it had no targets. Note for game 501: P18's Rashness had three value-0
+   targets in play (Haunting, Adrenaline, Resilience) in rounds 3 and 4 and removed none. Was that a choice?
+4. **Reinvigoration is value-neutral.** In game 500 P1's board was worth 5 before and 5 after (three of five moods came back, "up
+   to that many"), and in game 501 P18's board was worth 7 before and 7 after (all four came back), a round that P18 then lost 7 to
+   12. It does not replay "a whole board" for free in practice: it costs the turn (you can't play anything else) and only pays if
+   the replayed moods have effects worth repeating (Reverie's draws in game 500, nothing in game 501). The worry that it scales and
+   runs away has not shown up, and it may be too weak outside a deck of strong after-playing effects. More games needed.
+5. **Haunting at 0 is slow, not strong.** In game 501 P1 played it in round 1 (0 points, lost the round 0 to 2), discarded three
+   cards and replayed exactly those three from the pile in round 2 (Resentment, Adrenaline, Resilience), scoring 5 and losing 5 to
+   7. That is no card advantage, one round late. In game 500 P18 played it with nothing discarded. It also survived the whole
+   game in 501 although the opponent held Rashness with value-0 targets. So no sign it is too strong now; whether it is too
+   weak needs a deck that wants it (Longing, Brooding, Dejection, Martyrdom).
+6. **Overconfidence's penalty is real.** P1 passed round 2 of game 500 and round 4 of game 501 because of it, and its second play
+   from the pile re-applied it. It is a front-loaded card: the board you build in the turn has to carry the next one.
+7. **The 5-gates decided the close rounds again.** Reverence, Resentment, Detachment and Contentment were the 5-point plays in
+   every close round (game 500 round 3; game 501 rounds 2, 3 and 5). The mirror matches two decks of near-identical bodies, so
+   the gate you have the color for is what separates the scores.
+8. **Ties go to the first player, again.** The game 501 round 5 tie (12 to 12) went to P1, who had won round 4 and so played first.
+   With two low-value decks, ties will be common; first play is worth about a point.
+
+### Questions for the testers
+
+- Game 501: P18's Rashness had targets in rounds 3 and 4 and removed nothing. Was that a choice, or was the prompt missed?
+- Game 501, round 5: P1 passed holding Nostalgia, with nothing to lose. Was that a choice?
+- Game 500, round 2: P18 played Haunting with no discards. Was that a misplay or to bank the body?
+- Fun and clarity, especially for Reverie's loot and Reinvigoration.
+
+### Game logs
+
+**Game 500.** P1 (seat 0) against P18 (seat 1); P18 went first. P1 won 3 to 0.
+- Scores: 5 to 2, 5 to 2, 10 to 7.
+- Longest turn: P1's 10 plays in round 1 (above).
+- Hands: P1 finished with 2 cards (Remorse, Resilience), P18 with 2 (Contentment, Resilience).
+- Decided: round 1. After it P1's lead held even with a skipped round 2.
+- Simulator bugs: none seen.
+
+**Game 501.** P1 (seat 0) against P18 (seat 1); P18 went first. P1 won 3 to 2 in rounds, five rounds.
+- Scores: 0 to 2, 5 to 7, 12 to 7, 12 to 7, 12 to 12 (tie, P1 played first).
+- Longest turn: P18's Reinvigoration in round 4 (5 plays, no change in score).
+- Hands: P1 finished with Nostalgia, P18 with Haunting.
+- Decided: P1's round 3 (12 against 7: Resentment, Detachment, Overconfidence and three 0-value moods) and the round 5 tie.
+- Simulator bugs: none seen.
+
+### Notes by card (mirror games)
+
+| Card | What the games showed |
+|---|---|
+| Reverie | Drew 4 cards in one turn (game 500) by looting on each later play. Also played alone as a 2. |
+| Reinvigoration | Value-neutral twice (5 to 5, 7 to 7); costs the rest of the turn. |
+| Overconfidence | Gave two extra plays; the next-turn restriction made P1 pass twice. |
+| Rashness | Removed two cheap moods in game 500; unused with targets in game 501. |
+| Affinity, Fear | Links in the chain (Fear bounced Rashness for a second removal). |
+| Haunting | Banked 3 plays once (game 501) and returned the same 3 cards from the pile; no discards once. |
+| Gates (Reverence, Resentment, Detachment, Contentment) | The 5-point plays in the close rounds. |
