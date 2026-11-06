@@ -91,7 +91,8 @@ All 133 slots are filled (122 cards are still `idea`, the 11 reprints are `final
 
 1. Play test. The checklist is `design/playtest-checklist.md`, generated from `design/playtest.yaml` (edit the yaml, then run
    `python scripts/build_playtest_md.py`); the spreadsheet has the same list as the Playtest sheet with result columns. Test tier 1
-   (could break the game) first. Paper first, with proxies printed from the MSE set file in `jceddy/edition1`.
+   (could break the game) first. Paper first, with proxies printed from the MSE set file in `jceddy/edition1`. Test decks for
+   the first two sessions and a game log template are in `design/playtest-decks.md`.
 2. After each test, move the card's `status` to `draft` or `playtest`, and record the decision in `design/open-questions.yaml`
    (Q8 for the two Entitlement versions, Q9 for the other watch items). Apply a chosen fallback in the card file, with the reason
    in its notes.
