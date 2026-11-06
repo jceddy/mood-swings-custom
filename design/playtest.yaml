@@ -165,6 +165,10 @@ cards:
     tier: 2
     check: Mandatory and random, so nobody is prompted. Is a random pick among moods with a value of 3 or less too harsh on cheap engines? The simulator must be able to tell which player controls the effect.
     fallback: A value of 1 or less.
+  - card: Neglect
+    tier: 2
+    check: Value 2, and before scoring each opponent with no cards in hand loses a highest value mood (it can trigger the round you play it). The first playtest found the old version far too weak. Is an empty hand reachable without hand disruption, and is it strong enough now?
+    fallback: Each opponent discards a card from their hand first, and loses the mood only if they can't (before scoring), or a threshold of two or fewer cards.
   - card: Heartlessness
     tier: 2
     check: It also hits your own board. Check it works when you are behind.

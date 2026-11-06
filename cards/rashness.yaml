@@ -21,6 +21,6 @@ notes: >-
   removal of a mood with a value of 1 or less. The proposal was "a mood" of any player; the opponents'-moods-only
   wording was used because hitting your own moods is never useful, and it needs no mood reminder, as with Shock. Because
   the extra play is unconditional, the removal is free. Most engine rares in the set print at 0 or 1 (Covetousness, Jealousy,
-  Neglect, Adrenaline, Brooding, Rumination, Reflection and others), so this is cheap hate against engines, cheaper than
+  Adrenaline, Brooding, Rumination, Reflection and others), so this is cheap hate against engines, cheaper than
   Shock (a play, value 3 or less, up to two players). It may be the strongest card in the cycle. Fallbacks: "a value of
   0" only, or no extra play when you remove something. impl_tier 1 is provisional.

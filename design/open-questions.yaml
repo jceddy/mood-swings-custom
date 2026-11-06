@@ -67,7 +67,7 @@ questions:
       Black axis (tentative): hand pressure, meaning hand size and hand attacks (about 19 pool cards already touch hands, plus our
       Entitlement, Schadenfreude, FOMO, Yearning, Rapport, Premonition, Wariness). Chosen over a black discard-pile axis because blue (recycle)
       and green (replay) already use the discard pile; this keeps the five axes distinct (numbers, hand pressure, playing red moods,
-      replaying from the pile, recycling the pile). The mythic is Neglect (at the start of each of your turns, each opponent with no cards in their hand puts one of their moods into
+      replaying from the pile, recycling the pile). The mythic is Neglect (value 2; before scoring, each opponent with no cards in their hand puts one of their highest value moods into
       the discard pile). Hand sizes are public, so hand-size payoffs are also possible.
       Contributor discussion (the flexible slots above follow from this; the Complexity / Power Ratio reading of rarity is still
       only proposed): not every mythic has to be a build-around. How easy a card is to
@@ -145,6 +145,7 @@ questions:
       - Gratitude: it needs moods with a current value of 1 or 2 to do anything (the group kept the current-value version over the printed-number one), so check it against wide boards; the fallback is a value of 3 or less.
       - Honesty: showing the hand once may matter more in paper than in digital, and colorless cards in hand make it false.
       - Vitality: +2 to every mood of a chosen color each round, including moods played later that round (Q12, decided), is very strong in mono-color decks; the fallback is +1.
+      - Neglect: a first playtest found the old version (a 0, at the start of your turn, the opponent chooses the mood) far too weak; it is now a 2 that triggers before scoring and removes a highest value mood. The open worry is that an empty hand is still hard to get without hand disruption; the next steps are "each opponent discards a card from their hand; if they can't, they put one of their highest value moods into the discard pile" or a threshold of two or fewer cards.
       - Candor: a face-up hand for the whole game may feel oppressive in paper, and the information may matter little against decks that ignore hands.
       - Replacement ordering (Elusiveness and Grudge, and any other pair that applies to one event): decided. Triggers and replacement effects are applied starting with the active player and then player by player in turn order (the simulator already resolves after-scoring effects per controller in turn order). When one player controls more than one applying effect, which is the usual case for Elusiveness and Grudge, that player chooses the order.
       - Perseverance: it grows by 2 after scoring while you have won fewer rounds than each other player, on top of the card losers draw and Hurt Feelings, so check that falling behind does not become attractive and that it is not too strong at match point (2, 4, 6 in a 2-player game); the fallbacks are a growth of 1 or a value of 1.
