@@ -23,7 +23,9 @@ spreadsheet has the same list as the **Playtest** and **Playtest games** sheets,
   does not matter for testing). The simulator would need engine work first for the cards that need new effects (impl
   tier 2) and cannot run the paper-only cards (impl tier 3: Admiration, Elusiveness, Grudge).
 - Build a few themed decks rather than random piles: one per color axis (white numbers, blue recycling, black hand
-  pressure, red red moods, green pile replay and 6s) plus one colorless gate deck.
+  pressure, red red moods, green pile replay and 6s) plus one colorless gate deck. Ready-made decklists for the first two
+  sessions (extra-play engines, then scaling and anthems), a baseline deck and a game log are in
+  `design/playtest-decks.md`.
 - Play some 2-player games and at least one with 3 or 4 players (Hurt Feelings, trailing conditions).
 - For each card that comes up, write down three things: **strength** (too strong, fair, too weak), **clarity** (was the
   text clear?) and **fun**. If a card is off, note which fallback below you would pick.
