@@ -76,8 +76,8 @@ plays) and plenty of fuel in the pile.
 
 ## Black: hand pressure (`B-M01`, Neglect)
 
-**Idea.** Hand size and hand attacks. The mythic is Neglect: at the start of each of your turns, each opponent with no cards in their
-hand puts one of their moods into the discard pile. It rewards every card that empties or drains hands, and it taxes opponents even when
+**Idea.** Hand size and hand attacks. The mythic is Neglect (value 2): before scoring, each opponent with no cards in their
+hand puts one of their highest value moods into the discard pile. It rewards every card that empties or drains hands, and it taxes opponents even when
 it never triggers, since they must keep a card in hand. Hand sizes are public, so scaling by hand size was also possible. A discard
 engine that makes opponents discard each time they play was considered and rejected as too oppressive.
 

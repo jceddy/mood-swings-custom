@@ -72,7 +72,7 @@ be too weak, and tier 4 about rules questions.
 - [ ] **FOMO** (red rare, R-R05): Value 7, and paying a card every round drains the hand quickly. Is the mood discarded too soon for 7 to be fair?
   - Fallback: None chosen yet.
 
-## Tier 2: Interactions (17 cards)
+## Tier 2: Interactions (18 cards)
 
 - [ ] **Entitlement (restricted)** (black mythic, B-M02): Q8. Hands are often small or empty, so the restricted version fizzles more. Compare it with the unrestricted version.
   - Fallback: Switch to the unrestricted version, or the hybrid that only needs the target to have one or more moods.
@@ -104,6 +104,8 @@ be too weak, and tier 4 about rules questions.
   - Fallback: None chosen yet.
 - [ ] **Rancor** (red uncommon, R-U04): Mandatory and random, so nobody is prompted. Is a random pick among moods with a value of 3 or less too harsh on cheap engines? The simulator must be able to tell which player controls the effect.
   - Fallback: A value of 1 or less.
+- [ ] **Neglect** (black mythic, B-M01): Value 2, and before scoring each opponent with no cards in hand loses a highest value mood (it can trigger the round you play it). The first playtest found the old version far too weak. Is an empty hand reachable without hand disruption, and is it strong enough now?
+  - Fallback: Each opponent discards a card from their hand first, and loses the mood only if they can't (before scoring), or a threshold of two or fewer cards.
 - [ ] **Heartlessness** (black uncommon, B-U02): It also hits your own board. Check it works when you are behind.
   - Fallback: None chosen yet.
 - [ ] **Sentimentality** (black uncommon, B-U04): Check that it does not break the draw rule with a sacrifice engine such as Martyrdom.
