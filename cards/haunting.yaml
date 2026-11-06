@@ -2,15 +2,18 @@ slot: B-M03
 name: Haunting
 color: black
 rarity: mythic
-base_value: 2
+base_value: 0
 alt_value: null
 to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood — You may discard any number of cards from your hand. If you do, you may play that many
-  additional moods from the discard pile on your next turn.
+  After playing this mood — You may discard any number of cards from your hand. If you do, on your next turn you may play
+  that many additional moods from the discard pile if you still have this mood at the start of that turn.
 emphasis: [next]
+rulings:
+  - You keep the plays only if this mood is still in play under your control at the start of your next turn. If it was put into the discard pile or into a hand, or another player took it, the plays are lost; the cards you discarded stay discarded.
+  - A suppressed Haunting is still in play, so you keep the plays.
 status: idea
 reprint_of: null
 impl_tier: 2
@@ -28,8 +31,13 @@ notes: >-
   and Sentimentality, which fill or use the pile. The delay gives opponents a full round to answer: Rudeness (W-R06) blanks
   next turn's extra plays exactly, and Restraint, Defensiveness and Pettiness also work. Emptying your hand exposes you to
   Neglect (B-M01) if an opponent has one in play. Everything happens on its owner's turns, so nothing prompts another
-  player in async play. Paper needs a marker for the number of banked plays. Playtest worry: the burst size with a big
-  pile and a big hand, since each play triggers "each time you play another mood" engines; a cap such as "up to three"
-  is the fallback. impl_tier 2 is provisional: a banked count of extra plays from the pile for the next turn, the same
-  shape as Joy.
+  player in async play. Paper needs a marker for the number of banked plays. Playtest worry, first version: it was too strong (a 2 that banked a free burst of plays, with nothing the opponent could do
+  except block extra plays). Now it prints 0 and the plays are kept only if you still have Haunting at the start of your next
+  turn, so the opponent has a full round to remove it: Rashness (value 1 or less), Belligerence (2 or less), Shock (3 or less)
+  and any bounce or removal all answer it, while Reassurance (opponents can't choose your moods with a value of 2 or less)
+  protects it. Printing 0 also means the turn you play it scores nothing. The burst size with a big pile and a big hand is
+  still the worry, since each play triggers "each time you play another mood" engines; a cap such as "up to three" is the
+  fallback. Check that it is still playable, now that it can simply be removed. impl_tier 2 is provisional: a banked count of
+  extra plays from the pile for the next turn (the same shape as Joy), checked against Haunting still being in play at the
+  start of that turn.
   The word next is bold in the MSE set, as in the printed Joy (on your next turn).

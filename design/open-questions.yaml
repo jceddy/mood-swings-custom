@@ -155,7 +155,7 @@ questions:
       - Competitiveness: always one more than the biggest opposing mood that does not have this ability (two of them would otherwise read each other forever), so check its volatility; the fallback is "equal to" instead of 1 more, keeping the exclusion.
       - Grudge: up to two extra plays each turn when the chosen opponent has 2 round wins, so check the burst against the free-play cycle, Haunting and Affinity; check its replacement effect with Elusiveness.
       - Hellbent: the round leader runs their hand dry first (losers draw at the end of a round), so it favors the leader; check the snowball, with an alternate value of 6 as the fallback.
-      - Haunting: the burst size next turn with a big pile and a big hand, since each play triggers play engines; the fallback is "up to three".
+      - Haunting: the burst size next turn with a big pile and a big hand, since each play triggers play engines; it was found too strong at value 2, so it now prints 0 and the plays are kept only if you still have it at the start of your next turn; check it is still playable when opponents can remove it, and the fallback is "up to three".
       - Levity: a free play that enables extra-play engines, so check the fallback of choosing between cycling and the extra play.
       - Defensiveness: it strips the after-playing effects of opponents' additional moods and spares you, so check it is not dead against decks without extra plays and whether it needs to be symmetric.
       - Rancor: mandatory and random, so nobody is prompted; check that a random pick among moods with a value of 3 or less is not too harsh on cheap engines (fallback: a value of 1 or less), and that the simulator can tell which player controls an effect.

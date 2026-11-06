@@ -127,7 +127,7 @@ Modesty), Reverie, Overconfidence, Haunting and the five colorless gates, and re
 Resilience, Reinvigoration, Wistfulness) with 3-value bodies that help an engine: Joy (an extra play next turn), Compulsion (takes a
 card, which helps a small hand), Temperance (worth 5 when you hold fewer cards than each other player, which an engine deck
 usually does) and Reminiscence (a loot that refills the hand). Joy and Compulsion also give the deck green and red moods for
-Contentment and Impatience. The average printed value goes from 1.85 to 2.4 (B is about 2.65 before its 3-to-6 cards).
+Contentment and Impatience. The average printed value goes from 1.75 to 2.3 (Haunting now prints 0; B is about 2.65 before its 3-to-6 cards).
 Reinvigoration is still tested in E2.
 
 ```
