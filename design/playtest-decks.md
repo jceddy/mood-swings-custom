@@ -119,6 +119,43 @@ Name E2 Green replay
 1 Restlessness
 ```
 
+### E1b Free-play cycle with bodies (all five colors)
+
+Added after the first session (see `design/playtest-results.md`): E1 lost all six games to B because eight of its 20 cards
+print 0, so its extra plays had nothing valuable to carry. E1b keeps the five free-play commons, the grants (Affinity, Familiarity,
+Modesty), Reverie, Overconfidence, Haunting and the five colorless gates, and replaces the four weakest cards (Adrenaline,
+Resilience, Reinvigoration, Wistfulness) with 3-value bodies that help an engine: Joy (an extra play next turn), Compulsion (takes a
+card, which helps a small hand), Temperance (worth 5 when you hold fewer cards than each other player, which an engine deck
+usually does) and Reminiscence (a loot that refills the hand). Joy and Compulsion also give the deck green and red moods for
+Contentment and Impatience. The average printed value goes from 1.85 to 2.4 (B is about 2.65 before its 3-to-6 cards).
+Reinvigoration is still tested in E2.
+
+```
+About
+Name E1b Free-play cycle with bodies
+
+1 Fear
+1 Nostalgia
+1 Levity
+1 Remorse
+1 Rashness
+1 Affinity
+1 Familiarity
+1 Modesty
+1 Reverie
+1 Overconfidence
+1 Haunting
+1 Joy
+1 Compulsion
+1 Temperance
+1 Reminiscence
+1 Reverence
+1 Detachment
+1 Resentment
+1 Impatience
+1 Contentment
+```
+
 ### Games to play
 
 | # | Decks | Games | What to look for |
@@ -127,7 +164,9 @@ Name E2 Green replay
 | 2 | E1 mirror | 2 | How fast both sides snowball; whether the first player wins every time; Overconfidence's skipped turn. |
 | 3 | E2 against B | 3, swapping seats | How many plays Reinvigoration gives, whether the discard pile runs dry, Resilience and Wistfulness together. |
 | 4 | E1 against E2 | 1 or 2 | Which engine is stronger; the game length with two engines. |
-| 5 | Paper only | 1 | Grudge (needs an opponent with round wins) with Elusiveness and the replacement ordering rule. The simulator cannot run these. |
+| 5 | E1b against B | 3, swapping seats | Does the free-play cycle win once it has bodies? Compare with E1 (0 to 6, no round won except one): round scores against B's 3, 6, 9, and the largest burst. |
+| 6 | E1b mirror | 1 | How fast two decks with bodies snowball; whether tiebreaks (first player) decide games. |
+| 7 | Paper only | 1 | Grudge (needs an opponent with round wins) with Elusiveness and the replacement ordering rule. The simulator cannot run these. |
 
 ## Session 2: scaling and anthems
 
@@ -249,7 +288,7 @@ Every card in the first tier of the checklist is in a deck above except Grudge, 
 | Fulfillment, Vitality, Maturity | G |
 | Ardor, FOMO | R |
 | Levelheadedness, Rudeness | W |
-| Grudge | paper only (session 1, game 5) |
+| Grudge | paper only (session 1, game 7) |
 
 ## Session log
 

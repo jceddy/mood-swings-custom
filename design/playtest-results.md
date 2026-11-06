@@ -52,7 +52,7 @@ or the starting hands, so those are not assessed here.
 
 ### What I would do next
 
-- **Rebuild E1 with bodies (E1b).** Keep the five free-play commons, Affinity, Familiarity, Modesty, Reverie and the five gates,
+- **Rebuild E1 with bodies (E1b); the decklist is now in `design/playtest-decks.md`.** Keep the five free-play commons, Affinity, Familiarity, Modesty, Reverie and the five gates,
   and replace the 0-value cards that are not engines (Adrenaline, Resilience, Reinvigoration, Wistfulness) with 3-value
   bodies, then replay against B. If E1b still loses, the free-play cycle is too weak; if it wins, check how often.
 - **Test the cards that never showed up.** Overconfidence and Reinvigoration were never drawn, Haunting was drawn once and
