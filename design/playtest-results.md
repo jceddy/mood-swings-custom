@@ -326,7 +326,7 @@ E1 in 507, 509 and 511. The other seat was a practice bot in 506 (E1), 507 (E2),
 
 ### Insights
 
-1. **E1, as built, is clearly the weaker deck.** E2 led by round 2 in five of six games (the exception: game 506, 0 to 0 in round 1) and the gap grew: by round 3 E2 had 8 to 18 against E1's
+1. **E1, as built, is clearly the weaker deck.** E2 led after round 2 in all six games and the gap grew: by round 3 E2 had 8 to 18 against E1's
    5 to 12. This matches session 1 (E1 lost 0 to 6 to B). The E1b list, with bodies in place of its zero-value cards, is the right next
    test, and E1 should now be treated as a baseline for how weak a pure engine is.
 2. **The one-color gate is a free 5.** E2 is mono-green, so Contentment (5) is always playable. E2 played it in round 2 in four of the
@@ -334,15 +334,16 @@ E1 in 507, 509 and 511. The other seat was a practice bot in 506 (E1), 507 (E2),
    one-color deck the gate is simply the best common body (5 where the other commons are 3), at no cost. That is the case the
    gate was priced for in a five-color pile, and the checklist's "5 against 4" question now has data: in a mono-color deck, 5 is
    very strong. Worth testing the fallback of 4 if one-color decks stay this good.
-3. **The discard pile is shared, and Haunting feeds the opponent's pile engine.** In game 511 round 1, E1 played Modesty and then Haunting (value
-   0) and discarded its hand (Detachment, Reverie, Wistfulness). E2 went first in round 2 and used Thrift, Wistfulness and Nostalgia
-   to play and take all three: its board at the end of the game included E1's Reverie and Detachment, and Nostalgia put Detachment
-   into E2's hand. E1's banked plays then had nothing to play (round 2: Reverence and a pass). So Haunting's discards are exposed to
-   any pile play before your next turn, and the player who lost the round (and so goes second) is the one who plays Haunting.
-   This is a real weakness, separate from its 0 value, and it is worse against a pile deck like E2.
-4. **Reinvigoration is neutral again, except with Urgency.** E2's board was worth the same before and after it in game 506 (9 plays
-   in round 4, scoring 21) and E1's was 5 before and 5 after in game 509. The exception is game 509 round 4, where E2's Reinvigoration
-   plus three replays made four plays and turned Urgency from 3 to 6 (11 to 14). It pays when a replayed mood counts plays or
+3. **The discard pile is shared, and Haunting can feed the opponent's pile engine.** In game 511 round 1, E1 played Modesty and
+   then Haunting (value 0) and discarded its hand (Detachment, Reverie, Wistfulness). E2 played next in the same round and used
+   Thrift to play Wistfulness from the pile, then Reverie from the pile (the Wistfulness trigger); in round 2 Nostalgia put
+   Detachment into E2's hand and it played it. All three of E1's discards ended up on E2's side (E1's Reverie and Detachment were in E2's
+   board at the end), and E1's banked plays had nothing left to play (round 2: Reverence and a pass). So Haunting's discards sit in
+   a shared pile through the rest of the round and any turn that comes before yours, and a pile deck like E2 takes them. This is a
+   real weakness, separate from its 0 value.
+4. **Reinvigoration is neutral again, except with Urgency.** E1's board was worth 5 before and 5 after it in game 509 (four
+   replays). The exception is game 509 round 4 on E2's side, where Reinvigoration plus three replays made four plays and turned
+   Urgency from 3 to 6 (11 to 14). E2's nine-play turn in game 506 scored 21, with Restlessness, Kinship and the replays all in it. It pays when a replayed mood counts plays or
    re-triggers something; otherwise it costs the turn.
 5. **E1's all-in turn still loses.** Game 510 round 3: E1 played Overconfidence, Affinity, Fear and Nostalgia (4 plays), scored 12 and
    lost 12 to 18. It finished with seven moods and an empty hand. The pattern from sessions 1 and 1b holds: the burst makes tempo and a wide
@@ -391,7 +392,7 @@ E1 in 507, 509 and 511. The other seat was a practice bot in 506 (E1), 507 (E2),
 |---|---|
 | Contentment | A free 5 in a one-color deck: round 2 in four of six games. |
 | Haunting | Its discards fed E2's pile plays in game 511 (shared discard pile). |
-| Reinvigoration | Neutral three times, +3 once (with Urgency). |
+| Reinvigoration | Neutral for E1 (game 509); +3 for E2 with Urgency (game 509); part of E2's nine-play, 21-point turn (game 506). |
 | Honesty, Kinship | Honesty was 6 on turn one; Kinship was in E2's biggest turns. |
 | Overconfidence, Affinity, Fear, Nostalgia | A 4-play turn that scored 12 and still lost (game 510). |
 | Thrift, Wistfulness, Nostalgia (E2) | Took E1's discarded cards in game 511. |
