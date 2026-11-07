@@ -23,7 +23,8 @@ status: idea           # idea | draft | playtest | final
 reprint_of: null       # exact name from the original pool, if this is a reprint
 impl_tier: 1           # 1 = composes existing simulator effect primitives
                        # 2 = needs a new engine primitive
-                       # 3 = paper only (not planned for the simulator)
+                       # 3 = paper only (not planned for the simulator); no card is tier 3 at present, since
+                       #     Admiration, Elusiveness and Grudge are now implemented
 designer: ""
 notes: ""
 ```

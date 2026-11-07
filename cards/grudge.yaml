@@ -14,7 +14,7 @@ rules_text: >-
   into a player's hand.)
 status: idea
 reprint_of: null
-impl_tier: 3
+impl_tier: 2
 designer: Dr Potato
 notes: >-
   White mythic, flexible slot, submitted by Dr Potato as a white rare for the play-grant-engine role (W-R02, 0 points).
@@ -34,7 +34,7 @@ notes: >-
   chosen opponent gives you three plays a turn exactly when you are one loss from the game, and it stacks with the free-
   play cycle, Haunting and Affinity; the answers are Rudeness (blanks extra plays for a turn), Restraint and
   Defensiveness. Forgetfulness lowers the chosen player's wins, which cuts your extra plays. In 3 or 4 player games it
-  follows only the chosen opponent. impl_tier 3 is provisional: a replacement hook on a mood leaving play, plus an
-  extra-play count read from another player's round wins. Ordering (Q9): when Elusiveness and Grudge both apply to the
+  follows only the chosen opponent. impl_tier 2: a replacement hook on a mood leaving play, plus an extra-play count read from
+  another player's round wins (implemented in the simulator; it was first rated paper only, tier 3). Ordering (Q9): when Elusiveness and Grudge both apply to the
   same event, effects apply starting with the active player and then in turn order, as the author described; when one
   player controls both, which is the usual case, that player chooses the order (decided).

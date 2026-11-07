@@ -212,3 +212,97 @@ have it). The logs show every mood played, the cards moved and drawn by each eff
 | Affinity, Fear | Links in the chain (Fear bounced Rashness for a second removal). |
 | Haunting | Banked 3 plays once (game 501) and returned the same 3 cards from the pile; no discards once. |
 | Gates (Reverence, Resentment, Detachment, Contentment) | The 5-point plays in the close rounds. |
+
+## Session 1c: E2 Green replay against B Baseline (4 games)
+
+**Source.** The simulator exports of games 502 to 505 (6 to 7 November). The tester in seat 0 of the earlier games (P1) played in all
+four and won all four. The other seat was a practice bot in games 502 (E2), 503 (B) and 505 (B), identified by the search
+results in the logs, and the second tester in game 504 (E2). So the games show how the decks play in a good player's hands, but not
+which deck is stronger: P1 won with B (502, 504) and with E2 (503, 505).
+
+### Summary
+
+| | |
+|---|---|
+| Result | B (P1) beat E2 in 502 (3 to 2) and 504 (3 to 0). E2 (P1) beat B in 503 (3 to 2) and 505 (3 to 2). |
+| Round scores, E2 played by P1 | Game 503: 0, 6, 12, 22, 36. Game 505: 6, 3, 0, 14, 23. |
+| Round scores, B played by the bot | Game 503: 3, 6, 9, 15, 18. Game 505: 3, 6, 7, 12, 17. |
+| Game length | 5 rounds in three games, 3 in one. Both E2 wins came on the fifth round. |
+| Ties | Two: game 503 round 2 (6 to 6) and game 504 round 1 (3 to 3). Both went to B, who played first. |
+| Time | 10 to 12 minutes, except game 505: 53 minutes, about 39 of them on E2's side. |
+
+### Insights
+
+1. **E2 is a late-game snowball.** In both wins E2 lost or tied the first rounds, then passed B in round 4: 22 against 15 and 36
+   against 18 in game 503, 14 against 12 and 23 against 17 in game 505. B's score grows by about 3 a round (it tops out at 17 or
+   18 by round 5), E2's grows by 9 to 14 a round once its board has 6 to 9 moods. The margin was thin: B had two round wins
+   in each game, E2 won the last three rounds of game 503, and in game 505 it lost rounds 2 and 3 and won rounds 1, 4 and 5.
+2. **The engine is the pile loop.** Carelessness mills two cards, Resilience and Thrift let you play moods worth 3 or less from the
+   pile, and replaying Carelessness from the pile mills two more: in game 503 round 4 Carelessness (from the pile) milled
+   Perseverance and Vindication (both worth 2), and in round 5 both were played from the pile as free extra plays. That is the card
+   advantage the green axis was designed for, and by round 5 the board was 9 moods and 36 points. It needs three or four rounds to
+   assemble, which is why E2 trails early.
+3. **Reinvigoration has two uses, and neither is the feared one.**
+   - Game 502 round 3 (the bot): Pacifism appears to have suppressed Honesty (E2 scored only 3 in round 2). Reinvigoration put Honesty and Restlessness into the pile and
+     they came back unsuppressed, so the turn scored 9 (round 3 won 9 to 7). That makes it an answer to suppression.
+   - Game 505 round 3: P1 used it as a reset. It put the only other mood (Carelessness) into the pile and replayed Resilience, so
+     the board was worth 0 that round (lost 0 to 7), but it switched on Resilience's pile plays for the 14 to 12 and 23 to 17 rounds that followed.
+   So it is not the runaway engine the checklist feared: it costs the whole turn. It was never played in game 504.
+4. **Honesty is a 6 on turn one in a one-color deck.** In games 502 and 505 it was played first and scored 6 against B's 3, winning
+   round 1 both times. B is five colors, so for B it would almost never be 6. This is what the card is for, but a 6 on your first
+   play at uncommon is notable: check it in a two-color deck, where the condition is harder.
+5. **Green has no removal, and B's cheap removal slowed it.** Vengeance removed E2's highest mood in 503 round 1 (0 to 3) and
+   in 505 round 2 (Honesty); Disdain, Hate and Shock took a mood each in game 502 rounds 4 and 5 (1 and 3 points against 9 and 11); Panic and
+   Hate kept a one-mood board in game 504 (3, 3, 3 against 3, 6, 6). E2 recovers when its pile loop is running, and not before.
+6. **Ties go to the first player, again.** Both ties (game 503 round 2, game 504 round 1) went to B, who played first. In total that is
+   six ties in the three sessions, all won by the first player. A first-turn 3 to 3 decides round 1.
+7. **A slow start is possible.** In game 504 E2's player finished with Contentment, Perseverance, Possessiveness, Reinvigoration and
+   Resilience in hand and a one-mood board all game. The loop may need a first turn that starts it, and this opening may not
+   have had one; the logs cannot say why those cards were not played (see the questions).
+
+### Questions for the testers
+
+- Game 505 took 53 minutes, 39 of them on E2's side. Was that a break, or is the pile loop too heavy to play (many choices per turn,
+  Wastefulness's prompt every turn)?
+- Game 505, round 3: was the Reinvigoration reset deliberate, to switch on Resilience?
+- Game 504: what kept E2's hand (Resilience, Reinvigoration, Possessiveness, Perseverance, Contentment) from being played?
+- Fun and clarity for Carelessness, Resilience, Thrift and Reinvigoration.
+
+### Game logs
+
+**Game 502.** B (P1, seat 0) against E2 (bot, seat 1); B went first. B won 3 to 2.
+- Scores: 3 to 6 (E2), 4 to 3 (B), 7 to 9 (E2), 9 to 1 (B), 11 to 3 (B).
+- Longest turn: 3 plays (E2, round 3: Reinvigoration, then Honesty and Restlessness from the pile).
+- Decided: rounds 4 and 5, when Disdain, Hate and Shock took E2's board.
+- Simulator bugs: none seen.
+
+**Game 503.** E2 (P1, seat 0) against B (bot, seat 1); E2 went first. E2 won 3 to 2.
+- Scores: 0 to 3, 6 to 6 (tie, B), 12 to 9, 22 to 15, 36 to 18.
+- Longest turn: 3 plays (round 5: Thrift, then Vindication and Perseverance from the pile).
+- Hands: E2 finished with 1 card, B with 3.
+- Decided: rounds 4 and 5, once the pile loop and Kinship were running.
+
+**Game 504.** B (P1, seat 0) against E2 (second tester, seat 1); B went first. B won 3 to 0.
+- Scores: 3 to 3 (tie, B), 6 to 3, 6 to 3.
+- Longest turn: 1 play every round.
+- Decided: the round 1 tie, then Panic and Hate on E2's single mood.
+- Hands: E2 finished with 5 cards unplayed.
+
+**Game 505.** E2 (P1, seat 0) against B (bot, seat 1); B went first. E2 won 3 to 2.
+- Scores: 6 to 3, 3 to 6, 0 to 7, 14 to 12, 23 to 17.
+- Longest turn: 3 plays (round 4: Thrift, Contentment, Honesty from the pile).
+- Decided: round 3's Reinvigoration reset, which turned the game around by round 4.
+- Simulator bugs: none seen.
+
+### Notes by card (E2 games)
+
+| Card | What the games showed |
+|---|---|
+| Honesty | 6 on turn one in a one-color deck (502, 505). Replayed from the pile as a 6 again (503, 505). |
+| Carelessness | Mill fuel; replayed from the pile it milled the next two plays (503). |
+| Resilience, Thrift | Let the pile loop run; Resilience at 0 is a body only. |
+| Reinvigoration | Cleaned off Pacifism's suppression (502); a reset that cost a round but switched on Resilience (505). |
+| Kinship, Vindication, Perseverance, Urgency | Part of the 22 and 36 point boards in game 503. |
+| Wastefulness | Prompts at the start of each turn (two prompts in game 503); worked. |
+| Determination, Optimism | One mood a round in game 504, 3 points each. |
+| Possessiveness | Not played (never had 5 cards in the pile in game 504). |

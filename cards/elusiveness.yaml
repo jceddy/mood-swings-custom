@@ -12,7 +12,7 @@ rules_text: >-
   instead.
 status: idea
 reprint_of: null
-impl_tier: 3
+impl_tier: 2
 designer: ""
 notes: >-
   Blue rare, flex slot, a bounce shield. The name is a placeholder. The original pool has no replacement effect.
@@ -22,7 +22,7 @@ notes: >-
   discard-pile triggers do not happen: Rancor (R-U04) and Sentimentality (B-U04) do not trigger on a replaced move, and the
   pile does not grow. It does not affect your own sacrifices (Martyrdom, Bravado-style costs). Playtest worry: a
   replayed mood re-triggers its after-playing effect, which can help a combo deck; the fallback is to bounce only moods
-  with a value of 3 or less. impl_tier 3 is provisional: it needs a replacement hook on a mood moving from play to the
-  discard pile by an opponent's effect. Ordering (Q9): when Elusiveness and Grudge both apply to the same event, effects
+  with a value of 3 or less. impl_tier 2: it needs a replacement hook on a mood moving from play to the
+  discard pile by an opponent's effect (implemented in the simulator; it was first rated paper only, tier 3). Ordering (Q9): when Elusiveness and Grudge both apply to the same event, effects
   apply starting with the active player and then in turn order, as the author described; when one player controls both,
   which is the usual case, that player chooses the order (decided).

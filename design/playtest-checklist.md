@@ -5,9 +5,10 @@ spreadsheet has the same list as the **Playtest** and **Playtest games** sheets,
 
 ## How to run it
 
-- Play on paper first. Proxies can be printed from the Magic Set Editor set file (the new cards have no art, which
-  does not matter for testing). The simulator would need engine work first for the cards that need new effects (impl
-  tier 2) and cannot run the paper-only cards (impl tier 3: Admiration, Elusiveness, Grudge).
+- Play in the simulator, which now implements every card of the set (the cards that needed new effects are impl tier 2; no
+  card is paper only any more). If it does something the card text does not say, note it as a bug and not as a result for
+  the card. Paper also works: proxies can be printed from the Magic Set Editor set file (the new cards have no art, which
+  does not matter for testing).
 - Build a few themed decks rather than random piles: one per color axis (white numbers, blue recycling, black hand
   pressure, red red moods, green pile replay and 6s) plus one colorless gate deck. Ready-made decklists for the first two
   sessions (extra-play engines, then scaling and anthems), a baseline deck and a game log are in
@@ -128,7 +129,7 @@ be too weak, and tier 4 about rules questions.
 
 ## Tier 4: Rules and clarity (2 cards)
 
-- [ ] **Admiration** (blue rare, U-R02): What does "this mood" mean when the copied pile mood refers to itself? Proposed ruling is the mood you just played. Paper only (impl tier 3).
+- [ ] **Admiration** (blue rare, U-R02): What does "this mood" mean when the copied pile mood refers to itself? Proposed ruling is the mood you just played.
   - Fallback: None chosen yet.
 - [ ] **Honesty** (green uncommon, G-U07): Showing the hand once may matter more on paper than in digital, and colorless cards in hand make it false.
   - Fallback: None chosen yet.

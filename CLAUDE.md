@@ -91,12 +91,12 @@ All 133 slots are filled (122 cards are still `idea`, the 11 reprints are `final
 
 1. Play test. The checklist is `design/playtest-checklist.md`, generated from `design/playtest.yaml` (edit the yaml, then run
    `python scripts/build_playtest_md.py`); the spreadsheet has the same list as the Playtest sheet with result columns. Test tier 1
-   (could break the game) first. Paper first, with proxies printed from the MSE set file in `jceddy/edition1`. Test decks for
+   (could break the game) first. Play in the simulator (it implements every card), or on paper with proxies printed from the MSE set file in `jceddy/edition1`. Test decks for
    the first two sessions and a game log template are in `design/playtest-decks.md`.
 2. After each test, move the card's `status` to `draft` or `playtest`, and record the decision in `design/open-questions.yaml`
    (Q8 for the two Entitlement versions, Q9 for the other watch items). Apply a chosen fallback in the card file, with the reason
    in its notes.
 3. Resolve Q5 (the mythic build-around axes, see `design/axes.md`) once the axis decks have been played.
-4. Cards that need new simulator effects are impl tier 2 (37 cards); three are paper only (tier 3: Admiration, Elusiveness,
-   Grudge). Simulator work is handled separately.
+4. Cards that need new simulator effects are impl tier 2 (41 cards); none is paper only any more (Admiration, Elusiveness and
+   Grudge are implemented in the simulator too). Simulator work is handled separately.
 5. Releases: pushing a tag or running the Release workflow publishes the spreadsheet (`.github/workflows/release.yml`).

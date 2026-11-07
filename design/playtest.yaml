@@ -205,7 +205,7 @@ cards:
   # --- tier 4
   - card: Admiration
     tier: 4
-    check: What does "this mood" mean when the copied pile mood refers to itself? Proposed ruling is the mood you just played. Paper only (impl tier 3).
+    check: What does "this mood" mean when the copied pile mood refers to itself? Proposed ruling is the mood you just played.
     fallback: None chosen yet.
   - card: Honesty
     tier: 4
