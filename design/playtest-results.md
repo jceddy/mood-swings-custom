@@ -306,3 +306,93 @@ which deck is stronger: P1 won with B (502, 504) and with E2 (503, 505).
 | Wastefulness | Prompts at the start of each turn (two prompts in game 503); worked. |
 | Determination, Optimism | One mood a round in game 504, 3 points each. |
 | Possessiveness | Not played (never had 5 cards in the pile in game 504). |
+
+## Session 1d: E1 Free-play cycle against E2 Green replay (6 games)
+
+**Source.** The simulator exports of games 506 to 511 (7 November). The first tester (P1) played in all six: E2 in 506, 508 and 510,
+E1 in 507, 509 and 511. The other seat was a practice bot in 506 (E1), 507 (E2), 508 (E1) and 511 (E2), and the second tester in 509
+(E2) and 510 (E1). Game 508 stayed open overnight (it shows 9.7 hours of "active" time), so its times are not used.
+
+### Summary
+
+| | |
+|---|---|
+| Result | **E2 won all six games (6 to 0) and 18 of the 20 rounds.** E1 won two rounds: game 506 round 1 (0 to 0, a tie, first player) and game 509 round 1 (4 to 3). |
+| Every pilot pairing | E2 beat E1 with the practice bot on E2 against a human E1 (507, 511), with a human on E2 against a bot on E1 (506, 508), and with two humans (509, 510). So this is the decks, not the pilots. |
+| Scores by round, E2 | 506: 0, 5, 8, 21. 507: 3, 8, 11. 508: 3, 11, 15. 509: 3, 8, 11, 14. 510: 6, 10, 18. 511: 6, 11, 16. |
+| Scores by round, E1 | 506: 0, 0, 5, 7. 507: 2, 3, 8. 508: 1, 7, 9. 509: 4, 5, 5, 5. 510: 4, 9, 12. 511: 2, 7, 9. |
+| Game length | 3 rounds in four games, 4 in two. |
+| Biggest turn | 9 plays (E2, game 506 round 4, scoring 21 against E1's 7). |
+
+### Insights
+
+1. **E1, as built, is clearly the weaker deck.** E2 led after round 2 in all six games and the gap grew: by round 3 E2 had 8 to 18 against E1's
+   5 to 12. This matches session 1 (E1 lost 0 to 6 to B). The E1b list, with bodies in place of its zero-value cards, is the right next
+   test, and E1 should now be treated as a baseline for how weak a pure engine is.
+2. **The one-color gate is a free 5.** E2 is mono-green, so Contentment (5) is always playable. E2 played it in round 2 in four of the
+   six games (506, 507, 508, 509) and it was the difference each time: for example 8 to 3 in game 507 and 11 to 7 in game 508. In a
+   one-color deck the gate is simply the best common body (5 where the other commons are 3), at no cost. That is the case the
+   gate was priced for in a five-color pile, and the checklist's "5 against 4" question now has data: in a mono-color deck, 5 is
+   very strong. Worth testing the fallback of 4 if one-color decks stay this good.
+3. **The discard pile is shared, and Haunting can feed the opponent's pile engine.** In game 511 round 1, E1 played Modesty and
+   then Haunting (value 0) and discarded its hand (Detachment, Reverie, Wistfulness). E2 played next in the same round and used
+   Thrift to play Wistfulness from the pile, then Reverie from the pile (the Wistfulness trigger); in round 2 Nostalgia put
+   Detachment into E2's hand and it played it. All three of E1's discards ended up on E2's side (E1's Reverie and Detachment were in E2's
+   board at the end), and E1's banked plays had nothing left to play (round 2: Reverence and a pass). So Haunting's discards sit in
+   a shared pile through the rest of the round and any turn that comes before yours, and a pile deck like E2 takes them. This is a
+   real weakness, separate from its 0 value.
+4. **Reinvigoration is neutral again, except with Urgency.** E1's board was worth 5 before and 5 after it in game 509 (four
+   replays). The exception is game 509 round 4 on E2's side, where Reinvigoration plus three replays made four plays and turned
+   Urgency from 3 to 6 (11 to 14). E2's nine-play turn in game 506 scored 21, with Restlessness, Kinship and the replays all in it. It pays when a replayed mood counts plays or
+   re-triggers something; otherwise it costs the turn.
+5. **E1's all-in turn still loses.** Game 510 round 3: E1 played Overconfidence, Affinity, Fear and Nostalgia (4 plays), scored 12 and
+   lost 12 to 18. It finished with seven moods and an empty hand. The pattern from sessions 1 and 1b holds: the burst makes tempo and a wide
+   board but little value.
+6. **Honesty is again a 6 on turn one** (game 510 round 1, 6 to 4). Kinship (+1 for each of your moods that shares a color with
+   another) was in E2's biggest turns (games 506, 508, 511).
+7. **Ties go to the first player.** The only tie (game 506 round 1, 0 to 0) went to E1, who played first.
+
+### Questions for the testers
+
+- Game 511: was the Haunting discard deliberate, and did you expect E2 to take the cards from the pile?
+- Game 509 round 4: both players played Reinvigoration in the same round. Was the E1 one a choice or the only play available?
+- Fun and clarity for Haunting's delay and for sharing the pile.
+
+### Game logs
+
+**Game 506.** E2 (P1, seat 0) against E1 (bot, seat 1); E1 went first. E2 won 3 to 1 (four rounds).
+- Scores: 0 to 0 (tie, E1), 5 to 0, 8 to 5, 21 to 7.
+- Longest turn: 9 plays (E2, round 4: Restlessness, Kinship, Reinvigoration, then six replays from the pile).
+
+**Game 507.** E1 (P1, seat 0) against E2 (bot, seat 1); E1 went first. E2 won 3 to 0.
+- Scores: 2 to 3, 3 to 8, 8 to 11.
+- Decided: Contentment in round 2 (8 to 3).
+
+**Game 508.** E2 (P1, seat 0) against E1 (bot, seat 1); E2 went first. E2 won 3 to 0.
+- Scores: 3 to 1, 11 to 7, 15 to 9.
+- Longest turn: 3 plays (E1 round 2: Remorse, Wistfulness, Contentment).
+
+**Game 509.** E1 (P1, seat 0) against E2 (second tester, seat 1); E1 went first. E2 won 3 to 1 (four rounds).
+- Scores: 4 to 3 (E1), 5 to 8, 5 to 11, 5 to 14.
+- Longest turn: 5 plays (E1 round 4: Reinvigoration and four replays, no change in score).
+- Decided: Contentment in round 2, then Urgency at 6 after E2's Reinvigoration.
+
+**Game 510.** E2 (P1, seat 0) against E1 (second tester, seat 1); E2 went first. E2 won 3 to 0.
+- Scores: 6 to 4, 10 to 9, 18 to 12.
+- Longest turn: 4 plays (E1 round 3: Overconfidence, Affinity, Fear, Nostalgia).
+
+**Game 511.** E1 (P1, seat 0) against E2 (bot, seat 1); E1 went first. E2 won 3 to 0.
+- Scores: 2 to 6, 7 to 11, 9 to 16.
+- Decided: round 1, when Haunting's discards went to E2 (above).
+- Simulator bugs: none seen in any of the six games.
+
+### Notes by card (E1 against E2)
+
+| Card | What the games showed |
+|---|---|
+| Contentment | A free 5 in a one-color deck: round 2 in four of six games. |
+| Haunting | Its discards fed E2's pile plays in game 511 (shared discard pile). |
+| Reinvigoration | Neutral for E1 (game 509); +3 for E2 with Urgency (game 509); part of E2's nine-play, 21-point turn (game 506). |
+| Honesty, Kinship | Honesty was 6 on turn one; Kinship was in E2's biggest turns. |
+| Overconfidence, Affinity, Fear, Nostalgia | A 4-play turn that scored 12 and still lost (game 510). |
+| Thrift, Wistfulness, Nostalgia (E2) | Took E1's discarded cards in game 511. |
