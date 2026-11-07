@@ -412,7 +412,7 @@ games were played asynchronously over about two days. The only chat lines were o
 | Result | User 8 (white, black, green, plus Desperation and Rashness) won both games, 3 to 0 (game 490) and 3 to 2 (game 499). User 1 played a red deck with black and white. |
 | Pool | 17 commons, 16 uncommons, 10 rares and 5 mythics; by color 11 red, 9 white, 9 blue, 8 black, 8 green and 3 colorless. |
 | Left undrafted | 16 of the 48 cards: 9 commons, 5 uncommons, 2 rares and no mythics. |
-| Ties | One in each game (game 499 rounds 2 and 4: 5 to 5 and 10 to 10), both won by the player who played first. |
+| Ties | Two, both in game 499 (round 2, 5 to 5, and round 4, 10 to 10), each won by the player who played first. |
 
 ### Draft insights
 
@@ -450,8 +450,8 @@ games were played asynchronously over about two days. The only chat lines were o
 9. **Both decks were low in value (average printed value about 1.7).** User 8: Temperance 3, Modesty 2, Solidarity 2, Desperation 3,
    Malevolence 2, Longing 3, Nosiness 2, Haunting 0, Rashness 0, Gratitude 0, Vindication 2, Wistfulness 1. User 1: Unity 3, Jealousy
    0, Zeal 3, Volatility 2, Verve 1, Whimsy 2, Righteousness 3, Intuition 1, Martyrdom 1, Grudge 0, Levelheadedness 1, Exuberance 3.
-   Round scores were 2 to 12 for the winner and in the single digits for the loser. A 12-card deck of one or two plays a round
-   reaches about 12 points by round 3 or 4.
+   A 12-card deck with one or two plays a round reaches about 10 to 12 points by round 4 or 5; the exception is game 490's
+   Haunting turn (17 in round 2).
 10. **Round scores in game 499 were close** (2 to 1, 5 to 5, 5 to 8, 10 to 10, 12 to 10), a good sign for a draft game; game 490 was
     decided by the Haunting turn.
 
