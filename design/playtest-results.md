@@ -21,7 +21,7 @@ or the starting hands, so those are not assessed here.
 | Round scores, E1 | round 1: 2.2 on average; round 2: 4.5; round 3: 5.5 (6 games). |
 | Round scores, B | round 1: 3.0; round 2: 5.8; round 3: 8.7 (about one 3 per round, stacking: 3, 6, 9). |
 | Plays per game | E1 4.7, B 3.3. E1 used 11 extra plays in total (none in game 494); the most plays in one turn was 4 (game 497, round 1). |
-| Ties | Three rounds tied (9 to 9, 6 to 6, 3 to 3) and all went to B, who had played first each time. This matches the simulator's rule that a tie goes to whoever played earliest. |
+| Ties | Three rounds tied (9 to 9, 6 to 6, 3 to 3) and all went to B, who had played first each time (the first player in a round wins ties; that is a game rule). |
 
 ### Deductions
 
@@ -175,8 +175,8 @@ have it). The logs show every mood played, the cards moved and drawn by each eff
 7. **The 5-gates decided the close rounds again.** Reverence, Resentment, Detachment and Contentment were the 5-point plays in
    every close round (game 500 round 3; game 501 rounds 2, 3 and 5). The mirror matches two decks of near-identical bodies, so
    the gate you have the color for is what separates the scores.
-8. **Ties go to the first player, again.** The game 501 round 5 tie (12 to 12) went to P1, who had won round 4 and so played first.
-   With two low-value decks, ties will be common; first play is worth about a point.
+8. **Ties are common with low-value decks.** The game 501 round 5 tie (12 to 12) went to P1, who had won round 4 and so played
+   first (the first player in a round wins ties, a game rule). Between two low-value decks, going first is worth about a point.
 
 ### Questions for the testers
 
@@ -254,8 +254,8 @@ which deck is stronger: P1 won with B (502, 504) and with E2 (503, 505).
 5. **Green has no removal, and B's cheap removal slowed it.** Vengeance removed E2's highest mood in 503 round 1 (0 to 3) and
    in 505 round 2 (Honesty); Disdain, Hate and Shock took a mood each in game 502 rounds 4 and 5 (1 and 3 points against 9 and 11); Panic and
    Hate kept a one-mood board in game 504 (3, 3, 3 against 3, 6, 6). E2 recovers when its pile loop is running, and not before.
-6. **Ties go to the first player, again.** Both ties (game 503 round 2, game 504 round 1) went to B, who played first. In total that is
-   six ties in the three sessions, all won by the first player. A first-turn 3 to 3 decides round 1.
+6. **Ties come up often, and the first player wins them (a game rule).** Both ties (game 503 round 2, game 504 round 1) went to B,
+   who played first. A first-turn 3 to 3 decides round 1, so the first player gets a free point.
 7. **A slow start is possible.** In game 504 E2's player finished with Contentment, Perseverance, Possessiveness, Reinvigoration and
    Resilience in hand and a one-mood board all game. The loop may need a first turn that starts it, and this opening may not
    have had one; the logs cannot say why those cards were not played (see the questions).
@@ -350,7 +350,7 @@ E1 in 507, 509 and 511. The other seat was a practice bot in 506 (E1), 507 (E2),
    board but little value.
 6. **Honesty is again a 6 on turn one** (game 510 round 1, 6 to 4). Kinship (+1 for each of your moods that shares a color with
    another) was in E2's biggest turns (games 506, 508, 511).
-7. **Ties go to the first player.** The only tie (game 506 round 1, 0 to 0) went to E1, who played first.
+7. **One tie** (game 506 round 1, 0 to 0) went to E1, who played first, as the rule says.
 
 ### Questions for the testers
 
@@ -462,3 +462,87 @@ games were played asynchronously over about two days. The only chat lines were o
 - Game 499: why did user 8 discard Haunting to Longing?
 - Did either deck feel too low in value at 12 cards, or the draft too short?
 - Fun and clarity, especially for Haunting and Malevolence.
+
+## Session 1e: E1b Free-play cycle with bodies against B Baseline (3 games)
+
+**Source.** The simulator exports of games 512, 514 and 515 (7 November; game 513 was not in the export). E1b is the E1 rebuild with four
+3-value bodies (Joy, Compulsion, Temperance, Reminiscence) in place of Adrenaline, Resilience, Reinvigoration and Wistfulness.
+The first tester (P1) played E1b in 512 and 515 and B in 514. The other seat was a practice bot (B) in 512 and 515, and the second
+tester (E1b) in 514. The Haunting in these games is the new version (value 0, plays kept only while you still have it).
+
+### Summary
+
+| | |
+|---|---|
+| Result | **E1b won 1 of 3** (515). B won 512 (3 to 2 in rounds, against P1's E1b) and 514 (3 to 1, B played by P1). E1 had lost 0 to 6 to B. |
+| Rounds | E1b won 6 of 13 rounds (512: rounds 2 and 3; 514: round 2; 515: rounds 2, 3 and 4). E1 had won 1 of 19. |
+| Scores by round, E1b | 512: 3, 8, 10, 7, 7. 514: 3, 6, 6, 11. 515: 0, 22, 14, 9. |
+| Scores by round, B | 512: 3, 6, 9, 10, 13. 514: 3, 4, 13, 13. 515: 6, 6, 7, 8. |
+| Biggest turn | **6 plays scoring 22** (game 515 round 2, after a Haunting turn). |
+| Ties | Two, both round 1 (3 to 3 in 512 and 514), both won by B, who played first. |
+
+### Insights
+
+1. **The bodies worked: E1b is now competitive.** It won 6 of 13 rounds (E1: 1 of 19) and its round 2 scores were 8, 6 and 22 against
+   E1's 2 to 4. It still lost two of three games, so it is not yet a deck that beats B on average, but it has the burst turns E1
+   never had. This is what the E1b change was for.
+2. **Haunting at 0 still produces a game-winning turn.** In game 515 P1 played Haunting first (0 points, lost round 1 by 0 to 6),
+   discarded Compulsion, Familiarity and Affinity, and kept Haunting to the next turn. In round 2 it replayed those three from the
+   pile and added Reverence (5), Resolve (3 or 6, here 6) and Contentment (5): six plays, **22 points against 6**, and the lead held
+   (14 to 7, then 9 to 8). So the nerf did not remove the burst; what it adds is a round of risk (the 0 and the removal window). B's
+   bot did not remove Haunting or take the pile (its Reminiscence in round 2 did neither). Compare E1 and E2: there the pile was taken
+   (game 511) or the burst was small. Haunting is strongest in a deck with real bodies and weakest when the opponent has pile plays.
+3. **Compulsion was the best new card.** It took Zeal in game 514 and Resolve in game 515 from B, and E1b played both. In round 2
+   of game 515 the stolen Resolve was a 6 (E1b trailed in round wins) and Compulsion was itself played from the pile by Haunting's banked
+   plays. A 3-value body that takes a card, played from the pile, is the deck's card advantage.
+4. **Contentment (5) fits E1b through Joy.** Joy (green) gave Contentment its color in all three games, and Contentment was played in each
+   (512 round 2, 514 rounds 2 and 4, 515 round 2). The other gates were less lucky: Impatience (no red mood) sat in hand at the end of
+   game 512 and Reverence (no white mood) in game 514. This is the same finding as before: the gate is as good as its enabler.
+5. **B's tempo removal is its real strength.** Pacifism (game 512 round 4) appears to have suppressed Contentment and cost E1b 5 points (E1b scored 7 in a round where its board was
+   worth 12),
+   Panic bounced Reverence (515 round 4), and Indignation removed Reminiscence (514 round 3, where B scored 13, apparently with Determination at 6 because three red moods
+   were in play). In game 515 E1b's board fell from 22 to 14 to 9 as Pacifism and Panic came down, and it won round 4 by a single point.
+   The baseline's cheap interaction is what keeps a big board in check.
+6. **Overconfidence did not decide anything here.** It was played once (game 512 round 4) and the extra plays were not used, so no
+   penalty applied (the turn shows no restriction). E1b then passed in round 5 holding Nostalgia and Impatience.
+7. **Ties again decided round 1.** Both round 1 ties went to B, who played first (the first player wins ties, a game rule). That is
+   eleven ties across the sessions and the draft, so low-value decks often come down to who goes first.
+
+### Questions for the testers
+
+- Game 512 round 5: E1b passed holding Nostalgia (and Impatience with no red mood). Was that a choice? The turn had no restriction.
+- Game 514: E1b finished with Familiarity, Reminiscence, Reverence and Reverie in hand. Was Reverence stuck (no white mood), and why
+  were the others not played?
+- Game 515: B's bot did not use Reminiscence on the pile with E1b's three discards in it. Would a human have?
+- Fun and clarity for Haunting, Compulsion and Joy.
+
+### Game logs
+
+**Game 512.** E1b (P1, seat 0) against B (bot, seat 1); B went first. B won 3 to 2 in rounds.
+- Scores: 3 to 3 (tie, B), 8 to 6 (E1b), 10 to 9 (E1b), 7 to 10, 7 to 13.
+- Longest turn: 4 plays (E1b round 2: Contentment, Levity, Fear, Joy).
+- Decided: B's Pacifism in round 4, then E1b passing in round 5.
+
+**Game 514.** B (P1, seat 0) against E1b (second tester, seat 1); B went first. B won 3 to 1.
+- Scores: 3 to 3 (tie, B), 4 to 6 (E1b), 13 to 6, 13 to 11.
+- Longest turn: 2 plays (B rounds 2 and 3; E1b round 4).
+- Decided: round 3 (Determination at 6, Indignation removing Reminiscence).
+- Hands: E1b finished with 4 cards unplayed.
+
+**Game 515.** E1b (P1, seat 0) against B (bot, seat 1); E1b went first. E1b won 3 to 1.
+- Scores: 0 to 6, 22 to 6 (E1b), 14 to 7 (E1b), 9 to 8 (E1b).
+- Longest turn: 6 plays (E1b round 2, 22 points).
+- Decided: round 2.
+
+### Notes by card (E1b against B)
+
+| Card | What the games showed |
+|---|---|
+| Haunting | Value 0 in round 1 (lost 0 to 6), then 3 plays from the pile in a 6-play, 22-point turn (515). |
+| Compulsion | Took Zeal (514) and Resolve (515, played for 6); played from the pile by Haunting's plays. |
+| Joy | Gave Contentment its green mood in all three games; replayed after Fear's bounce (512). |
+| Contentment | Played in every game; the one gate that was reliably live. |
+| Reverence, Impatience | Stuck in hand without a white or red mood (514, 512). |
+| Fear, Levity | Part of the four-play turn in 512 (Levity cycled itself for Nostalgia). |
+| Reminiscence | Removed by Indignation (514); returned by Nostalgia and replayed. |
+| Overconfidence | Played once, extras unused, no penalty (512). |
