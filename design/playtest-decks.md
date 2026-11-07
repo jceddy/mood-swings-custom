@@ -166,7 +166,6 @@ Name E1b Free-play cycle with bodies
 | 4 | E1 against E2 | 1 or 2 | Which engine is stronger; the game length with two engines. |
 | 5 | E1b against B | 3, swapping seats | Does the free-play cycle win once it has bodies? Compare with E1 (0 to 6, no round won except one): round scores against B's 3, 6, 9, and the largest burst. |
 | 6 | E1b mirror | 1 | How fast two decks with bodies snowball; whether tiebreaks (first player) decide games. |
-| 7 | Paper only | 1 | Grudge (needs an opponent with round wins) with Elusiveness and the replacement ordering rule. The simulator cannot run these. |
 
 ## Session 2: scaling and anthems
 
@@ -234,10 +233,12 @@ Name R Red pile
 1 Vindictiveness
 ```
 
-### W White numbers (mono-white)
+### W White numbers (white, with Grudge and Elusiveness)
 
 Levelheadedness and Rudeness (the swing cards) with the numbers cards (Orderliness, Affinity, Solidarity, Humility,
-Equanimity, Familiarity, Modesty). Grudge is left out because it is paper only.
+Equanimity, Familiarity, Modesty). Grudge (the white mythic) replaces Solace and Elusiveness (blue) replaces Vigilance, so
+both replacement effects are on one board and the ordering rule can be tested: when one player controls both, that player
+chooses the order.
 
 ```
 About
@@ -258,8 +259,8 @@ Name W White numbers
 1 Temperance
 1 Largesse
 1 Pacifism
-1 Solace
-1 Vigilance
+1 Grudge
+1 Elusiveness
 1 Fairness
 1 Compassion
 1 Reverence
@@ -271,12 +272,12 @@ Name W White numbers
 |---|---|---|---|
 | 1 | G against B | 2 | The round Fulfillment, Vitality or Maturity start deciding games; whether opponents can remove Maturity in time. |
 | 2 | R against B | 2 | Ardor's snowball; whether FOMO is discarded too soon for a 7 to be fair; Rancor and Volatility hitting your own cheap moods. |
-| 3 | W against B | 2 | Levelheadedness (every mood scores 2: who gains?) and Rudeness (one blank turn for every other player) against a combo turn. |
+| 3 | W against B | 2 | Levelheadedness (every mood scores 2: who gains?) and Rudeness (one blank turn for every other player) against a combo turn. Grudge gives extra plays equal to the chosen opponent's round wins, so check the burst once B has won a round or two; with Elusiveness on the same board, check the replacement ordering (Grudge sends a mood to the bottom of the deck, Elusiveness to your hand) and who chooses. |
 | 4 | G, R and W against each other | 1 each | Color balance and the axis question (Q5): does each axis feel like a deck? |
 
 ## Coverage of the first tier
 
-Every card in the first tier of the checklist is in a deck above except Grudge, which has a paper-only game.
+Every card in the first tier of the checklist is in a deck above.
 
 | Card | Deck |
 |---|---|
@@ -287,8 +288,7 @@ Every card in the first tier of the checklist is in a deck above except Grudge, 
 | Reverence, Detachment, Resentment, Impatience, Contentment | E1 (all five); Impatience also in R, Contentment also in G and E2 |
 | Fulfillment, Vitality, Maturity | G |
 | Ardor, FOMO | R |
-| Levelheadedness, Rudeness | W |
-| Grudge | paper only (session 1, game 7) |
+| Levelheadedness, Rudeness, Grudge | W (Elusiveness is in W too, for the ordering rule) |
 
 ## Session log
 
