@@ -235,15 +235,15 @@ which deck is stronger: P1 won with B (502, 504) and with E2 (503, 505).
 
 1. **E2 is a late-game snowball.** In both wins E2 lost or tied the first rounds, then passed B in round 4: 22 against 15 and 36
    against 18 in game 503, 14 against 12 and 23 against 17 in game 505. B's score grows by about 3 a round (it tops out at 17 or
-   18 by round 5), E2's grows by 10 or more once its board has 6 to 9 moods. Both E2 wins needed three round wins in a row at the end:
-   B had two round wins in each game, so the margin was thin.
+   18 by round 5), E2's grows by 9 to 14 a round once its board has 6 to 9 moods. The margin was thin: B had two round wins
+   in each game, E2 won the last three rounds of game 503, and in game 505 it lost rounds 2 and 3 and won rounds 1, 4 and 5.
 2. **The engine is the pile loop.** Carelessness mills two cards, Resilience and Thrift let you play moods worth 3 or less from the
    pile, and replaying Carelessness from the pile mills two more: in game 503 round 4 Carelessness (from the pile) milled
    Perseverance and Vindication (both worth 2), and in round 5 both were played from the pile as free extra plays. That is the card
    advantage the green axis was designed for, and by round 5 the board was 9 moods and 36 points. It needs three or four rounds to
    assemble, which is why E2 trails early.
 3. **Reinvigoration has two uses, and neither is the feared one.**
-   - Game 502 round 3 (the bot): Pacifism had suppressed Honesty. Reinvigoration put Honesty and Restlessness into the pile and
+   - Game 502 round 3 (the bot): Pacifism appears to have suppressed Honesty (E2 scored only 3 in round 2). Reinvigoration put Honesty and Restlessness into the pile and
      they came back unsuppressed, so the turn scored 9 (round 3 won 9 to 7). That makes it an answer to suppression.
    - Game 505 round 3: P1 used it as a reset. It put the only other mood (Carelessness) into the pile and replayed Resilience, so
      the board was worth 0 that round (lost 0 to 7), but it switched on Resilience's pile plays for the 14 to 12 and 23 to 17 rounds that followed.
@@ -256,9 +256,9 @@ which deck is stronger: P1 won with B (502, 504) and with E2 (503, 505).
    Hate kept a one-mood board in game 504 (3, 3, 3 against 3, 6, 6). E2 recovers when its pile loop is running, and not before.
 6. **Ties go to the first player, again.** Both ties (game 503 round 2, game 504 round 1) went to B, who played first. In total that is
    six ties in the three sessions, all won by the first player. A first-turn 3 to 3 decides round 1.
-7. **Stalled hands show the game-504 problem.** E2's player finished with Contentment, Perseverance, Possessiveness, Reinvigoration and
-   Resilience in hand and a one-mood board all game. E2 needs a first turn that starts the loop; the five-card hand with no
-   enabler in it is a dead opening.
+7. **A slow start is possible.** In game 504 E2's player finished with Contentment, Perseverance, Possessiveness, Reinvigoration and
+   Resilience in hand and a one-mood board all game. The loop may need a first turn that starts it, and this opening may not
+   have had one; the logs cannot say why those cards were not played (see the questions).
 
 ### Questions for the testers
 
