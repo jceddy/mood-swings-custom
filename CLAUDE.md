@@ -20,6 +20,7 @@ This repo holds the work-in-progress design of a community-designed custom set f
   "start of each of your turns" trigger and a start-of-round trigger fire the same number of times.
 - Hand sizes are public.
 - "Reveal" means reveal to all players, never a private reveal to one player. Card notes and implementation tiers assume a public reveal.
+- The first player in a round wins ties (a game rule, confirmed by the author). Play test results should treat it as a rule, not a finding.
 - The losing player (or players) draw a card at the end of each round. There is no draw each turn, so hands refill only that way
   and through card effects: cards in hand are a scarce resource.
 - Cards are called **moods** once in play. Each has a printed value (0 to 12) in the top-right corner, sometimes an alternate value.
