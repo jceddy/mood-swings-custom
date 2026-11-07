@@ -396,3 +396,69 @@ E1 in 507, 509 and 511. The other seat was a practice bot in 506 (E1), 507 (E2),
 | Honesty, Kinship | Honesty was 6 on turn one; Kinship was in E2's biggest turns. |
 | Overconfidence, Affinity, Fear, Nostalgia | A 4-play turn that scored 12 and still lost (game 510). |
 | Thrift, Wistfulness, Nostalgia (E2) | Took E1's discarded cards in game 511. |
+
+## Draft 1: quick draft between two human players (match 150, 2 games)
+
+**Source.** The simulator exports of the two games of one quick-draft match (games 490 and 499, 6 to 7 November), which also hold the
+draft itself. It is a two-player quick draft from a random pool of 48 distinct cards (47 are cards of this set and one is an original),
+four rounds: in each round each player draws a pile of six, keeps two, and the other player keeps two of the remaining four (two are left
+over). Each player ends with 16 cards and builds a 12-card deck. Both players were human (user 8 and user 1, the first tester). The
+games were played asynchronously over about two days. The only chat lines were one joke each, so they say nothing about the cards.
+
+### Summary
+
+| | |
+|---|---|
+| Result | User 8 (white, black, green, plus Desperation and Rashness) won both games, 3 to 0 (game 490) and 3 to 2 (game 499). User 1 played a red deck with black and white. |
+| Pool | 17 commons, 16 uncommons, 10 rares and 5 mythics; by color 11 red, 9 white, 9 blue, 8 black, 8 green and 3 colorless. |
+| Left undrafted | 16 of the 48 cards: 9 commons, 5 uncommons, 2 rares and no mythics. |
+| Ties | Two, both in game 499 (round 2, 5 to 5, and round 4, 10 to 10), each won by the player who played first. |
+
+### Draft insights
+
+1. **Rarity drove the picks.** All five mythics were drafted (Haunting, Wistfulness, Grudge, Unity, Restraint); 2 of 10 rares, 5 of 16
+   uncommons and 9 of 17 commons were left. Two mythics were passed by the first picker and taken by the other player (Unity and
+   Restraint), and neither mattered: Unity needs five moods that share a color, which neither deck reached in games of three and five
+   rounds, and Restraint stayed on the bench.
+2. **Red was the deepest color and blue the shallowest.** All 11 red cards were drafted (user 1 took ten of them), but 6 of the 9 blue
+   cards and 5 of the 8 green cards were left (blue: Distrust, Anticipation, Turmoil, Deflection, Chagrin, Prudence; green:
+   Carelessness, Resolve, Honesty, Restlessness, Wariness). Only 3 of the 9 blue cards were drafted at all, and one of those
+   (Admiration, a rare with new art) was benched. This is one draft with two players, so treat it as a prompt to look at blue's
+   and green's commons and uncommons rather than a verdict. The unpicked green cards are the 3-to-6 conditionals and Carelessness.
+3. **Both colorless gates were left undrafted** (Reverence in round 1, Detachment in round 4), after both players saw them in a pile.
+   In a five-color pool a gate is hard to count on, which matches the checklist's concern; in a one-color deck (session 1d) it was a
+   free 5. So the gate is a deck-dependent card: weak to a drafter, strong to a mono-color deck.
+4. **Rudeness (a tier 1 white rare) and Greed (a black rare) were left**, as was Schadenfreude. Nobody wanted to build around them
+   in a 12-card deck of two or three colors.
+5. **Benched picks:** user 8 left out Admiration, Discernment, Restraint and Fairness; user 1 left out Indignation, Resignation,
+   Vindictiveness and Frenzy. Grudge was in user 1's deck but never drawn, so it gave no data.
+
+### Game insights
+
+6. **Haunting was very strong in game 490, and that was the old version.** Its round 1 score was 2, so Haunting was still a 2 with no
+   condition (the nerf to a 0 was merged later that day). User 8 discarded four cards from hand (Modesty, Malevolence, Vindication,
+   Solidarity), then in round 2 replayed all four from the pile as free plays and scored 17 against 3. Malevolence, replayed from
+   the pile, removed user 1's only mood. User 1's red deck had no pile plays, so nothing could take the cards or stop it, and
+   user 8 won the game from there (12 to 6 in round 3). This is the burst the nerf was meant to answer. Under the new text it needs
+   Haunting still in play at the start of the turn; user 1's deck had Volatility (a random mood worth 1 or less is put into the
+   discard pile each turn), which would have been a real answer to a 0.
+7. **In game 499 user 8 used Haunting as discard fodder.** Longing discarded Haunting from hand to put Martyrdom and Jealousy back
+   into hand. Whether that reflects the changed Haunting, or just a different hand, is unknown; ask.
+8. **The cheap-2 white and black cards worked together.** Solidarity (+1 for each other mood with a 2 in its top right corner),
+   Modesty, Malevolence, Vindication and Nosiness all print 2, and Vindication grows with round wins. That is the white numbers
+   axis behaving as designed in an unplanned deck.
+9. **Both decks were low in value (average printed value about 1.7).** User 8: Temperance 3, Modesty 2, Solidarity 2, Desperation 3,
+   Malevolence 2, Longing 3, Nosiness 2, Haunting 0, Rashness 0, Gratitude 0, Vindication 2, Wistfulness 1. User 1: Unity 3, Jealousy
+   0, Zeal 3, Volatility 2, Verve 1, Whimsy 2, Righteousness 3, Intuition 1, Martyrdom 1, Grudge 0, Levelheadedness 1, Exuberance 3.
+   A 12-card deck with one or two plays a round reaches about 10 to 12 points by round 4 or 5; the exception is game 490's
+   Haunting turn (17 in round 2).
+10. **Round scores in game 499 were close** (2 to 1, 5 to 5, 5 to 8, 10 to 10, 12 to 10), a good sign for a draft game; game 490 was
+    decided by the Haunting turn.
+
+### Questions for the testers
+
+- Was blue left alone because of the cards in that pool, or because it felt weak? Same for green's conditional 3-to-6 cards.
+- Why were the gates passed: color, or the 5 not worth a pick?
+- Game 499: why did user 8 discard Haunting to Longing?
+- Did either deck feel too low in value at 12 cards, or the draft too short?
+- Fun and clarity, especially for Haunting and Malevolence.
