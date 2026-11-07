@@ -498,13 +498,14 @@ tester (E1b) in 514. The Haunting in these games is the new version (value 0, pl
 4. **Contentment (5) fits E1b through Joy.** Joy (green) gave Contentment its color in all three games, and Contentment was played in each
    (512 round 2, 514 rounds 2 and 4, 515 round 2). The other gates were less lucky: Impatience (no red mood) sat in hand at the end of
    game 512 and Reverence (no white mood) in game 514. This is the same finding as before: the gate is as good as its enabler.
-5. **B's tempo removal is its real strength.** Pacifism (game 512 round 4) suppressed Contentment and cost E1b 5 points (12 to 7),
-   Panic bounced Reverence (515 round 4), and Indignation removed Reminiscence (514 round 3, with Determination at 6 because three red moods
+5. **B's tempo removal is its real strength.** Pacifism (game 512 round 4) appears to have suppressed Contentment and cost E1b 5 points (E1b scored 7 in a round where its board was
+   worth 12),
+   Panic bounced Reverence (515 round 4), and Indignation removed Reminiscence (514 round 3, where B scored 13, apparently with Determination at 6 because three red moods
    were in play). In game 515 E1b's board fell from 22 to 14 to 9 as Pacifism and Panic came down, and it won round 4 by a single point.
    The baseline's cheap interaction is what keeps a big board in check.
 6. **Overconfidence did not decide anything here.** It was played once (game 512 round 4) and the extra plays were not used, so no
    penalty applied (the turn shows no restriction). E1b then passed in round 5 holding Nostalgia and Impatience.
-7. **Ties go to the first player.** Both round 1 ties went to B, who played first. That is eight ties across the sessions, all won by
+7. **Ties go to the first player.** Both round 1 ties went to B, who played first. That is eleven ties across the sessions and the draft, all won by
    the first player.
 
 ### Questions for the testers
