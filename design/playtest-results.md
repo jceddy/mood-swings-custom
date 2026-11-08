@@ -992,8 +992,8 @@ and the second tester in the other two games (W in 541, G in 542). Both decks ar
 ### Insights
 
 1. **Vitality and Fulfillment worked together the first time they were played.** In 541 G played Vitality in round 2 and Fulfillment in round 3. Vitality adds 2 to each green mood at the start of each of
-   G's turns, which made Honesty 8, and Fulfillment scores each mood worth 6 or more an extra time, so Honesty alone counted 16. G scored 22 in round 3 and 27 in round 4 with only four moods, against W's 14 and 17. Both cards were never played in the six G against R games, so this is the first
-   evidence for the green anthems. The combination (one mood at 6 or more, +2 a turn, doubled) is large for two 1-value cards, and it was not answered (W had no removal in the games).
+   G's turns, which made Honesty 8, and Fulfillment scores each mood worth 6 or more an extra time, so Honesty alone counted 16. G scored 22 in round 3 and 27 in round 4 with only four moods, against W's 14 and 17. Vitality had not been played in any earlier game (Fulfillment had, in 534 and 535), so this is the first
+   evidence for Vitality. The combination (one mood at 6 or more, +2 a turn, doubled) is large for two 1-value cards, and W did not answer it (it never drew Pacifism).
 2. **W's four-play turn lost.** In 540 round 3 Grudge (G had won two rounds) gave two extra plays and Affinity a third, so W played Grudge, Elusiveness, Fairness and Largesse. That is 0, 1, 1 and 5 points, and W's 10 lost to G's 15 (Determination 6, Vindication 6 and Carelessness 3). Largesse also gave G a card.
    The longest W turn so far was worth 7 points of new moods, because W's extra-play cards are low-value cards; this repeats the E1 and session 2c finding that the engine needs bodies.
 3. **W won once by using Pacifism and Orderliness.** In 542 round 2 W played Affinity, then Pacifism (a 1 matching Affinity, so Affinity's play came back) on G's Resolve, then Orderliness (odd): 8 against 3 in a turn of three plays. Orderliness (odd) raised Affinity, Pacifism and
@@ -1001,11 +1001,11 @@ and the second tester in the other two games (W in 541, G in 542). Both decks ar
 4. **W ran out of cards again.** In 542 W had played its last card by round 3 and passed in rounds 3 and 4 (a Grudge extra play was available each time). It won round 4 by 14 to 13 with the board alone. Grudge's extra plays used: 2 of 2 in 540, 1 of 3 in 542 (R2 only), as before.
 5. **G missed a stronger line in 542 round 4 (a question, not a finding).** G held Nostalgia and had Urgency in play. Nostalgia gives an extra play, and two plays in a round make Urgency a 6, so Nostalgia then Vindication would have scored 16 against W's 14
    instead of Vindication alone at 13, which would have won the round. G also held Optimism and Gratitude.
-6. **Honesty was a 6 on turn one again** (541 round 1: 6 against W's 3), and G's Determination and Vindication scored 6 each by round 3 (540: 15 in round 3; 542: 9 and 13).
-7. **Carelessness milled Urgency and Kinship in 540 round 3**, the third game in a row where the milled cards were part of G's plan (535, 536, 540). G still won, because the mood scored 3.
+6. **Honesty was a 6 on turn one again** (541 round 1: 6 against W's 3). Determination was a 6 in 540 and 542, and Vindication a 6 in 540 round 3.
+7. **Carelessness milled Urgency and Kinship in 540 round 3**, the third game where the milled cards were part of G's plan (535, 536, 540). G won anyway.
 8. **Rudeness was drawn for the first time (541) and not played.** W held it in rounds 3 and 4 and played Discernment and Familiarity instead. Against G it has little to stop: G's extra plays are Joy, Nostalgia and Thrift, and its after-playing effects are Honesty's 6 and Carelessness's mill. Levelheadedness and Solidarity stayed in the deck in all three games. Elusiveness was played once as a 1-point extra play (540) and
    never needed (G has no discard effects on moods).
-9. **Both of W's win conditions came from G's lack of interaction.** G has no removal, so W's boards stayed in play: W's 14 in 542 rounds 3 and 4 and 17 in 541 came from boards of five or six moods. G's answer is size, not removal, which is the opposite of the sessions against B and R.
+9. **G has no removal, so W's boards stayed intact.** W's 14 in 542 rounds 3 and 4 and its 17 in 541 came from boards of five or six moods. G's answer to a W board is size, while B and R answer a G board by removing its moods.
 
 ### Questions for the testers
 
