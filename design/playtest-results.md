@@ -752,3 +752,127 @@ R is the mono-red deck (Ardor, Verve, Dominance, Exuberance, Adrenaline, Frenzy,
 | Belligerence, Rashness | Often no targets against B's 3-value moods. |
 | Frenzy, Impatience | 6 and 5: the biggest plays of game 524 round 4. |
 | Hellbent | A 2 with cards in hand (526), part of the four-red-mood board. |
+
+## Session 2c: W White numbers against B Baseline (6 games)
+
+**Source.** The simulator exports of games 527 to 532 (8 November). The first tester (P1) played B in 527, 529 and 531 and W in 528, 530 and 532. The
+other seat was a practice bot (W) in 527 and the second tester in the other five games (B in 528, 530 and 532, W in 529 and 531). W is the white
+numbers deck (Levelheadedness, Rudeness, Orderliness, Affinity, Familiarity, Modesty, Confidence, Humility, Equanimity and the rest) with Grudge and
+Elusiveness in place of Solace and Vigilance, so this is the first session where both replacement effects were in the deck.
+
+### Summary
+
+| | |
+|---|---|
+| Result | **B won all 6 games and 18 of the 27 rounds.** Round scores in the games: 3 to 2 (527, 529, 530, 531), 3 to 0 (528), 3 to 1 (532). W won 9 rounds. |
+| Scores by round, W | 527: 7, 4, 8, 11, 6. 528: 0, 1, 5. 529: 5, 5, 8, 8, 10. 530: 2, 2, 7, 5, 5. 531: 1, 1, 4, 4, 8. 532: 1, 5, 10, 14. Average 5.4 a round. |
+| Scores by round, B | 527: 3, 8, 8, 8, 9. 528: 3, 6, 8. 529: 3, 4, 10, 12, 12. 530: 1, 7, 4, 7, 10. 531: 0, 1, 7, 10, 13. 532: 6, 6, 9, 15. Average 7.0 a round. |
+| Game length | 3 to 5 rounds, 4.5 on average (four games went to five rounds). |
+| Biggest turn | **3 plays** (game 530 round 3: Modesty, Pacifism, then Compassion from Grudge; 7 to 4, a round win). Highest W score: 14 (532 round 4, lost to a 15). |
+
+### Insights
+
+1. **W ran out of cards.** Its extra-play cards (Modesty, Confidence, Familiarity, Affinity, Grudge) spend the hand faster than one card a round for the
+   loser can refill it. W had an empty hand at the start of round 4 or 5 in four of the five long games (527 rounds 4 and 5, 530 rounds 4 and 5, 531
+   round 5, 529 round 5 after Largesse) while B kept 2 to 4 cards in hand at the end of every game. The clearest cost is Grudge: of the 11 extra plays it
+   granted over the six games (including the turn it was played), W used 4. All 7 unused ones came with an empty hand (527 rounds 4 and 5, 530 rounds
+   4 and 5, 531 round 5). So the engine had no fuel at the point it was strongest. This is the same lesson as E1 (the free-play engine needs bodies), and
+   here W lacks card flow (Discernment is its only loot and was never played).
+2. **W won early and lost late.** W won round 1 in four of six games and round 2 in two more, but won none of the four fifth rounds. In games 529 and 531 it led 2 to 0 and then lost three rounds in a row.
+   B's comeback cards helped: Resolve is a 6 for a player behind in rounds (529 round 3: B scored 10 with it), and Determination is a 6 once three moods
+   share a color.
+3. **A mono-white board switches on B's Determination.** Whenever Determination was in play and not suppressed it was a 6 (530 rounds 2, 4 and 5, 531
+   rounds 3 to 5, 532 round 4: eight of nine round scores; the ninth was suppressed by W's own Pacifism). B has white cards of its own (Pacifism,
+   Temperance), but W's board supplies the other two. This is a deck-building effect, not a flaw in W, but it explains part of B's edge.
+4. **Reverence was the target of B's Pacifism every time.** Reverence (5) was suppressed in 527 round 5, 530 round 1 and 531 round 2, the only games where it was
+   played. In 530 round 1 that turned a 7 into a 2 (W still won 2 to 1, Pacifism being a 1). The five-point gates continue to be the highest-value mood on a W board and
+   the natural suppression target; in 527 round 4 it did score its 5 (11 against 8, a round win).
+5. **Grudge works as written, and is a comeback card.** It gave extra plays the turn it was played (527 round 4, 531 rounds 4 and 5), counted the
+   chosen player's round wins correctly (0 extras on 528 round 1 and 530 round 2, when B had no wins), and was put on the bottom of the deck when Vengeance
+   would have discarded it (528 round 2: its owner had no other mood, so Vengeance had to pick it). Two Grudge turns won a round (527 round 4,
+   530 round 3). Played on turn 1 or 2 it is a 0-point mood that gives nothing (528 round 1: 0 against 3; 530 round 2: 2 against 7), so it is only good late, which is when the hand
+   is empty (see 1). The player behind in rounds is the one it helps, and that player is also the one who has been drawing a card a round, so the draw
+   helps; the problem is the number of cards, not their timing.
+6. **Elusiveness did its job once and covers only half of B's removal.** In 528 round 3 Shock put it into W's hand instead of the discard pile, as
+   written. It does nothing against B's Pacifism, Panic, Hate or Distrust (suppress, hand and bottom of the deck), so it applies to Vengeance, Shock,
+   Disdain and Indignation only. As a turn-1 play it is a 1 (532 round 1: 1 against 6). The replacement ordering with Grudge was not tested: the two never
+   shared a board (in 528 Grudge was gone before Elusiveness was played).
+7. **Modesty was reliable; Confidence was not.** Modesty gave an extra play in all three games it was played (527 round 1, 529 round 1, 530 round 3) and W won all
+   three rounds. Confidence's extra play needs a 4 to 6 card, and the deck has two (Reverence, Largesse), so it was used once in three plays (530
+   round 1, for Reverence) and twice passed with the grant unused (527 round 2, 529 round 4). Familiarity (527 round 3) and Affinity (531 round 5, a grant with no card left to use it) worked.
+8. **Orderliness was the strongest numbers card, and the bot misplayed it.** In 532 it added +3 on round 4 (Elusiveness, Equanimity and Humility each +1) and, with Humility,
+   made 10 and 14. In 527 round 3 the bot chose "odd" with Modesty, Confidence and Familiarity (all 2) in play; "even" would have made
+   11 instead of 8 and a win over B's 8. The log shows the choice came from the bot's generic resolver, not an evaluation. Orderliness (even) also undoes Reassurance: it raises a 2 to 3, and Reassurance only
+   protects moods with a value of 2 or less (529 round 2: B's Pacifism chose Reassurance, which was then a 3).
+9. **Levelheadedness and Rudeness are still untested.** Rudeness was never drawn in six games (it stayed in the deck every time). Levelheadedness was drawn in three games
+   and never played: it was discarded to Suspicion in 532 round 2 (a choice) and in 530 round 5 (the only card in hand), and it sat in the hand when game 528 ended. Fairness, Solidarity and Discernment were also not played (Discernment was given away to Compulsion in 529 round 1). The two swing cards need a game built to
+   draw them, for example a shorter list or stacked hands.
+10. **Compassion moved the first turn once and did not change a result.** In 530 round 3 W won, but with six moods against B's three it lost first player
+    to B in round 4 (the override is recorded in the log). It gives the first turn to the smaller board, which is the opposite of what an
+    extra-play deck wants. In 529 it never changed the order.
+11. **W's printed values are low.** The deck averages 2.05 a card (E1b 2.3, B about 2.65), so it needs Orderliness and Humility boosts to compete: it scored 5.4 a round
+    against B's 7.0. When both boosts were in play (532 rounds 3 and 4) W scored 10 and 14, so the build-around works but needs a board of three or four moods.
+
+### Questions for the testers
+
+- Game 528 round 1 (Grudge) and game 532 round 1 (Elusiveness): were these deliberate tests of the card on turn 1, or the best opening you had?
+- Game 532 round 2: why was Levelheadedness the card to discard to Suspicion? How does it read in hand, and when would you play it?
+- Games 530 and 532: did you see a moment to play Levelheadedness (every mood scores 2: W had more moods than B in 530 round 5)?
+- Does Grudge feel too slow because of the empty hand, or too weak because it is a 0? What would make the late turn worth it (fewer cards, a loot, a different count)?
+- Confidence: is "a 4, 5 or 6 in its top right corner" understood? The deck has only two such cards; would you want more of them in W?
+- Orderliness: did the odd/even choice read clearly (printed number against current value)? Did Reassurance and Orderliness feel like they work against each other?
+- Fun and clarity for Grudge and Elusiveness, and for the W deck as a whole.
+
+### Game logs
+
+**Game 527.** B (P1, seat 0) against W (bot, seat 1); B went first. B won 3 to 2.
+- Scores: B 3, W 7; B 8, W 4; B 8, W 8; B 8, W 11; B 9, W 6.
+- Longest turn: 2 plays (W in rounds 1, 3 and 4: Modesty then Temperance, Familiarity then Orderliness, Grudge then Reverence).
+- Hands: W had an empty hand from round 4 (the second Grudge play was unused in rounds 4 and 5).
+- Decided: round 3 (bot chose "odd" for Orderliness, 8 against 8) and round 5 (Pacifism on Reverence).
+
+**Game 528.** W (P1, seat 0) against B (second tester, seat 1); W went first. B won 3 to 0.
+- Scores: W 0, B 3; W 1, B 6; W 5, B 8.
+- Decided: Grudge as a first play (0 points), Vengeance sending it to the bottom of the deck, Shock returning Elusiveness to the hand.
+
+**Game 529.** B (P1, seat 0) against W (second tester, seat 1); W went first. B won 3 to 2.
+- Scores: B 3, W 5; B 4, W 5; B 10, W 8; B 12, W 8; B 12, W 10.
+- Longest turn: 2 plays (W in round 1: Modesty then Orderliness).
+- Decided: Resolve as a 6 for B in round 3, Shock on Modesty, Indignation on Compassion in round 5 (12 against 10).
+
+**Game 530.** W (P1, seat 0) against B (second tester, seat 1); W went first. B won 3 to 2.
+- Scores: W 2, B 1; W 2, B 7; W 7, B 4; W 5, B 7; W 5, B 10.
+- Longest turn: 3 plays (W in round 3: Modesty, Pacifism, Compassion).
+- Hands: W had an empty hand in rounds 4 and 5 (two unused Grudge plays in round 5).
+- Decided: Determination as a 6 in rounds 2, 4 and 5; Vengeance on Compassion and Suspicion on the last card in hand.
+
+**Game 531.** B (P1, seat 0) against W (second tester, seat 1); B went first. B won 3 to 2.
+- Scores: B 0, W 1; B 1, W 1; B 7, W 4; B 10, W 4; B 13, W 8.
+- Longest turn: 2 plays (W in rounds 4 and 5, from Grudge; the second Grudge play was unused in round 5).
+- Decided: W's Pacifism on Temperance in round 1; Determination as a 6 for B from round 3; W's empty hand in round 5.
+
+**Game 532.** W (P1, seat 0) against B (second tester, seat 1); W went first. B won 3 to 1.
+- Scores: W 1, B 6; W 5, B 6; W 10, B 9; W 14, B 15.
+- Longest turn: 1 play every turn.
+- Decided: round 4 by one point (14 against 15, Determination as a 6).
+
+### Notes by card (W against B)
+
+| Card | What the games showed |
+|---|---|
+| Grudge | Extra plays as written (4 used of 11 granted; the rest wasted with an empty hand). Bottom-of-deck replacement worked (528). 0 points on turn 1. |
+| Elusiveness | Returned to hand by Shock (528). Does not cover Pacifism, Panic, Hate, Distrust. 1 point as a first play (532). |
+| Levelheadedness | Not played (discarded twice, held once). |
+| Rudeness | Never drawn. |
+| Modesty | Extra play in 3 of 3 games; all three rounds won. |
+| Confidence | 1 of 3 plays used the extra play (two had no 4 to 6 card). |
+| Familiarity, Affinity | Worked (527 round 3; 531 round 5, no card left). |
+| Orderliness | +3 (532); bot chose "odd" with all 2s (527 round 3). With Reassurance: raises 2 to 3. |
+| Humility | +1 on 0 to 2 moods (532 rounds 2 to 4). |
+| Equanimity | Never a 6 (needs four even moods); 3 points in 531 and 532. |
+| Reverence | 5 once (527 round 4); suppressed by Pacifism in the other three plays. |
+| Reassurance | Chosen by Pacifism when Orderliness (even) made it a 3 (529). |
+| Compassion | Flipped the first player once (530 round 4); no effect on a result. |
+| Temperance | 5 points in 527 round 1 (W had fewer cards in hand); discarded by Disdain. |
+| Largesse | 5 points twice (528, 529); gives B a card. |
+| Fairness, Solidarity, Discernment | Not played. |
