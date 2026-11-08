@@ -17,7 +17,7 @@ or the starting hands, so those are not assessed here.
 |---|---|
 | Result | **B won all 6 games (6 to 0) and 18 of the 19 rounds.** E1 won one round (game 498, round 1). |
 | Both testers lost with E1 | Each tester lost all three of their E1 games, and each won all three of their B games, so this is the decks, not the pilot. |
-| Game length | 3 rounds in five games, 4 in one. Three rounds is the shortest possible game to 3 round wins. 5 to 21 minutes per game. |
+| Game length | 3 rounds in five games, 4 in one. Three rounds is the shortest possible game to 3 round wins. |
 | Round scores, E1 | round 1: 2.2 on average; round 2: 4.5; round 3: 5.5 (6 games). |
 | Round scores, B | round 1: 3.0; round 2: 5.8; round 3: 8.7 (about one 3 per round, stacking: 3, 6, 9). |
 | Plays per game | E1 4.7, B 3.3. E1 used 11 extra plays in total (none in game 494); the most plays in one turn was 4 (game 497, round 1). |
@@ -141,7 +141,6 @@ have it). The logs show every mood played, the cards moved and drawn by each eff
 | Result | The tester who was seat 0 (P1) won both games: 3 to 0 in rounds in game 500, 3 to 2 in game 501 (5 rounds, the longest game so far). |
 | Scores | Game 500: 5 to 2, 5 to 2, 10 to 7. Game 501: 0 to 2, 5 to 7, 12 to 7, 12 to 7, 12 to 12. |
 | Biggest turn | **10 plays in one turn** (game 500, round 1, from the opening hand). |
-| Time | 18 and 11 minutes. |
 
 ### Insights
 
@@ -224,7 +223,6 @@ which deck is stronger: P1 won with B (502, 504) and with E2 (503, 505).
 | Round scores, E2 played by P1 | Game 503: 0, 6, 12, 22, 36. Game 505: 6, 3, 0, 14, 23. |
 | Round scores, B played by the bot | Game 503: 3, 6, 9, 15, 18. Game 505: 3, 6, 7, 12, 17. |
 | Game length | 5 rounds in three games, 3 in one. Both E2 wins came on the fifth round. |
-| Time | 10 to 12 minutes, except game 505: 53 minutes, about 39 of them on E2's side. |
 
 ### Insights
 
@@ -255,8 +253,6 @@ which deck is stronger: P1 won with B (502, 504) and with E2 (503, 505).
 
 ### Questions for the testers
 
-- Game 505 took 53 minutes, 39 of them on E2's side. Was that a break, or is the pile loop too heavy to play (many choices per turn,
-  Wastefulness's prompt every turn)?
 - Game 505, round 3: was the Reinvigoration reset deliberate, to switch on Resilience?
 - Game 504: what kept E2's hand (Resilience, Reinvigoration, Possessiveness, Perseverance, Contentment) from being played?
 - Fun and clarity for Carelessness, Resilience, Thrift and Reinvigoration.
@@ -304,7 +300,7 @@ which deck is stronger: P1 won with B (502, 504) and with E2 (503, 505).
 
 **Source.** The simulator exports of games 506 to 511 (7 November). The first tester (P1) played in all six: E2 in 506, 508 and 510,
 E1 in 507, 509 and 511. The other seat was a practice bot in 506 (E1), 507 (E2), 508 (E1) and 511 (E2), and the second tester in 509
-(E2) and 510 (E1). Game 508 stayed open overnight (it shows 9.7 hours of "active" time), so its times are not used.
+(E2) and 510 (E1).
 
 ### Summary
 
@@ -550,7 +546,6 @@ version (value 0, plays kept only while you still have it), though it did not co
 | Scores by round, seat 0 | 516: 3, 8, 13, 16. 517: 3, 11, 12, 12, 14. 518: 9, 9, 12. |
 | Scores by round, seat 1 | 516: 5, 7, 10, 15. 517: 5, 7, 12, 17, 17. 518: 2, 7, 10. |
 | Biggest turn | 4 plays (game 518 round 1: Overconfidence, Detachment, Levity, Familiarity), scoring 9 against 2. |
-| Time | 15, 38 and 119 minutes (game 518: about 100 minutes of thinking on the first player's side). |
 
 ### Insights
 
@@ -577,8 +572,7 @@ version (value 0, plays kept only while you still have it), though it did not co
 
 ### Questions for the testers
 
-- Game 518: P1's side used about 100 minutes of thinking time. Where did it go, and was the Overconfidence line in round 1 a close
-  decision?
+- Game 518: was the Overconfidence line in round 1 a close decision?
 - Do the red and black gates (Impatience, Resentment) feel stuck in E1b, as the logs suggest?
 - Fun and clarity for the free-play chains and Compulsion.
 
@@ -624,7 +618,6 @@ deck (Fulfillment, Vitality, Maturity, Kinship, Vindication, Perseverance, Urgen
 | Scores by round, G | 519: 6, 6, 3, 9, 9. 520: 2, 2, 2. 521: 3, 6, 9, 18, 18. 522: 2, 9, 11, 16. |
 | Scores by round, B | 519: 3, 3, 6, 9, 11. 520: 3, 6, 6. 521: 3, 6, 12, 18, 16. 522: 6, 8, 10, 16. |
 | Plays | Almost every turn was a single play for both decks. G made two plays in a turn twice (519 round 4, 521 round 3). |
-| Time | 11 to 24 minutes per game. |
 
 ### Insights
 
@@ -699,7 +692,7 @@ R is the mono-red deck (Ardor, Verve, Dominance, Exuberance, Adrenaline, Frenzy,
 | Result | **B won 3 of 4** (523, 524, 525, each 3 to 1 in rounds); R won game 526 (3 to 1). |
 | Scores by round, R | 523: 0, 6, 0, 3. 524: 0, 9, 5, 13. 525: 4, 4, 6, 7. 526: 4, 1, 10, 27. |
 | Scores by round, B | 523: 1, 4, 7, 10. 524: 5, 8, 11, 13. 525: 3, 6, 12, 12. 526: 3, 7, 9, 13. |
-| Game length | 4 rounds in every game; 7 to 82 minutes (game 524: about 70 minutes of thinking on R's side). |
+| Game length | 4 rounds in every game. |
 | Biggest turn | **27 points in one round** (game 526 round 4, Ardor with four red moods). |
 
 ### Insights
@@ -719,16 +712,14 @@ R is the mono-red deck (Ardor, Verve, Dominance, Exuberance, Adrenaline, Frenzy,
 5. **FOMO was a trap for the bot, which was the tester's point.** In game 523 R played FOMO in round 1 (discarding Competitiveness as the
    cost), B's Pacifism suppressed it at once (R scored 0), and the bot kept paying: it discarded two more cards in rounds 2 and 3 (Ardor
    and Verve ended in the pile with Competitiveness) before putting FOMO into the discard pile in round 4. So the bot threw away three cards for a value-0
-   mood. The log shows the upkeep trigger still firing while Pacifism was in play, so a suppressed mood keeps its abilities: Pacifism
+   mood. Suppressed moods keep their abilities, so Pacifism
    on FOMO turns a 7 into a pure cost, and a player should drop it immediately. FOMO's value-7 play is untested.
 6. **Frenzy and Impatience gave R a 13 in game 524 round 4** (Frenzy 6 and Impatience 5 with Adrenaline, Belligerence and Covetousness), against B's 13;
    the gate again was a key scoring play.
 
 ### Questions for the testers
 
-- Game 524: about 70 minutes of thinking on R's side; where did it go (the extra-play chains, the targets)?
 - Game 526 round 4: was Ardor held for a four-mood board, or did it come together?
-- Should a suppressed FOMO keep its upkeep? The log suggests it does; if that is the intended rule, no change is needed.
 - Fun and clarity for Adrenaline's chains and Ardor.
 
 ### Game logs
