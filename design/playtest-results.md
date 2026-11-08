@@ -609,3 +609,78 @@ version (value 0, plays kept only while you still have it), though it did not co
 | Reverie | A 2-point body in all three games. |
 | Rashness, Remorse | Two zeros that added nothing to a 12-point board (517 round 4). |
 | Temperance | Not seen. |
+
+## Session 2a: G Green anthems against B Baseline (4 games)
+
+**Source.** The simulator exports of games 519 to 522 (8 November). The first tester (P1) played B in 519 and 521 and G in 520 and 522. The other
+seat was a practice bot (G) in 519 and the second tester in the other three games (B in 520 and 522, G in 521). G is the mono-green anthem
+deck (Fulfillment, Vitality, Maturity, Kinship, Vindication, Perseverance, Urgency and the 3-to-6 cards).
+
+### Summary
+
+| | |
+|---|---|
+| Result | The games split 2 to 2: B won 519 (3 to 2 in rounds, against the bot on G) and 520 (3 to 0); G won 521 (3 to 2) and 522 (3 to 1). |
+| Scores by round, G | 519: 6, 6, 3, 9, 9. 520: 2, 2, 2. 521: 3, 6, 9, 18, 18. 522: 2, 9, 11, 16. |
+| Scores by round, B | 519: 3, 3, 6, 9, 11. 520: 3, 6, 6. 521: 3, 6, 12, 18, 16. 522: 6, 8, 10, 16. |
+| Plays | Almost every turn was a single play for both decks. G made two plays in a turn twice (519 round 4, 521 round 3). |
+| Time | 11 to 24 minutes per game. |
+
+### Insights
+
+1. **G is a slow, board-dependent deck, and B's cheap tempo cards keep a one-mood board in check.** In game 520 G scored 2, 2 and 2: B's
+   Panic bounced its only mood, Hate put it on the bottom of the deck, and each round G was back to one mood. G finished that game
+   with five cards in hand (Carelessness, Determination, Gratitude, Nostalgia, Possessiveness), all of them conditionals that need a
+   board or a pile to do anything. Honesty (6 on turn one) and Vindication scored early in game 519 (6 to 3 and 6 to 3), but Hate, Vengeance
+   and Shock took the board apart from round 3.
+2. **Maturity is strong when it comes down early.** In game 522 round 1 it was a 2, then 4, 6 and 8 (scores 2, 9, 11, 16 with Contentment
+   and Determination). B's Shock (a value of 3 or less) could not reach it once it passed 3, and it took Perseverance instead. In game 520
+   it came down in round 3, after B's removal had already won the game. An unanswered Maturity at round 3 is a 6; at round 4 it is
+   an 8. The notes' worry that opponents may not have time to remove it holds: B had no answer in time.
+3. **Contentment (5) was again the key play in a one-color deck.** G played it in game 522 round 2 (9 to 8), and B's own Largesse gave G the card
+   that round. This repeats the gate pattern from sessions 1d to 1f.
+4. **Fulfillment and Vitality did not appear.** Fulfillment was milled by Carelessness in game 519 round 5 (with Perseverance) and never
+   played, and Vitality was not drawn. The anthem payoffs are untested; this session shows the deck's early game instead.
+5. **Hand attacks hit again.** B's Compulsion (519, 521 and 522) and Suspicion (519 and 521) each took a card from a small green
+   hand. In 521 Suspicion made G discard in round 2, and Nostalgia later returned Honesty from the pile.
+6. **The games were close when G's board survived.** Game 521 went to round 5 (G 18 to 16 on Honesty after B's Pacifism), and game 522 was
+   decided by one point in each of rounds 2 and 3.
+
+### Questions for the testers
+
+- Game 520: G played one mood a round and finished with Nostalgia (a free extra play) and four other cards in hand. Was playing it first
+  considered, and did the single play per round feel forced?
+- Game 522: B's Shock took Perseverance, not Maturity. Was Maturity out of reach by then, and what is the right answer to it?
+- Game 519: was Carelessness a choice with Fulfillment in the deck (it can mill the mythic)?
+- Fun and clarity for the anthems and Maturity's growth.
+
+### Game logs
+
+**Game 519.** B (P1, seat 0) against G (bot, seat 1); G went first. B won 3 to 2.
+- Scores: B 3, G 6; B 3, G 6; B 6, G 3; B 9, G 9; B 11, G 9.
+- Decided: Hate and Vengeance on G's early moods, then Shock on Joy in round 5.
+
+**Game 520.** G (P1, seat 0) against B (second tester, seat 1); B went first. B won 3 to 0.
+- Scores: G 2, B 3; G 2, B 6; G 2, B 6.
+- Decided: Panic and Hate kept G at one mood; G held five cards at the end.
+
+**Game 521.** B (P1, seat 0) against G (second tester, seat 1); G went first. G won 3 to 2.
+- Scores: B 3, G 3; B 6, G 6; B 12, G 9; B 18, G 18; B 16, G 18.
+- Longest turn: 2 plays (G round 3: Nostalgia and Joy).
+- Decided: Honesty in round 5 after B's Pacifism.
+
+**Game 522.** G (P1, seat 0) against B (second tester, seat 1); G went first. G won 3 to 1.
+- Scores: G 2, B 6; G 9, B 8; G 11, B 10; G 16, B 16.
+- Decided: Maturity (2, 4, 6, 8) with Contentment and Determination.
+
+### Notes by card (G against B)
+
+| Card | What the games showed |
+|---|---|
+| Maturity | 2, 4, 6, 8 in game 522 (out of Shock's reach by round 3); played too late in game 520. |
+| Honesty | 6 on turn one (519); replayed from the pile after a Suspicion discard (519 round 4); a 6 again in 521 round 5. |
+| Contentment | A free 5 in a mono-green deck (522). |
+| Vindication, Perseverance | Bounced or bottomed by B's cheap tempo cards before they grew. |
+| Carelessness | Milled Fulfillment and Perseverance (519); used as fuel in 521. |
+| Fulfillment, Vitality | Not played (milled, and not drawn). |
+| Possessiveness, Gratitude, Determination, Nostalgia | Sat in hand in game 520 with no board to support them. |
