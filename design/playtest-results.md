@@ -566,8 +566,8 @@ version (value 0, plays kept only while you still have it), though it did not co
 
 ### Insights
 
-1. **The mirror is close and the gates decide it.** Seven of the games' biggest scoring plays were 5-point gates: Detachment in 518 (5 of
-   the first player's 9 in round 1), Impatience in 516 round 3 (13 to 10), Contentment in 517 round 2 (11 to 7), and in 517 the bot's
+1. **The mirror is close and the gates decide it.** The 5-point gates were the biggest scoring plays in the decisive rounds: Detachment
+   in 518 (5 of the first player's 9 in round 1), Impatience in 516 round 3 (13 to 10), Contentment in 517 round 2 (11 to 7), and in 517 the bot's
    Reverence and Detachment (10 of its 17 points in round 4). In E1b the free-play cards supply every color, so the gates are nearly
    always live, and they are the deck's real scoring. Together with sessions 1d and 1e this is the clearest pattern so far:
    wherever a deck can enable its gates, the gates win close rounds. If win rates later say they are too strong, 4 is the
@@ -584,12 +584,13 @@ version (value 0, plays kept only while you still have it), though it did not co
    9 to 7, because the board did the scoring. The penalty hurts most when the board is small.
 5. **A burst of 0 and 1 value plays does not score.** In 517 round 4 P1 played Rashness and Remorse (value 0 each) and its score
    stayed at 12, while the bot's single Detachment took it from 12 to 17. Extra plays only help if the cards in hand have value.
-6. **Reverie was a body here (2), not an engine,** in all three games. The draw trigger needs a chain, and the mirror hands did not have one.
+6. **Reverie was a body here (2), not an engine,** in all three games: no draw from its trigger appears in the logs, probably because
+   the hands had no chain to trigger it.
 
 ### Questions for the testers
 
-- Game 518: P1 spent about 100 minutes of thinking time, mostly on round 1's four-play turn? Was the Overconfidence line the obvious play or a
-  close decision?
+- Game 518: P1's side used about 100 minutes of thinking time. Where did it go, and was the Overconfidence line in round 1 a close
+  decision?
 - Do the red and black gates (Impatience, Resentment) feel stuck in E1b, as the logs suggest?
 - Fun and clarity for the free-play chains and Compulsion.
 
