@@ -165,7 +165,7 @@ Name E1b Free-play cycle with bodies
 | 3 | E2 against B | 3, swapping seats | How many plays Reinvigoration gives, whether the discard pile runs dry, Resilience and Wistfulness together. |
 | 4 | E1 against E2 | 1 or 2 | Which engine is stronger; the game length with two engines. |
 | 5 | E1b against B | 3, swapping seats | Does the free-play cycle win once it has bodies? Compare with E1 (0 to 6, no round won except one): round scores against B's 3, 6, 9, and the largest burst. |
-| 6 | E1b mirror | 1 | How fast two decks with bodies snowball; whether tiebreaks (first player) decide games. |
+| 6 | E1b mirror | 1 | How fast two decks with bodies snowball; how the free-play chains and the gates compare. |
 
 ## Session 2: scaling and anthems
 
