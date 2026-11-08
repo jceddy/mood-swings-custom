@@ -721,8 +721,8 @@ R is the mono-red deck (Ardor, Verve, Dominance, Exuberance, Adrenaline, Frenzy,
    and Verve ended in the pile with Competitiveness) before putting FOMO into the discard pile in round 4. So the bot threw away three cards for a value-0
    mood. The log shows the upkeep trigger still firing while Pacifism was in play, so a suppressed mood keeps its abilities: Pacifism
    on FOMO turns a 7 into a pure cost, and a player should drop it immediately. FOMO's value-7 play is untested.
-6. **Frenzy and Impatience gave R a 13 in game 524 round 4** (Frenzy 6 and Impatience 5 with Adrenaline, Belligerence and Covetousness), tying
-   the round's score at 13; the gate again was a key scoring play.
+6. **Frenzy and Impatience gave R a 13 in game 524 round 4** (Frenzy 6 and Impatience 5 with Adrenaline, Belligerence and Covetousness), against B's 13;
+   the gate again was a key scoring play.
 
 ### Questions for the testers
 
