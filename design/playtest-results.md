@@ -896,11 +896,11 @@ fuel cards); R is the mono-red pile (Ardor, Dominance, Verve, Exuberance, Rashne
 ### Insights
 
 1. **Both decks scale, and the games are decided in rounds 3 to 5.** Round 1 scored 2 to 6 for both sides in every game. By round 5 the long games scored 24 to 40 (534: 40 to 40; 535: 24 to 35), against 9 to 15 in game 537, where R stripped G's board. Earlier sessions topped out at 27. Scaling against scaling
-   made the largest totals so far, and the first two rounds hardly matter: R won 4 of 6 games although the rounds split 13 to 12.
-2. **R's engine is Ardor plus cheap red moods.** Ardor was in play in four games (534 round 3, 535 round 5, 536 round 1, 539 round 3) and R won three of them. Three red moods gave 19 (534 round 3), four gave 22 (536 round 3), and five gave 28 and 40 (534 rounds 4 and 5; Competitiveness, Shock and Verve filled the board). In game 535 round 5 Ardor with four red moods made 35, and
+   made the largest totals so far. The rounds split 13 to 12, but R won 4 of the 6 games.
+2. **R's engine is Ardor plus cheap red moods.** Ardor was in play in four games (534 round 3, 535 round 5, 536 round 1, 539 round 3) and R won three of them. Three red moods gave 19 (534 round 3), four gave 22 (536 round 3) and 28 (534 round 4), and five gave 40 (534 round 5; Competitiveness, Shock and Verve filled the board). In game 535 round 5 Ardor with four red moods made 35, and
    Ardor had been drawn on the round 4 loss: one card swung the game (18 against 21 became 35 against 24). Rashness gave a free play in 535 round 3 (Kinship) and 536 round 1 (Ardor on turn 1: 4 to 3), the first real use of the free-play chain in a game.
 3. **G's engine is Fulfillment plus the 3-to-6 cards, and the 6s come easily.** In 534 round 5 G had Honesty, Determination and Restlessness all at 6 and Fulfillment
-   doubled them: 40 points from five moods (+18 from Fulfillment). In 535 Fulfillment added 6 on round 4 (Resolve) and 6 on round 5 (Restlessness). Honesty was a 6 on turn one in 533, 537 and 534 round 2 (every card in hand shared the mood's color), so G wins the first round when it opens with it (6 against 3 and 6 against 2). The shared weakness is the same as in session 2a: G's
+   doubled them: 40 points from five moods (+18 from Fulfillment). In 535 Fulfillment added 6 on round 4 (Resolve) and 6 on round 5 (Restlessness). Honesty was a 6 on turn one in 533 and 537 (and in 534 round 2), because every card in hand shared the mood's color, so G won the first round when it opened with it (6 against 3 and 6 against 2). The shared weakness is the same as in session 2a: G's
    moods are exposed at 3 (Shock hits 3 or less) and safe at 6.
 4. **R's removal beat G in game 537, and Dominance did the work.** Dominance (the red mythic) removed Kinship (round 2) and Perseverance (round 3) for free when
    Ruthlessness and Exuberance were played, and Shock removed Urgency (round 5). G ended with two moods (Honesty and Restlessness) and scored 6, 6, 6, 9, 9. Shock also removed Joy in 534 round 4 (G 18 against 28). G's
@@ -911,7 +911,7 @@ fuel cards); R is the mono-red pile (Ardor, Dominance, Verve, Exuberance, Rashne
    Whether the anthems are too slow (a 1 and a 2 that need turns) or just outcompeted by the 3-to-6 cards needs the testers' view.
 7. **Compulsion gave R G's best card once.** In 535 round 1 R took Kinship from G's hand (G chose to give it), and played it in round 3 for +3 on three red moods: R 13 against G's 11, a round decided by a card from G's own deck. In 533 and 539 G gave Wastefulness, the weakest card in its hand, so Compulsion costs a G player little unless it
    has nothing to give.
-8. **Resolve, Vindication and Urgency worked as comeback and tempo cards.** Resolve was a 6 for the player behind in rounds (534 round 4, 535 rounds 2 and 4, 539 round 2). Vindication was a 6 after two round wins (533 round 3, 539 round 4). Urgency needs two plays in a turn, and made a 6 only once (536 round 2, with Nostalgia); alone it was a 3 that Shock or Dominance took (534, 537).
+8. **Resolve, Vindication and Urgency worked as comeback and tempo cards.** Resolve was a 6 for the player behind in rounds (535 rounds 2 and 4, 539 round 2). Vindication was a 6 after two round wins (533 round 3, 539 round 4). Urgency needs two plays in a turn, and made a 6 only once (536 round 2, with Nostalgia); alone it was a 3, and Shock took it in 537 round 5.
 9. **Frenzy and Hellbent barely mattered.** Frenzy was a 6 on turn one in 539 (6 to 2) and then discarded as written. Hellbent never reached 7 (R held cards in every game it was played). Covetousness was never played (it found nothing at 1 or less to take).
 
 ### Questions for the testers
