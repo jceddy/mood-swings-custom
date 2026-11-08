@@ -21,14 +21,13 @@ or the starting hands, so those are not assessed here.
 | Round scores, E1 | round 1: 2.2 on average; round 2: 4.5; round 3: 5.5 (6 games). |
 | Round scores, B | round 1: 3.0; round 2: 5.8; round 3: 8.7 (about one 3 per round, stacking: 3, 6, 9). |
 | Plays per game | E1 4.7, B 3.3. E1 used 11 extra plays in total (none in game 494); the most plays in one turn was 4 (game 497, round 1). |
-| Ties | Three rounds tied (9 to 9, 6 to 6, 3 to 3) and all went to B, who had played first each time (the first player in a round wins ties; that is a game rule). |
 
 ### Deductions
 
 1. **E1 does not break the game; as built it cannot win.** The five free-play commons did their job, but the extra plays have
    nothing valuable to carry. Eight of E1's 20 cards print 0, two print 1, five print 2 and five print 5 (average 1.85), against
    about 2.65 for B before its 3-to-6 conditionals. E1's best turn, four plays (Rashness, Familiarity, Fear, Affinity) in game 497,
-   round 1, scored 3 and tied B's single 3, which B won by playing first. A deck that turns a hand into a board faster but
+   round 1, scored 3 against B's single 3 and lost the round. A deck that turns a hand into a board faster but
    whose board is worth nothing is not an engine problem. The question this session was meant to answer, how strong the
    extra-play engines get when they have bodies, is still open.
 2. **The engines are limited by hand size.** With a 5-card start and one draw per lost round, bursts happen in round 1 (up to
@@ -48,7 +47,7 @@ or the starting hands, so those are not assessed here.
 5. **The baseline is a real opponent.** B scores about one 3 per round and wins in the minimum 3 rounds. Any deck that does
    not reach about 3, 6 and 9 over three rounds loses. That is a useful yardstick: an engine has to beat the curve 3 / 6 / 9.
 6. **No rules or simulator problems appeared.** Plays, grants (Familiarity and Modesty restrictions, Resilience's pile
-   grant), forced choices and tie-breaks all behaved as written. Familiarity came back to hand and was replayed in game 497 (Fear's bounce or Nostalgia's pickup).
+   grant), forced choices all behaved as written. Familiarity came back to hand and was replayed in game 497 (Fear's bounce or Nostalgia's pickup).
 
 ### What I would do next
 
@@ -70,10 +69,10 @@ or the starting hands, so those are not assessed here.
 ### Game logs
 
 **Game 493.** B (seat 0) against E1 (seat 1); E1 went first. B won 3 to 0 in rounds.
-- Scores: round 1: B 3, E1 2; round 2: B 6, E1 4; round 3: B 9, E1 9 (tie, B played first).
+- Scores: round 1: B 3, E1 2; round 2: B 6, E1 4; round 3: B 9, E1 9.
 - Longest turn: 2 plays (E1 round 1: Levity then Reverie; round 2: Modesty then Nostalgia).
 - Hands: E1 ran out of legal plays in round 2 (Resentment stuck in hand, no black mood); B finished with 3 cards.
-- Decided: B's Compulsion took a card from E1 in round 1; round 3 was a tie that B won by playing first. The closest game of the six.
+- Decided: B's Compulsion took a card from E1 in round 1; round 3 ended 9 to 9. The closest game of the six.
 - Unclear text: none seen. Simulator bugs: none.
 
 **Game 494.** E1 (seat 0) against B (seat 1); E1 went first. B won 3 to 0.
@@ -89,17 +88,17 @@ or the starting hands, so those are not assessed here.
 - Decided: B's Impatience (5) in round 3.
 
 **Game 496.** E1 (seat 0) against B (seat 1); E1 went first. B won 3 to 0.
-- Scores: 1 to 3, 6 to 6 (tie, B played first), 2 to 6.
+- Scores: 1 to 3, 6 to 6, 2 to 6.
 - Longest turn: 2 plays (E1 round 3: Rashness, Affinity).
 - Hands: B's Suspicion made E1 discard Reverie in round 2. E1 finished with Detachment and Impatience in hand.
-- Decided: the round 2 tie, then B's Hate bottomed E1's Contentment (5) before round 3.
+- Decided: the 6 to 6 second round, then B's Hate bottomed E1's Contentment (5) before round 3.
 - Question: Impatience was in hand with Rashness in play in round 3 (see above).
 
 **Game 497.** B (seat 0) against E1 (seat 1); B went first. B won 3 to 0.
-- Scores: 3 to 3 (tie, B played first), 5 to 3, 8 to 6.
+- Scores: 3 to 3, 5 to 3, 8 to 6.
 - Longest turn: 4 plays (E1 round 1: Rashness, Familiarity, Fear, Affinity), scoring only 3 after B's Suspicion had made E1 discard.
 - Hands: E1 finished with an empty hand; B with 2 cards.
-- Decided: the round 1 tie. This was E1's best chance: the biggest burst of the session produced a tie.
+- Decided: round 1 (3 to 3). This was E1's best chance: the biggest burst of the session produced only 3 points.
 
 **Game 498.** E1 (seat 0) against B (seat 1); E1 went first. B won 3 to 1, four rounds.
 - Scores: 5 to 3 (E1 won: Remorse then Resentment), 5 to 6, 5 to 9, 7 to 21.
@@ -142,7 +141,6 @@ have it). The logs show every mood played, the cards moved and drawn by each eff
 | Result | The tester who was seat 0 (P1) won both games: 3 to 0 in rounds in game 500, 3 to 2 in game 501 (5 rounds, the longest game so far). |
 | Scores | Game 500: 5 to 2, 5 to 2, 10 to 7. Game 501: 0 to 2, 5 to 7, 12 to 7, 12 to 7, 12 to 12. |
 | Biggest turn | **10 plays in one turn** (game 500, round 1, from the opening hand). |
-| Ties | One: game 501, round 5, 12 to 12, won by the player who played first. |
 | Time | 18 and 11 minutes. |
 
 ### Insights
@@ -175,8 +173,6 @@ have it). The logs show every mood played, the cards moved and drawn by each eff
 7. **The 5-gates decided the close rounds again.** Reverence, Resentment, Detachment and Contentment were the 5-point plays in
    every close round (game 500 round 3; game 501 rounds 2, 3 and 5). The mirror matches two decks of near-identical bodies, so
    the gate you have the color for is what separates the scores.
-8. **Ties are common with low-value decks.** The game 501 round 5 tie (12 to 12) went to P1, who had won round 4 and so played
-   first (the first player in a round wins ties, a game rule). Between two low-value decks, going first is worth about a point.
 
 ### Questions for the testers
 
@@ -195,10 +191,10 @@ have it). The logs show every mood played, the cards moved and drawn by each eff
 - Simulator bugs: none seen.
 
 **Game 501.** P1 (seat 0) against P18 (seat 1); P18 went first. P1 won 3 to 2 in rounds, five rounds.
-- Scores: 0 to 2, 5 to 7, 12 to 7, 12 to 7, 12 to 12 (tie, P1 played first).
+- Scores: 0 to 2, 5 to 7, 12 to 7, 12 to 7, 12 to 12.
 - Longest turn: P18's Reinvigoration in round 4 (5 plays, no change in score).
 - Hands: P1 finished with Nostalgia, P18 with Haunting.
-- Decided: P1's round 3 (12 against 7: Resentment, Detachment, Overconfidence and three 0-value moods) and the round 5 tie.
+- Decided: P1's round 3 (12 against 7: Resentment, Detachment, Overconfidence and three 0-value moods) and round 5 (12 to 12).
 - Simulator bugs: none seen.
 
 ### Notes by card (mirror games)
@@ -228,12 +224,11 @@ which deck is stronger: P1 won with B (502, 504) and with E2 (503, 505).
 | Round scores, E2 played by P1 | Game 503: 0, 6, 12, 22, 36. Game 505: 6, 3, 0, 14, 23. |
 | Round scores, B played by the bot | Game 503: 3, 6, 9, 15, 18. Game 505: 3, 6, 7, 12, 17. |
 | Game length | 5 rounds in three games, 3 in one. Both E2 wins came on the fifth round. |
-| Ties | Two: game 503 round 2 (6 to 6) and game 504 round 1 (3 to 3). Both went to B, who played first. |
 | Time | 10 to 12 minutes, except game 505: 53 minutes, about 39 of them on E2's side. |
 
 ### Insights
 
-1. **E2 is a late-game snowball.** In both wins E2 lost or tied the first rounds, then passed B in round 4: 22 against 15 and 36
+1. **E2 is a late-game snowball.** In both wins E2 trailed in the early rounds, then passed B in round 4: 22 against 15 and 36
    against 18 in game 503, 14 against 12 and 23 against 17 in game 505. B's score grows by about 3 a round (it tops out at 17 or
    18 by round 5), E2's grows by 9 to 14 a round once its board has 6 to 9 moods. The margin was thin: B had two round wins
    in each game, E2 won the last three rounds of game 503, and in game 505 it lost rounds 2 and 3 and won rounds 1, 4 and 5.
@@ -254,9 +249,7 @@ which deck is stronger: P1 won with B (502, 504) and with E2 (503, 505).
 5. **Green has no removal, and B's cheap removal slowed it.** Vengeance removed E2's highest mood in 503 round 1 (0 to 3) and
    in 505 round 2 (Honesty); Disdain, Hate and Shock took a mood each in game 502 rounds 4 and 5 (1 and 3 points against 9 and 11); Panic and
    Hate kept a one-mood board in game 504 (3, 3, 3 against 3, 6, 6). E2 recovers when its pile loop is running, and not before.
-6. **Ties come up often, and the first player wins them (a game rule).** Both ties (game 503 round 2, game 504 round 1) went to B,
-   who played first. A first-turn 3 to 3 decides round 1, so the first player gets a free point.
-7. **A slow start is possible.** In game 504 E2's player finished with Contentment, Perseverance, Possessiveness, Reinvigoration and
+6. **A slow start is possible.** In game 504 E2's player finished with Contentment, Perseverance, Possessiveness, Reinvigoration and
    Resilience in hand and a one-mood board all game. The loop may need a first turn that starts it, and this opening may not
    have had one; the logs cannot say why those cards were not played (see the questions).
 
@@ -277,15 +270,15 @@ which deck is stronger: P1 won with B (502, 504) and with E2 (503, 505).
 - Simulator bugs: none seen.
 
 **Game 503.** E2 (P1, seat 0) against B (bot, seat 1); E2 went first. E2 won 3 to 2.
-- Scores: 0 to 3, 6 to 6 (tie, B), 12 to 9, 22 to 15, 36 to 18.
+- Scores: 0 to 3, 6 to 6, 12 to 9, 22 to 15, 36 to 18.
 - Longest turn: 3 plays (round 5: Thrift, then Vindication and Perseverance from the pile).
 - Hands: E2 finished with 1 card, B with 3.
 - Decided: rounds 4 and 5, once the pile loop and Kinship were running.
 
 **Game 504.** B (P1, seat 0) against E2 (second tester, seat 1); B went first. B won 3 to 0.
-- Scores: 3 to 3 (tie, B), 6 to 3, 6 to 3.
+- Scores: 3 to 3, 6 to 3, 6 to 3.
 - Longest turn: 1 play every round.
-- Decided: the round 1 tie, then Panic and Hate on E2's single mood.
+- Decided: round 1 (3 to 3), then Panic and Hate on E2's single mood.
 - Hands: E2 finished with 5 cards unplayed.
 
 **Game 505.** E2 (P1, seat 0) against B (bot, seat 1); B went first. E2 won 3 to 2.
@@ -317,7 +310,7 @@ E1 in 507, 509 and 511. The other seat was a practice bot in 506 (E1), 507 (E2),
 
 | | |
 |---|---|
-| Result | **E2 won all six games (6 to 0) and 18 of the 20 rounds.** E1 won two rounds: game 506 round 1 (0 to 0, a tie, first player) and game 509 round 1 (4 to 3). |
+| Result | **E2 won all six games (6 to 0) and 18 of the 20 rounds.** E1 won two rounds: game 506 round 1 (0 to 0) and game 509 round 1 (4 to 3). |
 | Every pilot pairing | E2 beat E1 with the practice bot on E2 against a human E1 (507, 511), with a human on E2 against a bot on E1 (506, 508), and with two humans (509, 510). So this is the decks, not the pilots. |
 | Scores by round, E2 | 506: 0, 5, 8, 21. 507: 3, 8, 11. 508: 3, 11, 15. 509: 3, 8, 11, 14. 510: 6, 10, 18. 511: 6, 11, 16. |
 | Scores by round, E1 | 506: 0, 0, 5, 7. 507: 2, 3, 8. 508: 1, 7, 9. 509: 4, 5, 5, 5. 510: 4, 9, 12. 511: 2, 7, 9. |
@@ -350,7 +343,6 @@ E1 in 507, 509 and 511. The other seat was a practice bot in 506 (E1), 507 (E2),
    board but little value.
 6. **Honesty is again a 6 on turn one** (game 510 round 1, 6 to 4). Kinship (+1 for each of your moods that shares a color with
    another) was in E2's biggest turns (games 506, 508, 511).
-7. **One tie** (game 506 round 1, 0 to 0) went to E1, who played first, as the rule says.
 
 ### Questions for the testers
 
@@ -361,7 +353,7 @@ E1 in 507, 509 and 511. The other seat was a practice bot in 506 (E1), 507 (E2),
 ### Game logs
 
 **Game 506.** E2 (P1, seat 0) against E1 (bot, seat 1); E1 went first. E2 won 3 to 1 (four rounds).
-- Scores: 0 to 0 (tie, E1), 5 to 0, 8 to 5, 21 to 7.
+- Scores: 0 to 0, 5 to 0, 8 to 5, 21 to 7.
 - Longest turn: 9 plays (E2, round 4: Restlessness, Kinship, Reinvigoration, then six replays from the pile).
 
 **Game 507.** E1 (P1, seat 0) against E2 (bot, seat 1); E1 went first. E2 won 3 to 0.
@@ -412,7 +404,6 @@ games were played asynchronously over about two days. The only chat lines were o
 | Result | User 8 (white, black, green, plus Desperation and Rashness) won both games, 3 to 0 (game 490) and 3 to 2 (game 499). User 1 played a red deck with black and white. |
 | Pool | 17 commons, 16 uncommons, 10 rares and 5 mythics; by color 11 red, 9 white, 9 blue, 8 black, 8 green and 3 colorless. |
 | Left undrafted | 16 of the 48 cards: 9 commons, 5 uncommons, 2 rares and no mythics. |
-| Ties | Two, both in game 499 (round 2, 5 to 5, and round 4, 10 to 10), each won by the player who played first. |
 
 ### Draft insights
 
@@ -479,7 +470,6 @@ tester (E1b) in 514. The Haunting in these games is the new version (value 0, pl
 | Scores by round, E1b | 512: 3, 8, 10, 7, 7. 514: 3, 6, 6, 11. 515: 0, 22, 14, 9. |
 | Scores by round, B | 512: 3, 6, 9, 10, 13. 514: 3, 4, 13, 13. 515: 6, 6, 7, 8. |
 | Biggest turn | **6 plays scoring 22** (game 515 round 2, after a Haunting turn). |
-| Ties | Two, both round 1 (3 to 3 in 512 and 514), both won by B, who played first. |
 
 ### Insights
 
@@ -505,8 +495,6 @@ tester (E1b) in 514. The Haunting in these games is the new version (value 0, pl
    The baseline's cheap interaction is what keeps a big board in check.
 6. **Overconfidence did not decide anything here.** It was played once (game 512 round 4) and the extra plays were not used, so no
    penalty applied (the turn shows no restriction). E1b then passed in round 5 holding Nostalgia and Impatience.
-7. **Ties again decided round 1.** Both round 1 ties went to B, who played first (the first player wins ties, a game rule). That is
-   eleven ties across the sessions and the draft, so low-value decks often come down to who goes first.
 
 ### Questions for the testers
 
@@ -519,12 +507,12 @@ tester (E1b) in 514. The Haunting in these games is the new version (value 0, pl
 ### Game logs
 
 **Game 512.** E1b (P1, seat 0) against B (bot, seat 1); B went first. B won 3 to 2 in rounds.
-- Scores: 3 to 3 (tie, B), 8 to 6 (E1b), 10 to 9 (E1b), 7 to 10, 7 to 13.
+- Scores: 3 to 3, 8 to 6 (E1b), 10 to 9 (E1b), 7 to 10, 7 to 13.
 - Longest turn: 4 plays (E1b round 2: Contentment, Levity, Fear, Joy).
 - Decided: B's Pacifism in round 4, then E1b passing in round 5.
 
 **Game 514.** B (P1, seat 0) against E1b (second tester, seat 1); B went first. B won 3 to 1.
-- Scores: 3 to 3 (tie, B), 4 to 6 (E1b), 13 to 6, 13 to 11.
+- Scores: 3 to 3, 4 to 6 (E1b), 13 to 6, 13 to 11.
 - Longest turn: 2 plays (B rounds 2 and 3; E1b round 4).
 - Decided: round 3 (Determination at 6, Indignation removing Reminiscence).
 - Hands: E1b finished with 4 cards unplayed.
@@ -546,3 +534,78 @@ tester (E1b) in 514. The Haunting in these games is the new version (value 0, pl
 | Fear, Levity | Part of the four-play turn in 512 (Levity cycled itself for Nostalgia). |
 | Reminiscence | Removed by Indignation (514); returned by Nostalgia and replayed. |
 | Overconfidence | Played once, extras unused, no penalty (512). |
+
+## Session 1f: E1b mirror (3 games)
+
+**Source.** The simulator exports of games 516, 517 and 518 (7 to 8 November): both seats on the E1b list (the E1 rebuild with bodies). The first
+tester (P1) was seat 0 in all three; the other seat was a practice bot in 516 and 517 and the second tester in 518. The Haunting is the new
+version (value 0, plays kept only while you still have it), though it did not come up.
+
+### Summary
+
+| | |
+|---|---|
+| Result | P1 won 516 (3 to 1 in rounds) and 518 (3 to 0); the bot won 517 (3 to 2). |
+| Margins | Close: 516 ended 16 to 15, 517 14 to 17 and 518 12 to 10 in the last round. |
+| Scores by round, seat 0 | 516: 3, 8, 13, 16. 517: 3, 11, 12, 12, 14. 518: 9, 9, 12. |
+| Scores by round, seat 1 | 516: 5, 7, 10, 15. 517: 5, 7, 12, 17, 17. 518: 2, 7, 10. |
+| Biggest turn | 4 plays (game 518 round 1: Overconfidence, Detachment, Levity, Familiarity), scoring 9 against 2. |
+| Time | 15, 38 and 119 minutes (game 518: about 100 minutes of thinking on the first player's side). |
+
+### Insights
+
+1. **The mirror is close and the gates decide it.** The 5-point gates were the biggest scoring plays in the decisive rounds: Detachment
+   in 518 (5 of the first player's 9 in round 1), Impatience in 516 round 3 (13 to 10), Contentment in 517 round 2 (11 to 7), and in 517 the bot's
+   Reverence and Detachment (10 of its 17 points in round 4). In E1b the free-play cards supply every color, so the gates are nearly
+   always live, and they are the deck's real scoring. Together with sessions 1d and 1e this is the clearest pattern so far:
+   wherever a deck can enable its gates, the gates win close rounds. If win rates later say they are too strong, 4 is the
+   fallback.
+2. **Two of the gates are hard to enable in E1b.** Resentment (black) and Impatience (red) each have only two enablers in the deck
+   (Remorse and Haunting; Rashness and Compulsion). They sat in hand at the end of game 517 (Impatience) and game 518 (two Resentments,
+   one of them taken by Compulsion) and were played in 516. White has five enablers and blue four. If E1b is retuned,
+   Temperance (white, never seen in these games) could give way to a red or black 3-value body.
+3. **Compulsion takes the victim's worst card.** The target chooses what to give, so it handed over an unplayable Resentment in game
+   518 and cost the victim little. In 516 both players played Compulsion in round 1 and each took a card from the other. It is a fair
+   3-value body with a small bonus; in session 1e it looked better because it was played from the pile and took a card that
+   fit.
+4. **Overconfidence's trade worked.** In 518 round 1 it gave four plays and 9 points against 2; the forced pass in round 2 still won
+   9 to 7, because the board did the scoring. The penalty hurts most when the board is small.
+5. **A burst of 0 and 1 value plays does not score.** In 517 round 4 P1 played Rashness and Remorse (value 0 each) and its score
+   stayed at 12, while the bot's single Detachment took it from 12 to 17. Extra plays only help if the cards in hand have value.
+6. **Reverie was a body here (2), not an engine,** in all three games: no draw from its trigger appears in the logs, probably because
+   the hands had no chain to trigger it.
+
+### Questions for the testers
+
+- Game 518: P1's side used about 100 minutes of thinking time. Where did it go, and was the Overconfidence line in round 1 a close
+  decision?
+- Do the red and black gates (Impatience, Resentment) feel stuck in E1b, as the logs suggest?
+- Fun and clarity for the free-play chains and Compulsion.
+
+### Game logs
+
+**Game 516.** E1b (P1, seat 0) against E1b (bot, seat 1); P1 went first. P1 won 3 to 1.
+- Scores: 3 to 5, 8 to 7, 13 to 10, 16 to 15.
+- Longest turn: 2 plays (several).
+- Decided: Impatience (5) in round 3, then a one-point final round.
+
+**Game 517.** E1b (P1, seat 0) against E1b (bot, seat 1); P1 went first. The bot won 3 to 2.
+- Scores: 3 to 5, 11 to 7, 12 to 12, 12 to 17, 14 to 17.
+- Decided: the bot's Reverence and Detachment in rounds 3 and 4; P1's round 4 plays (Rashness, Remorse) added nothing.
+
+**Game 518.** E1b (P1, seat 0) against E1b (second tester, seat 1); P1 went first. P1 won 3 to 0.
+- Scores: 9 to 2, 9 to 7, 12 to 10.
+- Longest turn: 4 plays (round 1, 9 points).
+- Hands: the second tester finished with Affinity, Fear and two Resentments in hand.
+
+### Notes by card (E1b mirror)
+
+| Card | What the games showed |
+|---|---|
+| Detachment, Reverence, Contentment, Impatience, Resentment | Detachment, Reverence, Contentment and Impatience were the big plays; Resentment and Impatience also sat stuck in hand. |
+| Overconfidence | Four plays, 9 points, and a forced pass that still won the round (518). |
+| Compulsion | Both players used it in 516; it handed over a dead Resentment in 518. |
+| Joy | Gave Contentment its color (517) and was an extra play for Joy after Levity's draw (518). |
+| Reverie | A 2-point body in all three games. |
+| Rashness, Remorse | Two zeros that added nothing to a 12-point board (517 round 4). |
+| Temperance | Not seen. |
