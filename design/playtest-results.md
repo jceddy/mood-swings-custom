@@ -631,18 +631,18 @@ deck (Fulfillment, Vitality, Maturity, Kinship, Vindication, Perseverance, Urgen
 1. **G is a slow, board-dependent deck, and B's cheap tempo cards keep a one-mood board in check.** In game 520 G scored 2, 2 and 2: B's
    Panic bounced its only mood, Hate put it on the bottom of the deck, and each round G was back to one mood. G finished that game
    with five cards in hand (Carelessness, Determination, Gratitude, Nostalgia, Possessiveness), all of them conditionals that need a
-   board or a pile to do anything. Honesty (6 on turn one) and Vindication scored early in game 519 (6 to 3 and 6 to 3), but Hate, Vengeance
-   and Shock took the board apart from round 3.
+   board or a pile to do anything. Honesty (6 on turn one) carried G to 6 to 3 in rounds 1 and 2 of game 519, but Hate (on Vindication), Vengeance
+   (on Honesty) and Shock (on Joy) took the board apart from round 2.
 2. **Maturity is strong when it comes down early.** In game 522 round 1 it was a 2, then 4, 6 and 8 (scores 2, 9, 11, 16 with Contentment
    and Determination). B's Shock (a value of 3 or less) could not reach it once it passed 3, and it took Perseverance instead. In game 520
-   it came down in round 3, after B's removal had already won the game. An unanswered Maturity at round 3 is a 6; at round 4 it is
-   an 8. The notes' worry that opponents may not have time to remove it holds: B had no answer in time.
+   it came down in round 3, after B had already won two rounds. A Maturity played in round 1 is a 6 in round 3 and an 8 in round 4. The notes' worry that opponents may not have time to remove it holds: B had no answer in time.
 3. **Contentment (5) was again the key play in a one-color deck.** G played it in game 522 round 2 (9 to 8), and B's own Largesse gave G the card
    that round. This repeats the gate pattern from sessions 1d to 1f.
 4. **Fulfillment and Vitality did not appear.** Fulfillment was milled by Carelessness in game 519 round 5 (with Perseverance) and never
    played, and Vitality was not drawn. The anthem payoffs are untested; this session shows the deck's early game instead.
 5. **Hand attacks hit again.** B's Compulsion (519, 521 and 522) and Suspicion (519 and 521) each took a card from a small green
-   hand. In 521 Suspicion made G discard in round 2, and Nostalgia later returned Honesty from the pile.
+   hand. In 519 Suspicion made G discard Honesty in round 4 and Nostalgia returned it; in 521 Suspicion made G discard in round 2 and Nostalgia
+   returned Joy in round 3.
 6. **The games were close when G's board survived.** Game 521 went to round 5 (G 18 to 16 on Honesty after B's Pacifism), and game 522 was
    decided by one point in each of rounds 2 and 3.
 
