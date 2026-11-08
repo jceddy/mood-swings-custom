@@ -973,3 +973,84 @@ fuel cards); R is the mono-red pile (Ardor, Dominance, Verve, Exuberance, Rashne
 | Compulsion | Took Kinship (535, used by R), Wastefulness twice. |
 | Frenzy | A 6 on turn one (539), then discarded as written. |
 | Hellbent, Covetousness | Hellbent never 7; Covetousness never played. |
+
+## Session 2e: G Green anthems against W White numbers (3 games)
+
+**Source.** The simulator exports of games 540 to 542 (8 November). The first tester (P1) played W in 540 and 542 and G in 541. The other seat was a practice bot (G) in 540
+and the second tester in the other two games (W in 541, G in 542). Both decks are the ones from sessions 2a and 2c (W has Grudge and Elusiveness).
+
+### Summary
+
+| | |
+|---|---|
+| Result | **G won 2 of 3**: 540 (3 to 0, G played by the bot) and 541 (3 to 1). W won 542 (3 to 1), its first win in nine games. Rounds: G 7, W 4. |
+| Scores by round, G | 540: 3, 7, 15. 541: 6, 7, 22, 27. 542: 3, 3, 9, 13. |
+| Scores by round, W | 540: 2, 3, 10. 541: 3, 11, 14, 17. 542: 2, 8, 14, 14. |
+| Game length | 3, 4 and 4 rounds. |
+| Biggest turn | **4 plays** (540 round 3, W: Grudge, Elusiveness, Fairness, Largesse; 10 against 15, a loss). W's longest turn so far. |
+
+### Insights
+
+1. **Vitality and Fulfillment worked together the first time they were played.** In 541 G played Vitality in round 2 and Fulfillment in round 3. Vitality adds 2 to each green mood at the start of each of
+   G's turns, which made Honesty 8, and Fulfillment scores each mood worth 6 or more an extra time, so Honesty alone counted 16. G scored 22 in round 3 and 27 in round 4 with only four moods, against W's 14 and 17. Vitality had not been played in any earlier game (Fulfillment had, in 534 and 535), so this is the first
+   evidence for Vitality. The combination (one mood at 6 or more, +2 a turn, doubled) is large for two 1-value cards, and W did not answer it (it never drew Pacifism).
+2. **W's four-play turn lost.** In 540 round 3 Grudge (G had won two rounds) gave two extra plays and Affinity a third, so W played Grudge, Elusiveness, Fairness and Largesse. That is 0, 1, 1 and 5 points, and W's 10 lost to G's 15 (Determination 6, Vindication 6 and Carelessness 3). Largesse also gave G a card.
+   The longest W turn so far was worth 7 points of new moods, because W's extra-play cards are low-value cards; this repeats the E1 and session 2c finding that the engine needs bodies.
+3. **W won once by using Pacifism and Orderliness.** In 542 round 2 W played Affinity, then Pacifism (a 1 matching Affinity, so Affinity's play came back) on G's Resolve, then Orderliness (odd): 8 against 3 in a turn of three plays. Orderliness (odd) raised Affinity, Pacifism and
+   later Temperance (6 with fewer cards in hand), and Pacifism kept Resolve suppressed for the rest of the game, which took G's comeback card out. W scored 14 in rounds 3 and 4 with no cards left in hand.
+4. **W ran out of cards again.** In 542 W had played its last card by round 3 and passed in rounds 3 and 4 (a Grudge extra play was available each time). It won round 4 by 14 to 13 with the board alone. Grudge's extra plays used: 2 of 2 in 540, 1 of 3 in 542 (R2 only), as before.
+5. **G missed a stronger line in 542 round 4 (a question, not a finding).** G held Nostalgia and had Urgency in play. Nostalgia gives an extra play, and two plays in a round make Urgency a 6, so Nostalgia then Vindication would have scored 16 against W's 14
+   instead of Vindication alone at 13, which would have won the round. G also held Optimism and Gratitude.
+6. **Honesty was a 6 on turn one again** (541 round 1: 6 against W's 3). Determination was a 6 in 540 and 542, and Vindication a 6 in 540 round 3.
+7. **Carelessness milled Urgency and Kinship in 540 round 3**, the third game where the milled cards were part of G's plan (535, 536, 540). G won anyway.
+8. **Rudeness was drawn for the first time (541) and not played.** W held it in rounds 3 and 4 and played Discernment and Familiarity instead. Against G it has little to stop: G's extra plays are Joy, Nostalgia and Thrift, and its after-playing effects are Honesty's 6 and Carelessness's mill. Levelheadedness and Solidarity stayed in the deck in all three games. Elusiveness was played once as a 1-point extra play (540) and
+   never needed (G has no discard effects on moods).
+9. **G has no removal, so W's boards stayed intact.** W's 14 in 542 rounds 3 and 4 and its 17 in 541 came from boards of five or six moods. G's answer to a W board is size, while B and R answer a G board by removing its moods.
+
+### Questions for the testers
+
+- Game 542 round 4: did you see the Nostalgia then Vindication line (Urgency as a 6 for 16 against 14)? Or was Nostalgia, Optimism or Gratitude a worse play than it looks?
+- Game 541: you held Rudeness in rounds 3 and 4. How does it read against G, and when would you play it?
+- Game 540 round 3: would a different order of the four plays (Largesse first) have changed anything, or was Largesse giving G a card a cost you considered?
+- Vitality and Fulfillment (541): did 22 and 27 against 14 and 17 feel too strong for a pair of 1-value cards? Does the color prompt at the start of each turn get tedious in a one-color deck?
+- Affinity (542 round 2): did "the first time each turn you play a mood with the same number as another of your moods" read clearly when Pacifism (a 1) set it off after Affinity (a 1)?
+- Fun and clarity for Vitality, Fulfillment, Grudge and the W deck against a deck with no removal.
+
+### Game logs
+
+**Game 540.** W (P1, seat 0) against G (bot, seat 1); W went first. G won 3 to 0.
+- Scores: W 2, G 3; W 3, G 7; W 10, G 15.
+- Longest turn: 4 plays (W in round 3: Grudge, Elusiveness, Fairness, Largesse).
+- Decided: Determination, Vindication and Carelessness (15) against W's four low-value plays.
+
+**Game 541.** G (P1, seat 0) against W (second tester, seat 1); W went first. G won 3 to 1.
+- Scores: G 6, W 3; G 7, W 11; G 22, W 14; G 27, W 17.
+- Longest turn: 2 plays (W in round 2: Confidence, then Reverence).
+- Decided: Vitality and Fulfillment in rounds 3 and 4 (22 and 27). W held Affinity and Rudeness at the end.
+
+**Game 542.** W (P1, seat 0) against G (second tester, seat 1); W went first. W won 3 to 1.
+- Scores: W 2, G 3; W 8, G 3; W 14, G 9; W 14, G 13.
+- Longest turn: 3 plays (W in round 2: Affinity, Pacifism, Orderliness).
+- Hands: W had an empty hand from round 3 (passed in rounds 3 and 4).
+- Decided: Pacifism on Resolve in round 2, Orderliness (odd), and round 4 by 14 against 13.
+
+### Notes by card (G against W)
+
+| Card | What the games showed |
+|---|---|
+| Vitality | +2 a turn to green moods; 22 and 27 with Fulfillment (541). First time played. |
+| Fulfillment | Doubled Honesty at 8 (16): the 22 and 27 rounds. |
+| Honesty | A 6 on turn one (541). |
+| Determination, Vindication | 6 each by round 3 (540, 542). |
+| Resolve | Suppressed by Pacifism for three rounds (542). |
+| Urgency | A 3 (542); a 6 was available with Nostalgia in round 4. |
+| Carelessness | Milled Urgency and Kinship (540). |
+| Nostalgia, Optimism, Gratitude | Held in hand (542). |
+| Grudge | 2 extras used of 2 (540), 1 of 3 (542); the extras need cards. |
+| Affinity | A third play in 540 and 542 (Elusiveness and Pacifism matched). |
+| Orderliness | Odd: +3 in 542 (Affinity, Pacifism, Temperance). |
+| Pacifism | Kept Resolve suppressed (542); the 1 that set off Affinity. |
+| Largesse | 5 points, gave G a card (540). |
+| Rudeness | Drawn once (541), held. |
+| Elusiveness, Fairness | Played as 1-point extras (540), no effect used. |
+| Levelheadedness, Solidarity | Not drawn. |
