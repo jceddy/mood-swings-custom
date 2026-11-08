@@ -875,3 +875,101 @@ Elusiveness in place of Solace and Vigilance, so this is the first session where
 | Temperance | 5 points in 527 round 1 (W had fewer cards in hand); discarded by Disdain. |
 | Largesse | 5 points twice (528, 529); gives B a card. |
 | Fairness, Solidarity, Discernment | Not played. |
+
+## Session 2d: G Green anthems against R Red pile (6 games)
+
+**Source.** The simulator exports of games 533 to 537 and 539 (8 November; game 538 is not in the zip). The first tester (P1) played R in 533, 535 and 537 and G in 534, 536
+and 539. The other seat was a practice bot (G) in 533 and the second tester in the other five games (G in 535 and 537, R in 534, 536 and 539). G is the
+mono-green anthem deck (Fulfillment, Vitality, Maturity, Vindication, Kinship, Honesty, Determination, Resolve, Restlessness, Urgency and the
+fuel cards); R is the mono-red pile (Ardor, Dominance, Verve, Exuberance, Rashness, Frenzy, Shock and the rest).
+
+### Summary
+
+| | |
+|---|---|
+| Result | **R won 4 of 6** (534, 535 and 537 by 3 to 2 in rounds, 536 by 3 to 0); G won 533 (3 to 0, against P1's R, G played by the bot) and 539 (3 to 1). Rounds: R 13, G 12. |
+| Scores by round, G | 533: 6, 9, 15. 534: 3, 15, 18, 18, 40. 535: 3, 9, 11, 21, 24. 536: 3, 9, 11. 537: 6, 6, 6, 9, 9. 539: 2, 8, 12, 20. |
+| Scores by round, R | 533: 3, 7, 12. 534: 3, 10, 19, 28, 40. 535: 3, 6, 13, 18, 35. 536: 4, 12, 22. 537: 2, 5, 11, 13, 15. 539: 6, 3, 7, 15. |
+| Game length | 3 to 5 rounds, 4.2 on average (three games went to five rounds). |
+| Biggest turn | 2 plays (R in 533 round 2, 535 round 3 and 536 round 1; G in 534 round 2 and 536 round 2). **Highest scores so far: 40 for both decks in game 534 round 5**, 35 for R in 535 round 5. |
+
+### Insights
+
+1. **Both decks scale, and the games are decided in rounds 3 to 5.** Round 1 scored 2 to 6 for both sides in every game. By round 5 the long games scored 24 to 40 (534: 40 to 40; 535: 24 to 35), against 9 to 15 in game 537, where R stripped G's board. Earlier sessions topped out at 27. Scaling against scaling
+   made the largest totals so far. The rounds split 13 to 12, but R won 4 of the 6 games.
+2. **R's engine is Ardor plus cheap red moods.** Ardor was in play in four games (534 round 3, 535 round 5, 536 round 1, 539 round 3) and R won three of them. Three red moods gave 19 (534 round 3), four gave 22 (536 round 3) and 28 (534 round 4), and five gave 40 (534 round 5; Competitiveness, Shock and Verve filled the board). In game 535 round 5 Ardor with four red moods made 35, and
+   Ardor had been drawn on the round 4 loss: one card swung the game (18 against 21 became 35 against 24). Rashness gave a free play in 535 round 3 (Kinship) and 536 round 1 (Ardor on turn 1: 4 to 3), the first real use of the free-play chain in a game.
+3. **G's engine is Fulfillment plus the 3-to-6 cards, and the 6s come easily.** In 534 round 5 G had Honesty, Determination and Restlessness all at 6 and Fulfillment
+   doubled them: 40 points from five moods (+18 from Fulfillment). In 535 Fulfillment added 6 on round 4 (Resolve) and 6 on round 5 (Restlessness). Honesty was a 6 on turn one in 533 and 537 (and in 534 round 2), because every card in hand shared the mood's color, so G won the first round when it opened with it (6 against 3 and 6 against 2). The shared weakness is the same as in session 2a: G's
+   moods are exposed at 3 (Shock hits 3 or less) and safe at 6.
+4. **R's removal beat G in game 537, and Dominance did the work.** Dominance (the red mythic) removed Kinship (round 2) and Perseverance (round 3) for free when
+   Ruthlessness and Exuberance were played, and Shock removed Urgency (round 5). G ended with two moods (Honesty and Restlessness) and scored 6, 6, 6, 9, 9. Shock also removed Joy in 534 round 4 (G 18 against 28). G's
+   cheap bodies (Joy 3, Kinship 1, Perseverance 2, Urgency 3) are all in range of Shock and Dominance, as the checklist feared for decks with many small moods.
+5. **The fuel package did not work.** Carelessness milled two of G's own cards in both games it was played, and the cards were the wrong ones: Possessiveness and Determination in 535, Urgency and Maturity in 536. Nostalgia got Urgency back in 536 round 2 (a 6 with the extra play), the one case where
+   the discard pile helped. Possessiveness (6 with five or more cards in the pile) never reached five cards, and Wastefulness was never played: G gave it away to Compulsion twice (533, 539) and held it at the end of 535, 536 and 537. Carelessness cost a card of its own deck and gave back a 3; it did not feel like fuel.
+6. **Vitality and Maturity did not come up.** Neither was played in six games: Vitality sat in the hand at the end of 533 (bot) and 537, and Maturity was milled by Carelessness in 536. Gratitude and Optimism were not played either. G's decks chose cheaper moods that score now.
+   Whether the anthems are too slow (a 1 and a 2 that need turns) or just outcompeted by the 3-to-6 cards needs the testers' view.
+7. **Compulsion gave R G's best card once.** In 535 round 1 R took Kinship from G's hand (G chose to give it), and played it in round 3 for +3 on three red moods: R 13 against G's 11, a round decided by a card from G's own deck. In 533 and 539 G gave Wastefulness, the weakest card in its hand, so Compulsion costs a G player little unless it
+   has nothing to give.
+8. **Resolve, Vindication and Urgency worked as comeback and tempo cards.** Resolve was a 6 for the player behind in rounds (535 rounds 2 and 4, 539 round 2). Vindication was a 6 after two round wins (533 round 3, 539 round 4). Urgency needs two plays in a turn, and made a 6 only once (536 round 2, with Nostalgia); alone it was a 3, and Shock took it in 537 round 5.
+9. **Frenzy and Hellbent barely mattered.** Frenzy was a 6 on turn one in 539 (6 to 2) and then discarded as written. Hellbent never reached 7 (R held cards in every game it was played). Covetousness was never played (it found nothing at 1 or less to take).
+
+### Questions for the testers
+
+- Game 537: G held Vitality (and Wastefulness) for five rounds. Was Vitality unclear, too slow, or just worse than what else you could play? Same question for Maturity, Gratitude and Optimism.
+- Game 539: R held Dominance and Hellbent in the last rounds and played Ardor and Ruthlessness. Why? How did you see Dominance against G?
+- Carelessness: did milling two of your own cards feel like a cost or like fuel? Did the Carelessness, Wastefulness and Possessiveness package feel like a plan, and is Possessiveness (five cards in the pile) ever reachable?
+- Compulsion: when you chose a card to give (Wastefulness in 533 and 539, Kinship in 535), was it the weakest card in hand? Did Kinship feel like a mistake given R's red board?
+- Scores of 20 to 40 appeared for the first time. Does a round of 40 against 40 read as fun and fair, or too swingy?
+- Fun and clarity for Ardor, Dominance, Fulfillment, Honesty and the Rashness chain.
+
+### Game logs
+
+**Game 533.** R (P1, seat 0) against G (bot, seat 1); R went first. G won 3 to 0.
+- Scores: R 3, G 6; R 7, G 9; R 12, G 15.
+- Longest turn: 2 plays (R in round 2: Whimsy, then Hellbent).
+- Decided: Honesty as a 6 on turn one, Vindication as a 6 in round 3. The bot played Thrift in round 2 with an empty discard pile and passed the extra play.
+
+**Game 534.** G (P1, seat 0) against R (second tester, seat 1); G went first. R won 3 to 2.
+- Scores: G 3, R 3; G 15, R 10; G 18, R 19; G 18, R 28; G 40, R 40.
+- Longest turn: 2 plays (G in round 2: Honesty then Determination, from Joy).
+- Decided: Ardor in round 3 (19 against 18), Shock on Joy and Ardor with four red moods in round 4 (28), Fulfillment against five red moods in round 5 (40 each).
+
+**Game 535.** R (P1, seat 0) against G (second tester, seat 1); R went first. R won 3 to 2.
+- Scores: R 3, G 3; R 6, G 9; R 13, G 11; R 18, G 21; R 35, G 24.
+- Longest turn: 2 plays (R in round 3: Rashness, then Kinship).
+- Decided: Kinship, taken from G by Compulsion, in round 3; Ardor drawn in round 4 and played in round 5 (35).
+
+**Game 536.** G (P1, seat 0) against R (second tester, seat 1); R went first. R won 3 to 0.
+- Scores: G 3, R 4; G 9, R 12; G 11, R 22.
+- Longest turn: 2 plays (R in round 1: Rashness then Ardor; G in round 2: Nostalgia then Urgency).
+- Decided: Carelessness milling Urgency and Maturity in round 1; R's four red moods in round 3 (22).
+
+**Game 537.** R (P1, seat 0) against G (second tester, seat 1); G went first. R won 3 to 2.
+- Scores: R 2, G 6; R 5, G 6; R 11, G 6; R 13, G 9; R 15, G 9.
+- Decided: Dominance removing Kinship and Perseverance in rounds 2 and 3, Shock on Urgency in round 5.
+
+**Game 539.** G (P1, seat 0) against R (second tester, seat 1); G went first. G won 3 to 1.
+- Scores: G 2, R 6; G 8, R 3; G 12, R 7; G 20, R 15.
+- Decided: Resolve as a 6 in round 2, Contentment in round 3, Restlessness as a 6 in round 4 (20).
+
+### Notes by card (G against R)
+
+| Card | What the games showed |
+|---|---|
+| Fulfillment | +18 in 534 round 5 (three 6s), +6 in 535 rounds 4 and 5. |
+| Honesty | A 6 on turn one in 533 and 537 and in 534 round 2. |
+| Resolve, Vindication | Comeback 6s (Resolve) and a 6 after two wins (Vindication). |
+| Restlessness, Determination | 6 in the big rounds (534 round 5, 539 round 4). |
+| Urgency | A 6 once (536 round 2); otherwise a 3 that removal took. |
+| Carelessness | Milled Possessiveness and Determination (535) and Urgency and Maturity (536). |
+| Possessiveness, Wastefulness | Never worked: five cards in the pile never happened; Wastefulness given away or held. |
+| Nostalgia | Took Urgency back (536 round 2). |
+| Vitality, Maturity, Gratitude, Optimism | Not played in six games. |
+| Ardor | 19 with three red moods, 22 with four, 28 and 40 with five; 35 in 535. |
+| Dominance | Removed Kinship and Perseverance for free (537). Held in hand in 539. |
+| Rashness | Free play in 535 round 3 and 536 round 1 (Ardor on turn one). |
+| Shock | Joy (534 round 4) and Urgency (537 round 5). |
+| Compulsion | Took Kinship (535, used by R), Wastefulness twice. |
+| Frenzy | A 6 on turn one (539), then discarded as written. |
+| Hellbent, Covetousness | Hellbent never 7; Covetousness never played. |
