@@ -546,3 +546,77 @@ tester (E1b) in 514. The Haunting in these games is the new version (value 0, pl
 | Fear, Levity | Part of the four-play turn in 512 (Levity cycled itself for Nostalgia). |
 | Reminiscence | Removed by Indignation (514); returned by Nostalgia and replayed. |
 | Overconfidence | Played once, extras unused, no penalty (512). |
+
+## Session 1f: E1b mirror (3 games)
+
+**Source.** The simulator exports of games 516, 517 and 518 (7 to 8 November): both seats on the E1b list (the E1 rebuild with bodies). The first
+tester (P1) was seat 0 in all three; the other seat was a practice bot in 516 and 517 and the second tester in 518. The Haunting is the new
+version (value 0, plays kept only while you still have it), though it did not come up.
+
+### Summary
+
+| | |
+|---|---|
+| Result | P1 won 516 (3 to 1 in rounds) and 518 (3 to 0); the bot won 517 (3 to 2). |
+| Margins | Close: 516 ended 16 to 15, 517 14 to 17 and 518 12 to 10 in the last round. |
+| Scores by round, seat 0 | 516: 3, 8, 13, 16. 517: 3, 11, 12, 12, 14. 518: 9, 9, 12. |
+| Scores by round, seat 1 | 516: 5, 7, 10, 15. 517: 5, 7, 12, 17, 17. 518: 2, 7, 10. |
+| Biggest turn | 4 plays (game 518 round 1: Overconfidence, Detachment, Levity, Familiarity), scoring 9 against 2. |
+| Time | 15, 38 and 119 minutes (game 518: about 100 minutes of thinking on the first player's side). |
+
+### Insights
+
+1. **The mirror is close and the gates decide it.** Seven of the games' biggest scoring plays were 5-point gates: Detachment in 518 (5 of
+   the first player's 9 in round 1), Impatience in 516 round 3 (13 to 10), Contentment in 517 round 2 (11 to 7), and in 517 the bot's
+   Reverence and Detachment (10 of its 17 points in round 4). In E1b the free-play cards supply every color, so the gates are nearly
+   always live, and they are the deck's real scoring. Together with sessions 1d and 1e this is the clearest pattern so far:
+   wherever a deck can enable its gates, the gates win close rounds. If win rates later say they are too strong, 4 is the
+   fallback.
+2. **Two of the gates are hard to enable in E1b.** Resentment (black) and Impatience (red) each have only two enablers in the deck
+   (Remorse and Haunting; Rashness and Compulsion). They sat in hand at the end of game 517 (Impatience) and game 518 (two Resentments,
+   one of them taken by Compulsion) and were played in 516. White has five enablers and blue four. If E1b is retuned,
+   Temperance (white, never seen in these games) could give way to a red or black 3-value body.
+3. **Compulsion takes the victim's worst card.** The target chooses what to give, so it handed over an unplayable Resentment in game
+   518 and cost the victim little. In 516 both players played Compulsion in round 1 and each took a card from the other. It is a fair
+   3-value body with a small bonus; in session 1e it looked better because it was played from the pile and took a card that
+   fit.
+4. **Overconfidence's trade worked.** In 518 round 1 it gave four plays and 9 points against 2; the forced pass in round 2 still won
+   9 to 7, because the board did the scoring. The penalty hurts most when the board is small.
+5. **A burst of 0 and 1 value plays does not score.** In 517 round 4 P1 played Rashness and Remorse (value 0 each) and its score
+   stayed at 12, while the bot's single Detachment took it from 12 to 17. Extra plays only help if the cards in hand have value.
+6. **Reverie was a body here (2), not an engine,** in all three games. The draw trigger needs a chain, and the mirror hands did not have one.
+
+### Questions for the testers
+
+- Game 518: P1 spent about 100 minutes of thinking time, mostly on round 1's four-play turn? Was the Overconfidence line the obvious play or a
+  close decision?
+- Do the red and black gates (Impatience, Resentment) feel stuck in E1b, as the logs suggest?
+- Fun and clarity for the free-play chains and Compulsion.
+
+### Game logs
+
+**Game 516.** E1b (P1, seat 0) against E1b (bot, seat 1); P1 went first. P1 won 3 to 1.
+- Scores: 3 to 5, 8 to 7, 13 to 10, 16 to 15.
+- Longest turn: 2 plays (several).
+- Decided: Impatience (5) in round 3, then a one-point final round.
+
+**Game 517.** E1b (P1, seat 0) against E1b (bot, seat 1); P1 went first. The bot won 3 to 2.
+- Scores: 3 to 5, 11 to 7, 12 to 12, 12 to 17, 14 to 17.
+- Decided: the bot's Reverence and Detachment in rounds 3 and 4; P1's round 4 plays (Rashness, Remorse) added nothing.
+
+**Game 518.** E1b (P1, seat 0) against E1b (second tester, seat 1); P1 went first. P1 won 3 to 0.
+- Scores: 9 to 2, 9 to 7, 12 to 10.
+- Longest turn: 4 plays (round 1, 9 points).
+- Hands: the second tester finished with Affinity, Fear and two Resentments in hand.
+
+### Notes by card (E1b mirror)
+
+| Card | What the games showed |
+|---|---|
+| Detachment, Reverence, Contentment, Impatience, Resentment | Detachment, Reverence, Contentment and Impatience were the big plays; Resentment and Impatience also sat stuck in hand. |
+| Overconfidence | Four plays, 9 points, and a forced pass that still won the round (518). |
+| Compulsion | Both players used it in 516; it handed over a dead Resentment in 518. |
+| Joy | Gave Contentment its color (517) and was an extra play for Joy after Levity's draw (518). |
+| Reverie | A 2-point body in all three games. |
+| Rashness, Remorse | Two zeros that added nothing to a 12-point board (517 round 4). |
+| Temperance | Not seen. |
