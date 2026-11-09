@@ -1054,3 +1054,81 @@ and the second tester in the other two games (W in 541, G in 542). Both decks ar
 | Rudeness | Drawn once (541), held. |
 | Elusiveness, Fairness | Played as 1-point extras (540), no effect used. |
 | Levelheadedness, Solidarity | Not drawn. |
+
+## Session 2f: R Red pile against W White numbers (3 games)
+
+**Source.** The simulator exports of games 543 to 545 (8 and 9 November). The first tester (P1) played R in 544 and W in 543 and 545. The other seat was a practice bot (R) in 543 and the second tester in the other two
+games (W in 544, R in 545). The decks are the ones from sessions 2b and 2c (W has Grudge and Elusiveness).
+
+### Summary
+
+| | |
+|---|---|
+| Result | **R won 2 of 3**: 543 (3 to 2, R played by the bot) and 544 (3 to 0). W won 545 (3 to 2). Rounds: R 8, W 5. |
+| Scores by round, R | 543: 3, 6, 16, 21, 21. 544: 2, 10, 16. 545: 7, 7, 1, 4, 7. |
+| Scores by round, W | 543: 5, 6, 6, 12, 15. 544: 1, 3, 11. 545: 6, 7, 9, 11, 11. |
+| Game length | 5, 3 and 5 rounds. |
+| Biggest turn | 3 plays (544 round 1, R: Whimsy, Rashness, Dominance, 2 points because Pacifism suppressed Whimsy; 545 round 1, W: Familiarity, Modesty, Discernment, 6 points). |
+
+### Insights
+
+1. **Levelheadedness was played for the first time and did what it says (543 round 2).** W and R each had three moods. R's moods were worth 10 (Compulsion 3, Confidence 2, Impatience 5) against W's 7, and with every mood scoring 2 both scored 6. It only affects the round it is played, and in round 3 R's Rashness
+   discarded it (a 1) as its first target. It favors the player with more moods, which is why a W deck with extra plays should like it; here the count was level.
+2. **Compulsion handed R one of W's own enablers.** In 543 round 1 W gave Confidence, and R played it in round 2 for a free play of Impatience (a 5): R scored 6 with three moods. Confidence is not tied to W's colors, and R's deck has 4-to-6 cards of its own (Impatience 5, Frenzy 6), so W's free-play cards work as well for R.
+3. **Equanimity became a 6 in two games, with R's red zeros helping.** It counts the even numbers on every player's moods, and R's Rashness, Adrenaline and Competitiveness are 0s. In 543 round 4 it was a 6 (W 12), and in 544 round 3 it was 7 with Orderliness (odd), making 11. Before this it had never reached 6 in the W games (session 2c).
+4. **Dominance was a free removal again (544 round 2).** Exuberance (a 6 with three other red moods) was played, and Dominance put W's Pacifism (a 1) into the discard pile, which also freed the suppressed Whimsy. R scored 10 against 3. This is the second game where Dominance does most of R's removal (537).
+5. **FOMO's 7 was paid for with R's hand (545).** R played Rashness then FOMO on turn one (a 7, with Competitiveness as the cost) and kept it in round 2 by discarding Ruthlessness, scoring 7 and 7 against W's 6 and 7. In round 3 R had no cards left: FOMO went into the discard pile (no card to
+   pay) and R passed with nothing to play, scoring 1 against W's 9. R then drew one card a round and scored 4 and 7. So FOMO won two rounds and left R with an empty hand for the rest of the game, the cost the checklist asked about. Its 7 was fair for those two rounds.
+3b. **Covetousness had its first real uses.** At the start of R's turns in 545 it took W's Elusiveness (round 3) and Fairness (round 5), both worth 1, a swing of 2 each time. It cost W cards that W had paid plays for. The stolen Fairness did not suppress anything for R in the round it was taken.
+6. **Belligerence did not sweep in 545 round 5.** W had four moods of value 2 (Familiarity, Modesty, Discernment, Confidence), and Belligerence would have put all of them into the discard pile (W 11 would have become Temperance's 3 against R's 7). The log shows no choice for it. In the simulator that "you may" is an opt-in checkbox at play time, so the log cannot tell a declined effect
+   from a checkbox that was not ticked. We need the tester to say which it was; if players miss the checkbox, the "may" effects with big payoffs need a clearer prompt.
+7. **W's Rudeness was cycled away, not played.** In 545 round 1 Discernment (the third play of a three-play turn) put Rudeness on the bottom of the deck and drew Elusiveness. Rudeness has now been held or looted away in every game it was drawn (541, 545); it is the card W wants to get rid of.
+8. **W ran out of cards again.** In 543 W passed in rounds 4 and 5 with an empty hand (three Grudge extra plays unused, none used all game) and in 545 round 4. W's wins in 545 came from boards of four or five moods that R could not match once its hand was empty.
+9. **Frenzy was a 6 (544 round 3) and went to the discard pile after scoring, as written.** R's 16 against 11 was Exuberance 6, Frenzy 6 and Whimsy, Rashness, Dominance.
+
+### Questions for the testers
+
+- Game 545 round 5: Belligerence was played with four of W's moods in range. Did you decline the sweep, or did you not see the checkbox? (Both answers are useful.)
+- Game 543 round 1: you gave Confidence to Compulsion. Was it the weakest card in hand, and did you expect R to use it?
+- Game 545 rounds 2 and 3: was keeping FOMO by discarding Ruthlessness worth it in hindsight? Did the 7 feel fair for the cost?
+- Game 543 round 2: how did Levelheadedness read when you played it, and would you have wanted it later (R had more moods than W in rounds 3 to 5)?
+- Covetousness: did taking 1-value moods feel worth a play? Was it clear when the stolen mood's own ability applies?
+- Fun and clarity for Levelheadedness, FOMO, Covetousness, Dominance and Equanimity (counting both players' moods).
+
+### Game logs
+
+**Game 543.** W (P1, seat 0) against R (bot, seat 1); R went first. R won 3 to 2.
+- Scores: W 5, R 3; W 6, R 6; W 6, R 16; W 12, R 21; W 15, R 21.
+- Longest turn: 2 plays (W in round 1: Familiarity, Solidarity; R in rounds 2 and 3).
+- Hands: W had an empty hand in rounds 4 and 5 (three unused Grudge plays).
+- Decided: Rashness and Exuberance in round 3 (16), Ruthlessness and R's seven moods in rounds 4 and 5.
+
+**Game 544.** R (P1, seat 0) against W (second tester, seat 1); R went first. R won 3 to 0.
+- Scores: R 2, W 1; R 10, W 3; R 16, W 11.
+- Longest turn: 3 plays (R in round 1: Whimsy, Rashness, Dominance).
+- Decided: Dominance removing Pacifism in round 2, Exuberance and Frenzy as 6s in round 3.
+
+**Game 545.** W (P1, seat 0) against R (second tester, seat 1); R went first. W won 3 to 2.
+- Scores: W 6, R 7; W 7, R 7; W 9, R 1; W 11, R 4; W 11, R 7.
+- Longest turn: 3 plays (W in round 1: Familiarity, Modesty, Discernment).
+- Hands: R had an empty hand from round 3 (FOMO dropped, one pass).
+- Decided: FOMO's cost (R out of cards), Covetousness on Elusiveness and Fairness, Belligerence played without the sweep in round 5.
+
+### Notes by card (R against W)
+
+| Card | What the games showed |
+|---|---|
+| Levelheadedness | First play (543 round 2): two three-mood boards both scored 6; discarded by Rashness next round. |
+| Compulsion | Took W's Confidence (543); R used it. |
+| Equanimity | A 6 in 543 round 4 and 544 round 3 (R's 0-value moods count). |
+| Dominance | Removed Pacifism for free (544 round 2). |
+| FOMO | 7 and 7 in rounds 1 and 2 (545), then dropped with no card to pay. |
+| Covetousness | Took Elusiveness and Fairness (545). |
+| Belligerence | Played with four targets and no sweep (545 round 5). |
+| Rashness | Extra play every time (544, 545); discarded Levelheadedness (543). |
+| Frenzy | A 6, then discarded after scoring (544). |
+| Rudeness | Looted to the bottom by Discernment (545). |
+| Discernment | Loot in a three-play turn (545 round 1). |
+| Grudge | Three extra plays granted and unused (543). |
+| Pacifism | Suppressed Whimsy until Dominance removed it (544). |
+| Exuberance | A 6 in all three games it was played. |
