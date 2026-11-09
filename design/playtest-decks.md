@@ -1,14 +1,14 @@
 # Play test decks and session log
 
 Companion to `design/playtest-checklist.md` (generated from `design/playtest.yaml`). This file has the test decks for the
-first two sessions and a log template. The per-card ratings (strength, clarity, fun, fallback chosen) go in the **Playtest**
+first three sessions and a log template. The per-card ratings (strength, clarity, fun, fallback chosen) go in the **Playtest**
 sheet of the spreadsheet; the log below is for what happened in each game.
 
 ## Setting up the games
 
 The decks are written in the simulator's decklist format (an optional `About` block with a `Name` line, a blank line, then
 one `count name` line per card). They are meant for a Duel game with a custom decklist per player (`custom_duel`) with the
-user-defined rules: at least 20 cards, no rarity limits and no copy limits. Each deck is 20 cards, one copy of each. If the
+user-defined rules: at least 20 cards, no rarity limits and no copy limits. Each deck is 20 cards, one copy of each (the Power Duel decks of session 3 are 15 cards with a single mythic). If the
 Duel setup in the app differs from this, use whichever custom-deck option lets each player bring their own list.
 
 Two things to keep in mind while playing:
@@ -274,6 +274,169 @@ Name W White numbers
 | 2 | R against B | 2 | Ardor's snowball; whether FOMO is discarded too soon for a 7 to be fair; Rancor and Volatility hitting your own cheap moods. |
 | 3 | W against B | 2 | Levelheadedness (every mood scores 2: who gains?) and Rudeness (one blank turn for every other player) against a combo turn. Grudge gives extra plays equal to the chosen opponent's round wins, so check the burst once B has won a round or two; with Elusiveness on the same board, check the replacement ordering (Grudge sends a mood to the bottom of the deck, Elusiveness to your hand) and who chooses. |
 | 4 | G, R and W against each other | 1 each | Color balance and the axis question (Q5): does each axis feel like a deck? |
+
+## Session 3: Power Duel decks
+
+Power Duel is 15 cards with a single mythic, so these decks are 15 cards each (not the 20 of sessions 1 and 2), one copy of each card, and
+the only mythic is the build-around card. Every card is from the custom set (the reprints count as part of it). They are proposals from a
+first pass over the play test results; none has been played in this form. Red and green are close to tested lists (R and G), white is the
+tested W list trimmed, and blue and black are new, so expect to change them. Set the Duel rules to 15 cards if the app asks for a minimum.
+
+### PW Even numbers (white, Orderliness)
+
+The W list without its extra mythic and its weakest cards (Grudge, Levelheadedness, Largesse, Confidence, Solace). Orderliness (even) with the many
+2s, Humility and Solidarity; Familiarity, Affinity and Modesty chain extra plays; Levity and Discernment add card flow. The risk is still
+running out of cards by round 4.
+
+```
+About
+Name PW Even numbers
+
+1 Orderliness
+1 Solidarity
+1 Humility
+1 Equanimity
+1 Familiarity
+1 Modesty
+1 Affinity
+1 Discernment
+1 Levity
+1 Reassurance
+1 Temperance
+1 Pacifism
+1 Fairness
+1 Reverence
+1 Impartiality
+```
+
+### PU Reverie engine (blue, Reverie)
+
+Untested. Reverie draws a card each time a mood is played while the discard pile has cards, and Reflection fills the pile itself. Rumination returns a
+mood to the hand to replay its after-playing effect. Finishers: Anticipation (6 with four cards in hand), Resignation (6), Detachment (5). Watch for
+deck-outs: Reflection with Reverie takes about one card from the deck per mood played, and a 15-card deck has 10 cards in it after the opening hand.
+
+```
+About
+Name PU Reverie engine
+
+1 Reverie
+1 Reflection
+1 Admiration
+1 Rumination
+1 Fear
+1 Reminiscence
+1 Rapport
+1 Anticipation
+1 Resignation
+1 Impulse
+1 Desperation
+1 Detachment
+1 Elusiveness
+1 Deflection
+1 Panic
+```
+
+### PB Neglect pressure (black, Neglect)
+
+Untested. Suspicion, Nosiness, Dejection and Martyrdom empty the opponent's hand, Neglect then removes their best mood before scoring, and
+Opportunism takes what they discard. Schadenfreude (6 after an opponent discards) and Composure (6 with more cards in hand than each other player)
+are the bodies. Hands were empty by rounds 4 and 5 in earlier games, so this deck should peak late; the risk is a slow start.
+
+```
+About
+Name PB Neglect pressure
+
+1 Neglect
+1 Suspicion
+1 Nosiness
+1 Dejection
+1 Pettiness
+1 Opportunism
+1 Martyrdom
+1 Schadenfreude
+1 Composure
+1 Vengeance
+1 Resentment
+1 Remorse
+1 Hate
+1 Brooding
+1 Longing
+```
+
+### PR Ardor red pile (red, Ardor)
+
+The R list without its other mythics (Dominance, Competitiveness) and its weakest cards (Hellbent, Covetousness, Rancor). Rashness, Adrenaline and Whimsy
+chain red moods; Ardor and Verve pay them off; Frenzy and FOMO are the big single plays. Ardor is under discussion in Q13 (option A: count only the other red moods).
+For a Dominance version, swap Ardor for Dominance.
+
+```
+About
+Name PR Ardor red pile
+
+1 Ardor
+1 Verve
+1 Adrenaline
+1 Rashness
+1 Exuberance
+1 Impatience
+1 Frenzy
+1 FOMO
+1 Whimsy
+1 Shock
+1 Zeal
+1 Compulsion
+1 Vindictiveness
+1 Ruthlessness
+1 Belligerence
+```
+
+### PG Fulfillment anthems (green, Fulfillment)
+
+The G list without the fuel cards (Carelessness, Wastefulness, Possessiveness) that did not work in earlier games. Honesty, Determination, Resolve, Restlessness
+and Urgency are the 6-value moods that Fulfillment doubles, and Vitality adds +2 a turn. For the replay mythic instead, swap Fulfillment for Reinvigoration and
+Vitality, Maturity and Perseverance for Resilience, Possessiveness and Carelessness.
+
+```
+About
+Name PG Fulfillment anthems
+
+1 Fulfillment
+1 Vitality
+1 Maturity
+1 Honesty
+1 Determination
+1 Resolve
+1 Restlessness
+1 Urgency
+1 Vindication
+1 Perseverance
+1 Kinship
+1 Contentment
+1 Joy
+1 Nostalgia
+1 Thrift
+```
+
+### Games to play
+
+Run each deck against each other once (10 pairings), swapping who goes first between games. Add a second game for any pairing that was close or
+unclear. Against the baseline (B) the decks are 20 cards, so use B only for a sanity check of an individual deck.
+
+| # | Decks | Games | What to look for |
+|---|---|---|---|
+| 1 | PW against PU | 1 | Whether blue's draw engine finds cards faster than white's extra plays; whether either runs out of cards. |
+| 2 | PW against PB | 1 | Whether black's hand pressure strips white's small hand before its board comes online. |
+| 3 | PW against PR | 1 | Red removal against white's low-value moods (Shock, Belligerence); white's Pacifism and Fairness against Ardor. |
+| 4 | PW against PG | 1 | The earlier G against W games (G won 2 of 3): does the trimmed deck still win? |
+| 5 | PU against PB | 1 | Whether Reverie has enough discard-pile fuel against a hand-pressure deck (Neglect's discards feed the pile). |
+| 6 | PU against PR | 1 | Whether blue's engine is fast enough against red's early pressure; deck-outs with Reflection. |
+| 7 | PU against PG | 1 | Whether Reverie keeps up with Vitality and Fulfillment. |
+| 8 | PB against PR | 1 | Whether Neglect's round 4 and 5 payoff arrives before red's Ardor (red empties its own hand early). |
+| 9 | PB against PG | 1 | Hand pressure against a deck that plays one mood a turn; Suspicion and Nosiness against Honesty (which reveals the hand). |
+| 10 | PR against PG | 1 | The earlier R against G games (R won 4 of 6) with both decks trimmed to one mythic. |
+
+For every game note the Power Duel setup (15 cards, one mythic, no extra mythics), the result by round, the largest turn, and whether any player
+ran short of cards or decked out.
 
 ## Coverage of the first tier
 
