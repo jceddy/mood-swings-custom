@@ -1336,7 +1336,7 @@ for example, four red moods gave +3 each in game 560 round 3, not +4.
    (561 round 4, Ruthlessness suppressed by Fairness). PW scored 18 and 19 in 560 and 7 and 12 in 561. The "other red moods" change takes one point from each red mood (40 would have been about 35), but the payoff still grows with the square of the red count, and 561's 32 came from only
    three rounds. The change did not stop the snowball once PR had five or more red moods.
 2. **PR's chain, not Ardor alone, builds the red count.** In 561 round 3 PR played Whimsy (revealing Zeal), Zeal, and Ardor (Adrenaline's extra play): three plays and six red moods, 32 against 7. In round 2 it played Compulsion, Levity (stolen from PW by Compulsion) and Shock. Adrenaline, Whimsy and Rashness gave PR two or three plays a turn
-   in 560 and 561; PR made one play a turn in 558 and 562 and lost both.
+   in 560 and 561; PR mostly made one play a turn in 558 and 562 and lost both.
 3. **White has no answer to Ardor.** Suppression keeps abilities (value 0 only), so Pacifism and Impartiality do nothing to Ardor itself; they hit single moods (Exuberance in 560, Compulsion in 561). Fairness suppressed the highest mood each turn and was the best answer: in 562 it held Zeal and then Vindictiveness
    back, and PR scored 2, 5 and 8 in rounds 3 to 5. PW has no discard or bounce effect; a mono-white deck loses to a fast Ardor unless it wins the first three rounds.
 4. **FOMO drained PR's hand again, and PR lost both games it played it (558, 562).** In 562 PR discarded Adrenaline (round 1) and Verve (round 2) to FOMO, a 7 in rounds 1 and 2 (7 and 12 points); in round 3 it had no cards in hand, FOMO went to the discard pile, and PR passed with nothing to play. It scored 2, 5 and 8. In 558
