@@ -1132,3 +1132,91 @@ games (W in 544, R in 545). The decks are the ones from sessions 2b and 2c (W ha
 | Grudge | Three extra plays granted and unused (543). |
 | Pacifism | Suppressed Whimsy until Dominance removed it (544). |
 | Exuberance | A 6 in both games it was played (543 round 3, 544 round 2). |
+
+## Session 3a: PW White even numbers against PU Blue Reverie engine (5 games)
+
+**Source.** The simulator exports of games 546 to 550 (9 November), the first games with the Power Duel decks (15 cards, one mythic; see `design/playtest-decks.md`, session 3). The first
+tester (P1) played PU in 546, 548 and 550 and PW in 547 and 549. The other seat was a practice bot (PW) in 546 and the second tester in the other four games (PW in 548 and 550, PU in 547 and 549).
+PW is the white even-numbers deck with Orderliness as its mythic; PU is the blue Reverie deck.
+
+### Summary
+
+| | |
+|---|---|
+| Result | **PW won 3 of 5** (546 against P1, 548 and 549); PU won 547 and 550. Rounds: PW 11, PU 9. Round scores: 3 to 1 (546), 0 to 3 (547), 3 to 0 (548), 3 to 2 (549), 2 to 3 (550). |
+| Scores by round, PW | 546: 0, 4, 7, 11. 547: 0, 2, 7. 548: 5, 5, 9. 549: 2, 2, 7, 12, 16. 550: 1, 1, 4, 7, 13. |
+| Scores by round, PU | 546: 2, 3, 6, 9. 547: 2, 7, 9. 548: 1, 3, 6. 549: 0, 5, 8, 9, 12. 550: 0, 1, 9, 10, 13. |
+| Game length | 3 to 5 rounds, 4.0 on average (547 and 548 ended 3 to 0 after three rounds). |
+| Biggest turn | 2 plays (both decks; PU played Impulse and a second mood every turn from round 3 in game 550). Highest scores: 16 (PW, 549 round 5) and 13 each (550 round 5). |
+
+### Insights
+
+1. **Neither build-around mythic did anything.** Orderliness stayed in the deck in all five games. Reverie was drawn in three games and never worked: in 547 it was played in round 3 with an empty discard
+   pile (nothing happened, a 2); in 546 it was discarded to Reflection in round 4; in 550 it was put on the bottom of the deck as Resignation's cost in round 3. With one mythic in a 15-card deck, about eight of the 15 cards
+   are seen in a game, so the mythic shows up in about half the games, and both decks won and lost without it. The format needs a deck that works without its mythic, or a way to find it.
+2. **Deflection answered Temperance every time (546, 547, 548).** PW opened with Temperance (a 5 when it holds fewer cards than the opponent) in three games, and PU's Deflection bounced it and locked the name for a turn: 0 against 2 (546, 547) and 5 against 3 (548 round 2). A 2-value bounce that
+   also locks a replay was good against a one-mood board.
+3. **Equanimity counts both boards, so PU's even numbers help PW.** In 546 round 4 PU played Resignation (a 6, even) and PW's Equanimity became a 6 (four even moods): PW scored 11 against 9. PU's Deflection, Fear, Impulse, Reverie and Resignation are all even.
+   Equanimity was part of PW's best turns in 546 and 548.
+4. **Impartiality (odd) is strong against PU.** In 549 round 1 it suppressed Rumination (1) and Desperation (3), the two moods PU had just played with two plays: 2 against 0. Most of PU's cards print an odd number (1s and 3s). In 550 PW held Impartiality for the last two rounds (it was drawn after round 3) while PU's board
+   had three odd moods (Panic 1, Elusiveness 1, Reminiscence 3).
+5. **Rumination was declined every time it was offered (six prompts in 548 and 549).** Its start-of-turn choice is a bounce of your own mood, so with Panic or Deflection it could re-buy a bounce every turn without spending a card. No game used it. PU's low-value openers also cost tempo (548 round 1: Rumination 1 against PW's 5).
+6. **PU's one strong line was Panic on its own board and Impulse (550).** After Pacifism suppressed Resignation (0 against 1 in round 1), PU played Panic on Resignation and on PW's Equanimity, which freed Resignation from the suppression and replayed it next to Impulse in round 3: 9 against 4. From then on
+   Impulse (which returns to hand after scoring) gave PU two plays a turn and 2 points a round with no card cost; PU scored 9, 10 and 13 against PW's 4, 7 and 13 and won the game.
+7. **Scores were low (a round 5 of 12 to 16) compared with the 20-card decks (24 to 40).** Neither deck got its scaling card, and 15-card games ended in three rounds twice. The games looked like ordinary decks, not engines.
+8. **Fairness was never played again** (held at the end of 547 and 549), and PW's Affinity was held in three games (546, 547, 550). W's utility cards sit in hand when the board is small.
+
+### Questions for the testers
+
+- Game 548 (and 549): Rumination was declined every turn. Did you see a use for it (re-buying Panic or Deflection each turn), or did the prompt not read as a bounce of your own mood?
+- Game 547 round 3 and game 550 round 3: Reverie was played with an empty pile and then put on the bottom as a cost. Was Reverie hard to use, or was it just the least useful card in hand? Game 546: why discard it to Reflection?
+- Game 547 round 3: after Modesty, PW played Temperance (3) with Solidarity in hand. Solidarity would have been a 6 (four other 2s: Reassurance, Modesty, Deflection, Reverie), 10 against 9. Was that seen, or was Temperance chosen for another reason?
+- Game 550 rounds 4 and 5: PW held Impartiality (odd) with PU's odd moods worth 5 points. Why not play it?
+- Does a 15-card deck with one mythic feel right? Should a Power Duel deck have some way to find its mythic?
+- Fun and clarity for Deflection, Impartiality, Impulse and Equanimity (counting both players' moods).
+
+### Game logs
+
+**Game 546.** PU (P1, seat 0) against PW (bot, seat 1); PW went first. PW won 3 to 1.
+- Scores: PU 2, PW 0; PU 3, PW 4; PU 6, PW 7; PU 9, PW 11.
+- Longest turn: 2 plays (PW in round 2: Familiarity, Discernment).
+- Decided: Deflection on Temperance (round 1), Equanimity as a 6 in round 4 (Resignation's 6 counted), Reverie discarded to Reflection.
+
+**Game 547.** PW (P1, seat 0) against PU (second tester, seat 1); PW went first. PU won 3 to 0.
+- Scores: PW 0, PU 2; PW 2, PU 7; PW 7, PU 9.
+- Longest turn: 2 plays (PW in round 3: Modesty, Temperance).
+- Decided: Deflection on Temperance, Detachment (5) in round 2, Reverie played with an empty pile.
+
+**Game 548.** PU (P1, seat 0) against PW (second tester, seat 1); PU went first. PW won 3 to 0.
+- Scores: PU 1, PW 5; PU 3, PW 5; PU 6, PW 9.
+- Longest turn: 2 plays (PW in round 1: Modesty, Equanimity).
+- Decided: Modesty then Equanimity in round 1; Rumination declined in rounds 2 and 3; PU held four cards at the end.
+
+**Game 549.** PW (P1, seat 0) against PU (second tester, seat 1); PU went first. PW won 3 to 2.
+- Scores: PW 2, PU 0; PW 2, PU 5; PW 7, PU 8; PW 12, PU 9; PW 16, PU 12.
+- Longest turn: 2 plays (PU in round 1: Desperation, Rumination; PW in rounds 3, 4 and 5).
+- Decided: Impartiality (odd) in round 1, Panic on Reverence in round 2, Modesty then Temperance and Familiarity then Discernment in rounds 4 and 5.
+
+**Game 550.** PU (P1, seat 0) against PW (second tester, seat 1); PU went first. PU won 3 to 2.
+- Scores: PU 0, PW 1; PU 1, PW 1; PU 9, PW 4; PU 10, PW 7; PU 13, PW 13.
+- Longest turn: 2 plays (PU in rounds 3, 4 and 5: Impulse with Resignation, Elusiveness and Reminiscence).
+- Decided: Pacifism on Resignation and Panic on both players' moods in round 2, then Impulse every turn.
+
+### Notes by card (PW against PU)
+
+| Card | What the games showed |
+|---|---|
+| Orderliness | Not drawn in five games. |
+| Reverie | Played once with no pile cards (547); discarded to Reflection (546); put on the bottom as a cost (550). |
+| Deflection | Bounced Temperance in all three games it was played (546, 547, 548). |
+| Equanimity | A 6 in 546 round 4 (Resignation's 6 counted); part of PW's best turns in 546 and 548. |
+| Impartiality | Suppressed Rumination and Desperation (549 round 1); held unused in 550. |
+| Rumination | Declined six times; played as a 1-point mood. |
+| Panic | Bounced both its own suppressed Resignation and PW's Equanimity (550 round 2). |
+| Impulse | Two plays a turn and 2 points a round from round 3 (550). |
+| Resignation | A 6 (546 round 4, 550 rounds 3 to 5); suppressed by Pacifism in 550 round 1. |
+| Detachment | A 5 in 547 round 2 (7 against 2). |
+| Temperance | PW's usual first play: bounced by Deflection three times. |
+| Solidarity | Held in 547 when it would have been a 6; a 4 in 548 round 3. |
+| Fairness, Affinity | Not played (held at the end of 547 and 549). |
+| Reflection | Discarded Fear and Reverie to loot (546). |
