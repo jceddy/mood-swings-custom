@@ -10,8 +10,8 @@ spreadsheet has the same list as the **Playtest** and **Playtest games** sheets,
   the card. Paper also works: proxies can be printed from the Magic Set Editor set file (the new cards have no art, which
   does not matter for testing).
 - Build a few themed decks rather than random piles: one per color axis (white numbers, blue recycling, black hand
-  pressure, red red moods, green pile replay and 6s) plus one colorless gate deck. Ready-made decklists for the first two
-  sessions (extra-play engines, then scaling and anthems), a baseline deck and a game log are in
+  pressure, red red moods, green pile replay and 6s) plus one colorless gate deck. Ready-made decklists for the first three
+  sessions (extra-play engines, scaling and anthems, then five 15-card Power Duel decks), a baseline deck and a game log are in
   `design/playtest-decks.md`.
 - Play some 2-player games and at least one with 3 or 4 players (Hurt Feelings, trailing conditions).
 - For each card that comes up, write down three things: **strength** (too strong, fair, too weak), **clarity** (was the
