@@ -1313,3 +1313,95 @@ bot (PW) in 551 and the second tester in the other five games (PW in 553 and 555
 | Fairness | Suppressed Resentment (556 round 4); a 1 elsewhere. |
 | Equanimity | Held unplayed in 552. |
 | Levity | Kept in play in 555 (no draw), bottomed to draw in 552 and 556. |
+
+## Session 3c: PW White even numbers against PR Ardor red pile (6 games)
+
+**Source.** The simulator exports of games 557 to 562 (9 November), the third Power Duel pairing (15 cards, one mythic). The first tester (P1) played PR in 557, 559 and 561 and PW in 558, 560 and 562. The other seat was a practice
+bot (PW) in 557 and the second tester in the other five games (PW in 559 and 561, PR in 558, 560 and 562). PR is the red Ardor deck; PW is the white even-numbers deck. The round scores in these games match the new Ardor text ("other red moods", Q13):
+for example, four red moods gave +3 each in game 560 round 3, not +4.
+
+### Summary
+
+| | |
+|---|---|
+| Result | **PW won 4 of 6** (557, 558, 559 and 562); PR won 560 and 561. Rounds: PW 15, PR 9. Round scores in the games: 3 to 0 (557, 558), 3 to 1 (559), 2 to 3 (560), 1 to 3 (561), 3 to 2 (562). |
+| Scores by round, PW | 557: 7, 12, 14. 558: 9, 14, 19. 559: 4, 5, 10, 11. 560: 4, 12, 15, 18, 19. 561: 5, 4, 7, 12. 562: 1, 6, 10, 10, 16. |
+| Scores by round, PR | 557: 0, 7, 12. 558: 6, 7, 10. 559: 3, 9, 5, 11. 560: 8, 8, 11, 31, 24. 561: 0, 5, 32, 37. 562: 7, 12, 2, 5, 8. |
+| Game length | 3 to 5 rounds, 4.0 on average. |
+| Biggest turn | 3 plays (PR in 561 rounds 2 and 3; PW in 558 round 1: Familiarity, Modesty, Temperance, 9 against 6). **Highest scores: PR 37 (561 round 4) and 32 (561 round 3), 31 (560 round 4).** |
+
+### Insights
+
+1. **Ardor won both games it appeared in, and the scores are still very large.** It was drawn in two of six games (560, 561) and PR won both. Four red moods gave 11 (560 round 3, with Exuberance suppressed), five gave 31 (560 round 4) and 24 (round 5, suppressed Exuberance), six gave 32 (561 round 3) and seven gave 37
+   (561 round 4, Ruthlessness suppressed by Fairness). PW scored 18 and 19 in 560 and 7 and 12 in 561. The "other red moods" change takes one point from each red mood (40 would have been about 35), but the payoff still grows with the square of the red count, and 561's 32 came from only
+   three rounds. The change did not stop the snowball once PR had five or more red moods.
+2. **PR's chain, not Ardor alone, builds the red count.** In 561 round 3 PR played Whimsy (revealing Zeal), Zeal, and Ardor (Adrenaline's extra play): three plays and six red moods, 32 against 7. In round 2 it played Compulsion, Levity (stolen from PW by Compulsion) and Shock. Adrenaline, Whimsy and Rashness gave PR two or three plays a turn
+   in 560 and 561; PR made one play a turn in 558 and 562 and lost both.
+3. **White has no answer to Ardor.** Suppression keeps abilities (value 0 only), so Pacifism and Impartiality do nothing to Ardor itself; they hit single moods (Exuberance in 560, Compulsion in 561). Fairness suppressed the highest mood each turn and was the best answer: in 562 it held Zeal and then Vindictiveness
+   back, and PR scored 2, 5 and 8 in rounds 3 to 5. PW has no discard or bounce effect; a mono-white deck loses to a fast Ardor unless it wins the first three rounds.
+4. **FOMO drained PR's hand again, and PR lost both games it played it (558, 562).** In 562 PR discarded Adrenaline (round 1) and Verve (round 2) to FOMO, a 7 in rounds 1 and 2 (7 and 12 points); in round 3 it had no cards in hand, FOMO went to the discard pile, and PR passed with nothing to play. It scored 2, 5 and 8. In 558
+   PR discarded Exuberance and then Impatience (a 5) to keep FOMO, and lost 3 to 0. With the 545 game this is three FOMO games and three losses for the deck that played it; in the two PR wins FOMO was not in play. In a 15-card deck its cost is larger.
+5. **PR's turn-one plays were weak.** PR opened with Adrenaline (0) in 557 and 561 and with Verve (1) in 559, and lost round 1 each time (0 against 7, 0 against 5, 3 against 4). PW's chains score 5 to 9 in round 1 (Modesty then Temperance 7; Familiarity, Modesty, Temperance 9). The engine cards are worth little by themselves.
+6. **Compulsion gave PR a free play again (561 round 2).** PW gave Levity, and PR played it to draw and take an extra play: Compulsion, Levity, Shock in one turn. As with Confidence in session 2f, W's free-play cards work for the opponent.
+7. **Orderliness worked when it showed up.** In 558 round 3 (even) PW scored 19 against 10, with Familiarity, Modesty and Humility each +1; in 562 (odd) it raised Affinity and Fairness. It was drawn in two of six games.
+8. **Equanimity counts both boards and PR's 2-value red cards help it.** In 559 round 3 it was a 6 (Discernment, Reassurance, Whimsy and Shock are even): PW 10 against 5. In 559 round 3 PR passed holding Exuberance, which would have been a 6 (11 against 10) with its three red moods.
+
+### Questions for the testers
+
+- Game 559 round 3: PR passed holding Exuberance (a 6 with Verve, Whimsy and Shock out: 11 against PW's 10). Why? Was it a decision or a mis-click?
+- Games 558 and 562: PR discarded Adrenaline, Verve, Exuberance and Impatience to FOMO. Did the 7 feel worth the cards, and did you plan the hand running dry in round 3?
+- Game 561: PW gave Levity to Compulsion. Was it the weakest card in hand, and did you see the free play coming? Which card would you give instead?
+- Game 561 rounds 3 and 4: Ardor with six and seven red moods. Did white have any answer, and what would you want white to have against it?
+- Game 562 rounds 3 and 4: PW passed with Equanimity in hand (it would have been a 6 with four even moods). Why not play it?
+- Ardor at five to seven red moods (31 and 37, after the change to "other"): does it feel too fast, or is it right for a mythic that took three rounds of chaining?
+- Fun and clarity for Ardor, Fairness (suppressing each turn), Orderliness and FOMO in a 15-card deck.
+
+### Game logs
+
+**Game 557.** PR (P1, seat 0) against PW (bot, seat 1); PR went first. PW won 3 to 0.
+- Scores: PR 0, PW 7; PR 7, PW 12; PR 12, PW 14.
+- Longest turn: 2 plays (PW in round 1: Modesty, Temperance; PR in rounds 2 and 3).
+- Decided: Adrenaline as a turn-one 0, Modesty then Temperance (7), Reverence in round 2; Belligerence was played without a sweep.
+
+**Game 558.** PW (P1, seat 0) against PR (second tester, seat 1); PW went first. PW won 3 to 0.
+- Scores: PW 9, PR 6; PW 14, PR 7; PW 19, PR 10.
+- Longest turn: 3 plays (PW in round 1: Familiarity, Modesty, Temperance).
+- Decided: PW's three-play first turn, FOMO's cost (Exuberance, then Impatience), Orderliness (even) in round 3 (19).
+
+**Game 559.** PR (P1, seat 0) against PW (second tester, seat 1); PR went first. PW won 3 to 1.
+- Scores: PR 3, PW 4; PR 9, PW 5; PR 5, PW 10; PR 11, PW 11.
+- Longest turn: 2 plays (both sides).
+- Decided: PR passed in round 3 holding Exuberance; Equanimity as a 6 in round 3; Pacifism on Shock in round 4.
+
+**Game 560.** PW (P1, seat 0) against PR (second tester, seat 1); PW went first. PR won 3 to 2.
+- Scores: PW 4, PR 8; PW 12, PR 8; PW 15, PR 11; PW 18, PR 31; PW 19, PR 24.
+- Longest turn: 2 plays (both sides, rounds 1 and 2).
+- Decided: Ardor and Verve with five red moods (31) in round 4, Impatience in round 5 (24 against 19).
+
+**Game 561.** PR (P1, seat 0) against PW (second tester, seat 1); PR went first. PR won 3 to 1.
+- Scores: PR 0, PW 5; PR 5, PW 4; PR 32, PW 7; PR 37, PW 12.
+- Longest turn: 3 plays (PR in rounds 2 and 3).
+- Decided: Compulsion, Levity and Shock in round 2; Whimsy, Zeal and Ardor with six red moods in round 3 (32 against 7).
+
+**Game 562.** PW (P1, seat 0) against PR (second tester, seat 1); PR went first. PW won 3 to 2.
+- Scores: PW 1, PR 7; PW 6, PR 12; PW 10, PR 2; PW 10, PR 5; PW 16, PR 8.
+- Longest turn: 2 plays (PR in round 2, PW in rounds 2 and 3).
+- Hands: PR's hand was empty in round 3 (FOMO dropped, one pass).
+- Decided: FOMO's cost (Adrenaline, Verve), Fairness suppressing Zeal and Vindictiveness in rounds 3 to 5.
+
+### Notes by card (PW against PR)
+
+| Card | What the games showed |
+|---|---|
+| Ardor | Drawn in 560 and 561, both PR wins: 11 (four red), 31 and 24 (five), 32 (six), 37 (seven). Suppression does not turn it off. |
+| Adrenaline | Free extra play in 561 (Compulsion, Levity, Shock; Whimsy, Zeal, Ardor); a turn-one 0 in 557 and 561. |
+| Whimsy, Rashness | Extra play every time (558 to 562); the chain behind PR's big turns. |
+| FOMO | 7 in rounds 1 and 2 of 562, then dropped with no card to pay; PR lost 558 and 562. |
+| Compulsion | Took PW's Levity and PR used it (561 round 2). |
+| Belligerence | Played without a sweep (557 round 2). |
+| Orderliness | 19 against 10 in 558 round 3 (even); odd in 562. |
+| Fairness | Suppressed Zeal, Zeal and Vindictiveness (562 rounds 3 to 5) and Ruthlessness (561 round 4). |
+| Familiarity, Modesty chains | 9 against 6 (558 round 1), 7 against 0 (557 round 1). |
+| Equanimity | A 6 in 559 round 3; held in 562 rounds 3 and 4. |
+| Pacifism, Impartiality | Hit single moods (Shock, Compulsion, Exuberance); no effect on Ardor. |
+| Exuberance | A 6 in 560 (rounds 2, 4); held while PR passed in 559 round 3. |
