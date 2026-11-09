@@ -1157,14 +1157,14 @@ PW is the white even-numbers deck with Orderliness as its mythic; PU is the blue
 2. **Deflection answered Temperance every time (546, 547, 548).** PW opened with Temperance (a 5 when it holds fewer cards than the opponent) in three games, and PU's Deflection bounced it and locked the name for a turn: 0 against 2 (546, 547) and 5 against 3 (548 round 2). A 2-value bounce that
    also locks a replay was good against a one-mood board.
 3. **Equanimity counts both boards, so PU's even numbers help PW.** In 546 round 4 PU played Resignation (a 6, even) and PW's Equanimity became a 6 (four even moods): PW scored 11 against 9. PU's Deflection, Fear, Impulse, Reverie and Resignation are all even.
-   Equanimity was the biggest PW play in 546, 548 and 550.
-4. **Impartiality (odd) is strong against PU.** In 549 round 1 it suppressed Rumination (1) and Desperation (3), the two moods PU had just played with two plays: 2 against 0. Most of PU's cards print an odd number (1s and 3s). In 550 PW held Impartiality for the last three rounds while PU's board
+   Equanimity was part of PW's best turns in 546 and 548.
+4. **Impartiality (odd) is strong against PU.** In 549 round 1 it suppressed Rumination (1) and Desperation (3), the two moods PU had just played with two plays: 2 against 0. Most of PU's cards print an odd number (1s and 3s). In 550 PW held Impartiality for the last two rounds (it was drawn after round 3) while PU's board
    had three odd moods (Panic 1, Elusiveness 1, Reminiscence 3).
 5. **Rumination was declined every time it was offered (six prompts in 548 and 549).** Its start-of-turn choice is a bounce of your own mood, so with Panic or Deflection it could re-buy a bounce every turn without spending a card. No game used it. PU's low-value openers also cost tempo (548 round 1: Rumination 1 against PW's 5).
 6. **PU's one strong line was Panic on its own board and Impulse (550).** After Pacifism suppressed Resignation (0 against 1 in round 1), PU played Panic on Resignation and on PW's Equanimity, which freed Resignation from the suppression and replayed it next to Impulse in round 3: 9 against 4. From then on
    Impulse (which returns to hand after scoring) gave PU two plays a turn and 2 points a round with no card cost; PU scored 9, 10 and 13 against PW's 4, 7 and 13 and won the game.
 7. **Scores were low (a round 5 of 12 to 16) compared with the 20-card decks (24 to 40).** Neither deck got its scaling card, and 15-card games ended in three rounds twice. The games looked like ordinary decks, not engines.
-8. **Fairness was never played again** (held at the end of 547 and 549), and PW's Affinity was held in four games. W's utility cards sit in hand when the board is small.
+8. **Fairness was never played again** (held at the end of 547 and 549), and PW's Affinity was held in three games (546, 547, 550). W's utility cards sit in hand when the board is small.
 
 ### Questions for the testers
 
@@ -1209,7 +1209,7 @@ PW is the white even-numbers deck with Orderliness as its mythic; PU is the blue
 | Orderliness | Not drawn in five games. |
 | Reverie | Played once with no pile cards (547); discarded to Reflection (546); put on the bottom as a cost (550). |
 | Deflection | Bounced Temperance in all three games it was played (546, 547, 548). |
-| Equanimity | A 6 in 546 round 4 (Resignation's 6 counted); the biggest PW play in three games. |
+| Equanimity | A 6 in 546 round 4 (Resignation's 6 counted); part of PW's best turns in 546 and 548. |
 | Impartiality | Suppressed Rumination and Desperation (549 round 1); held unused in 550. |
 | Rumination | Declined six times; played as a 1-point mood. |
 | Panic | Bounced both its own suppressed Resignation and PW's Equanimity (550 round 2). |
