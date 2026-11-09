@@ -230,8 +230,8 @@ questions:
       3. Grudge (W-M03, mythic, value 0). Evidence: its extra plays went unused because the hand was empty: 7 of the 19 extra plays it
          granted over games 527 to 545 were used, and every unused one came with no cards in hand (W passed or ran out in the later rounds of games 527,
          530, 531, 542 and 543). Played as a first play it is a dead 0 (games 528 and 530). The problem is cards, not the rules: the
-         extra plays need fuel. A plain "draw a card" was considered and rejected because a draw can deck a player out (a draft deck has 12
-         cards), so the variations avoid drawing from the deck.
+         extra plays need fuel. A plain "draw a card" is the simplest fix but a draw can deck a player out (a draft deck has 12
+         cards); it stays on the list as Variation D, with that risk to weigh, and Variations A to C avoid drawing from the deck.
          Current text: After playing this mood — Choose an opponent. While in play — During each of your turns (including the turn you play
          this mood), you may play an additional mood for each round the chosen player has won. While in play — If this mood would leave play,
          put it on the bottom of the deck instead. (Leaving play includes being put into the discard pile or into a player's hand.)
@@ -242,8 +242,11 @@ questions:
            After:  After playing this mood — Choose an opponent. While in play — During each of your turns (including the turn you play this mood), you may play an additional mood for each round the chosen player has won. You may play it from the discard pile. While in play — ... (the rest unchanged)
            Risk: W can play an opponent's removal from the pile (for example B's Shock or Vengeance); test A first.
          Variation C (fixes the dead first play, not the empty hand): raise the printed value from 0 to 2 and leave the text alone.
-         Variations A and C together are the smallest safe package.
-         Rejected: "After playing this mood — Draw a card." (deck-out risk).
+         Variation D (simplest, but with the deck-out risk, which needs a look at how the simulator and the draft decks handle an empty deck): draw a card.
+           After:  After playing this mood — Choose an opponent. Draw a card. While in play — ... (the rest unchanged)
+           Weakness: a deck-out risk, most of all in a 12-card draft deck (Grudge itself goes to the bottom of the deck when it leaves play, which does not
+           change the count). It also needs the simulator to add a draw to an after-playing effect that currently only has a choice.
+         Variations A and C together are the smallest package without the deck-out risk.
          What would change it: a W deck with real card flow (more Discernment-style loots) would not need any of these.
 
       Lower confidence, listed for reference (also in Q9): Vitality +2 to +1 if the Vitality and Fulfillment pair repeats (game 541 scored 22
