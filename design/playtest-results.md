@@ -1220,3 +1220,96 @@ PW is the white even-numbers deck with Orderliness as its mythic; PU is the blue
 | Solidarity | Held in 547 when it would have been a 6; a 4 in 548 round 3. |
 | Fairness, Affinity | Not played (held at the end of 547 and 549). |
 | Reflection | Discarded Fear and Reverie to loot (546). |
+
+## Session 3b: PW White even numbers against PB Black Neglect pressure (6 games)
+
+**Source.** The simulator exports of games 551 to 556 (9 November), the second Power Duel pairing (15 cards, one mythic). The first tester (P1) played PB in 551, 553 and 555 and PW in 552, 554 and 556. The other seat was a practice
+bot (PW) in 551 and the second tester in the other five games (PW in 553 and 555, PB in 552, 554 and 556). PW is the white even-numbers deck (Orderliness); PB is the black hand-pressure deck (Neglect).
+
+### Summary
+
+| | |
+|---|---|
+| Result | **PB won 4 of 6** (552, 554, 555, 556); PW won 551 (against P1, PW played by the bot) and 553, both 3 to 0. Rounds: PB 12, PW 10. |
+| Scores by round, PW | 551: 5, 9, 5. 552: 2, 7, 14, 14. 553: 9, 14, 9. 554: 2, 5, 10. 555: 4, 6, 3, 1, 0. 556: 0, 3, 3, 8. |
+| Scores by round, PB | 551: 2, 5, 5. 552: 5, 10, 12, 16. 553: 1, 4, 6. 554: 5, 10, 13. 555: 3, 5, 7, 9, 15. 556: 0, 6, 9, 9. |
+| Game length | 3 to 5 rounds, 3.7 on average (551, 553 and 554 ended after three rounds). |
+| Biggest turn | 3 plays (553 round 1, PW: Familiarity, Modesty, Humility, 9 against 1; 556 round 3, PW: Modesty, Levity, Fairness, 3 points; PB's biggest was 2 plays). Highest scores: 16 (PB, 552) and 15 (PB, 555 round 5). |
+
+### Insights
+
+1. **Neglect decided the one game where it ran, and the PW player's wins were the reason.** In 555 PW won rounds 1 and 2, so it drew no cards, and its hand was empty by round 3. Neglect (a 2) then removed PW's best mood before scoring in rounds 3, 4 and 5 (Humility, Discernment, Fairness), with Nosiness taking PW's last card in round 4 and
+   Vengeance a mood in round 5: PB won 7 to 3, 9 to 1 and 15 to 0. In 553 it also fired once (round 3, after PW had passed with no cards): it removed Reverence (a 5), but PW still won 9 to 6 with three moods. The round winner draws nothing at the end of the round, so the leader's hand runs dry first and Neglect punishes it; this is the same
+   effect as Hellbent (Q9).
+2. **Neglect ran in only two of six games.** It was discarded as Dejection's cost in 554 (round 1), and stayed in the deck in 551, 552 and 556. In a 15-card deck with one mythic the mythic is seen in about half the games, as in session 3a.
+3. **PB's 5s start fast.** Dejection (a black 5, each player discards a card) and Resentment (colorless 5, needs a black mood) gave PB 10 points by round 2 in 552 and 554 (5 against 2, then 10 against 5 and 7). PW's own gate, Reverence, is the matching play. Dejection is symmetric: PW discarded Impartiality both times, and PB discarded Remorse (552) and its own Neglect (554).
+4. **Hate and Vengeance answered PW's best mood every game.** Hate put Temperance on the bottom of the deck (556 round 1: 0 against 0) and Solidarity (552 round 4: PB won 16 to 14); Vengeance discarded Temperance (551), Solidarity (556) and Pacifism (555). Temperance is PW's usual first play, and it has now been answered in seven games (three by Deflection, session 3a).
+5. **PW's engine works when it draws a starter.** The two PW wins both had Familiarity (551, 553: Familiarity then Discernment, and Familiarity, Modesty, Humility for 9 against 1). In 554 PW drew none of Familiarity, Modesty, Affinity or Levity and played one mood a turn, losing 3 to 0. PW's wins and losses followed the extra-play cards, as in the 20-card games.
+6. **Orderliness was played for the first time (554 round 2, even)** and was a +1 on Reassurance: 5 against 10. It was not enough on its own.
+7. **PB held many cards.** At the end PB held five cards in 553 (including Dejection, a 5, unplayed all game while PB opened with Opportunism, a 1), four in 551, three in 556. PB's own extra play is Remorse (once). It plays one mood a round like PW without the extra-play cards, so its hand grows (Composure
+   became a 6 in 552 and 556) but it does not use it.
+8. **Fairness worked once (556 round 4).** It suppressed Resentment (5) at the start of PW's turn, so PB scored 9 (Composure 6, Vengeance 3, Hate 0) instead of 14, but PW lost 8 to 9 anyway.
+9. **Opportunism took a discard once** (553 round 2: PW's Pacifism went to Suspicion and into PB's hand) and the card was never played.
+
+### Questions for the testers
+
+- Game 554 round 1: PB discarded Neglect (its mythic) to Dejection. Was that the weakest card in hand, or was Neglect hard to see a plan for?
+- Game 553: PB opened with Opportunism (1) and held Dejection all game. Why not Dejection in round 1 (a 5 against PW's 9)?
+- Game 555 round 1: PW kept Levity in play (0, 1 with Humility) instead of bottoming it to draw. Was that a choice? Levity's draw would have kept PW's hand from running dry before Neglect.
+- Game 552: PW held Equanimity from round 1 to round 4 and played other cards. Was it the least useful (it needs four even moods)?
+- Game 556 round 1: PW opened with Temperance again (bottomed by Hate). Is it the best first play, or the default? Would you hold it?
+- Neglect (555): how did it read and play? Choosing the mood to discard, and the opponent's empty hand being a before-scoring condition: clear? Too strong for a 2?
+- Fun and clarity for Dejection, Resentment, Hate, Vengeance and Neglect.
+
+### Game logs
+
+**Game 551.** PB (P1, seat 0) against PW (bot, seat 1); PW went first. PW won 3 to 0.
+- Scores: PB 2, PW 5; PB 5, PW 9; PB 5, PW 5.
+- Longest turn: 2 plays (PW in round 2: Familiarity, Discernment; PB in round 2: Remorse, Schadenfreude).
+- Decided: Temperance as a 5 in round 1, Nosiness on Humility, Pacifism on Schadenfreude and Vengeance on Temperance in round 3.
+
+**Game 552.** PW (P1, seat 0) against PB (second tester, seat 1); PB went first. PB won 3 to 1.
+- Scores: PW 2, PB 5; PW 7, PB 10; PW 14, PB 12; PW 14, PB 16.
+- Longest turn: 2 plays (PW in rounds 2 and 3: Levity then Reverence, Modesty then Solidarity).
+- Decided: Dejection and Resentment (10 by round 2), Hate on Solidarity in round 4 (16 against 14).
+
+**Game 553.** PB (P1, seat 0) against PW (second tester, seat 1); PB went first. PW won 3 to 0.
+- Scores: PB 1, PW 9; PB 4, PW 14; PB 6, PW 9.
+- Longest turn: 3 plays (PW in round 1: Familiarity, Modesty, Humility).
+- Hands: PW had no cards in round 3 (Neglect fired, removing Reverence); PB held five cards at the end.
+- Decided: PW's three-play first turn (9 against 1).
+
+**Game 554.** PW (P1, seat 0) against PB (second tester, seat 1); PB went first. PB won 3 to 0.
+- Scores: PW 2, PB 5; PW 5, PB 10; PW 10, PB 13.
+- Longest turn: 1 play every turn.
+- Decided: Dejection and Resentment again (10 by round 2); PW drew no extra-play card.
+
+**Game 555.** PB (P1, seat 0) against PW (second tester, seat 1); PW went first. PB won 3 to 2.
+- Scores: PB 3, PW 4; PB 5, PW 6; PB 7, PW 3; PB 9, PW 1; PB 15, PW 0.
+- Longest turn: 2 plays (PW in round 1: Levity, Humility).
+- Hands: PW's hand was empty from round 3; Neglect fired in rounds 3, 4 and 5.
+- Decided: Neglect, Nosiness and Vengeance in rounds 3 to 5.
+
+**Game 556.** PW (P1, seat 0) against PB (second tester, seat 1); PW went first. PB won 3 to 1.
+- Scores: PW 0, PB 0; PW 3, PB 6; PW 3, PB 9; PW 8, PB 9.
+- Longest turn: 3 plays (PW in round 3: Modesty, Levity, Fairness).
+- Decided: Hate on Temperance (round 1), Composure as a 6 and Vengeance on Solidarity (round 3), Fairness on Resentment in round 4 (8 against 9).
+
+### Notes by card (PW against PB)
+
+| Card | What the games showed |
+|---|---|
+| Neglect | Fired in rounds 3 to 5 of 555 (removed Humility, Discernment, Fairness) and once in 553 (Reverence); discarded as a cost in 554; not drawn in three games. |
+| Dejection | A 5 on turn one in 552 and 554 (and symmetric: PB discarded Neglect once). Held unplayed in 553. |
+| Resentment | A 5 in round 2 of 552, 554 and 555. |
+| Hate | Bottomed Temperance (556) and Solidarity (552); the 16 to 14 in 552 round 4. |
+| Vengeance | Discarded Temperance, Pacifism and Solidarity (551, 555, 556). |
+| Nosiness | Took Humility (551) and Modesty (555 round 4). |
+| Opportunism | Took a discarded Pacifism (553), never played. |
+| Composure | A 6 in 552 and 556. |
+| Temperance | PW's opener; answered by Hate (556) and Vengeance (551). |
+| Familiarity and Modesty chains | 9 against 1 (553 round 1); absent in 554. |
+| Orderliness | First played (554 round 2, even): +1 on Reassurance. |
+| Fairness | Suppressed Resentment (556 round 4); a 1 elsewhere. |
+| Equanimity | Held unplayed in 552. |
+| Levity | Kept in play in 555 (no draw), bottomed to draw in 552 and 556. |
