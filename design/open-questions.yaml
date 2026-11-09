@@ -197,3 +197,59 @@ questions:
       scoring time, including ones played after the trigger (it first did not, while the group was still discussing it).
       That is the stronger reading: it rewards extra plays and playing into the chosen color. Check it in playtests (see the
       Vitality items in Q9 and the playtest checklist); the fallback is +1 instead of +2.
+  - id: Q13
+    status: open
+    question: Should Ardor, Possessiveness and Grudge change after the first round of play tests (sessions 1 to 2f, games 490 to 545)? The group is discussing this; nothing is decided and no card file has been changed.
+    notes: |
+      A first pass over the play test results (design/playtest-results.md) found three changes with medium confidence. They are
+      proposals for the group to pick from; if the group decides, apply the chosen text in the card file with the reason in its
+      notes and move the question to decided. The sample sizes are small (a handful of games per deck), so each item also says
+      what would change the picture.
+
+      1. Ardor (R-M02, mythic, value 0). Evidence: 19 points with three red moods (game 534 round 3), 22 with four (536 round 3), 28 with
+         four (534 round 4), 35 with four plus Kinship (535 round 5) and 40 with five (534 round 5); the highest scores of the play tests.
+         It was in play in four of the six G against R games and R won three of them; it also reached 27 against B (game 526). The payoff
+         is quadratic (each red mood gets +N), so rounds 3 to 5 decide the game. The sweet spot is a mild change that keeps the shape.
+         Option A (preferred): count only the other red moods.
+           Before: While in play — Each of your red moods has its value increased by the number of red moods you have.
+           After:  While in play — Each of your red moods has its value increased by the number of other red moods you have.
+           ("Other" means other than Ardor; with four red moods including Ardor each red mood gets +3 instead of +4, about N points less.)
+         Option B (stronger): one for every two red moods (rounded down), or the existing Q9 fallback of a cap such as "up to three".
+         What would change it: R decks that struggle against B (it won 1 of 4 games against B, session 2b) suggest leaving it alone.
+
+      2. Possessiveness (G-U05, uncommon, 0 or 6). Evidence: in the games checked (533 to 545) the discard pile held at most three cards at the end
+         of every game, so it was never a 6 at the five-card threshold. Wastefulness, its
+         fuel, was never played (G gave it to Compulsion twice and held it at the end of three games), and Carelessness milled
+         the deck's own key cards (Possessiveness and Determination in game 535, Urgency and Maturity in 536, Urgency and Kinship in 540).
+         Option A (preferred): lower the threshold from five cards to three.
+           Before: While in play — This mood's value is 6 if there are five or more cards in the discard pile.
+           After:  While in play — This mood's value is 6 if there are three or more cards in the discard pile.
+         Option B: four cards (a smaller change).
+         What would change it: a game where the pile fills past three early (for example with Haunting or FOMO discards).
+
+      3. Grudge (W-M03, mythic, value 0). Evidence: its extra plays went unused because the hand was empty: 7 of the 19 extra plays it
+         granted over games 527 to 545 were used, and every unused one came with no cards in hand (W passed or ran out in the later rounds of games 527,
+         530, 531, 542 and 543). Played as a first play it is a dead 0 (games 528 and 530). The problem is cards, not the rules: the
+         extra plays need fuel. A plain "draw a card" is the simplest fix but a draw can deck a player out (a draft deck has 12
+         cards); it stays on the list as Variation D, with that risk to weigh, and Variations A to C avoid drawing from the deck.
+         Current text: After playing this mood — Choose an opponent. While in play — During each of your turns (including the turn you play
+         this mood), you may play an additional mood for each round the chosen player has won. While in play — If this mood would leave play,
+         put it on the bottom of the deck instead. (Leaving play includes being put into the discard pile or into a player's hand.)
+         Variation A (preferred, no new effect needed; Nostalgia and Reminiscence already use this wording): refill from the shared discard pile.
+           After:  After playing this mood — Choose an opponent. You may put a card from the discard pile into your hand. While in play — ... (the rest unchanged)
+           Weakness: the shared pile is small (one to three cards by round 3 or 4), so it refuels by one card at most.
+         Variation B (stronger, needs a grant that can use the discard pile, as Thrift does): the extra plays may come from the discard pile.
+           After:  After playing this mood — Choose an opponent. While in play — During each of your turns (including the turn you play this mood), you may play an additional mood for each round the chosen player has won. You may play it from the discard pile. While in play — ... (the rest unchanged)
+           Risk: W can play an opponent's removal from the pile (for example B's Shock or Vengeance); test A first.
+         Variation C (fixes the dead first play, not the empty hand): raise the printed value from 0 to 2 and leave the text alone.
+         Variation D (simplest, but with the deck-out risk, which needs a look at how the simulator and the draft decks handle an empty deck): draw a card.
+           After:  After playing this mood — Choose an opponent. Draw a card. While in play — ... (the rest unchanged)
+           Weakness: a deck-out risk, most of all in a 12-card draft deck (Grudge itself goes to the bottom of the deck when it leaves play, which does not
+           change the count). It also needs the simulator to add a draw to an after-playing effect that currently only has a choice.
+         Variations A and C together are the smallest package without the deck-out risk.
+         What would change it: a W deck with real card flow (more Discernment-style loots) would not need any of these.
+
+      Lower confidence, listed for reference (also in Q9): Vitality +2 to +1 if the Vitality and Fulfillment pair repeats (game 541 scored 22
+      and 27 from four moods); Rudeness 1 to 3 (it was held or cycled away in every game it was drawn); Confidence widened to "3, 4, 5 or 6"
+      (its 4-to-6 extra play was used in about two of five W plays); Dominance is a watch item, not a change (it removed two of G's
+      moods in game 537, but a once-per-turn cap would not have changed what happened).
