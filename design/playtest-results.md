@@ -1405,3 +1405,75 @@ for example, four red moods gave +3 each in game 560 round 3, not +4.
 | Equanimity | A 6 in 559 round 3; held in 562 rounds 3 and 4. |
 | Pacifism, Impartiality | Hit single moods (Shock, Compulsion, Exuberance); no effect on Ardor. |
 | Exuberance | A 6 in 560 (rounds 2, 4); held while PR passed in 559 round 3. |
+
+## Session 3d: PW White even numbers against PG Green Fulfillment anthems (4 games)
+
+**Source.** The simulator exports of games 563 to 566 (9 November), the fourth Power Duel pairing (15 cards, one mythic). The first tester (P1) played PG in 563 and 565 and PW in 564 and 566. The other seat was a practice bot (PW) in 563 and (PG) in 566, and the second tester
+in 564 (PG) and 565 (PW). PG is the green Fulfillment anthem deck; PW is the white even-numbers deck.
+
+### Summary
+
+| | |
+|---|---|
+| Result | **PG won 3 of 4** (563 and 565 by 3 to 0 and 3 to 1, 564 by 3 to 2); PW won 566 (3 to 1, against the PG bot). Rounds: PG 10, PW 6. |
+| Scores by round, PG | 563: 6, 10, 15. 564: 3, 12, 0, 20, 25. 565: 1, 7, 8, 18. 566: 3, 8, 23, 5. |
+| Scores by round, PW | 563: 4, 9, 13. 564: 4, 9, 9, 18, 24. 565: 3, 6, 6, 11. 566: 8, 14, 20, 19. |
+| Game length | 3, 5, 4 and 4 rounds, 4.0 on average. |
+| Biggest turn | 3 plays (PW in 566 round 1: Modesty, Familiarity, Solidarity, 8 against 3). PG made 2 plays a turn three times (564 round 5, 565 round 3, 566 round 2). Highest scores: 25 (PG, 564 round 5) and 24 (PW), 23 (PG, 566 round 3). |
+
+### Insights
+
+1. **Impartiality (odd) was the best card in the matchup.** PG's moods nearly all print an odd number (the 3/6 cards print 3, Contentment 5, Kinship and Vitality 1), and Impartiality suppresses every other odd mood until the end of the round. In 564 round 3 it suppressed Resolve, Determination and Contentment: PG 0 against PW 9. In 566 round 4
+   it suppressed Vitality, Joy, Kinship and Resolve (and PW's own Equanimity): PG 5 against PW 19. Both were round wins for PW that PG could not answer. It checks the printed number, not the value, so a 6-valued Resolve is still suppressed. Against PW's own board the cost was small (Humility in 564, Equanimity in 566).
+2. **The suppressed Vitality still worked.** In 565 round 3 Impartiality suppressed Vitality (a 1) and Urgency, but Vitality's start-of-turn bonus still happened (+2 to each green mood), and PG won 8 to 6. As expected, suppression only sets the value to 0.
+3. **Neither mythic did much.** Fulfillment stayed in the deck in all four games, and Orderliness was played in two (563 round 3, 566 round 2, both even, +1 on the 2s), held in 565 and left in the deck in 564. PG won three games without its mythic, which is consistent with sessions 3a to 3c.
+4. **Maturity and Vitality were the PG engine in 565.** Maturity (played in round 2) grew 2, 4, 6, and with Vitality's +2 PG scored 7, 8 and 18 against PW's 6, 6 and 11. Maturity prints a 2, so Impartiality (odd) does not touch it, and white had no way to remove it (no discard or bounce). This is the first game where Maturity was played.
+5. **Close games, decided by small margins.** Round scores in the long games were 6 to 4, 10 to 9, 15 to 13 (563) and 25 to 24 (564 round 5, PG won by one point). PW's engine keeps up with PG until PG's 6-valued moods come online.
+6. **Honesty was a 6 on turn one again** (563 round 1: 6 against 4). In 564 Resolve and Determination were 6s by round 2 (12 against 9), and in round 4 PG scored 20 with Resolve, Determination, Contentment and Joy.
+7. **The PW bot's Impartiality did nothing in 563 round 1.** PW played it first (odd) with no odd mood on the board; PG played after it, so the suppression had nothing to hit. This is the same kind of choice as the Orderliness parity in 527: the bot picks a parity without looking at the board. Turn order matters for Impartiality, since it only affects moods already in play.
+
+### Questions for the testers
+
+- Game 564 round 3: PG played Contentment (a 5) into Impartiality. Did you see the odd suppression coming? Would PG have held its odd moods back, and would you change how you build around odd-numbered cards?
+- Game 566 round 4: Impartiality (odd) beat PG's board 19 to 5. Is it too strong against a deck whose cards print 3s, or fair for an uncommon you have to draw and play after they commit?
+- Game 565: PW held Orderliness from round 3 to round 4 and played Pacifism instead. Why? Did white have an answer to Maturity?
+- Game 564 round 5: PG won 25 to 24 with Perseverance and Urgency. What would PW have done differently with its last play (Reverence), and did the hand (Temperance) matter?
+- Fun and clarity for Impartiality (printed number, odd or even, all other moods), Vitality and Maturity.
+
+### Game logs
+
+**Game 563.** PG (P1, seat 0) against PW (bot, seat 1); PW went first. PG won 3 to 0.
+- Scores: PG 6, PW 4; PG 10, PW 9; PG 15, PW 13.
+- Longest turn: 2 plays (PW in round 1: Modesty, Impartiality, with nothing to suppress).
+- Decided: Honesty as a 6 on turn one, Vindication as a 6 by round 3.
+
+**Game 564.** PW (P1, seat 0) against PG (second tester, seat 1); PW went first. PG won 3 to 2.
+- Scores: PW 4, PG 3; PW 9, PG 12; PW 9, PG 0; PW 18, PG 20; PW 24, PG 25.
+- Longest turn: 2 plays (PW in rounds 1 and 2, PG in round 5: Perseverance, Urgency).
+- Decided: Impartiality (odd) in round 3 (9 against 0), PG's Resolve, Determination, Contentment and Joy in round 4 (20), round 5 by one point.
+
+**Game 565.** PG (P1, seat 0) against PW (second tester, seat 1); PW went first. PG won 3 to 1.
+- Scores: PG 1, PW 3; PG 7, PW 6; PG 8, PW 6; PG 18, PW 11.
+- Longest turn: 2 plays (PG in round 3: Nostalgia, Urgency).
+- Decided: Vitality and Maturity (2, 4, 6) in rounds 2 to 4; Impartiality suppressed Vitality and Urgency in round 3.
+
+**Game 566.** PW (P1, seat 0) against PG (bot, seat 1); PG went first. PW won 3 to 1.
+- Scores: PW 8, PG 3; PW 14, PG 8; PW 20, PG 23; PW 19, PG 5.
+- Longest turn: 3 plays (PW in round 1: Modesty, Familiarity, Solidarity).
+- Decided: PW's three-play first turn (8 against 3), PG's Resolve and Vitality in round 3 (23), Impartiality (odd) in round 4 (19 against 5).
+
+### Notes by card (PW against PG)
+
+| Card | What the games showed |
+|---|---|
+| Impartiality | Odd: suppressed Resolve, Determination and Contentment (564, 9 against 0) and Vitality, Joy, Kinship and Resolve (566, 19 against 5); did nothing when played first in 563. |
+| Fulfillment | Not drawn in four games. |
+| Orderliness | Played in 563 and 566 (even); held in 565; not drawn in 564. |
+| Vitality | +2 each turn, still worked when suppressed (565 round 3). |
+| Maturity | First play (565): 2, 4, 6 with Vitality; not touched by odd suppression. |
+| Honesty | A 6 on turn one (563). |
+| Resolve, Determination | 6s from round 2 (564); suppressed by Impartiality. |
+| Urgency | A 6 in 564 round 5 (two plays); suppressed in 565 round 3. |
+| Modesty, Familiarity, Solidarity chain | 8 against 3 (566 round 1). |
+| Equanimity | A 6 in 566 (four even moods); suppressed by PW's own Impartiality in round 4. |
+| Pacifism | Suppressed Restlessness (565 round 4). |
