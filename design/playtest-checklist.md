@@ -28,8 +28,8 @@ be too weak, and tier 4 about rules questions.
 
 - [ ] **Fulfillment** (green mythic, G-M03): Each of your moods worth 6 or more scores twice. Three conditional moods at 6 can run away.
   - Fallback: A threshold of 7, or score only one such mood an extra time (Enthusiasm style).
-- [ ] **Ardor** (red mythic, R-M02): Each of your red moods gets its value increased by the number of red moods you have, a quadratic payoff that may snowball.
-  - Fallback: A cap such as "up to three".
+- [ ] **Ardor** (red mythic, R-M02): Each of your red moods gets its value increased by the number of other red moods you have (it counted itself until the first play tests, which found 19 to 40 points), a payoff that may still snowball.
+  - Fallback: One for every two other red moods, or a cap such as "up to three".
 - [ ] **Reinvigoration** (green mythic, G-M01): It scales with board size and can replay a whole board (boards grow about one mood per round).
   - Fallback: A cap such as "up to three".
 - [ ] **Reverie** (blue mythic, U-M01): It draws on entry and on each later play (about one per round, more with extra plays).

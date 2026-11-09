@@ -151,7 +151,8 @@ questions:
       - Perseverance: it grows by 2 after scoring while you have won fewer rounds than each other player, on top of the card losers draw and Hurt Feelings, so check that falling behind does not become attractive and that it is not too strong at match point (2, 4, 6 in a 2-player game); the fallbacks are a growth of 1 or a value of 1.
       - Fulfillment: each mood worth 6 or more scores twice, so three conditional moods at 6 can run away; the fallbacks are a threshold of 7 or scoring only one such mood an extra time.
       - Inspiration: a free card of your choice from the top three cards, played from the hand; it is close to Nostalgia, so check it does not feel like a narrower Nostalgia at mythic rarity; the fallbacks are the unrestricted extra play, revealing four cards, or playing up to two of the three (or revealing two cards if it is too strong).
-      - Ardor: a quadratic payoff for red moods that may snowball; the fallback is a cap such as "up to three".
+      - Ardor: it now counts only the other red moods (Q13, decided); check it still snowballs too fast (19 to 40 points with three to five red moods in the first play tests); the fallbacks are one for every two other red moods or a cap such as "up to three".
+      - Possessiveness: the threshold is now three cards in the discard pile (Q13, decided; the pile never reached five in the play tests); check it is not on almost always after the midgame; the fallbacks are four, then five.
       - Competitiveness: always one more than the biggest opposing mood that does not have this ability (two of them would otherwise read each other forever), so check its volatility; the fallback is "equal to" instead of 1 more, keeping the exclusion.
       - Grudge: up to two extra plays each turn when the chosen opponent has 2 round wins, so check the burst against the free-play cycle, Haunting and Affinity; check its replacement effect with Elusiveness.
       - Hellbent: the round leader runs their hand dry first (losers draw at the end of a round), so it favors the leader; check the snowball, with an alternate value of 6 as the fallback.
@@ -198,13 +199,20 @@ questions:
       That is the stronger reading: it rewards extra plays and playing into the chosen color. Check it in playtests (see the
       Vitality items in Q9 and the playtest checklist); the fallback is +1 instead of +2.
   - id: Q13
-    status: open
-    question: Should Ardor, Possessiveness and Grudge change after the first round of play tests (sessions 1 to 2f, games 490 to 545)? The group is discussing this; nothing is decided and no card file has been changed.
+    status: decided
+    question: Should Ardor, Possessiveness and Grudge change after the first round of play tests (sessions 1 to 2f, games 490 to 545)?
     notes: |
-      A first pass over the play test results (design/playtest-results.md) found three changes with medium confidence. They are
-      proposals for the group to pick from; if the group decides, apply the chosen text in the card file with the reason in its
-      notes and move the question to decided. The sample sizes are small (a handful of games per deck), so each item also says
-      what would change the picture.
+      Decided: Ardor and Possessiveness take option A below, and Grudge is left as it is. The group's reasoning for Grudge: the
+      empty hands in the games were more likely caused by the cards it was combined with than by Grudge itself, and it is meant to be
+      similar to Hope (original pool: "you may play an additional mood during each of your turns", a 0) and fills that role. The
+      variations for Grudge (A to D) stay below for reference if it comes up again.
+        - Ardor: "...increased by the number of other red moods you have." (cards/ardor.yaml)
+        - Possessiveness: "...if there are three or more cards in the discard pile." (cards/possessiveness.yaml)
+      The simulator and the MSE set file need the same two changes (impl tier 1 for both).
+
+      The text below is the proposal as it was discussed. A first pass over the play test results (design/playtest-results.md) found
+      three changes with medium confidence. The sample sizes are small (a handful of games per deck), so each item also says what
+      would change the picture.
 
       1. Ardor (R-M02, mythic, value 0). Evidence: 19 points with three red moods (game 534 round 3), 22 with four (536 round 3), 28 with
          four (534 round 4), 35 with four plus Kinship (535 round 5) and 40 with five (534 round 5); the highest scores of the play tests.
