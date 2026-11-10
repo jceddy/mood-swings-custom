@@ -421,8 +421,7 @@ Name PG Fulfillment anthems
 
 A variant of PW built after the first Power Duel round (games 546 to 566, where PW went 10 wins to 11). It keeps 10 white cards and Reverence (the colorless gate that needs
 a white mood) and adds four cards of other colors, aimed at what PW lacked: answers (white has none; Ardor ran away in 560 and 561), more chain starters (PW lost when it drew none, game 554), card flow
-(its hand ran dry), and bodies worth more than 2. It drops Affinity, Reassurance, Pacifism and Fairness. Mood Swings has no mana, so a splash costs nothing except the card's own condition. Check first that the
-Power Duel rules allow more than one color.
+(its hand ran dry), and bodies worth more than 2. It drops Affinity, Reassurance, Pacifism and Fairness. Mood Swings has no mana, so a splash costs nothing except the card's own condition, and Power Duel decks may use more than one color.
 
 - **Rashness** (red, 0): a free extra play and removal of an opponent's mood worth 1 or less (Vitality, Fulfillment, Kinship, Adrenaline, Verve, an early Ardor).
 - **Hate** (black reprint, 0): puts any mood on the bottom of the deck and draws, so it is card-neutral; the answer to Ardor, Maturity or an opponent's best mood.
