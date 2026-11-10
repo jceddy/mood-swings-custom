@@ -1571,7 +1571,7 @@ Two games is a small sample. PU is the blue Reverie deck; PR is the red Ardor de
 
 | | |
 |---|---|
-| Result | **One win each**: PR won 573 (3 to 2, against the PU bot) and PU won 574 (3 to 0, against the second tester's PR). Rounds: PR 5, PU 5. |
+| Result | **One win each**: PR won 573 (3 to 2, against the PU bot) and PU won 574 (3 to 0, against the second tester's PR). Rounds: PR 3, PU 5. |
 | Scores by round, PR | 573: 0, 11, 30, 49, 20. 574: 6, 5, 2. |
 | Scores by round, PU | 573: 3, 11, 9, 10, 11. 574: 6, 6, 6. |
 | Game length | 5 and 3 rounds. |
@@ -1581,11 +1581,11 @@ Two games is a small sample. PU is the blue Reverie deck; PR is the red Ardor de
 
 1. **Ardor scored 30 and 49 in 573, after the change to "other red moods".** In round 3 PR played Shock then Ruthlessness (Adrenaline's extra play) for five red moods and 30 points against PU's 9. In round 4 it played Frenzy then Impatience: six red moods, Ardor +5 on each, Verve's +2 on the Frenzy played that round (Frenzy alone scored 13),
    and Impatience, for 49 against 10. PU, a bot, had no answer: Panic bounced Ruthlessness only in round 5 (PR still scored 20). The change takes a point from each red mood, but a six-mood board with Adrenaline, Verve and Frenzy still makes a score no other deck reaches.
-2. **PR's record is all or nothing on Ardor.** PR has won every game in which it played Ardor (560, 561, 573) and lost all five in which it did not (557, 558, 559, 562, and 574, where Ardor sat in hand). Ardor's evidence for Q13: 30 (five red moods), 31 (five), 32 (six), 37 (seven) and 49 (six, with Verve and Frenzy) since the change, against 11 to 20 for the opponent.
-   This is the strongest evidence yet that the "other" change is not enough; Q13's option B (one for every two other red moods) or a cap are the next steps. Two of the three wins came against bots or in games where the opponent had no removal.
+2. **PR's record is all or nothing on Ardor.** PR has won every game in which it played Ardor (560, 561, 573) and lost all five in which it did not (557, 558, 559, 562, and 574, where Ardor sat in hand). Ardor's evidence for Q13: 30 (five red moods), 31 (five), 32 (six), 37 (seven) and 49 (six, with Verve and Frenzy) since the change, against 7 to 18 for the opponent.
+   This is the strongest evidence yet that the "other" change is not enough; Q13's option B (one for every two other red moods) or a cap are the next steps. Two of the three wins were against white, which has no removal, and one against a bot.
 3. **PU won 574 with one mood and no answer needed.** Resignation (a 6) scored 6 in all three rounds. PR's removal can only reach cheap moods: Rashness took Reflection (a 1) and Shock took Deflection (a 2), but Shock hits moods worth 3 or less, Rashness 1 or less and Belligerence 2 or less, so the 6 was untouchable.
-   PU's other high-value cards (Detachment 5, Anticipation 3 or 6) dodge the red removal the same way. Resignation was the only mood left on PU's board, and it won 6 to 6, 6 to 5 and 6 to 2.
-4. **PR held its engine in 574.** PR ended with Ardor, Adrenaline, Belligerence and Impatience in hand after three rounds, and played Frenzy, Rashness with Impatience, and Shock. Adrenaline and Ardor (drawn in round 2) would have been a free play, but Ardor with two or three red moods is small. PU's answers (Deflection bouncing Impatience, a 5) cost PR a turn.
+   Detachment (a 5) dodges the red removal the same way, and Anticipation does when it is a 6. Resignation was the only mood left on PU's board, and it won 6 to 6, 6 to 5 and 6 to 2.
+4. **PR held its engine in 574.** PR ended with Ardor, Adrenaline, Belligerence and Impatience in hand after three rounds, and played Frenzy, Rashness with Impatience, and Shock. Adrenaline (drawn after round 2) then Ardor would have been a free play, but Ardor with two or three red moods is small. PU's answers (Deflection bouncing Impatience, a 5) cost PR a turn.
 5. **Adrenaline was a turn-one 0 again (573 round 1: 0 against 3).** It then gave PR a free extra play in rounds 2 to 4. As in sessions 3c and 3e, PR's early rounds are weak and its late rounds decide the game.
 6. **PU's bot declined Rumination twice (573 rounds 4 and 5) and played Panic only in round 5.** Rumination plus Panic would have bounced PR's Shock and Ruthlessness every turn; this is the line the session 3a notes asked the testers about.
 
