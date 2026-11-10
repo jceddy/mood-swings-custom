@@ -417,6 +417,42 @@ Name PG Fulfillment anthems
 1 Thrift
 ```
 
+### PW Even numbers splash (white with a splash, Orderliness)
+
+A variant of PW built after the first Power Duel round (games 546 to 566, where PW went 10 wins to 11). It keeps 10 white cards and Reverence (the colorless gate that needs
+a white mood) and adds four cards of other colors, aimed at what PW lacked: answers (white has none; Ardor ran away in 560 and 561), more chain starters (PW lost when it drew none, game 554), card flow
+(its hand ran dry), and bodies worth more than 2. It drops Affinity, Reassurance, Pacifism and Fairness. Mood Swings has no mana, so a splash costs nothing except the card's own condition. Check first that the
+Power Duel rules allow more than one color.
+
+- **Rashness** (red, 0): a free extra play and removal of an opponent's mood worth 1 or less (Vitality, Fulfillment, Kinship, Adrenaline, Verve, an early Ardor).
+- **Hate** (black reprint, 0): puts any mood on the bottom of the deck and draws, so it is card-neutral; the answer to Ardor, Maturity or an opponent's best mood.
+- **Determination** (green reprint, 3 or 6): a 6 once any three moods share a color, which PW's own white chain does.
+- **Rapport** (blue, 3): a loot, and a second loot while two or more white and/or black moods are out.
+
+Rashness, Hate and Levity print 0, so they feed Orderliness (even), Humility and Equanimity, and Modesty's extra play accepts all four splash cards (0 to 3). Determination and Rapport print an odd 3, so PW's
+own Impartiality (odd) suppresses them; choose even when the board is full of 3s. Levelheadedness (white) is the alternative to Rapport (11 white cards) if you want to test that line.
+
+```
+About
+Name PW Even numbers splash
+
+1 Orderliness
+1 Solidarity
+1 Humility
+1 Equanimity
+1 Familiarity
+1 Modesty
+1 Discernment
+1 Levity
+1 Temperance
+1 Impartiality
+1 Reverence
+1 Rashness
+1 Hate
+1 Determination
+1 Rapport
+```
+
 ### Games to play
 
 Run each deck against each other once (10 pairings), swapping who goes first between games. Add a second game for any pairing that was close or
@@ -434,6 +470,9 @@ unclear. Against the baseline (B) the decks are 20 cards, so use B only for a sa
 | 8 | PB against PR | 1 | Whether Neglect's round 4 and 5 payoff arrives before red's Ardor (red empties its own hand early). |
 | 9 | PB against PG | 1 | Hand pressure against a deck that plays one mood a turn; Suspicion and Nosiness against Honesty (which reveals the hand). |
 | 10 | PR against PG | 1 | The earlier R against G games (R won 4 of 6) with both decks trimmed to one mythic. |
+
+Splash variant (PW Even numbers splash): play it against each of PU, PB, PR and PG, swapping seats, and compare with the 10 wins to 11 of the plain PW (against PU 3 to 2, PB 2 to 4, PR 4 to 2, PG 1 to 3).
+Look at whether Hate and Rashness answer Ardor, Vitality and Maturity in time, whether Determination reaches 6, whether Rapport keeps the hand from running dry (Neglect, game 555), and whether PW still draws a chain starter.
 
 For every game note the Power Duel setup (15 cards, one mythic, no extra mythics), the result by round, the largest turn, and whether any player
 ran short of cards or decked out.
