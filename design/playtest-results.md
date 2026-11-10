@@ -1621,3 +1621,74 @@ Two games is a small sample. PU is the blue Reverie deck; PR is the red Ardor de
 | Deflection | Bounced Impatience (574) and then died to Shock. |
 | Panic | Bounced Ruthlessness in 573 round 5 only. |
 | Rumination | Declined twice (573). |
+
+## Session 3g: PU Blue Reverie engine against PG Green Fulfillment anthems (4 games)
+
+**Source.** The simulator exports of games 575, 577, 578 and 579 (10 and 11 November), the seventh Power Duel pairing (15 cards, one mythic). The zip also held game 576, an unrelated one-round game ("Discard Midrange" against "G Green anthems", no plays, over in 26 seconds), which is left out.
+The first tester (P1) played PG in 575 and 578 and PU in 577 and 579. The other seat was a practice bot (PU) in 575 and 578 and the second tester (PG) in 577 and 579. PU is the blue Reverie deck; PG is the green Fulfillment deck.
+
+### Summary
+
+| | |
+|---|---|
+| Result | **PG won 3 of 4** (575, 577 and 578, each 3 to 2); PU won 579 (3 to 1). Rounds: PG 10, PU 9. |
+| Scores by round, PG | 575: 6, 2, 4, 14, 17. 577: 3, 6, 16, 27, 40. 578: 2, 9, 17, 23, 41. 579: 6, 4, 4, 6. |
+| Scores by round, PU | 575: 2, 3, 8, 11, 14. 577: 5, 10, 13, 19, 20. 578: 6, 11, 14, 20, 21. 579: 3, 5, 6, 6. |
+| Game length | 5, 5, 5 and 4 rounds, 4.75 on average. |
+| Biggest turn | 2 plays (PU in every round of 577 from Impulse, and in 578 round 4 and 579 round 4; PG in 577 round 3). **Highest scores: PG 41 (578 round 5) and 40 (577 round 5), both with Fulfillment.** |
+
+### Insights
+
+1. **PU led early and PG overtook it in rounds 4 and 5.** PU won rounds 1 and 2 in 577 and 578 (5 and 10, 6 and 11) and had the better board until round 3. PG scored 2 to 9 early and 17 to 41 late: Maturity grows 2 each turn, and Fulfillment makes each mood of 6 or more score twice. In 577 round 4 PG scored 27 and in round 5 40 (PU 19 and 20); in 578 round 5 PG scored 41
+   against 21 with Maturity at 10, Vindication at 6 and Fulfillment played that round. The PG wins were all won in rounds 4 and 5.
+2. **Fulfillment with Maturity reaches the same scores as Ardor, one or two rounds later.** 40 and 41 in round 5 are close to the Ardor rounds (30 to 49 in rounds 3 and 4, session 3f). The difference is time: Maturity needs about four turns to pass 6, so PG is behind until round 4. This is a clearer win-more shape than Ardor, and the first time Fulfillment has been drawn in the Power Duel games (it did not appear in session 3d).
+3. **PU's engine scored but could not catch up.** In 577 the PU player played Impulse and a second mood every turn (2, then 5, 10, 13, 19, 20 points); PU's moods are worth 2 to 6 each, so it grows by one mood a round. The PU bots played one mood a turn (575, 578) and never answered Maturity or Fulfillment, although Panic (575 round 2) bounced Honesty once.
+4. **The one PU win was a tempo lock (579).** PU bounced PG's only mood every round: Deflection on Honesty (round 2), Panic on Vindication (round 3), and Fear to take Deflection back into hand and play it again on Vindication (round 4). PG scored 6, 4, 4 and 6 and ended with six cards in hand (Kinship, Maturity, Nostalgia, Restlessness, Vindication, Vitality)
+   and one mood in play, while PU scored 3, 5, 6 and 6 and won three rounds. Bounce plus Deflection's name lock beats a deck that plays one mood a turn.
+5. **Honesty was a 6 on turn one again** (575 and 579 round 1: 6 against 2 and 3), but PG's openers are weak in the long run: bounce takes it back (Panic in 575, Deflection in 579) and it must be played again, revealing the hand again.
+6. **Reverie did nothing again.** It was played once as the first play with an empty pile (575 round 1: 2 points, no draw) and was in PU's hand at the end of 579. Rapport and Impulse carried the draw engine in 577.
+
+### Questions for the testers
+
+- Game 579: PG held six cards and replayed the bounced mood each round. Was replaying Honesty or Vindication the plan, or did the name lock leave no other play? Maturity, Vitality or Restlessness would have started the growth. What would you play against a bounce lock?
+- Game 577: PU put Panic on the bottom of the deck with Rapport in round 1 and never bounced PG's board; PG scored 27 and 40. Was bounce held back for a reason, and could PU have answered Maturity and Fulfillment in time?
+- Fulfillment and Maturity at 40 and 41 in round 5 (with PG behind until round 4): is that the right shape for a mythic anthem, or too much? It was reached against bot or no-answer boards in 577 and 578.
+- Fun and clarity for Maturity (permanent growth), Fulfillment and Deflection's name lock.
+
+### Game logs
+
+**Game 575.** PG (P1, seat 0) against PU (bot, seat 1); PU went first. PG won 3 to 2.
+- Scores: PG 6, PU 2; PG 2, PU 3; PG 4, PU 8; PG 14, PU 11; PG 17, PU 14.
+- Longest turn: 1 play every turn.
+- Decided: Honesty as a 6 and again after Panic bounced it (round 4), Maturity and Vitality in the last two rounds.
+
+**Game 577.** PU (P1, seat 0) against PG (second tester, seat 1); PU went first. PG won 3 to 2.
+- Scores: PU 5, PG 3; PU 10, PG 6; PU 13, PG 16; PU 19, PG 27; PU 20, PG 40.
+- Longest turn: 2 plays (PU every round: Impulse and Rapport, Detachment, Reminiscence, Resignation, Admiration; PG in round 3: Kinship, Maturity).
+- Decided: Fulfillment with Maturity in rounds 4 and 5 (27 and 40).
+
+**Game 578.** PG (P1, seat 0) against PU (bot, seat 1); PG went first. PG won 3 to 2.
+- Scores: PG 2, PU 6; PG 9, PU 11; PG 17, PU 14; PG 23, PU 20; PG 41, PU 21.
+- Longest turn: 2 plays (PU in round 4: Desperation, Reminiscence).
+- Decided: Maturity played in round 1 and never answered (2 to 10), Resolve as a 6 in rounds 3 and 4, Fulfillment in round 5 (41).
+
+**Game 579.** PU (P1, seat 0) against PG (second tester, seat 1); PU went first. PU won 3 to 1.
+- Scores: PU 3, PG 6; PU 5, PG 4; PU 6, PG 4; PU 6, PG 6.
+- Longest turn: 2 plays (PU in round 4: Fear, Deflection).
+- Hands: PG held six cards at the end with one mood in play.
+- Decided: the bounce lock (Deflection, Panic, Fear then Deflection again).
+
+### Notes by card (PU against PG)
+
+| Card | What the games showed |
+|---|---|
+| Fulfillment | Played in 577 and 578 (rounds 4 and 5): 27, 40 and 41. First time drawn in a Power Duel game. |
+| Maturity | Grew to 10 by round 5 in 578 and was never answered; part of the 40 and 41. |
+| Honesty | A 6 on turn one (575, 579); bounced and replayed. |
+| Resolve, Vindication | 6s in rounds 3 to 5 of 578. |
+| Deflection | Bounce plus name lock on Honesty and Vindication (579); won the game. |
+| Panic | Bounced Honesty (575) and Vindication (579); put on the bottom by Rapport in 577. |
+| Fear | Returned Deflection to hand to play it again (579 round 4). |
+| Impulse | Two plays a turn in 577 (5, 10, 13, 19, 20). |
+| Reverie | Played with an empty pile (575 round 1); held at the end of 579. |
+| Rumination | In play as a 1 (575, 578); no use. |
