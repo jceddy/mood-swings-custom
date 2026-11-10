@@ -1561,3 +1561,63 @@ practice bot (PB) in 570 and 572, and the second tester in 568 (PB) and 569 (PU)
 | Resignation | A 6 (572 rounds 1 to 5, 568 round 2); removed by Neglect and Vengeance. |
 | Rapport | A double loot in 572 round 3; PU's last card in 568 round 4. |
 | Opportunism | Opened with a 1 and bounced (571). |
+
+## Session 3f: PU Blue Reverie engine against PR Ardor red pile (2 games)
+
+**Source.** The simulator exports of games 573 and 574 (10 November), the sixth Power Duel pairing (15 cards, one mythic). The first tester (P1) played PR in 573 and PU in 574. The other seat was a practice bot (PU) in 573 and the second tester (PR) in 574.
+Two games is a small sample. PU is the blue Reverie deck; PR is the red Ardor deck (Ardor now counts only the other red moods, Q13).
+
+### Summary
+
+| | |
+|---|---|
+| Result | **One win each**: PR won 573 (3 to 2, against the PU bot) and PU won 574 (3 to 0, against the second tester's PR). Rounds: PR 3, PU 5. |
+| Scores by round, PR | 573: 0, 11, 30, 49, 20. 574: 6, 5, 2. |
+| Scores by round, PU | 573: 3, 11, 9, 10, 11. 574: 6, 6, 6. |
+| Game length | 5 and 3 rounds. |
+| Biggest turn | 2 plays (PR in 573 rounds 2 to 4, PU in 573 round 2). **The highest score of any play test so far: 49 for PR in 573 round 4**, then 30 in round 3. |
+
+### Insights
+
+1. **Ardor scored 30 and 49 in 573, after the change to "other red moods".** In round 3 PR played Shock then Ruthlessness (Adrenaline's extra play) for five red moods and 30 points against PU's 9. In round 4 it played Frenzy then Impatience: six red moods, Ardor +5 on each, Verve's +2 on the Frenzy played that round (Frenzy alone scored 13),
+   and Impatience, for 49 against 10. PU, a bot, had no answer: Panic bounced Ruthlessness only in round 5 (PR still scored 20). The change takes a point from each red mood, but a six-mood board with Adrenaline, Verve and Frenzy still makes a score no other deck reaches.
+2. **PR's record is all or nothing on Ardor.** PR has won every game in which it played Ardor (560, 561, 573) and lost all five in which it did not (557, 558, 559, 562, and 574, where Ardor sat in hand). Ardor's evidence for Q13: 30 (five red moods), 31 (five), 32 (six), 37 (seven) and 49 (six, with Verve and Frenzy) since the change, against 7 to 18 for the opponent.
+   This is the strongest evidence yet that the "other" change is not enough; Q13's option B (one for every two other red moods) or a cap are the next steps. Two of the three wins were against white, which has no removal, and one against a bot.
+3. **PU won 574 with one mood and no answer needed.** Resignation (a 6) scored 6 in all three rounds. PR's removal can only reach cheap moods: Rashness took Reflection (a 1) and Shock took Deflection (a 2), but Shock hits moods worth 3 or less, Rashness 1 or less and Belligerence 2 or less, so the 6 was untouchable.
+   Detachment (a 5) dodges the red removal the same way, and Anticipation does when it is a 6. Resignation was the only mood left on PU's board, and it won 6 to 6, 6 to 5 and 6 to 2.
+4. **PR held its engine in 574.** PR ended with Ardor, Adrenaline, Belligerence and Impatience in hand after three rounds, and played Frenzy, Rashness with Impatience, and Shock. Adrenaline (drawn after round 2) then Ardor would have been a free play, but Ardor with two or three red moods is small. PU's answers (Deflection bouncing Impatience, a 5) cost PR a turn.
+5. **Adrenaline was a turn-one 0 again (573 round 1: 0 against 3).** It then gave PR a free extra play in rounds 2 to 4. As in sessions 3c and 3e, PR's early rounds are weak and its late rounds decide the game.
+6. **PU's bot declined Rumination twice (573 rounds 4 and 5) and played Panic only in round 5.** Rumination plus Panic would have bounced PR's Shock and Ruthlessness every turn; this is the line the session 3a notes asked the testers about.
+
+### Questions for the testers
+
+- Game 573: Ardor with six red moods scored 49 (and 30 with five). Does a round that large feel right after the "other red moods" change, or is Ardor still too fast? Which of the Q13 fallbacks would you pick (one for every two other red moods, or a cap)?
+- Game 574: PR held Ardor and Adrenaline for three rounds. Was waiting for more red moods the plan, or did you not see a good play? Would Adrenaline then Ardor have been worth it?
+- Game 574: Resignation, a 6, was out of reach of red's removal. Is that a problem for red, or a fair reward for PU's 6-cost play (it needs a card put on the bottom of the deck)?
+- Fun and clarity for Ardor (and Verve's +2 on each red mood played this round) and Frenzy.
+
+### Game logs
+
+**Game 573.** PR (P1, seat 0) against PU (bot, seat 1); PR went first. PR won 3 to 2.
+- Scores: PR 0, PU 3; PR 11, PU 11; PR 30, PU 9; PR 49, PU 10; PR 20, PU 11.
+- Longest turn: 2 plays (PU in round 2: Desperation, Detachment; PR in rounds 2 to 4: Ardor then Verve, Shock then Ruthlessness, Frenzy then Impatience).
+- Decided: Ardor with five red moods (30) in round 3, with six and Verve's bonus (49) in round 4.
+
+**Game 574.** PU (P1, seat 0) against PR (second tester, seat 1); PU went first. PU won 3 to 0.
+- Scores: PU 6, PR 6; PU 6, PR 5; PU 6, PR 2.
+- Longest turn: 2 plays (PR in round 2: Rashness, Impatience).
+- Decided: Resignation (a 6) untouched by red's removal; Deflection on Impatience in round 3; PR held Ardor and Adrenaline.
+
+### Notes by card (PU against PR)
+
+| Card | What the games showed |
+|---|---|
+| Ardor | 30 (five red) and 49 (six red, Verve, Frenzy) in 573; held unplayed in 574. PR is 3 to 0 when it plays Ardor and 0 to 5 when it does not. |
+| Adrenaline | A turn-one 0 (573); a free extra play in rounds 2 to 4. |
+| Verve | +2 on each red mood played that round: Frenzy scored 13 in 573 round 4. |
+| Frenzy | 6 or more, discarded after scoring as written. |
+| Shock, Rashness | Killed Reminiscence, Deflection and Reflection; cannot reach Resignation, Detachment or a 6. |
+| Resignation | A 6 in all three rounds of 574; out of reach of red's removal. |
+| Deflection | Bounced Impatience (574) and then died to Shock. |
+| Panic | Bounced Ruthlessness in 573 round 5 only. |
+| Rumination | Declined twice (573). |
