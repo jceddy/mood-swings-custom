@@ -261,3 +261,42 @@ questions:
       and 27 from four moods); Rudeness 1 to 3 (it was held or cycled away in every game it was drawn); Confidence widened to "3, 4, 5 or 6"
       (its 4-to-6 extra play was used in about two of five W plays); Dominance is a watch item, not a change (it removed two of G's
       moods in game 537, but a once-per-turn cap would not have changed what happened).
+  - id: Q14
+    status: open
+    question: Should Ardor be changed again after the Power Duel games (it still scored 30 to 49 points with the "other red moods" text of Q13)? This is a proposal for the group; nothing is decided and no card file has been changed.
+    notes: |
+      Background. Q13 changed Ardor to count only the other red moods (each red mood gets +(N-1) with N red moods, Ardor included). In the Power
+      Duel play tests that followed (design/playtest-results.md, sessions 3c and 3f) PR (the 15-card Ardor deck) still reached these scores:
+        - N=5 red moods: 31 (560 round 4, opponent 18), 30 (573 round 3, opponent 9).
+        - N=6: 32 (561 round 3, opponent 7) and 49 (573 round 4, opponent 10; Frenzy alone scored 13 with Verve's +2 and Ardor's +5).
+        - N=7: 37 (561 round 4, opponent 12).
+        - Smaller boards were fine: N=3 made 11 (573 round 2), N=4 made 11 (560 round 3, one red mood suppressed) and 20 (573 round 5).
+      PR has won every game in which it played Ardor (560, 561, 573) and lost all five in which it did not (557, 558, 559, 562, 574). The big rounds
+      came from the red chain (Adrenaline's free play on the first red mood each turn, Whimsy, Rashness, Verve), which builds five to seven red
+      moods in three rounds. Suppression does not help the opponent (it keeps abilities), and white has no removal. Caveats: eight Ardor rounds
+      in three games, two against white (no removal) and one against a bot; the Power Duel pairings PB against PR and PR against PG have not been
+      played yet, and black and green can answer red moods.
+
+      What each option would have done to those eight rounds (new score, and whether PR still wins the round; the number of red moods that receive the
+      bonus is counted from the logs, suppressed moods get none):
+        Current ("number of other red moods"): 11, 31, 24, 32, 37, 11, 30, 49, 20.
+        Option A, half the number of other red moods, rounded down: 5, 21, 16, 17, 22, 8, 20, 31, 12. PR loses 560 round 5 (16 against 19), which flips game
+          560 to PW; the other rounds keep their results.
+        Option B, cap at two ("up to two"): 8, 21, 16, 17, 17, 11, 20, 31, 16. Same flip as option A, and it is simpler to read.
+        Option C, cap at three ("up to three", the old Q9 fallback): 11, 26, 20, 22, 22, 11, 25, 37, 20. No round or game changes; the largest score drops from 49 to 37.
+      (Rounds in the order 560 round 3, 560 round 4, 560 round 5, 561 round 3, 561 round 4, 573 round 2, 573 round 3, 573 round 4, 573 round 5.)
+
+      Proposal (not decided). Option A is the cleanest change that still lets Ardor reward a long chain and that actually moves results: the bonus grows
+      with the red count but half as fast, so five red moods give +2 each (10 points in total) instead of +4 (20), and seven give +3 (21) instead of +6 (42).
+        Before: While in play — Each of your red moods has its value increased by the number of other red moods you have.
+        After A: While in play — Each of your red moods has its value increased by half the number of other red moods you have, rounded down.
+        After B: While in play — Each of your red moods has its value increased by the number of other red moods you have, up to two.
+        After C: While in play — Each of your red moods has its value increased by the number of other red moods you have, up to three.
+      Option D is to leave Ardor as it is, on the grounds that it is a mythic build-around, that PR is 0 to 5 without it, and that the games where it
+      ran were against white and a bot.
+
+      Suggested path. Play the two missing pairings (PB against PR and PR against PG, session 3 games 8 and 10) and a few more PR games against decks that
+      have removal before deciding. If Ardor rounds of 30 or more still appear there, adopt option A; if they do not, keep the current text.
+
+      Other levers considered and not recommended yet: Adrenaline (its free play is what builds the red count, and it is a 0 that loses a round-one turn),
+      Verve (+2 on each red mood played that round was a small part of the 49: Frenzy 13) and Frenzy (6, discarded after scoring).
