@@ -281,7 +281,7 @@ questions:
       bonus is counted from the logs, suppressed moods get none):
         Current ("number of other red moods"): 11, 31, 24, 32, 37, 11, 30, 49, 20.
         Option A, half the number of other red moods, rounded down: 5, 21, 16, 17, 22, 8, 20, 31, 12. PR loses 560 round 5 (16 against 19), which flips game
-          560 to PW; the other rounds are still wins.
+          560 to PW; the other rounds keep their results.
         Option B, cap at two ("up to two"): 8, 21, 16, 17, 17, 11, 20, 31, 16. Same flip as option A, and it is simpler to read.
         Option C, cap at three ("up to three", the old Q9 fallback): 11, 26, 20, 22, 22, 11, 25, 37, 20. No round or game changes; the largest score drops from 49 to 37.
       (Rounds in the order 560 round 3, 560 round 4, 560 round 5, 561 round 3, 561 round 4, 573 round 2, 573 round 3, 573 round 4, 573 round 5.)
