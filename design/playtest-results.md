@@ -1477,3 +1477,87 @@ in 564 (PG) and 565 (PW). PG is the green Fulfillment anthem deck; PW is the whi
 | Modesty, Familiarity, Solidarity chain | 8 against 3 (566 round 1). |
 | Equanimity | A 6 in 566 (four even moods); suppressed by PW's own Impartiality in round 4. |
 | Pacifism | Suppressed Restlessness (565 round 4). |
+
+## Session 3e: PU Blue Reverie engine against PB Black Neglect pressure (6 games)
+
+**Source.** The simulator exports of games 567 to 572 (10 November), the fifth Power Duel pairing (15 cards, one mythic). The first tester (P1) played PB in 567, 569 and 571 and PU in 568, 570 and 572. The other seat was a practice bot (PU) in 567 and 571, a
+practice bot (PB) in 570 and 572, and the second tester in 568 (PB) and 569 (PU). PU is the blue Reverie deck; PB is the black Neglect deck.
+
+### Summary
+
+| | |
+|---|---|
+| Result | **PB won 4 of 6** (567, 568, 569 and 570); PU won 571 (3 to 0, against P1's PB) and 572 (3 to 2, against the PB bot). Rounds: PB 14, PU 12. |
+| Scores by round, PU | 567: 5, 7, 10, 14. 568: 2, 8, 9, 6, 9. 569: 6, 8, 9, 11. 570: 3, 8, 8, 9, 11. 571: 6, 8, 5. 572: 6, 7, 10, 12, 15. |
+| Scores by round, PB | 567: 3, 9, 14, 14. 568: 2, 2, 7, 9, 10. 569: 3, 11, 13, 15. 570: 2, 8, 11, 16, 14. 571: 1, 3, 5. 572: 5, 11, 11, 5, 8. |
+| Game length | 3 to 5 rounds, 4.3 on average. |
+| Biggest turn | 2 plays (PU almost every turn, from Impulse; PB in 568 round 3 and 570 round 4, from Remorse). Highest scores: PB 16 (570 round 4), PU 15 (572 round 5). |
+
+### Insights
+
+1. **PU's Impulse engine empties its own hand, and Neglect punishes that.** Impulse (a 2 that returns to hand after scoring) gave PU two plays a turn in 567 and 568 and, with Rapport as the extra play, left it with no cards at scoring. Neglect fired twice: in 568 round 4 PU had played Impulse and Rapport with nothing left, and Neglect removed
+   Resignation (a 6): 6 against 9, and PB won the game 10 to 9 in round 5. In 571 round 3 the PU bot had played Fear and passed with no cards: Neglect removed Desperation and the score was 5 to 5. Impulse is still in play at the before-scoring trigger, so the engine itself leaves the hand empty.
+2. **Neglect was seen in five of six games but played in two.** PB held it unplayed in 569 (PU's hand held two cards), 572 (the PB bot never played it; it passed twice and ended with four cards in hand) and 567 round 4 (see 3). Played, it removed Resignation (568) and Desperation (571). When PU has cards in hand it is just a 2.
+3. **PB's Longing recursion was the smartest line.** In 567 round 4 PB discarded Neglect to Longing and took Hate and Neglect back from the pile, so Longing drew two cards for one. PU's hand was empty that round and Neglect, if played, would have removed Resignation (6) for 13 against 8, but PB won 14 to 14 anyway, and PB won the game 3 to 1.
+4. **PB's 5s were the scoring engine again.** Dejection (a black 5) and Resentment (colorless 5) gave 11 and 13 in 569 rounds 2 and 3, and 16 in 570 round 4 (Remorse, then Resentment as the extra play). Composure was a 6 in 570 and 572 because PU keeps few cards in hand (PB scored 11 in 570 round 3 and in 572 rounds 2 and 3). Dejection is symmetric: PU discarded Admiration (567), Elusiveness (569) and Fear (572).
+5. **Reverie worked for the first time, and was answered.** In 568 round 1 it put Fear back on the deck and drew Resignation; in 570 rounds 2 and 4 it moved Detachment and Resignation from the pile to the bottom and drew Resignation and Rapport. In 568 round 2 PB's Hate put the Reverie on the bottom of the deck. The engine needs cards in the pile (Nosiness, Dejection and Suspicion fed it), so PB's discard cards help PU.
+6. **Deflection decided 572.** It bounced Composure (a 6) in round 4 (12 against 5) and the name lock stopped PB replaying it in round 5. It also bounced Opportunism (571) and Resentment (570). It is PU's best answer to PB's 5s and 6s.
+7. **PB's openers are weak.** PB opened with Opportunism (a 1) in 571 (1 against 6) and held five cards at the end (Brooding, Longing, Opportunism, Pettiness, Remorse), as in session 3b. PB's best rounds came after Dejection or Resentment.
+8. **The bots played oddly.** The PB bot passed in 572 rounds 3 and 4 with playable cards (Neglect, Opportunism) in hand and ended with four cards; the PU bot played Impulse every turn.
+
+### Questions for the testers
+
+- Game 567 round 4: PB played Longing (discard Neglect, take Hate and Neglect back) instead of Neglect with PU's hand empty. Was the recursion the plan, or did you see that Neglect would have removed Resignation?
+- Game 568 round 4: PU played Impulse and Rapport and ended with no cards in hand. Was Neglect's before-scoring check seen, and would you have held a card?
+- Game 569: PB held Neglect from round 2 to round 4. Was PU's two-card hand the reason, or did the 5s look better?
+- Game 571: PB opened with Opportunism and held five cards. What was the plan for Longing, Remorse and Pettiness?
+- Reverie (568, 570): how did it feel when it worked? Was Hate the right answer to it?
+- Fun and clarity for Impulse (it returns after scoring), Neglect, Longing and Deflection's name lock.
+
+### Game logs
+
+**Game 567.** PB (P1, seat 0) against PU (bot, seat 1); PB went first. PB won 3 to 1.
+- Scores: PB 3, PU 5; PB 9, PU 7; PB 14, PU 10; PB 14, PU 14.
+- Longest turn: 2 plays (PU in every round: Impulse and a second mood).
+- Decided: Suspicion and Dejection made Schadenfreude a 6 in rounds 2 and 3; Longing recursion in round 4.
+
+**Game 568.** PU (P1, seat 0) against PB (second tester, seat 1); PB went first. PB won 3 to 2.
+- Scores: PU 2, PB 2; PU 8, PB 2; PU 9, PB 7; PU 6, PB 9; PU 9, PB 10.
+- Longest turn: 2 plays (PU in rounds 2 to 5, PB in round 3).
+- Decided: Hate on Reverie (round 2), Neglect on Resignation in round 4 (PU's hand empty), round 5 by one point.
+
+**Game 569.** PB (P1, seat 0) against PU (second tester, seat 1); PU went first. PB won 3 to 1.
+- Scores: PB 3, PU 6; PB 11, PU 8; PB 13, PU 9; PB 15, PU 11.
+- Longest turn: 1 play every turn.
+- Decided: Dejection and Resentment (5s) in rounds 2 and 3; PB held Neglect unplayed.
+
+**Game 570.** PU (P1, seat 0) against PB (bot, seat 1); PU went first. PB won 3 to 2.
+- Scores: PU 3, PB 2; PU 8, PB 8; PU 8, PB 11; PU 9, PB 16; PU 11, PB 14.
+- Longest turn: 2 plays (PU in round 2, PB in round 4).
+- Decided: Reverie and Desperation in round 2, Vengeance on Resignation in round 3, Remorse then Resentment in round 4 (16).
+
+**Game 571.** PB (P1, seat 0) against PU (bot, seat 1); PU went first. PU won 3 to 0.
+- Scores: PB 1, PU 6; PB 3, PU 8; PB 5, PU 5.
+- Longest turn: 2 plays (PU in round 1: Desperation, Anticipation).
+- Decided: Deflection on Opportunism in round 2; Neglect on Desperation in round 3 (5 to 5).
+
+**Game 572.** PU (P1, seat 0) against PB (bot, seat 1); PB went first. PU won 3 to 2.
+- Scores: PU 6, PB 5; PU 7, PB 11; PU 10, PB 11; PU 12, PB 5; PU 15, PB 8.
+- Longest turn: 1 play every turn (PB passed in rounds 3 and 4).
+- Decided: Deflection on Composure in round 4 (12 against 5), Reminiscence in round 5.
+
+### Notes by card (PU against PB)
+
+| Card | What the games showed |
+|---|---|
+| Neglect | Played in 568 (removed Resignation) and 571 (removed Desperation); held in 567, 569 and 572; fires when Impulse leaves PU's hand empty. |
+| Impulse | Two plays and 2 points a turn; leaves the hand empty at scoring. |
+| Reverie | Drew in 568 round 1 and 570 rounds 2 and 4; Hate put it on the bottom (568). |
+| Deflection | Composure (572, decisive), Opportunism (571), Resentment (570). |
+| Dejection, Resentment | 5s that made PB's best rounds (569, 570). |
+| Composure | A 6 in 570 and 572. |
+| Longing | Discard Neglect, take Hate and Neglect back (567). |
+| Hate | Bottomed Reverie (568); discarded and retrieved (567). |
+| Resignation | A 6 (572 rounds 1 to 5, 568 round 2); removed by Neglect and Vengeance. |
+| Rapport | A double loot in 572 round 3; PU's last card in 568 round 4. |
+| Opportunism | Opened with a 1 and bounced (571). |
