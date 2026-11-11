@@ -1772,3 +1772,93 @@ The first tester (P1) played PG in 575 and 578 and PU in 577 and 579. The other 
 | FOMO | A cost again; FOMO then Vindictiveness won 581 round 3. |
 | Rashness, Shock | Removed Remorse, Opportunism and Longing. |
 | Vindictiveness | Removed FOMO and Schadenfreude (581 round 3). |
+
+## Session 3i: PB Black Neglect pressure against PG Green Fulfillment anthems (5 games)
+
+**Source.** The simulator exports of games 586 to 590 (11 November), the ninth Power Duel pairing (15 cards, one mythic). The first tester (P1) played PG in 586, 588 and 590 and PB in 587 and 589. The other seat was a practice bot (PB) in 586 and the second tester in the other four games
+(PG in 587 and 589, PB in 588 and 590). PB is the black Neglect deck; PG is the green Fulfillment deck.
+
+### Summary
+
+| | |
+|---|---|
+| Result | **PG won 3 of 5** (586 against the PB bot, 3 to 1; 587, 3 to 2; 588, 3 to 0); PB won 589 (3 to 2) and 590 (3 to 0). Rounds: PG 11, PB 9. |
+| Scores by round, PG | 586: 3, 13, 15, 24. 587: 5, 5, 9, 14, 23. 588: 5, 6, 12. 589: 0, 2, 7, 12, 12. 590: 0, 2, 7. |
+| Scores by round, PB | 586: 3, 6, 11, 14. 587: 3, 6, 11, 12, 18. 588: 3, 6, 11. 589: 0, 5, 8, 9, 15. 590: 3, 8, 11. |
+| Game length | 4, 5, 3, 5 and 3 rounds, 4.0 on average. |
+| Biggest turn | 2 plays (PG in 586 round 2, 587 round 1, 588 rounds 1 and 3; PB in 588 round 3, from Remorse). Highest scores: PG 24 (586 round 4) and 23 (587 round 5); PB 18 (587 round 5). |
+
+### Insights
+
+1. **PB answered PG's first good mood almost every time.** Vengeance (587 round 2, 588 round 2, 589 round 5, 590 round 1) removed Determination, Vindication, Restlessness and Honesty, and Hate bottomed Determination in 589 round 1. PG's Determination and Honesty never scored in these games.
+   PG won when it had three or more moods before the removal arrived (586: 13 in round 2 with Resolve a 6, Joy and Kinship; 24 in round 4 with five moods) and lost when its first plays were removed (589 rounds 1 and 2, 590 rounds 1 to 3: 0, 2, 7). PB's own curve was nearly the same in three games (3, 6, 11 in 586, 587 and 588).
+2. **Fulfillment decided the one game where it ran, but it ran once.** It was in play only in 587 round 5: PG scored 23 against 18, of which Fulfillment itself was 1 and the extra score of Vindication (a 6) was 6; without it PG would have had 17 against 18 and lost the game. It was discarded by the bot's Nosiness in 586 (the bot picked it out of a two-card hand), and stayed in the deck in 588, 589 and 590. It is the same as session 3d: a mythic seen in about half the games.
+3. **The shared discard pile works for black as recursion.** In 587 round 5 Brooding took PG's Determination (removed by Vengeance in round 2) back to PB's hand, and PB played it as a 6 (Suspicion, Vengeance and Brooding make three black moods); in 590 round 3 Longing discarded Composure and took PG's Honesty and Determination, one removed by Vengeance and one discarded to Dejection. PB's removal feeds its recursion with the opponent's best cards.
+   The game ended before PB could play them in 590, and PB lost round 5 in 587 anyway (18 to 23).
+4. **Suspicion helped PG twice.** In 587 and 588 round 1 PB played Suspicion, and PG discarded a 2 (Perseverance, Vindication) and replayed it from the pile with Thrift (a 0 to 3 card from the discard pile) in the same turn: 5 against 3 both times. Suspicion against a Thrift deck gave it a free play.
+5. **Neglect was never played, and it had two chances.** It was in PB's hand at the end of 586 (bot), 587, 588 and 589, and in the deck in 590. PG's hand was empty before scoring only in the last round of 586 (round 4, 14 to 24) and 588 (round 3). The tester in 588 played Remorse and Dejection that round; with Neglect in place of Dejection PB would have had 8 and PG 8 after losing a 4-point mood (Joy or Thrift), a tie that the first player (PG) wins. So Neglect would not have changed the result.
+   PG's hand was 1 to 5 cards through the rest of the games: PG plays one card a turn and draws only when it loses a round, so it keeps cards. This repeats session 3h (Neglect never played against PR either) and matches session 3b: Neglect fires against engine decks that empty their hand, not against a deck that plays one mood a turn.
+6. **Martyrdom worked with a free sacrifice (589 round 5).** PB sacrificed Hate (a 0) at the start of its turn, PG discarded Vitality, and Vengeance on Restlessness gave PB 15 against 12 and the game. Martyrdom is a good card for black when it has a 0 to feed it. Pettiness was never played (held in 586 and 587).
+7. **PG's Joy extra plays gave it bursts.** Joy's extra play next turn gave two plays in 586 round 2 (Resolve, Kinship: 13 against 6) and 588 round 3 (Kinship, Vitality: but Vitality's start-of-turn trigger had already passed, so it did nothing that round). Kinship is a 1 that adds 1 to each green mood, so it needs a third green mood.
+8. **590 was PG's weakest game.** It played Honesty (revealing four cards), Maturity and Joy in three turns, and ended with Kinship, Perseverance and Vindication in hand, because the one play a turn left them unplayed. PB won with Vengeance, Dejection and Longing (a 3-play game).
+9. **The PB bot played well in 586.** Nosiness took Fulfillment out of PG's hand; it never played Neglect, Martyrdom or Pettiness (it held them to the end).
+
+### Questions for the testers
+
+- Games 587 and 588 round 1: after Suspicion, did you discard Perseverance / Vindication on purpose to replay it with Thrift? Is the interaction fun, or does Suspicion feel bad against Thrift?
+- Game 587: Fulfillment was drawn after round 2 and played in round 5. Was it waiting for more 6s, or did the other plays look better? Did Fulfillment feel strong when it ran?
+- Games 587 to 589: Neglect was held. Did you see the PG hand sizes (3 to 5 cards) as a reason not to play it? Is there a deck where you would play it on turn one?
+- Game 588 round 3: Remorse then Dejection when PG's hand was empty. Was Neglect considered?
+- Game 589 rounds 1 to 3: PG played Determination into Hate, then low moods. Was the plan to play the 6s later?
+- Game 590 round 3: Longing took Honesty and Determination. Did taking the opponent's cards from the pile feel good? Is "black recursion from the shared pile" something you want more or less of?
+- Pettiness (a missed turn for a player) was never played. Is it unplayable, or just not drawn at the right time?
+- Fun and clarity for Brooding and Longing taking the opponent's cards, and Martyrdom.
+
+### Game logs
+
+**Game 586.** PG (P1, seat 0) against PB (bot, seat 1). PG won 3 to 1.
+- Scores: PG 3, PB 3; PG 13, PB 6; PG 15, PB 11; PG 24, PB 14.
+- Longest turn: 2 plays (PG in round 2: Resolve, Kinship with Joy's extra play).
+- Hands: PG's hand was empty at the end; PB ended with Martyrdom, Neglect and Pettiness.
+- Decided: Nosiness took Fulfillment in round 3; Resolve a 6 in round 2 (13 to 6); PG's five moods in round 4 (24 to 14).
+
+**Game 587.** PB (P1, seat 0) against PG (second tester, seat 1). PG won 3 to 2.
+- Scores: PB 3, PG 5; PB 6, PG 5; PB 11, PG 9; PB 12, PG 14; PB 18, PG 23.
+- Longest turn: 2 plays (PG in round 1: Thrift, then Perseverance from the discard pile).
+- Decided: Suspicion into Thrift in round 1; Vengeance on Determination in round 2 (6 to 5); Fulfillment in round 5 (23 to 18) against PB's Brooding then Determination from the pile.
+
+**Game 588.** PG (P1, seat 0) against PB (second tester, seat 1). PG won 3 to 0.
+- Scores: PG 5, PB 3; PG 6, PB 6; PG 12, PB 11.
+- Longest turn: 2 plays (PG in rounds 1 and 3; PB in round 3: Remorse, Dejection).
+- Decided: Suspicion into Thrift in round 1; Vengeance on Vindication in round 2 (6 to 6, PG went first); round 3 by one point, with PG's hand empty and Neglect held.
+
+**Game 589.** PB (P1, seat 0) against PG (second tester, seat 1). PB won 3 to 2.
+- Scores: PB 0, PG 0; PB 5, PG 2; PB 8, PG 7; PB 9, PG 12; PB 15, PG 12.
+- Longest turn: 1 play every turn.
+- Decided: Hate on Determination in round 1 (0 to 0); Martyrdom (sacrificing Hate) and Vengeance on Restlessness in round 5.
+
+**Game 590.** PG (P1, seat 0) against PB (second tester, seat 1). PB won 3 to 0.
+- Scores: PG 0, PB 3; PG 2, PB 8; PG 7, PB 11.
+- Longest turn: 1 play every turn.
+- Decided: Vengeance on Honesty in round 1; Dejection in round 2 (PG discarded Determination); Longing in round 3 took Honesty and Determination from the pile.
+
+### Notes by card (PB against PG)
+
+| Card | What the games showed |
+|---|---|
+| Vengeance | Removed Determination, Vindication, Restlessness and Honesty (587, 588, 589, 590); the answer to PG's first good mood. |
+| Hate | Bottomed Determination (589 round 1); sacrificed to Martyrdom (589 round 5). |
+| Suspicion | Gave PG a free replay with Thrift in 587 and 588 round 1. |
+| Nosiness | The bot took Fulfillment from PG's hand (586 round 3). |
+| Dejection | A 5 (588, 590); PG's hand was already empty in 588 round 3. |
+| Brooding, Longing | Took PG's removed Determination (587 round 5) and Honesty and Determination (590 round 3) back from the shared pile. |
+| Martyrdom | Worked in 589 round 5 with Hate as the sacrifice. |
+| Neglect | Never played (held in four games, in the deck in one); PG's hand was empty only in the last round of 586 and 588. |
+| Pettiness | Never played (held in 586 and 587). |
+| Remorse | Free extra play (588 round 3); put PG's Vindication on the bottom of PG's deck. |
+| Fulfillment | Played once (587 round 5, 23 to 18); discarded by Nosiness in 586. |
+| Thrift | Replayed Perseverance and Vindication (a 2 each) from the pile in 587 and 588 round 1. |
+| Joy | Extra plays in 586 round 2 and 588 round 3. |
+| Vitality | Played as an extra play in 588 round 3, after its trigger: no effect that round. |
+| Resolve, Restlessness | 6s in 586 (rounds 2 and 4). |
+| Determination, Honesty | Removed each time they were played (587, 589, 590). |
