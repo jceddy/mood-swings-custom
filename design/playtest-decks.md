@@ -550,6 +550,73 @@ Name PB Neglect splash
 1 Shock
 ```
 
+### PR Ardor splash (red with a green and blue splash, Ardor)
+
+A variant of PR built after its Power Duel games (games 557 to 592, where PR went 4 wins to 11: against PW 2 to 4, PU 1 to 1, PB 0 to 5, PG 1 to 1). Ardor stays as it is (Q14, decided: leave it for now). The deck keeps 11 red cards so the red chain still builds, and
+swaps three cards that played badly: FOMO (a 7 that cost PR its hand in 545, 558 and 562, and was only a cost in 581), Belligerence (its sweep was never used) and Ruthlessness (a 5 only if an opponent has no cards in hand, never seen). PR's turn-one plays were weak (Adrenaline 0 and Verve 1 lost round 1 in 557, 559 and 561)
+and its hand often ran dry.
+
+- **Thrift** (green, 3): a real turn-one body, and an extra play from the discard pile for a mood with a 0, 1, 2 or 3, which covers most of red's cheap cards (Adrenaline, Rashness, Verve, Shock, Zeal, Compulsion) after black or green removes them.
+- **Resignation** (blue, 6): a turn-one 6, paid with a spare card while the hand is still full.
+- **Nostalgia** (green reprint, 0): a free extra play that returns a removed mood from the pile to the hand, which keeps the hand from running dry.
+
+Risks: Resignation needs a card in hand (PR's hand ran dry by round 3 in earlier games), and none of the three counts as a red mood for Ardor, Exuberance or Verve. Temperance (white, 3 or 5 with fewer cards in hand than each other player) in place of Compulsion, or Hellbent (red, 2 or 7 with no cards in hand) in place of Ruthlessness, are the alternatives
+if the hand keeps running dry.
+
+```
+About
+Name PR Ardor splash
+
+1 Ardor
+1 Verve
+1 Adrenaline
+1 Rashness
+1 Exuberance
+1 Impatience
+1 Frenzy
+1 Whimsy
+1 Shock
+1 Zeal
+1 Compulsion
+1 Vindictiveness
+1 Thrift
+1 Resignation
+1 Nostalgia
+```
+
+### PG Fulfillment splash (green with a black and red splash, Fulfillment)
+
+A variant of PG built after its Power Duel games (games 563 to 592, where PG went 10 wins to 5: against PW 3 to 1, PU 3 to 1, PB 3 to 2, PR 1 to 1). PG's weakness is that its first mood keeps getting removed: Honesty, Determination and Restlessness are conditional 3s, and Vengeance, Hate or Shock took them in 587, 589, 590, 591 and 592. Green has no removal and no answer to the
+other decks' engines. This version keeps 12 green cards (Kinship and Vitality only reward green moods, so the splash is three cards) and swaps Honesty (removed every time it was played against black or red, and it needs every card in hand to share a color with a mood in play, which off-color cards break),
+Nostalgia (never played in these games; Thrift and Joy already give PG its extra plays) and Perseverance (a 2 that only grows when PG is behind).
+
+- **Vengeance** (black, 3): a body that puts one of the opponent's highest value moods into the discard pile; the answer to Orderliness, Reverie, Ardor or Neglect, and to an opponent's best mood in general.
+- **Hate** (black reprint, 0): puts any mood on the bottom of the deck and draws, so it is card-neutral and permanent.
+- **Rashness** (red, 0): a free extra play (Urgency is a 6 with two or more plays this round, and Joy and Thrift also want plays) and removal of an opponent's mood worth 1 or less.
+
+Hate and Rashness print 0 (even), so white's Impartiality (odd), which hurt PG in session 3d, misses them. Risks: Hate and Rashness are 0-value bodies, so PG's scores may drop; Perseverance is the first card to swap back in.
+
+```
+About
+Name PG Fulfillment splash
+
+1 Fulfillment
+1 Vitality
+1 Maturity
+1 Determination
+1 Resolve
+1 Restlessness
+1 Urgency
+1 Vindication
+1 Kinship
+1 Contentment
+1 Joy
+1 Thrift
+1 Vengeance
+1 Hate
+1 Rashness
+```
+
 ### Games to play
 
 Run each deck against each other once (10 pairings), swapping who goes first between games. Add a second game for any pairing that was close or
@@ -577,6 +644,10 @@ Look at whether Hate and Rashness answer Ardor, Vitality and Maturity in time, w
 Splash variant (PB Neglect splash): play it against each of PW, PU, PR and PG, swapping seats, and compare with the 15 wins to 7 of the plain PB (against PW 4 to 2, PU 4 to 2, PR 5 to 0, PG 2 to 3).
 Look at whether Resignation's cost (a spare card) is easy to pay, whether Rashness and Shock answer the other decks' early mythics (Fulfillment, Orderliness, Reverie, Ardor) in time, whether Fear's replayed Vengeance or Nosiness is worth the mood it bounces,
 whether the extra plays empty PB's hand (does Neglect fire more often?), and whether board values keep up with PG's scaling.
+
+Splash variants (PR Ardor splash and PG Fulfillment splash): play each against PW, PU, PB and the other one, swapping seats, and compare with the plain decks (PR 4 to 11: against PW 2 to 4, PU 1 to 1, PB 0 to 5, PG 1 to 1; PG 10 to 5: against PW 3 to 1, PU 3 to 1, PB 3 to 2, PR 1 to 1).
+For PR, look at whether Thrift replays the cheap red moods, whether Resignation is easy to pay and a good turn-one play, whether Nostalgia keeps the hand from running dry, and whether Ardor still builds a big red count with 11 red cards (Q14 stays as it is). For PG, look at whether Vengeance and Hate answer the other decks' first
+engine mood in time, whether Rashness gives Urgency its two plays, and whether PG's scores keep up without Honesty and Perseverance.
 
 For every game note the Power Duel setup (15 cards, one mythic, no extra mythics), the result by round, the largest turn, and whether any player
 ran short of cards or decked out.
