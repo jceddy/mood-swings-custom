@@ -517,7 +517,7 @@ Name PU Reverie splash
 
 ### PB Neglect splash (black with a tempo and removal splash, Neglect)
 
-A variant of PB built after its Power Duel games (games 552 to 590, where PB went 15 wins to 7: against PW 4 to 2, PU 4 to 2, PR 5 to 0, PG 2 to 3). It keeps eleven black cards (so Resentment's gate is still met). It adds four cards of other colors aimed at what PB lacked: PB ended games holding unplayed cards (Neglect and Pettiness in 587, Brooding, Hate and Neglect in 588, Longing, Neglect and Remorse in 589)
+A variant of PB built after its Power Duel games (games 552 to 590, where PB went 15 wins to 7: against PW 4 to 2, PU 4 to 2, PR 5 to 0, PG 2 to 3). It keeps ten black cards and Resentment (the colorless gate that needs a black mood). It adds four cards of other colors aimed at what PB lacked: PB ended games holding unplayed cards (Neglect and Pettiness in 587, Brooding, Hate and Neglect in 588, Longing, Neglect and Remorse in 589)
 because Remorse was its only extra play; it had no body above 5 and scored 3, 6 and 11 by round 3 against PG's 24 and 23; and it had only Vengeance and Hate as answers. It cuts Pettiness (never played), Opportunism (a 1 that was
 discarded as fodder twice), Martyrdom (a 1 that needs a sacrifice) and Composure (a conditional 6 that scored once).
 
