@@ -452,6 +452,69 @@ Name PW Even numbers splash
 1 Rapport
 ```
 
+### PU Reverie discard (blue and black, Reverie)
+
+A variant of PU built after the Power Duel games against PW, PB, PR and PG (games 546 to 579, where PU won 6 and lost 11). Reverie never ran: it needs cards in the discard pile, and blue has almost no way to put
+them there (it did nothing with an empty pile in 547 and 575, and was used as a cost or put on the bottom of the deck in others). This version adds the black discard cards as fuel: Dejection (a 5; each player discards a card, so two
+cards go into the pile), Suspicion and Nosiness (the opponent discards), and Remorse (a free extra play that moves a pile card to the bottom of the deck and draws). With Impulse's second play each turn Reverie can trigger twice a turn, and Rapport's second loot is on because the black moods count as white and/or black.
+Schadenfreude is a 6 whenever an opponent discarded a card this round, Rumination finally has targets (bounce Suspicion or Nosiness at the start of the turn and play it again), Hate gives permanent, card-neutral removal, and Deflection with Fear is the bounce lock that won game 579.
+
+It cuts Reflection, Admiration, Anticipation, Elusiveness, Panic and Reminiscence; Panic and Reminiscence are the first cards to swap back in if the deck lacks tempo or bodies. Risks: Dejection costs PU a card and its hand is already small, Neglect still punishes an empty hand,
+and against decks that discard little (PG, PR) the pile may run short.
+
+```
+About
+Name PU Reverie discard
+
+1 Reverie
+1 Impulse
+1 Dejection
+1 Suspicion
+1 Nosiness
+1 Remorse
+1 Schadenfreude
+1 Resignation
+1 Detachment
+1 Deflection
+1 Rapport
+1 Hate
+1 Rumination
+1 Fear
+1 Desperation
+```
+
+### PU Reverie splash (blue with a tempo and scaling splash, Reverie)
+
+The other PU variant from the same review: it keeps ten blue cards and adds five cards of other colors aimed at PU's other weaknesses, which were low values late (PG reached 40 and 41 with Fulfillment and Maturity, PR 30 and 49 with Ardor) and no permanent answers
+(Panic and Deflection only bounce). It cuts Rumination (declined 11 times), Elusiveness, Reflection, Admiration and Anticipation.
+
+- **Hate** (black reprint, 0): permanent, card-neutral removal (answers Maturity, Fulfillment, Ardor).
+- **Rashness** (red, 0): a free extra play and removal of a mood worth 1 or less (Fulfillment when Kinship is not boosting it, Vitality, Adrenaline, Verve, Opportunism).
+- **Determination** (green reprint, 3 or 6): a 6 once any three moods share a color, which PU's blue board does by round 2 or 3.
+- **Vitality** (green rare, 1): +2 to each blue mood every turn, PU's own scaling; the riskiest card (a 1 that Rashness and Shock can kill, and on the Q9 watch list).
+- **Temperance** (white, 3 or 5): a 5 when PU holds fewer cards than each other player, which is usually the case.
+
+```
+About
+Name PU Reverie splash
+
+1 Reverie
+1 Impulse
+1 Resignation
+1 Detachment
+1 Deflection
+1 Panic
+1 Rapport
+1 Reminiscence
+1 Fear
+1 Desperation
+1 Hate
+1 Rashness
+1 Determination
+1 Vitality
+1 Temperance
+```
+
 ### Games to play
 
 Run each deck against each other once (10 pairings), swapping who goes first between games. Add a second game for any pairing that was close or
@@ -469,6 +532,9 @@ unclear. Against the baseline (B) the decks are 20 cards, so use B only for a sa
 | 8 | PB against PR | 1 | Whether Neglect's round 4 and 5 payoff arrives before red's Ardor (red empties its own hand early). |
 | 9 | PB against PG | 1 | Hand pressure against a deck that plays one mood a turn; Suspicion and Nosiness against Honesty (which reveals the hand). |
 | 10 | PR against PG | 1 | The earlier R against G games (R won 4 of 6) with both decks trimmed to one mythic. |
+
+PU variants (PU Reverie discard and PU Reverie splash): play each against PW, PB, PR and PG, swapping seats, and compare with the plain PU's record of 6 wins and 11 losses (against PW 2 to 3, PB 2 to 4, PR 1 to 1, PG 1 to 3).
+For Reverie discard, look at whether the pile has cards for Reverie to use, how many cards Reverie draws a turn, whether PU runs out of cards (Dejection's cost, Neglect) and whether Schadenfreude is a 6. For Reverie splash, look at whether Hate and Rashness answer Maturity, Fulfillment and Ardor in time, whether Vitality survives, and whether PU's values keep up with the scaling decks.
 
 Splash variant (PW Even numbers splash): play it against each of PU, PB, PR and PG, swapping seats, and compare with the 10 wins to 11 of the plain PW (against PU 3 to 2, PB 2 to 4, PR 4 to 2, PG 1 to 3).
 Look at whether Hate and Rashness answer Ardor, Vitality and Maturity in time, whether Determination reaches 6, whether Rapport keeps the hand from running dry (Neglect, game 555), and whether PW still draws a chain starter.

@@ -1692,3 +1692,83 @@ The first tester (P1) played PG in 575 and 578 and PU in 577 and 579. The other 
 | Impulse | Two plays a turn in 577 (5, 10, 13, 19, 20). |
 | Reverie | Played with an empty pile (575 round 1); held at the end of 579. |
 | Rumination | In play as a 1 (575, 578); no use. |
+
+## Session 3h: PB Black Neglect pressure against PR Ardor red pile (5 games)
+
+**Source.** The simulator exports of games 581 to 585 (10 and 11 November; game 580 is not in the zip), the eighth Power Duel pairing (15 cards, one mythic). The first tester (P1) played PR in 581, 583 and 585 and PB in 582 and 584. The other seat was a practice bot (PB) in 581 and 585 and the second tester in the other three games
+(PB in 583, PR in 582 and 584). PB is the black Neglect deck; PR is the red Ardor deck (Ardor counts the other red moods, Q13).
+
+### Summary
+
+| | |
+|---|---|
+| Result | **PB won all five** (581, 583 and 585 against P1's PR; 582 and 584 as P1's PB), each 3 to 1 in rounds except 584 (3 to 2). Rounds: PB 15, PR 6. |
+| Scores by round, PB | 581: 3, 8, 2, 5. 582: 3, 8, 13, 14. 583: 5, 10, 13, 16. 584: 3, 6, 11, 11, 16. 585: 0, 3, 6, 6. |
+| Scores by round, PR | 581: 0, 5, 3, 3. 582: 3, 8, 14, 11. 583: 0, 12, 2, 13. 584: 5, 5, 7, 12, 12. 585: 2, 0, 5, 5. |
+| Game length | 4, 4, 4, 5 and 4 rounds, 4.2 on average. |
+| Biggest turn | 2 plays (PB in 581 round 2 and 585 round 3, from Remorse; PR in 581 rounds 2 and 3, 583 round 2, 584 rounds 1 and 4). Highest scores: PB 16 (583 round 4, 584 round 5), PR 14 (582 round 3). |
+
+### Insights
+
+1. **PB's cheap removal kept PR's engine from building, and Ardor never snowballed.** Ardor appeared in two games (583 and 585): PR scored 12 and 13 in 583 (rounds 2 and 4, with three red moods) and 0 to 5 in 585. Vengeance removed PR's highest mood each time (Exuberance in 583 round 3 and 584 round 2, Shock in 585 round 2), Hate bottomed Impatience (581) and Zeal (585), and Suspicion and Nosiness made PR discard Adrenaline (584), Belligerence (581),
+   Rashness (582) and Zeal (583). In both games PR never had more than three red moods in play, so Ardor stayed small. Together with session 3f this makes PR 3 to 2 when it plays Ardor: it won against white and a blue bot, and lost both games against black.
+2. **This is evidence for Q14 that the current Ardor text may be fine.** Q14's suggested path was to play PB against PR before changing Ardor. Here Ardor games reached 13 at most, so the 30 to 49 rounds depend on the opponent having no cheap removal. The PR against PG pairing is still unplayed.
+3. **PR's hand ran dry.** PR passed or had no cards to play in 581 (rounds 2 and 4), 583 (rounds 3 and 4) and 584 (round 5, an automated pass), with Adrenaline's extra plays unused. FOMO and Zeal cost cards (FOMO's cost was Zeal in 581 and Shock in 583), and PB's Suspicion and Nosiness take more.
+4. **PB's 5s were its scoring again.** Dejection and Resentment gave PB 8, 13 and 14 in 582, 10, 13 and 16 in 583, and 11 and 16 in 584 with three or four moods. Schadenfreude was a 6 in 581 round 2 (Nosiness made PR discard).
+5. **The black testers discarded Neglect to Dejection again (583 round 1).** This is the third game (with 554 and 567 round 4 via Longing). Neglect was never played in these five games (held in 581's hand at the end, discarded in 583), although PR's hand was empty in several rounds, where it would have removed PR's best mood.
+6. **The best PR line was the FOMO sacrifice (581 round 3).** PR played FOMO (a 7, paying Zeal), then Vindictiveness with Adrenaline's extra play: it put FOMO into the pile and removed Schadenfreude (lower value), winning the round 3 to 2. FOMO again acted as a cost, not as a 7 that stayed.
+7. **Rashness and Shock handled PB's small moods.** Rashness removed Remorse (581) and Opportunism (584), and Shock removed Longing (585 round 1). PB's moods are cheap, which red's removal can reach, but each removal cost PB only a small mood and PB just played the next card.
+8. **The PB bot played well:** it used Vengeance and Hate on PR's best mood each time, and Remorse then Schadenfreude for a free 6.
+
+### Questions for the testers
+
+- Game 583 round 1: PB discarded Neglect to Dejection. Was it the weakest card in hand? This has happened in 554, 567 and now 583: is Neglect hard to build a plan around, or just worth less than the other cards?
+- Game 585: PR held Belligerence, Composure, Ruthlessness and Vindictiveness at the end, and played Ardor alone in round 2 into Vengeance. What was the plan, and would Adrenaline have changed it?
+- Game 581 round 3: the FOMO then Vindictiveness line. Was it planned?
+- Does PB's mix of Suspicion, Nosiness, Vengeance and Hate feel too good against red? Should red have a way to rebuild after losing its engine cards?
+- Fun and clarity for Vengeance (the opponent chooses among its highest moods) and Hate.
+
+### Game logs
+
+**Game 581.** PR (P1, seat 0) against PB (bot, seat 1); PR went first. PB won 3 to 1.
+- Scores: PR 0, PB 3; PR 5, PB 8; PR 3, PB 2; PR 3, PB 5.
+- Longest turn: 2 plays (PB in round 2: Remorse, Nosiness; PR in rounds 2 and 3).
+- Hands: PR passed in rounds 2 and 4 with extra plays unused.
+- Decided: Remorse then Nosiness then Schadenfreude as a 6 in round 2; PR's FOMO then Vindictiveness in round 3 (3 to 2).
+
+**Game 582.** PB (P1, seat 0) against PR (second tester, seat 1); PB went first. PB won 3 to 1.
+- Scores: PB 3, PR 3; PB 8, PR 8; PB 13, PR 14; PB 14, PR 11.
+- Longest turn: 1 play every turn.
+- Decided: Dejection and Resentment (5s) in rounds 2 and 3; PR won round 3 with Frenzy.
+
+**Game 583.** PR (P1, seat 0) against PB (second tester, seat 1); PB went first. PB won 3 to 1.
+- Scores: PR 0, PB 5; PR 12, PB 10; PR 2, PB 13; PR 13, PB 16.
+- Longest turn: 2 plays (PR in round 2: Ardor, Exuberance).
+- Decided: Dejection (PB discarded Neglect) in round 1; Vengeance on Exuberance in round 3 (2 to 13).
+
+**Game 584.** PB (P1, seat 0) against PR (second tester, seat 1); PR went first. PB won 3 to 2.
+- Scores: PB 3, PR 5; PB 6, PR 5; PB 11, PR 7; PB 11, PR 12; PB 16, PR 12.
+- Longest turn: 2 plays (PR in rounds 1 and 4).
+- Decided: Suspicion on Adrenaline (round 1), Vengeance on Exuberance (round 2), Dejection in round 5 against PR's empty hand.
+
+**Game 585.** PR (P1, seat 0) against PB (bot, seat 1); PB went first. PB won 3 to 1.
+- Scores: PR 2, PB 0; PR 0, PB 3; PR 5, PB 6; PR 5, PB 6.
+- Longest turn: 2 plays (PB in round 3: Remorse, Schadenfreude).
+- Decided: Vengeance on Shock in round 2 (Ardor alone was a 0), Hate on Zeal in round 4.
+
+### Notes by card (PB against PR)
+
+| Card | What the games showed |
+|---|---|
+| Vengeance | Removed Exuberance (583, 584) and Shock (585); the answer to PR's best mood each time. |
+| Hate | Bottomed Impatience (581) and Zeal (585). |
+| Suspicion, Nosiness | Made PR discard Adrenaline, Rashness, Belligerence and Zeal. |
+| Dejection, Resentment | 5s that gave PB 8 to 16 with three or four moods. |
+| Neglect | Never played; discarded to Dejection (583), held (581). |
+| Schadenfreude | A 6 in 581 round 2 and in 585 round 3 (a 3 elsewhere). |
+| Remorse | Free extra play (581, 585); Rashness removed it once. |
+| Ardor | 12 in 583 round 2, 0 to 1 in 585; never reached three red moods. |
+| Adrenaline | A turn-one 0 (581, 583); discarded by Suspicion (584). |
+| FOMO | A cost again; FOMO then Vindictiveness won 581 round 3. |
+| Rashness, Shock | Removed Remorse, Opportunism and Longing. |
+| Vindictiveness | Removed FOMO and Schadenfreude (581 round 3). |
