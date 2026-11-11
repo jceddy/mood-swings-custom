@@ -262,9 +262,12 @@ questions:
       (its 4-to-6 extra play was used in about two of five W plays); Dominance is a watch item, not a change (it removed two of G's
       moods in game 537, but a once-per-turn cap would not have changed what happened).
   - id: Q14
-    status: open
+    status: decided
     question: Should Ardor be changed again after the Power Duel games (it still scored 30 to 49 points with the "other red moods" text of Q13)? This is a proposal for the group; nothing is decided and no card file has been changed.
     notes: |
+      Decided: option D, leave Ardor as it is ("number of other red moods", Q13) for now. No card file changes. Revisit if Ardor rounds of 30 or
+      more keep appearing against decks that have removal, or after more PR against PG games (the pairing with the most weight, since green has no
+      removal and Ardor has not yet been drawn against it in a Power Duel game).
       Background. Q13 changed Ardor to count only the other red moods (each red mood gets +(N-1) with N red moods, Ardor included). In the Power
       Duel play tests that followed (design/playtest-results.md, sessions 3c and 3f) PR (the 15-card Ardor deck) still reached these scores:
         - N=5 red moods: 31 (560 round 4, opponent 18), 30 (573 round 3, opponent 9).
