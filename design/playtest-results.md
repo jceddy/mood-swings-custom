@@ -1862,3 +1862,73 @@ The first tester (P1) played PG in 575 and 578 and PU in 577 and 579. The other 
 | Vitality | Played as an extra play in 588 round 3, after its trigger: no effect that round. |
 | Resolve, Restlessness | 6s in 586 (rounds 2 and 4). |
 | Determination, Honesty | Removed each time they were played (587, 589, 590). |
+
+## Session 3j: PR Ardor red pile against PG Green Fulfillment anthems (2 games)
+
+**Source.** The simulator exports of games 591 and 592 (11 November), the tenth and last Power Duel pairing (15 cards, one mythic). The first tester (P1) played PG in 591 and PR in 592; the other seat was a practice bot in both games (PR in 591, PG in 592).
+PR is the red Ardor deck (Ardor counts the other red moods, Q13); PG is the green Fulfillment deck.
+
+### Summary
+
+| | |
+|---|---|
+| Result | **One win each**: PG won 591 (3 to 2, P1 against the PR bot) and PR won 592 (3 to 2, P1 against the PG bot). Rounds: PR 5, PG 5. |
+| Scores by round, PG | 591: 0, 2, 13, 20, 18. 592: 3, 6, 6, 13, 17. |
+| Scores by round, PR | 591: 2, 7, 10, 16, 16. 592: 3, 5, 11, 11, 22. |
+| Game length | 5 and 5 rounds, 5.0 on average. |
+| Biggest turn | 2 plays (PG in 591 round 3, from Thrift; PR in 592 round 5, from Adrenaline). Highest scores: PR 22 (592 round 5), PG 20 (591 round 4). |
+
+### Insights
+
+1. **Neither mythic was drawn, so Q14 got no new data.** Ardor and Fulfillment stayed in the deck in both games (Maturity and Vitality too in 591). PR is now 3 to 2 in the five Power Duel games where it played Ardor (560, 561, 573 won; 583, 585 lost) and 1 to 9 in the ten where it did not.
+   The one win without it is this session's 592. The question "does Ardor still break games against a deck with no removal in it" is still open: PG has no answers to red moods, so it is the pairing that matters most.
+2. **PR's chain won 592 without Ardor.** In round 5 Adrenaline gave the extra play, and Verve then Frenzy scored 22 against 17: Frenzy was an 8 (6, plus Verve's 2) and Verve a 3, with Exuberance a 6 (Shock, Zeal and Frenzy are red). Frenzy goes to the pile after scoring, so the 8 was a one-round payoff. Zeal had put FOMO on the bottom in round 1 to draw Exuberance; FOMO never came back.
+3. **Shock removed PG's first mood in both games.** It hit Honesty (591 round 1, PR 2 against 0) and Restlessness (592 round 2). These are 3s that need a condition (a 6 later), so cheap removal is strong against PG's openings. This supports the Shock choice in the PB splash and the Rashness and Shock lines in the PW and PU splash decks (Q9).
+4. **Thrift answered Shock in 591.** In round 3 PG played Thrift and then Honesty again from the discard pile, and Honesty was a 6 with the hand revealed: 13 against 10. As in session 3i (Thrift after Suspicion), Thrift turns a removal spell into a free replay of any 0 to 3 card.
+5. **The PR bot's Vindictiveness in 591 round 5 was a 9-point swing.** It put Compulsion (3) into the pile to remove Kinship. Kinship gave each of PG's four other green moods +1 and was itself a 2, and with its +1 PG's values (4, 7 and 7) had three different values, so Restlessness was a 6. By my count PG would have scored about 27; without Kinship it scored 18 against PR's 16, and PG won the game by 2.
+   Kinship is a single point of failure for PG's conditional 6s: removing it also takes Restlessness (and Determination) back down.
+6. **Compulsion gave PR a dead card (591 round 3).** PG chose Contentment to give away, and PR could not play it without a green mood; PR ended the game holding it. The victim chooses the card, so a colorless gate card of the victim's own color is a free discard. This is how Compulsion works, but it shows it is weak against decks with gate cards.
+7. **The bots held their engine cards.** The PG bot (592) held Maturity from round 1 to the end of the game (with Joy), playing Restlessness, Resolve, Urgency, Kinship and Vindication instead, and the PR bot (591) ended with Verve, Zeal and Contentment in hand. Maturity (2, then +2 every turn) would have been a 4 in round 2.
+8. **Plain-deck records over all ten pairings:** PB 15 to 7, PG 10 to 5, PW 10 to 11, PU 6 to 11, PR 4 to 11 (all games with the plain lists, bots included, sessions 3a to 3j). PR is weakest mainly because of PB (0 to 5) and PW (2 to 4).
+   PG's wins against PB, PW and PU came without it ever being the favorite on removal: green has none, and its best lines were the extra plays (Joy, Thrift) and Kinship.
+
+### Questions for the testers
+
+- Game 591 round 3: you gave away Contentment to Compulsion. Was that on purpose (a card PR could not play)? Did Compulsion feel weak because of it?
+- Game 591 round 1: Honesty as the first play went into Shock. Would you open with something else against red?
+- Game 591 round 5: did you see Vindictiveness (sacrificing Compulsion) coming? Is Kinship too easy to turn off?
+- Game 592 round 1: Zeal put FOMO on the bottom to draw Exuberance. Was that to avoid FOMO's cost?
+- Game 592 round 5: was the Adrenaline, Verve, Frenzy line planned? How did Frenzy as an 8 read?
+- Neither Ardor nor Fulfillment appeared. Do you want more PR against PG games before deciding Q14?
+
+### Game logs
+
+**Game 591.** PG (P1, seat 0) against PR (bot, seat 1). PG won 3 to 2.
+- Scores: PG 0, PR 2; PG 2, PR 7; PG 13, PR 10; PG 20, PR 16; PG 18, PR 16.
+- Longest turn: 2 plays (PG in round 3: Thrift, then Honesty from the pile).
+- Hands: PG ended with Urgency; PR with Contentment (unplayable), Verve and Zeal.
+- Decided: Shock on Honesty (round 1); Compulsion took Contentment and Thrift replayed Honesty as a 6 (round 3, 13 to 10); Vindictiveness on Kinship (round 5, 18 to 16).
+
+**Game 592.** PR (P1, seat 0) against PG (bot, seat 1). PR won 3 to 2.
+- Scores: PR 3, PG 3; PR 5, PG 6; PR 11, PG 6; PR 11, PG 13; PR 22, PG 17.
+- Longest turn: 2 plays (PR in round 5: Verve, Frenzy with Adrenaline's extra play).
+- Hands: PR ended with Rashness; PG with Joy and Maturity (never played).
+- Decided: Shock on Restlessness (round 2); Exuberance as a 6 (round 3); Adrenaline, Verve and Frenzy in round 5 (22 to 17).
+
+### Notes by card (PR against PG)
+
+| Card | What the games showed |
+|---|---|
+| Shock | Removed Honesty (591 round 1) and Restlessness (592 round 2), PG's first mood each time. |
+| Thrift | Replayed Honesty from the pile as a 6 (591 round 3). |
+| Honesty | A 6 when played from the pile (hand revealed); removed by Shock as the first play. |
+| Kinship | +1 to four other green moods in 591; its removal cost PG about 9 points. |
+| Vindictiveness | Compulsion (3) for Kinship in 591 round 5. |
+| Compulsion | PG gave Contentment (dead for PR). |
+| Adrenaline, Verve, Frenzy | 22 in 592 round 5 (Frenzy 8, Verve 3); Frenzy went to the pile after scoring. |
+| Exuberance | A 6 with Shock and Zeal in 592 round 3 (11 against 6). |
+| Zeal | Put FOMO on the bottom and drew Exuberance (592 round 1). |
+| Impatience | A 5 in 591 round 2 (7 against 2). |
+| Ardor, FOMO | Not played (in the deck both games). |
+| Fulfillment, Maturity, Vitality | Not played (Maturity held by the PG bot in 592). |
+| Resolve, Urgency, Perseverance | Resolve a 6 in 592 round 2; Perseverance +2 twice in 591. |
