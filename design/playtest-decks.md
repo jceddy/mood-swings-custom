@@ -587,7 +587,7 @@ Name PR Ardor splash
 ### PG Fulfillment splash (green with a black and red splash, Fulfillment)
 
 A variant of PG built after its Power Duel games (games 563 to 592, where PG went 10 wins to 5: against PW 3 to 1, PU 3 to 1, PB 3 to 2, PR 1 to 1). PG's weakness is that its first mood keeps getting removed: Honesty, Determination and Restlessness are conditional 3s, and Vengeance, Hate or Shock took them in 587, 589, 590, 591 and 592. Green has no removal and no answer to the
-other decks' engines. This version keeps 12 green cards (Kinship and Vitality only reward green moods, so the splash is three cards) and swaps Honesty (removed every time it was played against black or red, and it needs every card in hand to share a color with a mood in play, which off-color cards break),
+other decks' engines. This version keeps 11 green cards and Contentment (Kinship and Vitality only reward green moods, so the splash is three cards) and swaps Honesty (removed every time it was played against black or red, and it needs every card in hand to share a color with a mood in play, which off-color cards break),
 Nostalgia (never played in these games; Thrift and Joy already give PG its extra plays) and Perseverance (a 2 that only grows when PG is behind).
 
 - **Vengeance** (black, 3): a body that puts one of the opponent's highest value moods into the discard pile; the answer to Orderliness, Reverie, Ardor or Neglect, and to an opponent's best mood in general.
