@@ -515,6 +515,41 @@ Name PU Reverie splash
 1 Temperance
 ```
 
+### PB Neglect splash (black with a tempo and removal splash, Neglect)
+
+A variant of PB built after its Power Duel games (games 552 to 590, where PB went 15 wins to 7: against PW 4 to 2, PU 4 to 2, PR 5 to 0, PG 2 to 3). It keeps ten black cards and Resentment (the colorless gate that needs a black mood). It adds four cards of other colors aimed at what PB lacked: PB ended games holding unplayed cards (Neglect and Pettiness in 587, Brooding, Hate and Neglect in 588, Longing, Neglect and Remorse in 589)
+because Remorse was its only extra play; it had no body above 5 and scored 3, 6 and 11 by round 3 against PG's 24 and 23; and it had only Vengeance and Hate as answers. It cuts Pettiness (never played), Opportunism (a 1 that was
+discarded as fodder twice), Martyrdom (a 1 that needs a sacrifice) and Composure (a conditional 6 that scored once).
+
+- **Resignation** (blue, 6): a turn-one 6. Its cost is a card from the hand, and PB usually has spare cards (a stuck Neglect).
+- **Rashness** (red, 0): a free extra play and removal of an opponent's mood worth 1 or less (Fulfillment, Kinship, Vitality, Adrenaline, an early Ardor).
+- **Fear** (blue reprint, 0): a free extra play that bounces one of your moods, so Vengeance, Nosiness, Suspicion or Dejection can be played again; the risk is the value of the mood it takes out of play.
+- **Shock** (red, 2): removes up to two moods worth 3 or less. The other decks' mythics are low-valued early (Orderliness 2, Reverie 2, Fulfillment 1, Ardor around 0).
+
+Brooding stays (it took PG's Determination back and played it as a 6 in 587 round 5); Neglect stays as the only mythic. Risks: Rashness, Fear and Remorse all print 0, so the deck only gains if the extra plays are used, and Schadenfreude is the only
+conditional 6 left besides Resignation. Composure or Anticipation (blue, 3 or 6 with four or more cards in hand) is the first card to swap back in for Fear if board values run low.
+
+```
+About
+Name PB Neglect splash
+
+1 Neglect
+1 Suspicion
+1 Nosiness
+1 Dejection
+1 Schadenfreude
+1 Vengeance
+1 Resentment
+1 Remorse
+1 Hate
+1 Brooding
+1 Longing
+1 Resignation
+1 Rashness
+1 Fear
+1 Shock
+```
+
 ### Games to play
 
 Run each deck against each other once (10 pairings), swapping who goes first between games. Add a second game for any pairing that was close or
@@ -538,6 +573,10 @@ For Reverie discard, look at whether the pile has cards for Reverie to use, how 
 
 Splash variant (PW Even numbers splash): play it against each of PU, PB, PR and PG, swapping seats, and compare with the 10 wins to 11 of the plain PW (against PU 3 to 2, PB 2 to 4, PR 4 to 2, PG 1 to 3).
 Look at whether Hate and Rashness answer Ardor, Vitality and Maturity in time, whether Determination reaches 6, whether Rapport keeps the hand from running dry (Neglect, game 555), and whether PW still draws a chain starter.
+
+Splash variant (PB Neglect splash): play it against each of PW, PU, PR and PG, swapping seats, and compare with the 15 wins to 7 of the plain PB (against PW 4 to 2, PU 4 to 2, PR 5 to 0, PG 2 to 3).
+Look at whether Resignation's cost (a spare card) is easy to pay, whether Rashness and Shock answer the other decks' early mythics (Fulfillment, Orderliness, Reverie, Ardor) in time, whether Fear's replayed Vengeance or Nosiness is worth the mood it bounces,
+whether the extra plays empty PB's hand (does Neglect fire more often?), and whether board values keep up with PG's scaling.
 
 For every game note the Power Duel setup (15 cards, one mythic, no extra mythics), the result by round, the largest turn, and whether any player
 ran short of cards or decked out.
