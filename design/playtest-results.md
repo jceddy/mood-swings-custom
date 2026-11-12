@@ -1932,3 +1932,68 @@ PR is the red Ardor deck (Ardor counts the other red moods, Q13); PG is the gree
 | Ardor, FOMO | Not played (in the deck both games). |
 | Fulfillment, Maturity, Vitality | Not played (Maturity held by the PG bot in 592). |
 | Resolve, Urgency, Perseverance | Resolve a 6 in 592 round 2; Perseverance +2 twice in 591. |
+
+## Session 3k: PW Even numbers splash against PU Reverie discard (2 games)
+
+**Source.** The simulator exports of games 593 and 594 (12 November), the first games of two of the new variant decks (see `design/playtest-decks.md`): **PW Even numbers splash** (white with Rashness, Hate, Determination and Rapport; Reverence as the gate) and **PU Reverie discard** (blue and black, Reverie).
+The first tester (P1) played PU in 593 and PW in 594; the other seat was a practice bot in both games (PW in 593, PU in 594).
+
+### Summary
+
+| | |
+|---|---|
+| Result | **One win each**: PU won 593 (3 to 1, P1 against the PW bot) and PW won 594 (3 to 1, P1 against the PU bot). Rounds: PU 4, PW 4. |
+| Scores by round, PU | 593: 0, 8, 8, 10. 594: 5, 0, 11, 13. |
+| Scores by round, PW | 593: 2, 7, 8, 6. 594: 2, 8, 14, 14. |
+| Game length | 4 and 4 rounds, 4.0 on average. |
+| Biggest turn | 2 plays (PW in 593 round 2: Modesty, Equanimity; PW in 594 round 2: Familiarity, Impartiality; the PU bot in 594 round 3: Remorse, Rapport). Highest scores: PW 14 (594 rounds 3 and 4), PU 13 (594 round 4). |
+
+### Insights
+
+1. **Impartiality (odd) is PW's best card against this PU list.** PU's bodies are mostly odd: Suspicion 3, Dejection 5, Detachment 5, Desperation 3, Rapport 3, Schadenfreude 3. In 593 round 1 Impartiality suppressed Suspicion (PU 0 against 2), and in 594 round 2 it suppressed Suspicion and Dejection (PU 0 against 8). PW won both rounds. PU's even cards (Deflection, Nosiness, Impulse, Reverie, Hate, Fear, Remorse) are the ones it misses.
+2. **The discard fuel works: Reverie never ran, but the pile was never empty.** Dejection and Suspicion put three cards into the pile by round 3 in both games (593: Solidarity, Rapport, Detachment; 594: Rashness, Desperation, Levity). Reverie stayed in the deck in both games (it is the single mythic, seen in about half the games), so the line "Reverie needs a pile" is still untested with Reverie in play.
+3. **PU's hand attack drained PW's small hand, and PW's splash cards were the discards.** PW's hand was 1 card after round 2 (593) and 0 after round 3 (594). The PW cards that went into the pile were Solidarity and Rapport (593) and Rashness and Levity (594), not the white core.
+   PW's splash was played once (Determination in 594 round 3, a 6 with three white moods: 14 against 11); Hate and Reverence stayed in the deck and Rapport, Rashness and Levity were discarded.
+4. **Deflection's name lock decided 593 round 4.** PU bounced Orderliness (PW's only card in hand), PW could not replay it, played Familiarity and passed with Orderliness in hand: 10 against 6. This is the same tempo lock as in sessions 3a and 3e (Deflection with a hand-attack deck).
+5. **594 was decided by one point (14 to 13) with PW passing in round 4.** PW had no cards in hand and passed; the PU bot played Impulse and then passed with Fear and Nosiness in hand (Nosiness had no target, since PW's hand was empty). PW's three white moods (Orderliness, Familiarity, Impartiality) and Determination scored 14 in rounds 3 and 4.
+6. **Orderliness appeared in both games.** In 593 round 3 (even) it raised Modesty and Impartiality (PW 8, a tie with PU's 8, which the first player, PU, won) and was bounced the next round. In 594 it was PW's first play (a 2 into Dejection's 5: PW lost round 1, 2 against 5) and gave Familiarity and Impartiality +1 later.
+7. **The PU bot spent round 2 of 594 on a suppressed Suspicion.** It had Dejection in play and PW's Impartiality suppressed both: PU scored 0. Otherwise the bot played well (Dejection first turn for a 5, Remorse then Rapport twice in round 3).
+
+### Questions for the testers
+
+- Game 593 round 1: PU opened with Suspicion (an odd 3) into a PW bot that played Impartiality. Would you open with an even card (Deflection, Nosiness, Impulse) against white?
+- Game 593 round 3: Hate on Equanimity (a 3, not yet a 6) instead of waiting for Orderliness. Was Orderliness known to be in PW's hand?
+- Game 594 round 1: PW opened with Orderliness alone (a 2) and discarded Rashness to Dejection. What else was in the hand, and why discard Rashness (594 round 1) and Levity (round 2)?
+- Game 594 round 4: PW passed with no cards. Would Hate or Reverence have changed the last round if they had been drawn?
+- Does Impartiality feel too strong against PU's odd-valued black cards, or is that the point of the card?
+- Fun and clarity for Deflection's name lock (593 round 4) and for Rapport's second loot.
+
+### Game logs
+
+**Game 593.** PU (P1, seat 0) against PW (bot, seat 1). PU won 3 to 1.
+- Scores: PU 0, PW 2; PU 8, PW 7; PU 8, PW 8; PU 10, PW 6.
+- Longest turn: 2 plays (PW in round 2: Modesty, then Equanimity).
+- Hands: PW had 1 card after round 2 and ended with Orderliness (blocked by Deflection); PU ended with Rumination and Schadenfreude.
+- Decided: Impartiality suppressed Suspicion (round 1); Dejection and Suspicion won round 2 (8 to 7); Hate on Equanimity (round 3, 8 to 8 tie); Deflection on Orderliness (round 4, 10 to 6).
+
+**Game 594.** PW (P1, seat 0) against PU (bot, seat 1). PW won 3 to 1.
+- Scores: PW 2, PU 5; PW 8, PU 0; PW 14, PU 11; PW 14, PU 13.
+- Longest turn: 2 plays (PW in round 2: Familiarity, Impartiality; the PU bot in round 3: Remorse, Rapport).
+- Hands: PW had no cards from round 3 and passed in round 4; PU ended with Fear and Nosiness.
+- Decided: Impartiality suppressed Suspicion and Dejection (round 2, 8 to 0); Determination a 6 (round 3, 14 to 11); round 4 by one point.
+
+### Notes by card (PW splash against PU Reverie discard)
+
+| Card | What the games showed |
+|---|---|
+| Impartiality | Suppressed Suspicion (593 round 1) and Suspicion and Dejection (594 round 2): PW won both rounds. |
+| Dejection, Suspicion | PU's 5 and 3 for hand pressure; PW discarded Rapport, Solidarity, Rashness and Levity. Both odd, so Impartiality hits them. |
+| Deflection | Bounced Orderliness and locked its name (593 round 4). |
+| Orderliness | Even in 593 round 3 (PW 8) and 594; first play alone in 594 (a 2). |
+| Determination | A 6 in 594 round 3 (three white moods). |
+| Hate | PU's Hate bottomed Equanimity (593 round 3); PW's Hate never drawn. |
+| Rashness, Rapport, Levity | Discarded by PW (594, 593, 594). |
+| Reverie | Not drawn in either game; the pile held 3 cards by round 3. |
+| Remorse, Rapport | The PU bot's round 3 in 594: Remorse then both Rapport loots. |
+| Impulse, Nosiness, Fear | The PU bot held Nosiness (no target) and Fear after Impulse in 594 round 4. |
+| Equanimity, Modesty | Modesty's extra play carried Equanimity (a 3) in 593 round 2. |
