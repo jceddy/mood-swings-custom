@@ -1997,3 +1997,100 @@ The first tester (P1) played PU in 593 and PW in 594; the other seat was a pract
 | Remorse, Rapport | The PU bot's round 3 in 594: Remorse then both Rapport loots. |
 | Impulse, Nosiness, Fear | The PU bot held Nosiness (no target) and Fear after Impulse in 594 round 4. |
 | Equanimity, Modesty | Modesty's extra play carried Equanimity (a 3) in 593 round 2. |
+
+## Session 3l: PW Even numbers splash against PB Neglect splash (6 games)
+
+**Source.** The simulator exports of games 595 to 600 (12 and 13 November), the first games of the PB variant against the PW variant (see `design/playtest-decks.md`): **PW Even numbers splash** (white with Rashness, Hate, Determination and Rapport; Reverence as the gate) and **PB Neglect splash** (black with Resignation, Rashness, Fear and Shock; Brooding and Neglect kept).
+The first tester (P1) played PB in 595, 597 and 599 and PW in 596, 598 and 600. The other seat was a practice bot in 595 (PW), 599 (PW) and 600 (PB), and the second tester in the other three games (PB in 596 and 598, PW in 597).
+
+### Summary
+
+| | |
+|---|---|
+| Result | **PB won 4 of 6** (596 and 598 against P1's PW, 599 as P1's PB, 600 against P1's PW; 3 to 1, 3 to 0, 3 to 2 and 3 to 2); PW won 595 (3 to 2, the bot against P1's PB) and 597 (3 to 1, against P1's PB). Rounds: PB 15, PW 11. |
+| Scores by round, PB | 595: 0, 6, 8, 13, 16. 596: 0, 8, 10, 10. 597: 0, 2, 4, 7. 598: 6, 3, 8. 599: 0, 8, 6, 9, 14. 600: 0, 5, 10, 13, 15. |
+| Scores by round, PW | 595: 2, 7, 7, 11, 18. 596: 4, 4, 5, 6. 597: 2, 0, 8, 7. 598: 3, 3, 8. 599: 4, 7, 4, 11, 11. 600: 6, 6, 6, 11, 14. |
+| Game length | 5, 4, 4, 3, 5 and 5 rounds, 4.3 on average. |
+| Biggest turn | 3 plays (PW in 596 round 1, 599 round 4 and 600 round 1; PB in 597 round 2). Highest scores: PW 18 (595 round 5), PB 16 (595 round 5) and 15 (600 round 5), PW 14 (600 round 5). |
+
+### Insights
+
+1. **PW's Impartiality won round 1 in every game it was played, and PB scored 0 in all five.** In 595, 596, 599 and 600 it chose odd and suppressed PB's only mood (Brooding 1, Resentment 5, Suspicion 3, Dejection 5); in 597 it chose even and suppressed Resignation (a 6). PB scored 6 in round 1 only in 598, where PW had no Impartiality.
+   PB's moods are mostly odd (Suspicion, Dejection, Resentment, Schadenfreude, Vengeance, Longing, Brooding) and a turn-one play is a single mood, so the parity is always known. This repeats session 3k (PU's odd Suspicion and Dejection). PB came back from the 0 in four of the five games, so it is a tempo loss, not a deck-loser.
+2. **PB's answers to Impartiality were Shock and Rashness plays.** Shock removed Impartiality in 597 round 2 (PW 0 against 2) and Familiarity (596 round 3, 600 round 5) and Humility (595 round 3). Shock was played in four of the six games and took a PW mood every time, always a cheap white mood (Humility 3, Familiarity 2, Impartiality 2).
+   PB's 597 round 2 was the best turn of the session: Rashness removed PW's Hate, Remorse put Hate back on PW's deck and drew Shock, and Shock removed Impartiality.
+3. **Both decks' Hate and Rashness decided rounds.** PW's Hate bottomed PB's Resignation twice (597 and 598 round 2) and Resentment (599 round 3); PB's Hate bottomed Determination (600 round 2) and Rapport (596 round 4). In 598 PW's Rashness removed PB's Rashness. PB's Resignation (a 6, even) was a turn-one 6 once (598 round 1, 6 against 3) and was removed or suppressed the other times.
+4. **PW's Reverence was stuck in 598 because its early plays were not white.** PW played Levity (bottomed for a card), Determination, Hate and Rashness in rounds 1 to 3 (no white mood in play until Humility in round 3) and ended with Reverence, Equanimity, Rapport and Discernment in hand (4 cards, lost 8 to 8, a tie that PB, the first player, won).
+   With a splash PW's early plays are often not white, and Reverence, Equanimity (even numbers) and the white chain all want white moods in play.
+5. **Neglect had targets only in the games where it was not drawn.** PW's hand was empty before scoring in 599 (rounds 4 and 5) and 600 (rounds 2, 3 and 5); Neglect was in the deck both times. In 596 and 597, where PB drew it, PW still had two to five cards. It was played once (597 round 3, a 2 against a hand of three). PW's three-play turns (596 round 1, 599 round 4, 600 round 1) are what empty its hand.
+6. **PB's early scores were low.** In 597 PB scored 0, 2, 4 and 7 with Resignation, Rashness, Remorse, Shock, Neglect and Vengeance, and lost 1 to 3 in rounds. Rashness and Remorse print 0, Neglect and Shock 2: PB's splash tempo cards are free plays but not bodies.
+7. **Brooding took the opponent's removed mood again.** In 595 round 4 it took PW's Humility (removed by Shock) back to PB's hand, and PB played it as the extra +1 for its 0 to 2 moods: 13 against 11. Nosiness then took Orderliness (PW's mythic) out of PW's hand in round 5, and PW still won 18 to 16 with Equanimity (a 6, four or more even moods).
+8. **Orderliness was seen in three games and mattered once.** It was PW's round 4 play in 596 (a 6 for PW), was discarded by Nosiness in 595, and stayed in PW's hand at the end of 597. Fear (PB) was never played (held in 600, in the deck elsewhere).
+9. **PB's variant did as well as the plain PB** (4 to 2 against PW's variant, as against the plain PW), while PW's variant is now 3 to 5 over its first eight games (1 to 1 against PU Reverie discard, 2 to 4 here).
+
+### Questions for the testers
+
+- Round 1: Impartiality left PB at 0 in five games. Do you see a turn-one line against it (two moods of different parity, or holding a mood back)? Is it too strong, or is the odd-or-even guess the point of the card?
+- Game 597 round 1: Resignation (a 6) cost Resentment (a 5 that needed a black mood). Why that card, and would you play Resignation later instead, when PW's Hate and Impartiality are spent?
+- Game 598: PW kept Reverence, Rapport, Discernment and Equanimity in hand to the end. Was the order of plays (Levity, Determination, Hate, Rashness) planned? Would you play white moods first so that Reverence works?
+- Neglect: it was in the deck exactly when PW's hand was empty (599 and 600). Does the deck need a second way to put cards on the table, or is this just luck?
+- Fear was never played. Would you swap it for Composure or Anticipation (see the PB splash notes)?
+- Fun and clarity for Hate against Hate, Rashness against Rashness, and Remorse putting the opponent's Hate back on its deck (597 round 2).
+
+### Game logs
+
+**Game 595.** PB (P1, seat 0) against PW (bot, seat 1). PW won 3 to 2.
+- Scores: PB 0, PW 2; PB 6, PW 7; PB 8, PW 7; PB 13, PW 11; PB 16, PW 18.
+- Longest turn: 2 plays (PW in round 1: Levity, Impartiality).
+- Hands: PB ended with Dejection and Resignation; PW with Rapport.
+- Decided: Impartiality (odd) on Brooding in round 1; Shock on Humility (round 3); Brooding took Humility back (round 4); Nosiness took Orderliness (round 5); Equanimity a 6 gave PW 18.
+
+**Game 596.** PW (P1, seat 0) against PB (second tester, seat 1). PB won 3 to 1.
+- Scores: PW 4, PB 0; PW 4, PB 8; PW 5, PB 10; PW 6, PB 10.
+- Longest turn: 3 plays (PW in round 1: Rashness, Familiarity, Impartiality).
+- Hands: PW ended with Solidarity; PB with Dejection and Neglect.
+- Decided: Rashness on Remorse and Impartiality (odd) on Resentment (round 1, 4 to 0); Vengeance on Temperance (round 2); Shock on Familiarity (round 3); Hate on Rapport (round 4).
+
+**Game 597.** PB (P1, seat 0) against PW (second tester, seat 1). PW won 3 to 1.
+- Scores: PB 0, PW 2; PB 2, PW 0; PB 4, PW 8; PB 7, PW 7.
+- Longest turn: 3 plays (PB in round 2: Rashness, Remorse, Shock).
+- Hands: PW ended with Humility and Orderliness; PB with Hate.
+- Decided: Impartiality (even) on Resignation (round 1); PB's three-play turn in round 2; Modesty then Equanimity (round 3, 8 to 4); Vengeance on Equanimity (round 4, 7 to 7).
+
+**Game 598.** PW (P1, seat 0) against PB (second tester, seat 1). PB won 3 to 0.
+- Scores: PW 3, PB 6; PW 3, PB 3; PW 8, PB 8.
+- Longest turn: 2 plays (both players in rounds 1 and 3).
+- Hands: PW ended with Reverence, Equanimity, Rapport and Discernment; PB with no cards.
+- Decided: Rashness then Resignation (a 6) in round 1; Hate on Resignation (round 2); round 3 tied 8 to 8 with PW's four cards unplayed.
+
+**Game 599.** PB (P1, seat 0) against PW (bot, seat 1). PB won 3 to 2.
+- Scores: PB 0, PW 4; PB 8, PW 7; PB 6, PW 4; PB 9, PW 11; PB 14, PW 11.
+- Longest turn: 3 plays (PW in round 4: Familiarity, Rashness, Temperance).
+- Hands: PW had no cards from round 4 (and passed in round 5); PB ended with Brooding and Remorse.
+- Decided: Impartiality (odd) on Suspicion (round 1); Vengeance on Equanimity and Hate on Resentment (round 3, 6 to 4); Dejection against PW's empty hand (round 5, 14 to 11).
+
+**Game 600.** PW (P1, seat 0) against PB (bot, seat 1). PB won 3 to 2.
+- Scores: PW 6, PB 0; PW 6, PB 5; PW 6, PB 10; PW 11, PB 13; PW 14, PB 15.
+- Longest turn: 3 plays (PW in round 1: Familiarity, Modesty, Impartiality).
+- Hands: PW had no cards from round 2 and passed in round 3; PB ended with Brooding and Fear.
+- Decided: Impartiality (odd) on Dejection (round 1); Hate on Determination (round 2); Resentment (round 3, 10 to 6); Shock on Familiarity (round 5, 15 to 14).
+
+### Notes by card (PW splash against PB splash)
+
+| Card | What the games showed |
+|---|---|
+| Impartiality | Won round 1 in five games (PB 0 each time): odd against Brooding, Resentment, Suspicion and Dejection; even against Resignation. |
+| Shock (PB) | Removed Humility, Familiarity (twice) and Impartiality; played in four games. |
+| Hate (both) | PW's: Resignation (twice) and Resentment; PB's: Determination and Rapport. |
+| Rashness (both) | Free extra plays; PB's removed Hate (597), PW's removed Remorse (596) and PB's Rashness (598). |
+| Resignation | A turn-one 6 once (598), suppressed (597) or bottomed (597, 598) otherwise; held in 595. |
+| Fear | Never played (held in 600, in the deck in the other games). |
+| Neglect | Played once (597 round 3, no target); in the deck when PW's hand was empty (599, 600). |
+| Brooding | Took Humility (removed by Shock) back and played it (595 round 4). |
+| Nosiness | Took Orderliness out of PW's hand (595 round 5). |
+| Remorse | Free play (596, 597 round 2, 600) and put the opponent's Hate or Rapport back on its deck. |
+| Vengeance | Removed Temperance (596), Equanimity (597, 599); a 3 in 598. |
+| Orderliness | PW's round 4 play in 596; discarded by Nosiness (595); in hand at the end of 597. |
+| Reverence | A 5 in 595, 597 and 600; stuck in hand in 598 (no white mood in play). |
+| Equanimity | A 6 in 595 round 5 (18); removed by Vengeance in 597 and 599. |
+| Determination | A 3 in 598 and 600 (never a 6 here; Hate bottomed it in 600). |
