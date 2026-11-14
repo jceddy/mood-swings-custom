@@ -2094,3 +2094,68 @@ The first tester (P1) played PB in 595, 597 and 599 and PW in 596, 598 and 600. 
 | Reverence | A 5 in 595, 597 and 600; stuck in hand in 598 (no white mood in play). |
 | Equanimity | A 6 in 595 round 5 (18); removed by Vengeance in 597 and 599. |
 | Determination | A 3 in 598 and 600 (never a 6 here; Hate bottomed it in 600). |
+
+## Session 3m: PW Even numbers splash against PR Ardor splash (2 games)
+
+**Source.** The simulator exports of games 601 and 602 (14 November), the first games of the PR variant against the PW variant (see `design/playtest-decks.md`): **PW Even numbers splash** (white with Rashness, Hate, Determination and Rapport; Reverence as the gate) and **PR Ardor splash** (red with Thrift, Resignation and Nostalgia for FOMO, Belligerence and Ruthlessness; Ardor unchanged, Q14).
+The first tester (P1) played PR in 601 and PW in 602; the other seat was a practice bot in both games (PW in 601, PR in 602).
+
+### Summary
+
+| | |
+|---|---|
+| Result | **One win each**: PR won 601 (3 to 1, P1 against the PW bot) and PW won 602 (3 to 2, P1 against the PR bot). Rounds: PR 5, PW 4. |
+| Scores by round, PR | 601: 3, 10, 11, 31. 602: 4, 10, 9, 9, 12. |
+| Scores by round, PW | 601: 3, 10, 16, 22. 602: 2, 7, 12, 15, 21. |
+| Game length | 4 and 5 rounds, 4.5 on average. |
+| Biggest turn | 2 plays, in almost every round of both games (PW in 601 rounds 1, 2 and 4: Levity then Humility, Familiarity then Orderliness, Modesty then Discernment; PR in 601 round 2: Whimsy, Verve; in 602 PW in rounds 1 and 4, PR in rounds 1 and 3). Highest scores: PR 31 (601 round 4), PW 22 (601 round 4) and 21 (602 round 5). |
+
+### Insights
+
+1. **Ardor scored 31 again at five red moods, and PW still reached 22.** In 601 PR drew Ardor after losing round 3 and played it alone in round 4 with Compulsion, Verve, Whimsy and Zeal in play: five red moods, each +4, Verve's +2 on Ardor, 31 against 22. The 31 is the same value as 560 round 4 (N=5, Q14). Ardor won the round and the game but by 9, not a blowout, because PW's own board scored 22.
+   PR is now 4 to 2 in the Power Duel games where it played Ardor and 1 to 10 in the eleven where it did not (plain and splash lists, 557 to 602). No new data for Q14 beyond this (it stays as decided).
+2. **PR left points on the table in 601 round 4.** It held Rashness (given by PW's bot to Compulsion in round 1) and Exuberance and played Ardor alone. Rashness first and then Ardor would have made six red moods, each +5 plus Verve's +2 on the two played this round: about 43 instead of 31. It won anyway.
+3. **PW's white chain scales to about 22 by round 4 or 5.** In 601 six moods (Humility, Familiarity, Orderliness, Reverence, Modesty, Discernment) scored 22 with Orderliness (odd) raising Humility and Reverence and Humility raising the 0 to 2 moods; in 602 six moods scored 21 in round 5 (Humility, Modesty, Rapport, Rashness, Reverence, Solidarity). That is the level PR needs Ardor to beat: PR without Ardor scored 9 to 12 in rounds 3 to 5 of 602.
+4. **Neither splash did anything in these games.** PR's Thrift, Resignation and Nostalgia, and PW's Hate and Determination, stayed in the deck in both games (Rashness was used by both sides in 601 and 602, Reverence and Levity by PW). The three new PR cards are still untested.
+5. **Cheap removal worked on white's chain.** In 602 round 1 the PR bot's Whimsy revealed Shock and played it as the extra play, removing Equanimity (PW 2 against 4), and PW's Rashness removed PR's Verve in round 4 (a 1). As in sessions 3a and 3l, Shock and Rashness hit white's small moods.
+6. **PW's free plays carry its early rounds.** PW played two moods in round 1 of both games (Levity, which put itself on the bottom of the deck for Orderliness, then Humility in 601; Modesty then Equanimity in 602) and in rounds 2 and 4 of 601 (Familiarity then Orderliness; Modesty then Discernment). PR's two-play turns (Whimsy then Verve, Whimsy then Shock, Rashness then Verve) scored 3 to 10.
+7. **Frenzy was spent early by the PR bot.** It played Frenzy as a 6 in 602 round 2 (10 against 7); it went to the discard pile after scoring, and PR scored 9 in rounds 3 and 4 (lost both). PR then ended with an empty hand (round 5, 12 to 21).
+
+### Questions for the testers
+
+- Game 601 round 4: PR played Ardor alone while holding Rashness and Exuberance. Was Rashness first (about 43) considered?
+- Game 601 round 1: Compulsion took Rashness from PW. Was it the choice you expected, and did Rashness stay in PR's hand for a reason?
+- Game 602: PW scored 21 in round 5 with six moods. Is that level (22 in 601) the right size for the white chain against red?
+- Neither deck's splash showed up. Should the next games be played with the splash cards forced into the opening hand?
+- Fun and clarity for Whimsy (reveal a random card, play it as the extra play) and Levity putting itself on the bottom of the deck.
+
+### Game logs
+
+**Game 601.** PR (P1, seat 0) against PW (bot, seat 1). PR won 3 to 1.
+- Scores: PR 3, PW 3; PR 10, PW 10; PR 11, PW 16; PR 31, PW 22.
+- Longest turn: 2 plays (PR in round 2: Whimsy, Verve; PW in rounds 1, 2 and 4).
+- Hands: PW had no cards after round 4; PR ended with Exuberance and Rashness.
+- Decided: Levity then Humility (round 1); Whimsy then Verve against Familiarity then Orderliness (round 2, 10 to 10); Reverence (round 3, 16 to 11); Ardor with five red moods (round 4, 31 to 22).
+
+**Game 602.** PW (P1, seat 0) against PR (bot, seat 1). PW won 3 to 2.
+- Scores: PW 2, PR 4; PW 7, PR 10; PW 12, PR 9; PW 15, PR 9; PW 21, PR 12.
+- Longest turn: 2 plays (PW in rounds 1 and 4; PR in rounds 1 and 3).
+- Hands: PR had no cards after round 5; PW ended with none.
+- Decided: Whimsy then Shock on Equanimity (round 1); Frenzy as a 6 (round 2); PW's Rashness on Verve and Rapport (round 4); six white moods (round 5, 21 to 12).
+
+### Notes by card (PW splash against PR splash)
+
+| Card | What the games showed |
+|---|---|
+| Ardor | Played once (601 round 4, 31 with five red moods); in the deck in 602. |
+| Shock | Removed Equanimity (602 round 1, played from Whimsy's reveal). |
+| Rashness (both) | PW's removed Verve (602 round 4); PW's bot gave one to PR through Compulsion (601) and PR held it unplayed. |
+| Whimsy | An extra play both times (Verve in 601, Shock in 602). |
+| Compulsion | PW's bot gave Rashness (601 round 1); a 3 in 602 round 5. |
+| Frenzy | A 6 in 602 round 2, then gone. |
+| Orderliness | Odd in 601 round 2 (raised Humility and Reverence). |
+| Humility, Modesty, Familiarity | The white chain's free plays: two plays in most PW rounds. |
+| Reverence | A 5 in 601 round 3 (16) and 602 round 2. |
+| Levity | Put itself on the bottom and drew Orderliness (601 round 1). |
+| Thrift, Resignation, Nostalgia (PR) | Not drawn in either game. |
+| Hate, Determination (PW) | Not drawn in either game. |
