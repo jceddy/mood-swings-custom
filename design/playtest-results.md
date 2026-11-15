@@ -2094,3 +2094,160 @@ The first tester (P1) played PB in 595, 597 and 599 and PW in 596, 598 and 600. 
 | Reverence | A 5 in 595, 597 and 600; stuck in hand in 598 (no white mood in play). |
 | Equanimity | A 6 in 595 round 5 (18); removed by Vengeance in 597 and 599. |
 | Determination | A 3 in 598 and 600 (never a 6 here; Hate bottomed it in 600). |
+
+## Session 3m: PW Even numbers splash against PR Ardor splash (2 games)
+
+**Source.** The simulator exports of games 601 and 602 (14 November), the first games of the PR variant against the PW variant (see `design/playtest-decks.md`): **PW Even numbers splash** (white with Rashness, Hate, Determination and Rapport; Reverence as the gate) and **PR Ardor splash** (red with Thrift, Resignation and Nostalgia for FOMO, Belligerence and Ruthlessness; Ardor unchanged, Q14).
+The first tester (P1) played PR in 601 and PW in 602; the other seat was a practice bot in both games (PW in 601, PR in 602).
+
+### Summary
+
+| | |
+|---|---|
+| Result | **One win each**: PR won 601 (3 to 1, P1 against the PW bot) and PW won 602 (3 to 2, P1 against the PR bot). Rounds: PR 5, PW 4. |
+| Scores by round, PR | 601: 3, 10, 11, 31. 602: 4, 10, 9, 9, 12. |
+| Scores by round, PW | 601: 3, 10, 16, 22. 602: 2, 7, 12, 15, 21. |
+| Game length | 4 and 5 rounds, 4.5 on average. |
+| Biggest turn | 2 plays, in almost every round of both games (PW in 601 rounds 1, 2 and 4: Levity then Humility, Familiarity then Orderliness, Modesty then Discernment; PR in 601 round 2: Whimsy, Verve; in 602 PW in rounds 1 and 4, PR in rounds 1 and 3). Highest scores: PR 31 (601 round 4), PW 22 (601 round 4) and 21 (602 round 5). |
+
+### Insights
+
+1. **Ardor scored 31 again at five red moods, and PW still reached 22.** In 601 PR drew Ardor after losing round 3 and played it alone in round 4 with Compulsion, Verve, Whimsy and Zeal in play: five red moods, each +4, Verve's +2 on Ardor, 31 against 22. The 31 is the same value as 560 round 4 (N=5, Q14). Ardor won the round and the game but by 9, not a blowout, because PW's own board scored 22.
+   PR is now 4 to 2 in the Power Duel games where it played Ardor and 1 to 10 in the eleven where it did not (plain and splash lists, 557 to 602). No new data for Q14 beyond this (it stays as decided).
+2. **PR left points on the table in 601 round 4.** It held Rashness (given by PW's bot to Compulsion in round 1) and Exuberance and played Ardor alone. Rashness first and then Ardor would have made six red moods, each +5 plus Verve's +2 on the two played this round: about 43 instead of 31. It won anyway.
+3. **PW's white chain scales to about 22 by round 4 or 5.** In 601 six moods (Humility, Familiarity, Orderliness, Reverence, Modesty, Discernment) scored 22 with Orderliness (odd) raising Humility and Reverence and Humility raising the 0 to 2 moods; in 602 six moods scored 21 in round 5 (Humility, Modesty, Rapport, Rashness, Reverence, Solidarity). That is the level PR needs Ardor to beat: PR without Ardor scored 9 to 12 in rounds 3 to 5 of 602.
+4. **Neither splash did anything in these games.** PR's Thrift, Resignation and Nostalgia, and PW's Hate and Determination, stayed in the deck in both games (Rashness was used by both sides in 601 and 602, Reverence and Levity by PW). The three new PR cards are still untested.
+5. **Cheap removal worked on white's chain.** In 602 round 1 the PR bot's Whimsy revealed Shock and played it as the extra play, removing Equanimity (PW 2 against 4), and PW's Rashness removed PR's Verve in round 4 (a 1). As in session 3l, Shock and Rashness hit white's small moods.
+6. **PW's free plays carry its early rounds.** PW played two moods in round 1 of both games (Levity, which put itself on the bottom of the deck for Orderliness, then Humility in 601; Modesty then Equanimity in 602) and in rounds 2 and 4 of 601 (Familiarity then Orderliness; Modesty then Discernment). PR's two-play turns (Whimsy then Verve, Whimsy then Shock, Rashness then Verve) scored 4 to 10.
+7. **Frenzy was spent early by the PR bot.** It played Frenzy as a 6 in 602 round 2 (10 against 7); it went to the discard pile after scoring, and PR scored 9 in rounds 3 and 4 (lost both). PR then ended with an empty hand (round 5, 12 to 21).
+
+### Questions for the testers
+
+- Game 601 round 4: PR played Ardor alone while holding Rashness and Exuberance. Was Rashness first (about 43) considered?
+- Game 601 round 1: Compulsion took Rashness from PW. Was it the choice you expected, and did Rashness stay in PR's hand for a reason?
+- Game 602: PW scored 21 in round 5 with six moods. Is that level (22 in 601) the right size for the white chain against red?
+- Neither deck's splash showed up. Should the next games be played with the splash cards forced into the opening hand?
+- Fun and clarity for Whimsy (reveal a random card, play it as the extra play) and Levity putting itself on the bottom of the deck.
+
+### Game logs
+
+**Game 601.** PR (P1, seat 0) against PW (bot, seat 1). PR won 3 to 1.
+- Scores: PR 3, PW 3; PR 10, PW 10; PR 11, PW 16; PR 31, PW 22.
+- Longest turn: 2 plays (PR in round 2: Whimsy, Verve; PW in rounds 1, 2 and 4).
+- Hands: PW had no cards after round 4; PR ended with Exuberance and Rashness.
+- Decided: Levity then Humility (round 1); Whimsy then Verve against Familiarity then Orderliness (round 2, 10 to 10); Reverence (round 3, 16 to 11); Ardor with five red moods (round 4, 31 to 22).
+
+**Game 602.** PW (P1, seat 0) against PR (bot, seat 1). PW won 3 to 2.
+- Scores: PW 2, PR 4; PW 7, PR 10; PW 12, PR 9; PW 15, PR 9; PW 21, PR 12.
+- Longest turn: 2 plays (PW in rounds 1 and 4; PR in rounds 1 and 3).
+- Hands: PR had no cards after round 5; PW ended with none.
+- Decided: Whimsy then Shock on Equanimity (round 1); Frenzy as a 6 (round 2); PW's Rashness on Verve and Rapport (round 4); six white moods (round 5, 21 to 12).
+
+### Notes by card (PW splash against PR splash)
+
+| Card | What the games showed |
+|---|---|
+| Ardor | Played once (601 round 4, 31 with five red moods); in the deck in 602. |
+| Shock | Removed Equanimity (602 round 1, played from Whimsy's reveal). |
+| Rashness (both) | PW's removed Verve (602 round 4); PW's bot gave one to PR through Compulsion (601) and PR held it unplayed. |
+| Whimsy | An extra play both times (Verve in 601, Shock in 602). |
+| Compulsion | PW's bot gave Rashness (601 round 1); a 3 in 602 round 5. |
+| Frenzy | A 6 in 602 round 2, then gone. |
+| Orderliness | Odd in 601 round 2 (raised Humility and Reverence). |
+| Humility, Modesty, Familiarity | The white chain's free plays: two plays in most PW rounds. |
+| Reverence | A 5 in 601 round 3 (16) and 602 round 2. |
+| Levity | Put itself on the bottom and drew Orderliness (601 round 1). |
+| Thrift, Resignation, Nostalgia (PR) | Not drawn in either game. |
+| Hate, Determination (PW) | Not drawn in either game. |
+
+## Session 3n: PW Even numbers splash against PG Fulfillment splash (6 games)
+
+**Source.** The simulator exports of games 603 to 608 (15 November), the first games of the PG variant against the PW variant (see `design/playtest-decks.md`): **PW Even numbers splash** (white with Rashness, Hate, Determination and Rapport; Reverence as the gate) and **PG Fulfillment splash** (green with Vengeance, Hate and Rashness for Honesty, Nostalgia and Perseverance; Fulfillment kept).
+The first tester (P1) played PG in 603, 605 and 607 and PW in 604, 606 and 608. The other seat was a practice bot in 603 (PW), 604 (PG), 606 (PG) and 607 (PW), and the second tester in 605 (PW) and 608 (PG).
+
+### Summary
+
+| | |
+|---|---|
+| Result | **PG won 5 of 6** (603 and 605 as P1's PG, 604 and 606 as the bot, 608 as the second tester; 3 to 2, 3 to 0, 3 to 2, 3 to 2 and 3 to 1); PW won 607 (3 to 2, the bot against P1's PG). Rounds: PG 17, PW 10. P1 was 2 to 1 as PG and 0 to 3 as PW. |
+| Scores by round, PG | 603: 2, 10, 25, 41, 44. 604: 3, 5, 8. 605: 2, 3, 15, 32, 28. 606: 3, 15, 19, 8, 44. 607: 3, 8, 0, 6, 12. 608: 3, 0, 12, 18. |
+| Scores by round, PW | 603: 3, 11, 16, 19, 25. 604: 0, 3, 2. 605: 3, 7, 7, 10, 13. 606: 5, 10, 16, 21, 30. 607: 3, 6, 2, 2, 13. 608: 3, 6, 9, 17. |
+| Game length | 5, 3, 5, 5, 5 and 4 rounds, 4.5 on average. |
+| Biggest turn | 3 plays (PG in 605 round 3 and 606 round 2, from Rashness; PW in 607 round 5 and 608 round 2). Highest scores: PG 44 (603 round 5 and 606 round 5), 41 (603 round 4) and 32 (605 round 4); PW 30 (606 round 5). |
+
+### Insights
+
+1. **Fulfillment decided the games where it ran, and PG won all three.** It was played in 603 (round 3), 605 (round 4) and 606 (round 5): PG scored 25, 41 and 44 in 603 (against 16, 19 and 25), 32 in 605 (against 10) and 44 against 30 in 606.
+   In 603 round 4 the sum was Maturity 8, Resolve 6 and Determination 6, each doubled (40) plus Fulfillment 1. It was in the deck in 604 and 608 and held unplayed in 607 (see 6). This is the 40+ range of sessions 3d and 3g, and the same as the plain PG, with the splash cards added.
+2. **PW has the answer but never had it in hand.** Rashness removes a mood worth 1 or less, and Fulfillment is a 1 (2 with Kinship). PW's Rashness was in the deck in 603, 604, 606 and 607, was removed by PG's Rashness in 605 before Fulfillment arrived, and was played in 608 (where Fulfillment stayed in the deck). PW's Hate (any mood to the bottom of the deck) was played only on Maturity (604) and Contentment (607). PG's board was out of reach by round 4 in the games it was not stopped.
+3. **PG's splash worked.** Rashness gave PG three-play turns twice (605 round 3: Rashness, Hate, Resolve, 15 against 7; 606 round 2: Rashness, Restlessness, Determination, 15 against 10). Hate bottomed Determination (605) and Equanimity (607). Vengeance removed Humility in 604 round 1 (PW 0) and 608 round 2.
+   Vengeance and Rashness were played in three games each and Hate in two (it sat in the PG bot's hand in 604).
+4. **Impartiality is PW's best card against PG too.** PG's moods are mostly odd (Restlessness, Vengeance, Contentment, Joy, Thrift, Determination) and Impartiality (odd) won four rounds: 605 round 2 (even, Maturity: PG 3 against 7), 606 round 4 (odd: PG fell from 19 to 8, PW 21), 607 round 3 (PG 0 against 2) and 608 round 2 (PG 0 against 6, in a three-play turn).
+   PG's even cards (Maturity, Vindication) are the ones it misses. This is the third pairing where Impartiality's parity guess wins rounds (3k, 3l).
+5. **Thrift took the opponent's removed cards again.** In 608 round 3 PG played Thrift and then PW's Humility from the pile (Vengeance had removed it in round 2): 12 against 9. In 607 round 5 Thrift then played PW's Rapport from the pile. As in sessions 3i and 3j, Thrift turns the shared discard pile into extra plays; here they were the opponent's cards.
+6. **The one PW win was PG holding its engine.** In 607 PG held Fulfillment, Kinship and Resolve to the end of the game and played Restlessness, Contentment, Hate, Vengeance and Thrift: 12 against 13 in round 5, which PW won with three plays (Familiarity, Modesty, Humility). That is the only game where PG's tester spent every turn on removal and recursion.
+7. **604 was PW's weakest game.** PW played Humility (removed by Vengeance), Solidarity and Hate in three turns and ended with five cards in hand (Equanimity, Familiarity, Impartiality, Modesty and Orderliness) against PG's 3, 5 and 8. PW's white chain only works with the free plays (Modesty, Familiarity) played early.
+8. **The PW splash is now 5 to 11 over its first sixteen games** (1 to 1 against PU Reverie discard, 2 to 4 against PB splash, 1 to 1 against PR splash, 1 to 5 here), against 10 to 11 for the plain PW. The PG splash is 5 to 1 in its first six.
+
+### Questions for the testers
+
+- Game 607: PG held Fulfillment, Kinship and Resolve for five rounds. Was that a plan (removal first, then Fulfillment) or did the removal cards look better each turn?
+- Game 604: PW had Modesty, Familiarity and Orderliness in hand and played Hate on Maturity (a 2) in round 3. Was the chain not possible with that hand?
+- Impartiality won four rounds against PG. Do you see a line against it (even-valued bodies, or holding odd ones)? Is the PG deck too odd-valued?
+- PW's Rashness is the clean answer to Fulfillment (a 1). Should PW hold it for Fulfillment, and is a mythic that dies to a free 0 card a problem?
+- Fun and clarity for Fulfillment (scoring 44), Thrift replaying the opponent's cards, and Hate against Contentment (607 round 4).
+
+### Game logs
+
+**Game 603.** PG (P1, seat 0) against PW (bot, seat 1). PG won 3 to 2.
+- Scores: PG 2, PW 3; PG 10, PW 11; PG 25, PW 16; PG 41, PW 19; PG 44, PW 25.
+- Longest turn: 2 plays (PW in round 5: Modesty, Discernment).
+- Hands: PG ended with Contentment and Thrift; PW with Impartiality.
+- Decided: Fulfillment with Maturity 6 and Resolve 6 (round 3, 25 against 16); Determination added (round 4, 41); Kinship (round 5, 44 against 25).
+
+**Game 604.** PW (P1, seat 0) against PG (bot, seat 1). PG won 3 to 0.
+- Scores: PW 0, PG 3; PW 3, PG 5; PW 2, PG 8.
+- Longest turn: 2 plays (PG in round 2: Rashness, Maturity).
+- Hands: PW ended with Equanimity, Familiarity, Impartiality, Modesty and Orderliness; PG with Hate.
+- Decided: Vengeance on Humility (round 1); Rashness then Maturity (round 2); Contentment, a 5, and Hate on Maturity (round 3).
+
+**Game 605.** PG (P1, seat 0) against PW (second tester, seat 1). PG won 3 to 2.
+- Scores: PG 2, PW 3; PG 3, PW 7; PG 15, PW 7; PG 32, PW 10; PG 28, PW 13.
+- Longest turn: 3 plays (PG in round 3: Rashness, Hate, Resolve).
+- Hands: PG ended with Thrift; PW with Discernment.
+- Decided: Impartiality (even) on Maturity (round 2); PG's three-play turn (round 3); Fulfillment (round 4, 32 against 10).
+
+**Game 606.** PW (P1, seat 0) against PG (bot, seat 1). PG won 3 to 2.
+- Scores: PW 5, PG 3; PW 10, PG 15; PW 16, PG 19; PW 21, PG 8; PW 30, PG 44.
+- Longest turn: 3 plays (PG in round 2: Rashness, Restlessness, Determination).
+- Hands: neither had cards at the end.
+- Decided: PG's three-play turn (round 2); Impartiality (odd) cut PG from 19 to 8 (round 4); Fulfillment scored 44 against PW's seven moods at 30 (round 5).
+
+**Game 607.** PG (P1, seat 0) against PW (bot, seat 1). PW won 3 to 2.
+- Scores: PG 3, PW 3; PG 8, PW 6; PG 0, PW 2; PG 6, PW 2; PG 12, PW 13.
+- Longest turn: 3 plays (PW in round 5: Familiarity, Modesty, Humility).
+- Hands: PG ended with Fulfillment, Kinship and Resolve; PW with Determination.
+- Decided: Contentment (round 2); Impartiality (odd) against PG's Restlessness and Contentment (round 3, 0 to 2); Vengeance (round 4, 6 to 2); round 5 by one point.
+
+**Game 608.** PW (P1, seat 0) against PG (second tester, seat 1). PG won 3 to 1.
+- Scores: PW 3, PG 3; PW 6, PG 0; PW 9, PG 12; PW 17, PG 18.
+- Longest turn: 3 plays (PW in round 2: Modesty, Familiarity, Impartiality).
+- Hands: PG ended with Maturity and Urgency; PW with no cards.
+- Decided: Vengeance on Humility then PW's three-play turn, Impartiality (odd) on PG's moods (round 2, 6 to 0); Thrift then Humility from the pile (round 3, 12 to 9); round 4 by one point.
+
+### Notes by card (PW splash against PG splash)
+
+| Card | What the games showed |
+|---|---|
+| Fulfillment | Played in 603, 605 and 606 (PG won all three: 44, 32 and 44); held in 607; in the deck in 604 and 608. |
+| Maturity, Resolve, Determination | The 6s Fulfillment doubled (603 round 4: 20 doubled to 40). |
+| Impartiality | Won four rounds (605 round 2, 606 round 4, 607 round 3, 608 round 2): PG's moods are mostly odd. |
+| Rashness (PG) | Three-play turns in 605 round 3 and 606 round 2; removed PW's Rashness (605). |
+| Hate (both) | PG's: Determination (605), Equanimity (607); PW's: Maturity (604), Contentment (607). |
+| Vengeance (PG) | Removed Humility (604, 608) and PW's best mood in 607 round 4. |
+| Thrift | Replayed PW's Humility (608) and Rapport (607) from the pile. |
+| Orderliness | Even in 605 round 4; in hand or deck in the other games. |
+| Reverence | A 5 in 603 and 605. |
+| Levity, Modesty, Familiarity | PW's free plays: two to three plays a turn (606, 607, 608). |
+| Contentment | A 5 for PG (604, 607). |
+| Rashness (PW) | Removed by PG's Rashness (605); played in 608 round 4. |
