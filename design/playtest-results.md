@@ -2317,3 +2317,80 @@ The first tester (P1) played PU in 609 and PB in 610; the other seat was a pract
 | Dejection (PB) | A 5 for the PB bot in 609 round 3 (9 against 12). |
 | Fear (PB) | Not played; held in 609, taken by Nosiness in 610. |
 | Reverie, Neglect | Not drawn in either game. |
+
+## Session 3p: PU Reverie discard against PR Ardor splash (3 games) and the plain PR (1 game)
+
+**Source.** The simulator exports of games 611 to 614 (16 November). Games 611 to 613 are **PU Reverie discard** (blue and black, Reverie) against **PR Ardor splash** (red with Thrift, Resignation and Nostalgia, Ardor unchanged; see `design/playtest-decks.md`). **Game 614's red deck is the plain PR Ardor red pile** (with FOMO, Belligerence and Ruthlessness), not the splash, so it does not count for the splash record.
+The first tester (P1) played PU in 611 and 613 and PR in 612 and 614; the other seat was a practice bot in all four games (PR in 611 and 613, PU in 612 and 614).
+
+### Summary
+
+| | |
+|---|---|
+| Result | **PU won 3 of 4**: 611 (3 to 2) and 613 (3 to 2) as P1's PU against the PR splash bot, and 612 (3 to 0, the PU bot against P1's PR splash); PR won 614 (3 to 0, P1's plain PR against the PU bot). Rounds: PU 9, PR 7. |
+| Scores by round, PU | 611: 5, 7, 9, 12, 14. 612: 8, 13, 8. 613: 2, 5, 11, 16, 18. 614: 3, 3, 10. |
+| Scores by round, PR | 611: 6, 12, 6, 6, 6. 612: 3, 9, 6. 613: 6, 9, 9, 9, 15. 614: 3, 5, 10. |
+| Game length | 5, 3, 5 and 3 rounds, 4.0 on average. |
+| Biggest turn | 3 plays (PU in 611 round 5: Fear, Impulse, Suspicion). 2 plays: the PU bot in 612 rounds 1 and 2, PR in 612 round 2 (Nostalgia, Resignation) and the PR bot in 613 rounds 2 and 5. Highest scores: PU 18 (613 round 5), PR 15 (613 round 5). |
+
+### Insights
+
+1. **Reverie ran for the first time in this PU variant, and PU won 3 to 2 (611).** It was played in round 3; PU then scored 9, 12 and 14 against 6 in each of rounds 3 to 5, and its hand grew from 4 to 6 cards. Each mood played afterwards let PU put a pile card on the bottom of the deck and draw: Desperation (round 3, drew Detachment), then in round 5 Frenzy (drew Impulse) and Compulsion (drew Schadenfreude), both of PR's.
+   The pile had cards because Dejection, Suspicion and Nosiness had put them there, so the discard fuel works. But PU ended with Detachment, Hate, Impulse, Rapport, Remorse and Schadenfreude in hand and only a 14 on board: Reverie gives cards, not tempo, so a plan to play them faster matters (see the questions).
+2. **PR's hand ran dry in both PR splash games against PU, and it passed with no cards.** In 611 PR's hand was empty after round 2 and its bot passed automatically in rounds 3 to 5, scoring 6 each time with a lone Resignation; in 613 the bot had no cards after round 2 and scored 9 in rounds 2 to 4. PU's Nosiness (round 2 of 611 took PR's only card), Suspicion and Dejection stripped the hand. This is the "PR passes with no cards" problem of sessions 3h and 3c again.
+3. **Resignation was PR's turn-one 6 in both bot games.** It cost Verve (611) and Vindictiveness (613) from the hand and won round 1 (6 against 5 and 6 against 2). It is the splash card that worked; the cost is the card it makes PR lose.
+4. **The splash diluted PR's red count in 612.** P1's PR played Thrift, Nostalgia and Resignation (all off-color) and Vindictiveness (red) in three rounds, and ended with Ardor and Zeal in hand against a board with one red mood: Ardor would have been a 0 or 1. PR lost all three rounds (3 against 8, 9 against 13 and 6 against 8). The red-chain deck needs red moods in play before Ardor pays off, and the splash takes three of its early plays.
+5. **PU's Nosiness took Ardor out of PR's hand in 613 round 1, and Remorse put it back on the bottom of PR's deck.** PU's Remorse (round 2) took Ardor from the pile to the bottom of the deck and drew a card, so Ardor was out of PR's hand for the rest of the game (PR scored 9 to 15 and lost). This is the second game (with 595 round 5) where Nosiness removed a mythic from a hand.
+6. **The PU bot's Desperation then Detachment gave 8 and 13 in 612.** Desperation (an extra play with fewer cards in hand than each other player) brought Detachment in round 1, and Dejection in round 2 made 13 (Detachment 5, Dejection 5, Desperation 3). This is the same Impulse, Desperation, Dejection family of extra plays as session 3o.
+7. **Records:** PU Reverie discard is 5 to 3; PR Ardor splash is 1 to 4 (1 to 1 against PW splash, 0 to 3 here); the plain PR is 5 to 11 with this win (it won 614 3 to 0 with Compulsion, Shock on Suspicion and Impatience).
+
+### Questions for the testers
+
+- Game 614: the red deck was the plain PR Ardor red pile, not the splash. Was that intended? (It does not count for the splash.)
+- Game 611: PU ended with six cards in hand under Reverie. Is Reverie too card-heavy, or would you play more cards a turn (Impulse, Desperation) to use them? Did the "may put a pile card on the bottom and draw" prompt each time feel slow or fun?
+- Game 612: PR played Thrift, Nostalgia and Resignation in the first rounds and held Ardor. Was the plan to hold Ardor until red moods were out, and would the plain list have done better?
+- Game 613: Nosiness took Ardor in round 1. Did that change your plan, and did you expect Remorse to send it to the bottom of PR's deck?
+- Should the next PR splash games force a red opening hand, so that Ardor has red moods to count?
+
+### Game logs
+
+**Game 611.** PU (P1, seat 0) against PR (bot, seat 1). PU won 3 to 2.
+- Scores: PU 5, PR 6; PU 7, PR 12; PU 9, PR 6; PU 12, PR 6; PU 14, PR 6.
+- Longest turn: 3 plays (PU in round 5: Fear, Impulse, Suspicion).
+- Hands: PU ended with six cards (Detachment, Hate, Impulse, Rapport, Remorse, Schadenfreude); PR had no cards after round 2 and passed in rounds 3 to 5.
+- Decided: Resignation (6) against Dejection (5) in round 1; Frenzy (6) and Nosiness on PR's last card (round 2); Reverie in round 3 (9 against 6); Reverie's draws in round 5 (14 against 6).
+
+**Game 612.** PR (P1, seat 0) against PU (bot, seat 1). PU won 3 to 0.
+- Scores: PR 3, PU 8; PR 9, PU 13; PR 6, PU 8.
+- Longest turn: 2 plays (the PU bot in rounds 1 and 2; PR in round 2: Nostalgia, Resignation).
+- Hands: PR ended with Ardor and Zeal; PU had no cards.
+- Decided: Desperation then Detachment (round 1, 8 to 3); Dejection (round 2, 13 to 9); Vindictiveness sacrificed Resignation to remove Detachment (round 3, 6 to 8).
+
+**Game 613.** PU (P1, seat 0) against PR (bot, seat 1). PU won 3 to 2.
+- Scores: PU 2, PR 6; PU 5, PR 9; PU 11, PR 9; PU 16, PR 9; PU 18, PR 15.
+- Longest turn: 2 plays (the PR bot in rounds 2 and 5).
+- Hands: PU ended with Hate; PR had no cards after round 2 and passed in rounds 3 and 4.
+- Decided: Nosiness on Ardor (round 1); Remorse put Ardor on the bottom of PR's deck (round 2); Resignation as a 6 for PU (round 3, 11 to 9); Dejection against PR's empty hand (round 4, 16 to 9); Reverie in round 5 (18 to 15).
+
+**Game 614.** PR (P1, seat 0; the plain PR Ardor red pile) against PU (bot, seat 1). PR won 3 to 0.
+- Scores: PR 3, PU 3; PR 5, PU 3; PR 10, PU 10.
+- Longest turn: 2 plays (PR in round 3).
+- Hands: PR ended with Frenzy and Verve; PU with Fear, Impulse and Schadenfreude.
+- Decided: Compulsion (round 1); Shock on Suspicion (round 2, 5 to 3); Impatience (a 5) in round 3 (10 to 10).
+
+### Notes by card (PU Reverie discard against PR Ardor splash)
+
+| Card | What the games showed |
+|---|---|
+| Reverie | Played in 611 (round 3) and 613 (round 5); drew PU a card per mood played afterwards (611). |
+| Nosiness | Took PR's only card (611 round 2) and Ardor (613 round 1). |
+| Suspicion, Dejection | Emptied PR's hand (611, 613); Dejection a 5 in 611, 612 and 613. |
+| Remorse | Put Ardor on the bottom of PR's deck (613 round 2). |
+| Desperation, Detachment | The PU bot's extra play and a 5 (612 rounds 1 and 2). |
+| Resignation (PR) | A turn-one 6 for the PR bot (611, 613); P1's Resignation was sacrificed to Vindictiveness (612). |
+| Thrift, Nostalgia (PR) | Thrift played in 612 round 1 and 613 round 5 (replayed Verve); Nostalgia in 612 round 2. |
+| Ardor | Never played: in the deck (611), in hand and unplayed (612), taken by Nosiness (613). |
+| Frenzy | A 6 in 611 round 2; recycled to PR's deck by Reverie. |
+| Vindictiveness | Sacrificed Resignation to remove Detachment (612 round 3). |
+| Compulsion, Shock, Impatience | The plain PR's winning plays in 614. |
+| Impulse | PU's extra play (611 round 5, 614 round 3). |
