@@ -2273,7 +2273,7 @@ The first tester (P1) played PU in 609 and PB in 610; the other seat was a pract
 2. **The PU bot played Impulse every turn in 610 and scored 2 to 6.** Impulse, then Resignation (removed by Vengeance), Deflection, Schadenfreude (removed by Shock) and Nosiness: the second play was removed or small each round. PB scored 3, 3, 5 and 11 with Vengeance, Schadenfreude, Shock and Suspicion.
 3. **Shock and Vengeance answered PU's second play.** Vengeance removed Resignation (610 round 1), and Shock removed Desperation (609 round 2) and Schadenfreude (610 round 3). Deflection bounced Vengeance in 610 round 2 (PU 4 against 3) and the name lock was gone by round 4.
 4. **Schadenfreude was a 6 for PB in 610 round 4.** PB's own Suspicion made PU discard Remorse that round (11 against 6, the round that won the game). PB's Schadenfreude is the only conditional 6 left in the deck besides Resignation.
-5. **The PB bot discarded its own removal.** In 609 it played Dejection in rounds 2 and 3 (PU's was in play too) and discarded Vengeance and then Schadenfreude, and it held Fear at the end. Its Nosiness in round 1 took Suspicion out of PU's five revealed cards.
+5. **The PB bot discarded its own removal and its 6.** In 609 PU's Dejection made it discard Vengeance (round 2), its own Dejection in round 3 made it discard Schadenfreude (PU had no cards left to discard), and it held Fear at the end. Its Nosiness in round 1 took Suspicion out of PU's five revealed cards.
 6. **Neither mythic was drawn again.** Reverie stayed in the deck in both games (it has not been drawn in any of the four games of this PU variant, 593, 594, 609 and 610) and Neglect too. PU's hand was empty after round 3 in 609 (Impulse and Desperation spend it), the situation Neglect needs.
 7. **Fear has not been played in eight PB splash games.** It was held in 600 and 609 and taken by Nosiness in 610. The first swap-back candidates are Composure or Anticipation.
 8. **Variant records:** PU Reverie discard is 2 to 2 (1 to 1 against PW splash and here); PB Neglect splash is 5 to 3 (4 to 2 against PW splash, 1 to 1 here).
@@ -2311,7 +2311,7 @@ The first tester (P1) played PU in 609 and PB in 610; the other seat was a pract
 | Deflection | Bounced Vengeance (610 round 2, PU 4 against 3). |
 | Nosiness | Both bots used it (609 round 1 took Suspicion; 610 round 4 took Fear). |
 | Shock (PB) | Removed Desperation (609) and Schadenfreude (610 round 3). |
-| Vengeance (PB) | Removed Resignation (610 round 1); discarded by the PB bot to its own Dejection (609). |
+| Vengeance (PB) | Removed Resignation (610 round 1); discarded by the PB bot to PU's Dejection (609 round 2). |
 | Schadenfreude (PB) | A 6 in 610 round 4 (Suspicion made PU discard); discarded in 609 round 3. |
 | Suspicion (PB) | Made PU discard Remorse (610 round 4). |
 | Dejection (PB) | A 5 for the PB bot in 609 round 3 (9 against 12). |
