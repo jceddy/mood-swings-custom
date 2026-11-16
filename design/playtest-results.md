@@ -2251,3 +2251,69 @@ The first tester (P1) played PG in 603, 605 and 607 and PW in 604, 606 and 608. 
 | Levity, Modesty, Familiarity | PW's free plays: two to three plays a turn (606, 607, 608). |
 | Contentment | A 5 for PG (604, 607). |
 | Rashness (PW) | Removed by PG's Rashness (605); played in 608 round 4. |
+
+## Session 3o: PU Reverie discard against PB Neglect splash (2 games)
+
+**Source.** The simulator exports of games 609 and 610 (16 November), the first games of the PU variant against the PB variant (see `design/playtest-decks.md`): **PU Reverie discard** (blue and black, Reverie) and **PB Neglect splash** (black with Resignation, Rashness, Fear and Shock; Brooding and Neglect kept).
+The first tester (P1) played PU in 609 and PB in 610; the other seat was a practice bot in both games (PB in 609, PU in 610).
+
+### Summary
+
+| | |
+|---|---|
+| Result | **One win each**: PU won 609 (3 to 0, P1 against the PB bot) and PB won 610 (3 to 1, P1 against the PU bot). Rounds: PU 4, PB 3. |
+| Scores by round, PU | 609: 7, 12, 12. 610: 2, 4, 2, 6. |
+| Scores by round, PB | 609: 2, 4, 9. 610: 3, 3, 5, 11. |
+| Game length | 3 and 4 rounds, 3.5 on average. |
+| Biggest turn | 3 plays (PU in 609 round 2: Impulse, Desperation, Dejection). 2 plays: PU in every round of 609 but the last and in 610 rounds 1, 2 and 4 (Impulse and one more); the PB bot in 609 round 1. Highest scores: PU 12 (609 rounds 2 and 3), PB 11 (610 round 4). |
+
+### Insights
+
+1. **Impulse's second play carried PU in 609.** Impulse (a 2 that returns to hand after scoring) then Detachment (a 5, needs a blue mood) scored 7 against 2 in round 1; in round 2 Impulse, Desperation (an extra play with fewer cards in hand) and Dejection (a 5) were three plays and 12 against 4. PU's board of Impulse, Detachment and Dejection (2, 5 and 5) held the 12 in round 3. PU won 3 to 0 with three plays a turn at most and no mythic.
+2. **The PU bot played Impulse every turn in 610 and scored 2 to 6.** Impulse, then Resignation (removed by Vengeance), Deflection, Schadenfreude (removed by Shock) and Nosiness: the second play was removed or small each round. PB scored 3, 3, 5 and 11 with Vengeance, Schadenfreude, Shock and Suspicion.
+3. **Shock and Vengeance answered PU's second play.** Vengeance removed Resignation (610 round 1), and Shock removed Desperation (609 round 2) and Schadenfreude (610 round 3). Deflection bounced Vengeance in 610 round 2 (PU 4 against 3) and the name lock was gone by round 4.
+4. **Schadenfreude was a 6 for PB in 610 round 4.** PB's own Suspicion made PU discard Remorse that round (11 against 6, the round that won the game). PB's Schadenfreude is the only conditional 6 left in the deck besides Resignation.
+5. **The PB bot discarded its own removal.** In 609 it played Dejection in rounds 2 and 3 (PU's was in play too) and discarded Vengeance and then Schadenfreude, and it held Fear at the end. Its Nosiness in round 1 took Suspicion out of PU's five revealed cards.
+6. **Neither mythic was drawn again.** Reverie stayed in the deck in both games (it has not been drawn in any of the four games of this PU variant, 593, 594, 609 and 610) and Neglect too. PU's hand was empty after round 3 in 609 (Impulse and Desperation spend it), the situation Neglect needs.
+7. **Fear has not been played in eight PB splash games.** It was held in 600 and 609 and taken by Nosiness in 610. The first swap-back candidates are Composure or Anticipation.
+8. **Variant records:** PU Reverie discard is 2 to 2 (1 to 1 against PW splash and here); PB Neglect splash is 5 to 3 (4 to 2 against PW splash, 1 to 1 here).
+
+### Questions for the testers
+
+- Game 609 round 3: PU passed with no cards after Impulse. Did the Impulse and Desperation engine empty the hand too fast? Would you hold Desperation for a later round?
+- Game 610: Deflection bounced Vengeance in round 2 and you never replayed it (Remorse and Vengeance in hand at the end). Was that to play around the name lock, or was Suspicion and Schadenfreude better?
+- Game 610 round 3: Shock on Schadenfreude rather than waiting. Was Impulse's board the target?
+- Reverie has not been drawn in four games. Should the next PU games force it into the opening hand so that the discard fuel gets tested?
+- Fear: should it come out of the PB splash (see the notes on Composure and Anticipation)?
+
+### Game logs
+
+**Game 609.** PU (P1, seat 0) against PB (bot, seat 1). PU won 3 to 0.
+- Scores: PU 7, PB 2; PU 12, PB 4; PU 12, PB 9.
+- Longest turn: 3 plays (PU in round 2: Impulse, Desperation, Dejection).
+- Hands: PU had no cards after round 3 (it passed after Impulse); PB ended with Fear.
+- Decided: Impulse then Detachment (round 1, 7 to 2); Desperation's extra play and Dejection (round 2, 12 to 4, with the PB bot's Shock on Desperation); round 3 12 to 9.
+
+**Game 610.** PB (P1, seat 0) against PU (bot, seat 1). PB won 3 to 1.
+- Scores: PB 3, PU 2; PB 3, PU 4; PB 5, PU 2; PB 11, PU 6.
+- Longest turn: 2 plays (the PU bot in rounds 1, 2 and 4: Impulse and one more).
+- Hands: PB ended with Remorse and Vengeance; PU with Impulse.
+- Decided: Vengeance on Resignation (round 1); Deflection bounced Vengeance (round 2, 4 to 3); Shock on Schadenfreude (round 3); Suspicion and Schadenfreude as a 6 (round 4, 11 to 6).
+
+### Notes by card (PU Reverie discard against PB Neglect splash)
+
+| Card | What the games showed |
+|---|---|
+| Impulse | PU's engine: back in hand every round, a second play in 609 (three plays in round 2) and 610. |
+| Detachment, Dejection (PU) | 5s in 609 (7 and 12). |
+| Desperation | The extra play that brought Dejection in 609 round 2; removed by Shock. |
+| Resignation (PU) | A 6 removed by Vengeance (610 round 1). |
+| Deflection | Bounced Vengeance (610 round 2, PU 4 against 3). |
+| Nosiness | Both bots used it (609 round 1 took Suspicion; 610 round 4 took Fear). |
+| Shock (PB) | Removed Desperation (609) and Schadenfreude (610 round 3). |
+| Vengeance (PB) | Removed Resignation (610 round 1); discarded by the PB bot to its own Dejection (609). |
+| Schadenfreude (PB) | A 6 in 610 round 4 (Suspicion made PU discard); discarded in 609 round 3. |
+| Suspicion (PB) | Made PU discard Remorse (610 round 4). |
+| Dejection (PB) | A 5 for the PB bot in 609 round 3 (9 against 12). |
+| Fear (PB) | Not played; held in 609, taken by Nosiness in 610. |
+| Reverie, Neglect | Not drawn in either game. |
