@@ -2401,3 +2401,93 @@ The first tester (P1) played PU in 611 and 613 and PR in 612 and 615. The other 
 | Adrenaline | A turn-one 0 (615 round 1); the free extra plays in rounds 2 to 5. |
 | Vindictiveness | Sacrificed Resignation to remove Detachment (612 round 3). |
 | Impulse | PU's extra play (611 round 5). |
+
+## Session 3q: PU Reverie discard against PG Fulfillment splash (6 games)
+
+**Source.** The simulator exports of games 617 to 622 (18 November; game 616 is not in the zip), the first games of the PU variant against the PG variant (see `design/playtest-decks.md`): **PU Reverie discard** (blue and black, Reverie) and **PG Fulfillment splash** (green with Vengeance, Hate and Rashness for Honesty, Nostalgia and Perseverance; Fulfillment kept).
+The first tester (P1) played PU in 617, 619 and 621 and PG in 618, 620 and 622. The other seat was a practice bot in all six games (PG in 617, 619 and 621; PU in 618, 620 and 622).
+
+### Summary
+
+| | |
+|---|---|
+| Result | **PG won all six** (617, 619 and 621 3 to 0 as the bot against P1's PU; 618, 620 and 622 as P1's PG against the PU bot, 3 to 1, 3 to 2 and 3 to 2). Rounds: PG 18, PU 5. |
+| Scores by round, PU | 617: 0, 2, 7. 618: 8, 6, 6, 8. 619: 3, 6, 8. 620: 3, 6, 9, 11, 17. 621: 3, 2, 7. 622: 2, 2, 8, 5, 8. |
+| Scores by round, PG | 617: 3, 6, 11. 618: 6, 12, 13, 13. 619: 3, 8, 9. 620: 3, 12, 15, 10, 21. 621: 3, 6, 9. 622: 0, 3, 7, 7, 14. |
+| Game length | 3, 4, 3, 5, 3 and 5 rounds, 3.8 on average. |
+| Biggest turn | 3 plays (the PG bot in 619 round 2: Hate, Thrift, Maturity). 2 plays: PG in 618 rounds 1 and 2 and 620 round 2 (Thrift then a card from the pile), the PU bot in 618 round 1 and 620 rounds 1 and 3. Highest scores: PG 21 and PU 17 (620 round 5). |
+
+### Insights
+
+1. **PG's splash removal answered PU's best mood almost every round.** Vengeance removed Suspicion (617 round 1), Dejection (618 round 2), Detachment (620 round 1 and 622 round 2) and Schadenfreude (621 round 2); Hate bottomed Suspicion (619 round 2) and Resignation (622 round 4). PU's bodies are cheap 3s and 5s, so one removal a round keeps PU's board small (PU 0 to 11, and 2 to 8 in most rounds).
+2. **Thrift turned PU's hand attack into extra plays for PG.** The shared discard pile feeds it: PU's Dejection (618 round 1) made PG discard Joy and PG played Thrift then Joy from the pile (6, extra play for Restlessness next round); PU's Suspicion (619 round 1, 620 round 2) made PG discard Maturity and Urgency, which Thrift replayed (619 round 2: Hate, Thrift, Maturity in one turn; 620 round 2: Thrift, Urgency, 12 against 6).
+   This is sessions 3i, 3j and 3n again: Suspicion and Dejection against Thrift give the green deck a free play.
+3. **PU's tempo is the problem, not its card flow.** In the three games P1 played PU it made one play a turn and ended with 6, 3 and 3 cards in hand (617: Deflection, Nosiness, Rapport, Remorse, Resignation, Rumination after Reverie's draws; 619: Nosiness, Rapport, Schadenfreude; 621: Rapport, Remorse, Suspicion). PU lost all three 0 to 3 with PU scoring 0, 2, 7, then 3, 6, 8 and 3, 2, 7. PG did not need Fulfillment.
+4. **Fulfillment was in play once (618 round 3) and did not decide a game.** PG's Fulfillment was in the deck in the other five games. PG won on Thrift, Joy, Urgency, Restlessness, Vengeance and Hate. Vitality (620 round 4) and Maturity (619, a 2 bounced by Deflection) were small.
+5. **Deflection was PU's best tempo card.** It bounced Vindication (622 round 1, PU 2 against 0), Maturity (619 round 3, PU lost 8 to 9) and Determination (620 round 4, PU won 11 to 10). PU won three rounds in total in the six games and two of them came from a Deflection or an extra play (620 round 4, 622 round 3 with Resignation).
+6. **Reverie was played once (617 round 2) and did not help.** It put Vitality (PG's) on the bottom of PG's deck and drew Nosiness (PU's hand 6). In 620 the PU bot paid Resignation's cost with Reverie itself (from hand to the bottom of the deck) in round 5, then scored 17 against 21. Reverie stayed in the deck in the other four games.
+7. **Resignation (a 6) still wins round 1 or 3 when it stays:** PU's was a 6 in 619 round 2 (cost Detachment) and 620 and 622 round 3 to 5, and PG's Hate bottomed it in 622 round 4 (PU 5 against 7).
+8. **Records:** PU Reverie discard is now 5 to 9 (0 to 6 here, 1 to 1 against PW splash and PB splash, 3 to 1 against PR splash); PG Fulfillment splash is 11 to 1 (6 to 0 here, 5 to 1 against PW splash).
+
+### Questions for the testers
+
+- Games 617, 619 and 621 (you as PU): what felt wrong, the tempo or the removal? In 617 you ended with six cards (Resignation, Remorse, Deflection, Rapport, Nosiness, Rumination) after Reverie: would you have played the cheap extra-play cards earlier?
+- Game 617 round 1: Suspicion first into a PG that played Vengeance on it. Would you open with Desperation or Impulse (to get a second play) against green?
+- Games 618, 620 and 622 (you as PG): were the Thrift plays (Joy, Urgency, Maturity) planned around the PU bot's Dejection and Suspicion? Does PU's hand attack feel like a gift to Thrift?
+- Does PU want fewer discard cards (Suspicion, Dejection) against a deck with Thrift, or is the shared pile the point of the deck (Reverie, Rumination)?
+- Fun and clarity for Deflection's name lock and for Reverie's "may" each time you play a mood.
+
+### Game logs
+
+**Game 617.** PU (P1, seat 0) against PG (bot, seat 1). PG won 3 to 0.
+- Scores: PU 0, PG 3; PU 2, PG 6; PU 7, PG 11.
+- Longest turn: 1 play every turn.
+- Hands: PU ended with six cards (Deflection, Nosiness, Rapport, Remorse, Resignation, Rumination); PG with Determination.
+- Decided: Vengeance on Suspicion (round 1); Reverie (round 2); Contentment, a 5, against Detachment (round 3, 11 to 7).
+
+**Game 618.** PG (P1, seat 0) against PU (bot, seat 1). PG won 3 to 1.
+- Scores: PG 6, PU 8; PG 12, PU 6; PG 13, PU 6; PG 13, PU 8.
+- Longest turn: 2 plays (PG in rounds 1 and 2; the PU bot in rounds 1 and 2).
+- Hands: PG had no cards after round 2; PU ended with Fear and Nosiness.
+- Decided: Thrift then Joy from the pile after Dejection (round 1); Vengeance on Dejection and Restlessness (round 2, 12 to 6); Fulfillment (round 3, 13 to 6).
+
+**Game 619.** PU (P1, seat 0) against PG (bot, seat 1). PG won 3 to 0.
+- Scores: PU 3, PG 3; PU 6, PG 8; PU 8, PG 9.
+- Longest turn: 3 plays (the PG bot in round 2: Hate, Thrift, Maturity from the pile).
+- Hands: PU ended with Nosiness, Rapport and Schadenfreude; PG with Determination and Maturity.
+- Decided: Hate on Suspicion then Thrift and Maturity from the pile (round 2); Deflection on Maturity (round 3, lost 8 to 9).
+
+**Game 620.** PG (P1, seat 0) against PU (bot, seat 1). PG won 3 to 2.
+- Scores: PG 3, PU 3; PG 12, PU 6; PG 15, PU 9; PG 10, PU 11; PG 21, PU 17.
+- Longest turn: 2 plays (PG in round 2; the PU bot in rounds 1 and 3).
+- Hands: PU had no cards at the end (Reverie bottomed as Resignation's cost); PG ended with Determination and Resolve.
+- Decided: Vengeance on Detachment (round 1, 3 to 3); Thrift then Urgency from the pile (round 2); Deflection on Determination (round 4, lost 10 to 11); Resignation, Restlessness (round 5, 21 to 17).
+
+**Game 621.** PU (P1, seat 0) against PG (bot, seat 1). PG won 3 to 0.
+- Scores: PU 3, PG 3; PU 2, PG 6; PU 7, PG 9.
+- Longest turn: 1 play every turn.
+- Hands: PU ended with Rapport, Remorse and Suspicion; PG had no cards.
+- Decided: Vengeance on Schadenfreude (round 2, 2 to 6); Restlessness against Dejection and Nosiness (round 3, 9 to 7).
+
+**Game 622.** PG (P1, seat 0) against PU (bot, seat 1). PG won 3 to 2.
+- Scores: PG 0, PU 2; PG 3, PU 2; PG 7, PU 8; PG 7, PU 5; PG 14, PU 8.
+- Longest turn: 1 play every turn.
+- Hands: PG ended with Determination, Restlessness and Vitality; PU with Fear.
+- Decided: Deflection on Vindication (round 1); Vengeance on Detachment (round 2); Resignation (round 3, lost 7 to 8); Hate on Resignation (round 4); Contentment (round 5, 14 to 8).
+
+### Notes by card (PU Reverie discard against PG Fulfillment splash)
+
+| Card | What the games showed |
+|---|---|
+| Vengeance (PG) | Removed Suspicion, Dejection, Detachment (twice) and Schadenfreude; played in five games. |
+| Hate (PG) | Bottomed Suspicion (619) and Resignation (622). |
+| Thrift | Replayed Joy (618), Maturity (619) and Urgency (620) from the pile after PU's Dejection and Suspicion. |
+| Suspicion, Dejection (PU) | Made PG discard cards that Thrift replayed. |
+| Deflection | Bounced Vindication (622), Maturity (619) and Determination (620). |
+| Reverie | Played once (617 round 2); bottomed as a cost by the PU bot (620 round 5). |
+| Resignation (PU) | A 6 in 619 round 2, 620 round 5 and 622 round 3; bottomed by Hate (622 round 4). |
+| Fulfillment | Played in 618 round 3 (13 to 6); in the deck in the other games. |
+| Joy, Urgency, Restlessness | PG's extra plays and bodies (618, 620). |
+| Contentment | A 5 for PG (617 round 3, 622 round 5). |
+| Nosiness (PU) | Took Determination (621 round 2); held in 618 and 619. |
+| Impulse, Desperation | The PU bot's second plays (618, 620); Impulse in 618 round 4. |
