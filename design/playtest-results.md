@@ -2491,3 +2491,68 @@ The first tester (P1) played PU in 617, 619 and 621 and PG in 618, 620 and 622. 
 | Contentment | A 5 for PG (617 round 3, 622 round 5). |
 | Nosiness (PU) | Took Determination (621 round 2); held in 618 and 619. |
 | Impulse, Desperation | The PU bot's second plays (618, 620); Impulse in 618 round 4. |
+
+## Session 3r: PB Neglect splash against PR Ardor splash (2 games)
+
+**Source.** The simulator exports of games 624 and 625 (18 November; game 623 is not in the zip), the first games of the PB variant against the PR variant (see `design/playtest-decks.md`): **PB Neglect splash** (black with Resignation, Rashness, Fear and Shock; Brooding and Neglect kept) and **PR Ardor splash** (red with Thrift, Resignation and Nostalgia, Ardor unchanged).
+The first tester (P1) played PR in 624 and PB in 625; the other seat was a practice bot (PB) in 624 and the second tester (PR) in 625.
+
+### Summary
+
+| | |
+|---|---|
+| Result | **One win each**: PR won 624 (3 to 1, P1 against the PB bot) and PB won 625 (3 to 1, P1 against the second tester's PR). Rounds: PR 4, PB 4. |
+| Scores by round, PR | 624: 0, 6, 11, 13. 625: 6, 3, 5, 5. |
+| Scores by round, PB | 624: 5, 5, 8, 8. 625: 2, 5, 8, 7. |
+| Game length | 4 and 4 rounds, 4.0 on average. |
+| Biggest turn | 2 plays (PR in 624 round 2: Compulsion, Vengeance); every other turn was 1 play. Highest scores: PR 13 (624 round 4), PB 8 (624 rounds 3 and 4, 625 round 3). |
+
+### Insights
+
+1. **Compulsion gave PR the PB bot's Vengeance in 624 round 2.** The PB bot chose Vengeance (its best removal) to give away, and P1's PR played it with Adrenaline's extra play on Resentment (a 5): PR 6 against 5 and the round. The victim chooses the card, but a bot can pick a bad one; the rest of this game PR scored 11 and 13.
+2. **Nosiness took Ardor out of PR's hand again (625 round 1).** The PB tester picked Ardor from four revealed cards and PR played Frenzy (a 6) as its first mood. This is the fourth time Nosiness took a mythic out of a hand (586 Fulfillment, 595 Orderliness, 613 and now 625 Ardor), and Ardor has been drawn in four of the eight PR splash games and played in one (601).
+3. **Both decks have Shock, and it answered the cheap bodies.** PR's Shock removed Schadenfreude (624 round 4) and PB's Suspicion (625 round 3); PB's Shock removed Vindictiveness (625 round 4). In 625 round 3 PB's Schadenfreude was a 6 (PR had discarded to Suspicion), so the round was 8 against 5 even after Suspicion went.
+4. **The games were low-scoring and short.** PB's best was 8 and PR scored 13 only with Adrenaline, Compulsion, Impatience, Shock and the stolen Vengeance in 624. Neither deck's engine mythic ran (Neglect and Ardor stayed in the deck or were taken: Ardor to the discard pile in 625).
+5. **Adrenaline was a turn-one 0 again (624 round 1: 0 against 5).** Dejection (5) won the PB bot round 1. In 625 the PR tester opened with Frenzy (a 6) and won round 1 (6 against 2).
+6. **PB's extra-play cards sat in hand.** PB ended 625 with Rashness and Remorse unplayed and 624's bot with Resentment and Suspicion (Longing took them back, then it had one play a turn). PB's splash tempo cards (Rashness, Resignation, Fear) were not played in either game (Resignation and Fear stayed in the deck; Rashness was held).
+7. **Variant records:** PB Neglect splash is 6 to 4 (4 to 2 against PW splash, 1 to 1 against PU Reverie discard, 1 to 1 here); PR Ardor splash is 3 to 5 (1 to 1 against PW splash, 1 to 3 against PU, 1 to 1 here).
+
+### Questions for the testers
+
+- Game 625 round 1: PR opened with Frenzy and held Ardor. Was the plan to play Ardor once more red moods were out, and how did the Nosiness reveal change it?
+- Game 625: PB ended with Rashness and Remorse in hand. Was there a round where a free extra play would have mattered (round 1 against Frenzy)?
+- Game 624 round 2: Compulsion then the stolen Vengeance. Was it planned (the PB bot could give any card), and did the bot's choice surprise you?
+- Both decks run Shock (and Rashness). Does that mirror feel like it cancels out, or does it make the early rounds about who draws a cheap body?
+- Resignation (both decks) and Fear (PB) were not played. Should the next games force Resignation into the opening hand?
+
+### Game logs
+
+**Game 624.** PR (P1, seat 0) against PB (bot, seat 1). PR won 3 to 1.
+- Scores: PR 0, PB 5; PR 6, PB 5; PR 11, PB 8; PR 13, PB 8.
+- Longest turn: 2 plays (PR in round 2: Compulsion, Vengeance).
+- Hands: PR ended with Rashness; PB with Resentment and Suspicion.
+- Decided: Dejection against Adrenaline (round 1); Compulsion took Vengeance and removed Resentment (round 2, 6 to 5); Impatience (round 3, 11 to 8); Shock on Schadenfreude and Longing's recursion (round 4, 13 to 8).
+
+**Game 625.** PB (P1, seat 0) against PR (second tester, seat 1). PB won 3 to 1.
+- Scores: PB 2, PR 6; PB 5, PR 3; PB 8, PR 5; PB 7, PR 5.
+- Longest turn: 1 play every turn.
+- Hands: PB ended with Rashness and Remorse; PR with Adrenaline.
+- Decided: Nosiness took Ardor after PR's Frenzy (round 1); Schadenfreude (round 2, 5 to 3); Suspicion then PR's Shock on it, Schadenfreude a 6 (round 3, 8 to 5); PB's Shock on Vindictiveness (round 4, 7 to 5).
+
+### Notes by card (PB Neglect splash against PR Ardor splash)
+
+| Card | What the games showed |
+|---|---|
+| Compulsion, Vengeance | The PB bot gave Vengeance (624 round 2) and PR played it on Resentment. |
+| Nosiness | Took Ardor from PR's hand (625 round 1). |
+| Ardor | Taken by Nosiness (625); in the deck (624). |
+| Shock (both) | Removed Schadenfreude (624), Suspicion and Vindictiveness (625). |
+| Dejection (PB) | A 5 (624 round 1, 5 against Adrenaline's 0). |
+| Schadenfreude | A 3 in 624 round 3 and 625 round 2, a 6 in 625 round 3 (PR discarded to Suspicion). |
+| Longing | Discarded Suspicion and took Suspicion and Resentment back (624 round 4). |
+| Frenzy | A 6 for PR's first play (625 round 1). |
+| Adrenaline | A turn-one 0 (624 round 1); the extra play for Vengeance (624 round 2). |
+| Impatience, Exuberance | A 5 (624 round 3, 11); Exuberance in 625. |
+| Thrift (PR) | Discarded to Suspicion (625 round 3). |
+| Rashness, Remorse (PB) | Held unplayed (625). |
+| Neglect, Resignation, Fear, Nostalgia | Not drawn in either game. |
