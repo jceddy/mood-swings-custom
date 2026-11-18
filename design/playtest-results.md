@@ -2514,7 +2514,7 @@ The first tester (P1) played PR in 624 and PB in 625; the other seat was a pract
 3. **Both decks have Shock, and it answered the cheap bodies.** PR's Shock removed Schadenfreude (624 round 4) and PB's Suspicion (625 round 3); PB's Shock removed Vindictiveness (625 round 4). In 625 round 3 PB's Schadenfreude was a 6 (PR had discarded to Suspicion), so the round was 8 against 5 even after Suspicion went.
 4. **The games were low-scoring and short.** PB's best was 8 and PR scored 13 only with Adrenaline, Compulsion, Impatience, Shock and the stolen Vengeance in 624. Neither deck's engine mythic ran (Neglect and Ardor stayed in the deck or were taken: Ardor to the discard pile in 625).
 5. **Adrenaline was a turn-one 0 again (624 round 1: 0 against 5).** Dejection (5) won the PB bot round 1. In 625 the PR tester opened with Frenzy (a 6) and won round 1 (6 against 2).
-6. **PB's extra-play cards sat in hand.** PB ended 625 with Rashness and Remorse unplayed and 624's bot with Resentment and Suspicion (Longing took them back, then it had one play a turn). PB's splash tempo cards (Rashness, Resignation, Fear) were not played in either game (Resignation and Fear stayed in the deck; Rashness was held).
+6. **PB's extra-play cards sat in hand.** PB ended 625 with Rashness and Remorse unplayed. PB's splash tempo cards (Rashness, Resignation, Fear) were not played in either game (Resignation and Fear stayed in the deck; Rashness was held), and each PB turn was a single play.
 7. **Variant records:** PB Neglect splash is 6 to 4 (4 to 2 against PW splash, 1 to 1 against PU Reverie discard, 1 to 1 here); PR Ardor splash is 3 to 5 (1 to 1 against PW splash, 1 to 3 against PU, 1 to 1 here).
 
 ### Questions for the testers
