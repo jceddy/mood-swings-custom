@@ -2556,3 +2556,87 @@ The first tester (P1) played PR in 624 and PB in 625; the other seat was a pract
 | Thrift (PR) | Discarded to Suspicion (625 round 3). |
 | Rashness, Remorse (PB) | Held unplayed (625). |
 | Neglect, Resignation, Fear, Nostalgia | Not drawn in either game. |
+
+## Session 3s: PB Neglect splash against PG Fulfillment splash (5 games)
+
+**Source.** The simulator exports of games 626 to 630 (19 and 20 November), the first games of the two variants against each other (see `design/playtest-decks.md`): **PB Neglect splash** (black with Resignation, Rashness, Fear and Shock; Brooding and Neglect kept) and **PG Fulfillment splash** (green with Vengeance, Hate and Rashness for Honesty, Nostalgia and Perseverance; Fulfillment kept). Both decks therefore run Vengeance, Hate and Rashness.
+The first tester (P1) played PG in 626, 628 and 629 and PB in 627 and 630. The other seat was a practice bot in all five games (PB in 626, 628 and 629; PG in 627 and 630).
+
+### Summary
+
+| | |
+|---|---|
+| Result | **PG won 3 of 5** (627 as the bot against P1's PB, 3 to 1; 628 and 629 as P1's PG, 3 to 1 and 3 to 2); PB won 626 (the bot against P1's PG, 3 to 1) and 630 (P1's PB against the PG bot, 3 to 2). Rounds: PG 12, PB 10. P1 was 2 to 1 as PG and 1 to 1 as PB. |
+| Scores by round, PG | 626: 0, 3, 6, 6. 627: 3, 6, 6, 6. 628: 2, 10, 6, 8. 629: 2, 7, 12, 32, 43. 630: 3, 3, 3, 9, 4. |
+| Scores by round, PB | 626: 3, 3, 5, 7. 627: 2, 7, 2, 2. 628: 6, 9, 6, 6. 629: 5, 8, 6, 9, 14. 630: 0, 5, 3, 3, 5. |
+| Game length | 4, 4, 4, 5 and 5 rounds, 4.4 on average. |
+| Biggest turn | 2 plays (both players in most rounds with an extra play: PB in 627 round 4, Fear then Hate; PG in 628 round 4, Thrift then Maturity from the pile; PB in 630 round 5, Remorse then Neglect). Highest scores: PG 43 (629 round 5) and 32 (629 round 4), PB 14 (629 round 5). |
+
+### Insights
+
+1. **Neglect decided a game for the first time (630 round 5).** PG had played its last card (Fulfillment) and had no cards in hand; PB played Remorse (a free extra play that drew Neglect) and then Neglect, and before scoring PG put Determination (its highest value mood, a 6 that Fulfillment doubles) into the discard pile: 5 against 4. Without it PG would have scored 16 (Determination doubled to 12, Fulfillment 1, Vengeance 3).
+   PG's decks play out their hands fast (PG's hand was 0 after round 5 here and after 626 round 4 and 629 round 5), so Neglect has targets against this deck, which was not the case in sessions 3i and 3h.
+2. **Fulfillment ran in three games and scored 32 and 43 once.** In 629 it was played in round 4 (32 against 9) and Kinship added in round 5 (43 against 14), Maturity and Restlessness doubled or not; PG won 3 to 2 after losing rounds 1 and 2. In 630 it was played in round 5 and Neglect cut it down; in 626 it was Nosiness's target. This is the 40+ range of sessions 3d, 3g and 3n.
+3. **Nosiness took a mythic out of a hand again (626 round 4).** PG's only card was Fulfillment and PB's Nosiness discarded it: 7 against 6, round and game. This is the fifth time (586 Fulfillment, 595 Orderliness, 613 and 625 Ardor, and now 626).
+4. **The removal mirror: both decks run Vengeance, Hate and Rashness.** Vengeance answered the first or best mood most rounds (626 round 1 on Joy, 627 round 3, 629 round 3, 630 round 1 on Nosiness); Hate bottomed Suspicion (626), Resolve and Determination (627), Dejection (630) and Thrift (628); Rashness removed Rashness (626 round 3) and Vitality (630 round 2). Rounds were often 0 to 8 for the side that lost its best mood.
+5. **PB's 627 was a loss of tempo with a full hand.** PB (P1) spent rounds 3 and 4 on Hate and Fear (both 0) and scored 2 and 2, and ended with Brooding, Neglect, Resignation, Schadenfreude and Suspicion in hand (5 cards). PG's bot scored 6 each round with Restlessness and Vengeance. Fear then Hate in round 4 bottomed Determination again, but the 0-value plays gave PB no board.
+6. **Resignation was a turn-one 6 once (628 round 1, 6 against 2).** PB (the bot) paid Brooding; PG's Vengeance and Hate answered it the next rounds (628 round 3, 4). Fear was played once in five games (627 round 4); it was held at the end of 626, 628 and 629.
+7. **Thrift was PG's tempo again (628 round 4).** Thrift then Maturity from the pile (Maturity had been removed by PB's Vengeance in round 3): 8 against 6; the PB bot's Hate then bottomed Thrift. PG's Joy (626 round 1), Rashness then Urgency (626 round 3) and Determination with Hate (626 round 2) gave it two plays a turn.
+8. **Records:** PB Neglect splash is 8 to 7 (6 to 4 before; 2 to 3 here); PG Fulfillment splash is 14 to 3 (11 to 1 before; 3 to 2 here).
+
+### Questions for the testers
+
+- Game 627 (you as PB): you played Hate and Fear (two 0s) in rounds 3 and 4 and ended with Resignation, Schadenfreude, Suspicion, Brooding and Neglect in hand. What was the plan, and would you play the bodies first?
+- Game 630 round 5: Remorse into Neglect when PG's hand was empty. Was Neglect the plan from the start of the round (the draw from Remorse)? Did the before-scoring trigger read clearly?
+- Game 630 round 4: PB passed with a card in hand. Was there nothing worth playing?
+- Games 626, 628 and 629 (you as PG): Nosiness took Fulfillment in 626 and Fulfillment made 32 and 43 in 629. Does PG need to keep a second card in hand to protect Fulfillment from Nosiness?
+- Both decks run Vengeance, Hate and Rashness. Does the removal mirror feel fun, or does it flatten the games?
+
+### Game logs
+
+**Game 626.** PG (P1, seat 0) against PB (bot, seat 1). PB won 3 to 1.
+- Scores: PG 0, PB 3; PG 3, PB 3; PG 6, PB 5; PG 6, PB 7.
+- Longest turn: 2 plays (both players in round 2; PG in round 3: Rashness, Urgency).
+- Hands: PG had no cards after round 4; PB ended with Fear.
+- Decided: Vengeance on Joy (round 1); Rashness then Suspicion against Determination then Hate (round 2, 3 to 3); PG's Rashness on PB's Rashness (round 3, 6 to 5); Nosiness took Fulfillment (round 4, 7 to 6).
+
+**Game 627.** PB (P1, seat 0) against PG (bot, seat 1). PG won 3 to 1.
+- Scores: PB 2, PG 3; PB 7, PG 6; PB 2, PG 6; PB 2, PG 6.
+- Longest turn: 2 plays (PB in round 4: Fear, Hate).
+- Hands: PB ended with Brooding, Neglect, Resignation, Schadenfreude and Suspicion; PG with Kinship.
+- Decided: Resentment and Nosiness (round 2, 7 to 6); Hate on Resolve and PG's Vengeance (round 3, 2 to 6); Fear then Hate on Determination (round 4).
+
+**Game 628.** PG (P1, seat 0) against PB (bot, seat 1). PG won 3 to 1.
+- Scores: PG 2, PB 6; PG 10, PB 9; PG 6, PB 6; PG 8, PB 6.
+- Longest turn: 2 plays (PG in round 4: Thrift, Maturity from the pile).
+- Hands: PG ended with Determination and Urgency; PB with Fear, Schadenfreude and Suspicion.
+- Decided: Resignation (round 1, 6 to 2); Resolve and Maturity (round 2, 10 to 9); both sides' Vengeance (round 3, 6 to 6); Thrift then Maturity (round 4, 8 to 6).
+
+**Game 629.** PG (P1, seat 0) against PB (bot, seat 1). PG won 3 to 2.
+- Scores: PG 2, PB 5; PG 7, PB 8; PG 12, PB 6; PG 32, PB 9; PG 43, PB 14.
+- Longest turn: 1 play every turn.
+- Hands: PG had no cards after round 5; PB ended with Fear and Resentment.
+- Decided: Dejection (round 1, 2 to 5); Longing's recursion (round 2, 7 to 8); Vengeance (round 3, 12 to 6); Fulfillment (round 4, 32 to 9) and Kinship (round 5, 43 to 14).
+
+**Game 630.** PB (P1, seat 0) against PG (bot, seat 1). PB won 3 to 2.
+- Scores: PB 0, PG 3; PB 5, PG 3; PB 3, PG 3; PB 3, PG 9; PB 5, PG 4.
+- Longest turn: 2 plays (PB in rounds 2 and 5; PG in round 2).
+- Hands: PG had no cards after round 5; PB ended with Longing.
+- Decided: Vengeance on Nosiness (round 1); Rashness on Vitality and Dejection (round 2, 5 to 3); Hate on Dejection (round 3, 3 to 3); Determination (round 4, 9 to 3); Remorse then Neglect on Determination (round 5, 5 to 4).
+
+### Notes by card (PB Neglect splash against PG Fulfillment splash)
+
+| Card | What the games showed |
+|---|---|
+| Neglect | Fired in 630 round 5 (PG's hand empty), removed Determination: 5 to 4. In the deck or hand in the other games. |
+| Fulfillment | 32 and 43 in 629 (rounds 4 and 5); played in 630 round 5; taken by Nosiness in 626; in the deck in 627 and 628. |
+| Nosiness | Took Fulfillment (626 round 4); discarded or took other cards (627, 629, 630). |
+| Vengeance (both) | Removed Joy (626), PB's best mood (627, 629, 630), a 6 and Maturity (628). |
+| Hate (both) | Bottomed Suspicion (626), Resolve (627), Determination (627, 630), Thrift (628), Dejection (630). |
+| Rashness (both) | PG's removed PB's Rashness (626); PB's removed Vitality (630); free extra plays. |
+| Resignation (PB) | A 6 in 628 round 1 (cost Brooding); in the hand or deck in the other games. |
+| Fear | Played once (627 round 4, with Hate); held at the end of 626, 628 and 629. |
+| Thrift | Replayed Maturity (628 round 4); bottomed by Hate. |
+| Remorse | The extra play that drew Neglect (630 round 5). |
+| Dejection | A 5 for the PB bot (629 round 1); bottomed by Hate (630). |
+| Maturity, Kinship, Restlessness | The bodies behind 43 in 629 (Fulfillment doubled the 6s). |
