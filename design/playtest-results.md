@@ -2640,3 +2640,76 @@ The first tester (P1) played PG in 626, 628 and 629 and PB in 627 and 630. The o
 | Remorse | The extra play that drew Neglect (630 round 5). |
 | Dejection | A 5 for the PB bot (629 round 1); bottomed by Hate (630). |
 | Maturity, Kinship, Restlessness | The bodies behind 43 in 629 (Fulfillment doubled the 6s). |
+
+## Session 3t: PR Ardor splash against PG Fulfillment splash (3 games)
+
+**Source.** The simulator exports of games 631 to 633 (20 November), the first games of the two variants against each other (see `design/playtest-decks.md`): **PR Ardor splash** (red with Thrift, Resignation and Nostalgia, Ardor unchanged) and **PG Fulfillment splash** (green with Vengeance, Hate and Rashness for Honesty, Nostalgia and Perseverance; Fulfillment kept).
+The first tester (P1) played PG in 631 and 633 and PR in 632. The other seat was a practice bot in all three games (PR in 631 and 633, PG in 632).
+
+### Summary
+
+| | |
+|---|---|
+| Result | **PG won 2 of 3** (631, 3 to 0, and 633, 3 to 1, as P1's PG against the PR bot); PR won 632 (3 to 2, P1's PR against the PG bot). Rounds: PG 8, PR 4. |
+| Scores by round, PG | 631: 3, 8, 11. 632: 3, 6, 8, 13, 22. 633: 3, 9, 9, 9. |
+| Scores by round, PR | 631: 3, 6, 9. 632: 3, 3, 9, 17, 25. 633: 6, 6, 5, 3. |
+| Game length | 3, 5 and 4 rounds, 4.0 on average. |
+| Biggest turn | 3 plays (PR in 632 round 4: Whimsy, Rashness, Exuberance). 2 plays: PR in 632 rounds 2 and 5, PG in 632 rounds 2 and 5 (Thrift, then a pass with an empty pile), the PR bot in 633 round 3. Highest scores: PR 25 and PG 22 (632 round 5). |
+
+### Insights
+
+1. **PR won 632 with Compulsion, Nostalgia and the cards it took from PG.** In round 1 Compulsion took PG's Rashness. In round 2 PG's Vengeance removed Compulsion, and PR's Nostalgia put it back into its hand from the pile and played it again (Nostalgia's extra play), taking Kinship. PG's hand was then 1 card or none until the end.
+   PR then played PG's cards: in round 4 Whimsy revealed Rashness, and Rashness then Exuberance made three plays (17 against 13); in round 5 Rashness then Kinship (Kinship gives +1 to each red mood PR has, all red) made 25 against 22. PR lost rounds 1 and 2 and won the last three.
+2. **Nostalgia answers Vengeance for Compulsion.** Vengeance removed Compulsion and Nostalgia (a 0) returned it from the pile and gave the extra play to use it: PR lost a body for a turn but got a second card from PG's hand. This is the same shared-pile recursion as Thrift (3i, 3n, 3q).
+3. **Fulfillment came out too late to matter (632 round 5).** PG drew it after round 4 and played it in round 5: PG scored 22 (Maturity, Resolve, Thrift, Vengeance, Fulfillment) against PR's 25. In 631 and 633 it stayed in the deck and PG won 3 to 0 and 3 to 1 with Resolve, Contentment, Restlessness, Vengeance and Hate (scores 8 to 11 and 9).
+4. **The PR bot played passively and paid for Resignation with its mythic.** In 633 round 1 it played Resignation (a 6, 6 against 3) and put Ardor on the bottom of the deck as the cost; in 631 it ended with Adrenaline, Compulsion, Nostalgia and Zeal in hand (four cards, one play a turn: Exuberance, Thrift, Verve). Ardor has now been drawn in five of eleven PR splash games and played in one.
+5. **PG won 633 on removal.** Vengeance removed PR's mood in round 2 (a 6 against 9) and Hate bottomed Impatience (round 4): PR scored 6, 6, 5 and 3 with Resignation, Frenzy, Rashness and Vindictiveness. PG's own scores were 9 each round (Resolve 6, Restlessness, Vengeance).
+6. **PG was ahead until PR's three-play turn.** In 632 PG led 3 to 3 (round 1, the first player won it) and 6 to 3, then lost 8 to 9 in round 3 when PR paid Zeal for Resignation. PG's Thrift in round 4 had no mood to replay (empty pile for 0 to 3 cards) and it passed.
+7. **Records:** PR Ardor splash is 4 to 7 (1 to 1 against PW splash, 1 to 3 against PU, 1 to 1 against PB, 1 to 2 here); PG Fulfillment splash is 16 to 4 (5 to 1 against PW splash, 6 to 0 against PU, 3 to 2 against PB, 2 to 1 here).
+
+### Questions for the testers
+
+- Game 632 (you as PR): the Compulsion, Nostalgia, Compulsion line in round 2 and the stolen Rashness and Kinship. Was it planned? Did you see Kinship as a red anthem for PR?
+- Game 632 round 5: PG's Fulfillment came out one round late. Would you have held a card back (or played Fulfillment sooner) to protect it?
+- Games 631 and 633 (you as PG): the PR bot did little (Exuberance, Thrift, Verve; Resignation with Ardor as the cost). Do you think these were typical PR games?
+- Does a red deck that plays your Kinship and Rashness make Compulsion too good in this matchup? Would you give less useful cards?
+- The splash cards (Thrift, Resignation, Nostalgia) were used in all three games. Do they feel right in PR, or do they dilute Ardor?
+
+### Game logs
+
+**Game 631.** PG (P1, seat 0) against PR (bot, seat 1). PG won 3 to 0.
+- Scores: PG 3, PR 3; PG 8, PR 6; PG 11, PR 9.
+- Longest turn: 1 play every turn.
+- Hands: PG ended with Kinship and Rashness; PR with Adrenaline, Compulsion, Nostalgia and Zeal.
+- Decided: Resolve and Exuberance (round 1, the first player won 3 to 3); Contentment, a 5, against Thrift (round 2, 8 to 6); Restlessness (round 3, 11 to 9).
+
+**Game 632.** PR (P1, seat 0) against PG (bot, seat 1). PR won 3 to 2.
+- Scores: PR 3, PG 3; PR 3, PG 6; PR 9, PG 8; PR 17, PG 13; PR 25, PG 22.
+- Longest turn: 3 plays (PR in round 4: Whimsy, Rashness, Exuberance).
+- Hands: PR and PG had no cards at the end.
+- Decided: Compulsion on Rashness (round 1); Vengeance on Compulsion, Nostalgia and Compulsion again for Kinship (round 2); Resignation (round 3, 9 to 8); the three-play turn (round 4, 17 to 13); Rashness and Kinship against Fulfillment (round 5, 25 to 22).
+
+**Game 633.** PG (P1, seat 0) against PR (bot, seat 1). PG won 3 to 1.
+- Scores: PG 3, PR 6; PG 9, PR 6; PG 9, PR 5; PG 9, PR 3.
+- Longest turn: 2 plays (the PR bot in round 3: Rashness, Impatience).
+- Hands: PG ended with Kinship, Thrift and Vindication; PR with Adrenaline.
+- Decided: Resignation with Ardor as the cost (round 1, 6 to 3); Vengeance on Frenzy's board (round 2, 9 to 6); Restlessness (round 3); Hate on Impatience and Vindictiveness (round 4, 9 to 3).
+
+### Notes by card (PR Ardor splash against PG Fulfillment splash)
+
+| Card | What the games showed |
+|---|---|
+| Compulsion | Took PG's Rashness and Kinship (632) and PR played both; held unplayed by the PR bot (631). |
+| Nostalgia | Returned Compulsion from the pile after Vengeance and gave the extra play (632 round 2); held in 631. |
+| Rashness (both) | PR's played with Whimsy's reveal and Kinship (632); PR's in 633 round 3; PG's taken by Compulsion. |
+| Kinship | PG's, played by PR in 632 round 5 (+1 to each red mood). |
+| Resignation | A turn-one 6 for the PR bot in 633 (cost Ardor); a 6 for P1 in 632 round 3 (cost Zeal). |
+| Ardor | Never played (deck in 631 and 632; bottomed as a cost in 633). |
+| Vengeance (PG) | Removed Compulsion (632 round 2) and a PR mood in 633 round 2. |
+| Hate (PG) | Bottomed Impatience (633 round 4). |
+| Fulfillment | Played in 632 round 5 (22 against 25); in the deck in 631 and 633. |
+| Thrift | The PR bot's 3 (631); PG's with no pile target (632 round 4). |
+| Maturity, Resolve, Restlessness, Contentment | PG's bodies (631, 633, 632). |
+| Whimsy | Revealed PG's Rashness for a free play (632 round 4). |
+| Exuberance | A 6 with other red moods (632 round 4, 631 round 1). |
+| Frenzy | A 6 (633 round 2), removed by Vengeance. |
