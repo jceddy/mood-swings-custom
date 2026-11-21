@@ -2713,3 +2713,66 @@ The first tester (P1) played PG in 631 and 633 and PR in 632. The other seat was
 | Whimsy | Revealed PG's Rashness for a free play (632 round 4). |
 | Exuberance | A 6 with other red moods (632 round 4). |
 | Frenzy | A 6 (633 round 2), then discarded after scoring. |
+
+## Session 4a: MX Validation chain against MX Orderliness even (2 games)
+
+**Source.** The simulator exports of games 634 and 635 (22 November), the first rotation 1 game of Session 4 (see `design/playtest-decks.md`): **MX Validation chain** (Validation, Hope, Charity-style 0 and 1 cards, Euphoria) against **MX Orderliness even** (Orderliness, Friendliness, Modesty, Familiarity, Solidarity, Equanimity, Humility, Impartiality). Both decks hold the five fixed cards (Creativity, Intimidation, Paranoia, Compulsion, Hate). The simulator names the decks with an "x" prefix.
+The first tester (P1) played Orderliness in 634 and Validation in 635; the other seat was a practice bot in both games.
+
+### Summary
+
+| | |
+|---|---|
+| Result | **One win each**: Orderliness won 634 (3 to 0, P1 against the Validation bot) and Validation won 635 (3 to 1, P1 against the Orderliness bot). Rounds: Orderliness 4 (3 + 1), Validation 3 (0 + 3). |
+| Scores by round, Orderliness | 634: 3, 8, 11. 635: 6, 12, 7, 9. |
+| Scores by round, Validation | 634: 3, 8, 10. 635: 10, 10, 23, 25. |
+| Game length | 3 and 4 rounds, 3.5 on average. |
+| Biggest turn | 6 plays (Validation in 635 round 1: Validation, Hope, Intimidation, Solidarity, Creativity, Orderliness). 3 plays: the Validation bot in 634 rounds 2 and 3. Highest scores: Validation 25 (635 round 4) and 23 (round 3); Orderliness 12 (635 round 2). |
+
+### Insights
+
+1. **The Validation chain works, and the fixed five feed it.** In 635 round 1, P1's Validation turn was six plays: Validation (an extra play), Hope (0, an extra play each turn), Intimidation (1) and Creativity (copying Intimidation, so a 1) each gave another extra play, and the cards they took were played as the extras. It scored 10 against 6 with the first turn.
+   Hate, Creativity and Intimidation are the three fixed cards that trigger Validation, as planned.
+2. **Intimidation and Creativity-as-Intimidation stole the Orderliness deck's cards and mythic (635 round 1).** The first took Solidarity, which was played as an extra; the second (Creativity as a copy of Intimidation, which let it hit again) took Orderliness itself out of the opponent's hand and Validation played it (even), as an extra. The Orderliness deck's mythic never scored for its own side.
+3. **Euphoria is the payoff.** Validation scored 23 in round 3 and 25 in round 4 of 635: Euphoria (a 0 that gains 1 for every mood in play, about 12 with twelve moods out) plus the stolen Orderliness's +1 on even-numbered moods (Hope, Hate, Euphoria, Solidarity), against 7 and 9. The earlier rounds were 10 and 10.
+4. **The chain empties the hand.** Validation had one card after round 1 and no cards after round 3 of 635, so it passed in rounds 2 and 4. In round 2 it passed holding Remorse (a 0 with an extra play) and lost 10 to 12; in round 3 the Orderliness deck's Intimidation took that Remorse and played it.
+5. **634 was close, not a blowout.** Orderliness won 3 to 0 with rounds of 3 to 3, 8 to 8 and 11 to 10. The first two were ties (the first player, Orderliness, wins them), and round 3 turned on Hate bottoming Validation's Resentment (a 5): Validation scored 10 with Creativity, Validation and Fear and the late Validation (drawn after round 2).
+6. **The Orderliness deck scores little.** Its best round was 12 (Resignation 6 and Equanimity 6 in 635 round 2); otherwise 3, 6, 7, 8, 9 and 11. In 634 Orderliness was not drawn and the board was Compulsion, Equanimity, Familiarity and Hate.
+7. **Compulsion was a draw in 634 round 1.** P1's Compulsion took a card from the Validation bot, and the bot's Compulsion took the same card back; both scored 3.
+
+### Questions for the testers
+
+- Game 635 round 2: Validation passed with Remorse in hand and lost 10 to 12. Was holding Remorse planned (a card in hand against Intimidation, or no use for the extra play)?
+- Game 635 round 1: the six-play turn took Solidarity and Orderliness. Was playing the stolen Orderliness (and picking even) the plan, and did Creativity as Intimidation read clearly?
+- Game 634: Orderliness won three ties or near ties. Did the Validation bot's late Validation (drawn after round 2) feel like luck?
+- Does a deck of 0s and 1s feel too slow in round 1 and too fast from round 3 (Euphoria), or is Validation's chain too dependent on Euphoria and Intimidation?
+- Intimidation, Creativity, Compulsion and Paranoia are in both decks. Does the fixed five make the games feel alike?
+
+### Game logs
+
+**Game 634.** Orderliness (P1, seat 0) against Validation (bot, seat 1). Orderliness won 3 to 0.
+- Scores: Orderliness 3, Validation 3; Orderliness 8, Validation 8; Orderliness 11, Validation 10.
+- Longest turn: 3 plays (the Validation bot in rounds 2 and 3).
+- Hands: Orderliness ended with Creativity and Solidarity; Validation had no cards (round 3 ended with an automatic pass).
+- Decided: Compulsion against Compulsion (round 1, 3 to 3); Familiarity then Equanimity against Hope, Remorse, Resentment (round 2, 8 to 8); Hate on Resentment (round 3, 11 to 10).
+
+**Game 635.** Validation (P1, seat 0) against Orderliness (bot, seat 1). Validation won 3 to 1.
+- Scores: Validation 10, Orderliness 6; Validation 10, Orderliness 12; Validation 23, Orderliness 7; Validation 25, Orderliness 9.
+- Longest turn: 6 plays (Validation in round 1).
+- Hands: Validation had no cards at the end; Orderliness none.
+- Decided: the six-play turn (round 1); Resignation (6) and Equanimity (6) against a pass (round 2, 12 to 10); Hate on Resignation then Euphoria (round 3, 23 to 7); Euphoria and a stolen Orderliness (round 4, 25 to 9).
+
+### Notes by card (MX Validation chain against MX Orderliness even)
+
+| Card | What the games showed |
+|---|---|
+| Validation | Played in 634 round 3 (late) and 635 round 1 (the six-play turn). |
+| Hope, Intimidation, Creativity | The extra-play chain in 635 round 1; Creativity as Intimidation took Orderliness. |
+| Euphoria | About 12 points in 635 round 3 and more in round 4. |
+| Hate | Bottomed Resentment (634 round 3, decisive) and Resignation (635 round 3). |
+| Compulsion | Both sides took the same card (634 round 1). |
+| Orderliness | Stolen and played by Validation (635 round 1); not drawn in 634. |
+| Equanimity, Resignation | The Orderliness deck's 12 in 635 round 2. |
+| Remorse | Held and passed on by Validation (635 round 2), then taken by Intimidation. |
+| Familiarity, Solidarity | Orderliness's early plays (634 round 2); Solidarity stolen in 635. |
+| Fear | Validation's last extra play in 634 round 3. |
