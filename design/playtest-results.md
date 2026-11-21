@@ -2776,3 +2776,78 @@ The first tester (P1) played Orderliness in 634 and Validation in 635; the other
 | Remorse | Held and passed on by Validation (635 round 2), then taken by Intimidation. |
 | Familiarity, Solidarity | Orderliness's early plays (634 round 2); Solidarity stolen in 635. |
 | Fear | Validation's last extra play in 634 round 3. |
+
+## Session 4b: MX Exhilaration double against MX Reverie pile (3 games)
+
+**Source.** The simulator exports of games 636, 637 and 638 (21 November), the second rotation 1 pairing of Session 4 (see `design/playtest-decks.md`): **MX Exhilaration double** (Exhilaration, Resentment, Impatience, Dejection, Frenzy, Resignation, Bravado, Nostalgia, Thrift, Remorse) against **MX Reverie pile** (Reverie, Impulse, Dejection, Suspicion, Nosiness, Remorse, Schadenfreude, Resignation, Detachment, Deflection). Both decks hold the five fixed cards (Creativity, Intimidation, Paranoia, Compulsion, Hate), and the games used the Q15 card texts (Reverie with the extra play on entry).
+The first tester (P1) played Reverie in 636 and 638 and Exhilaration in 637; the other seat was a practice bot in all three games.
+
+### Summary
+
+| | |
+|---|---|
+| Result | **Exhilaration 2, Reverie 1.** Exhilaration won 636 (3 to 1, the bot against P1) and 637 (3 to 0, P1 against the bot); Reverie won 638 (3 to 1, P1 against the bot). Rounds: Exhilaration 7 (3 + 3 + 1), Reverie 4 (1 + 0 + 3). |
+| Scores by round, Exhilaration | 636: 3, 6, 8, 16. 637: 9, 12, 18. 638: 6, 12, 12, 9. |
+| Scores by round, Reverie | 636: 1, 6, 9, 11. 637: 7, 8, 11. 638: 5, 13, 20, 20. |
+| Game length | 4, 3 and 4 rounds, 3.7 on average. |
+| Biggest turn | 3 plays: Exhilaration in 637 round 1 (Intimidation, the stolen Impulse, Resignation) and Reverie in 638 round 3 (Impulse, Reverie, Creativity). Highest scores: Reverie 20 (638 rounds 3 and 4); Exhilaration 18 (637 round 3) and 16 (636 round 4, the only round the Exhilaration mythic was on the board). |
+
+### Insights
+
+1. **The revised Reverie worked once, and was dead once.** In 638 round 3 the new entry clause did what we wanted: Impulse, then Reverie, which put Hate from the discard pile on the bottom of the deck and drew Creativity, and the extra play it granted went to that Creativity (a copy of Dejection). Creativity then set off Reverie's trigger again (Deflection to the bottom, Nosiness drawn). That is a three-play turn and two draws, and the round scored 20 to 12. In 636 round 4 the same card came down with an empty discard pile (nothing had been discarded all game), so it did nothing but add its value: Impulse and Reverie scored 11 against Exhilaration's 16. The card needs the pile, and the deck's own pile makers (Dejection, Nosiness, Schadenfreude's trigger) are what fill it.
+2. **Reverie starts slowly and finishes strongly.** It scored 1, 7 and 5 in round 1 and lost all three, then 20 and 20 in the last two rounds of 638. Its rounds 3 and 4 in 638 came from Schadenfreude at 6 (the opponent had discarded from hand that round, 3 otherwise), Dejection, Nosiness and the Reverie body, with Creativity as a second Dejection.
+3. **Dejection, Creativity as Dejection and Nosiness locked the Exhilaration hand (638).** Exhilaration's hand was 2, 1, 1 and 0 after the four rounds. In round 3 Creativity as Dejection made both players discard (Exhilaration's only card, its own Dejection, went), so it passed automatically; its loser's draw (Thrift) was then taken by Nosiness in round 4 and it passed again, scoring 12 and 9 against 20 and 20. Cards in hand are scarce, so a deck that empties the opponent's hand twice in a row wins the game. This is the second time hand pressure has decided a game in a way that did not depend on the mythic (Neglect in 630 was the first).
+4. **The Exhilaration deck won without its mythic.** Exhilaration was played once, in 636 round 4 (Remorse as the cost, then Exhilaration as the extra play): Compulsion 3, Creativity as Compulsion 3 and Paranoia 2 make 8, scored twice for 16. It sat in the deck in the other two games (at the end of 637 it was tenth from the top and of 638 third from the top), yet the deck took 7 of 11 rounds. So the double axis is still untested: one round, and it was won by two cards that every deck has (Compulsion and Creativity).
+5. **Intimidation stole Reverie's Impulse and the thief kept it all game (637).** In round 1 P1's Intimidation took Impulse out of the Reverie bot's hand and played it as the extra play, which gave Resignation. Impulse returns to its controller's hand after scoring, so the stolen card came back to the thief's hand every round and was played first in rounds 2 and 3 (chained into Bravado and Frenzy, 12 and 18 points). The Reverie bot never had its Impulse again. That follows the card text (it goes to "your hand"), but a recurring extra play is a better target for Intimidation and Creativity than a one-shot card.
+6. **Remorse went back and forth four times in 636 and was never played.** Reverie's Remorse was taken by the bot's Compulsion (round 1) and Creativity as Compulsion (round 2), and taken back by P1's Intimidation (round 1) and Compulsion (round 2). Intimidation gave P1 an extra play for it in round 1, but P1 passed with it in hand and scored 1 to 3. It was still in P1's hand at the end.
+7. **636 round 2 was a 6 to 6 tie**, won by the first player (Exhilaration), as the rule says.
+8. **The Reverie bot used few of its cards in 637.** It scored 7, 8 and 11 and ended holding Nosiness, Remorse and Suspicion unplayed, including Remorse (an extra play) in round 3. That is a bot decision, not a card finding, but it made 637 a one-sided game.
+9. **The fixed five did a lot of the work.** In 636 three of the four moods the Exhilaration bot ended with were fixed cards (Compulsion, Creativity, Paranoia); in 638 both Creativity cards ended on the board; in 637 Intimidation, Compulsion and Creativity set up both sides' first rounds.
+
+### Questions for the testers
+
+- Game 636 round 1: after Intimidation returned Remorse (with an extra play) you passed. Was that on purpose (nothing to gain from a 0 that needs a discard pile, or keeping it out of the Compulsion)? And was giving away Remorse to Compulsion each time the plan?
+- Game 636 round 4: Reverie came down with an empty discard pile. Would you have held it, and does Reverie feel like a dead card when the pile is empty?
+- Game 638 round 3: Creativity as Dejection against an opponent with one card in hand. Did the hand lock (Dejection, Nosiness) feel fair, or too oppressive, and does the Exhilaration deck have enough ways to fight back with an empty hand?
+- Game 637: Intimidation took Impulse and the thief played it every round. Does a stolen recurring extra play feel right, or does Impulse need a safeguard?
+- The Exhilaration deck won two games with its mythic in the deck. Does the deck need a way to find Exhilaration, or is the mythic meant to be a lucky draw?
+- Reverie scored 1, 7 and 5 in round 1. Does it feel too slow at the start, with the value at 2?
+
+### Game logs
+
+**Game 636.** Reverie (P1, seat 0) against Exhilaration (bot, seat 1). Exhilaration won 3 to 1.
+- Scores: Reverie 1, Exhilaration 3; Reverie 6, Exhilaration 6; Reverie 9, Exhilaration 8; Reverie 11, Exhilaration 16.
+- Longest turn: 2 plays (several, including both players in round 4).
+- Hands: Reverie ended with Impulse and Remorse; Exhilaration with Resentment and Thrift.
+- Decided: Compulsion against Intimidation (round 1, 3 to 1); a 6 to 6 tie won by the first player (round 2); Schadenfreude and Compulsion against Paranoia and Creativity (round 3, 9 to 8 for Reverie); Exhilaration with Remorse as its cost, 16 to 11 (round 4).
+
+**Game 637.** Exhilaration (P1, seat 0) against Reverie (bot, seat 1). Exhilaration won 3 to 0.
+- Scores: Exhilaration 9, Reverie 7; Exhilaration 12, Reverie 8; Exhilaration 18, Reverie 11.
+- Longest turn: 3 plays (Exhilaration in round 1: Intimidation, the stolen Impulse, Resignation).
+- Hands: Exhilaration ended with Impulse; Reverie with Nosiness, Remorse and Suspicion.
+- Decided: Intimidation taking Impulse (round 1); the stolen Impulse again in rounds 2 and 3 with Bravado and Frenzy; the Exhilaration mythic and Reverie were not drawn.
+
+**Game 638.** Reverie (P1, seat 0) against Exhilaration (bot, seat 1). Reverie won 3 to 1.
+- Scores: Reverie 5, Exhilaration 6; Reverie 13, Exhilaration 12; Reverie 20, Exhilaration 12; Reverie 20, Exhilaration 9.
+- Longest turn: 3 plays (Reverie in round 3: Impulse, Reverie, Creativity).
+- Hands: Reverie ended with Impulse and Remorse; Exhilaration had no cards (it passed automatically in rounds 3 and 4).
+- Decided: Remorse and Resignation against Schadenfreude (round 1, 6 to 5); Dejection making both players discard, with Schadenfreude at 6 (round 2, 13 to 12); Reverie's entry draw and Creativity as Dejection (round 3, 20 to 12); Nosiness taking the one card Exhilaration had drawn (round 4, 20 to 9).
+
+### Notes by card (MX Exhilaration double against MX Reverie pile)
+
+| Card | What the games showed |
+|---|---|
+| Exhilaration | Played once (636 round 4, 16 points). Not drawn in 637 or 638. |
+| Reverie | Entry clause fired in 638 round 3 (bottomed Hate, drew Creativity, extra play used), then its trigger twice; dead with an empty pile in 636 round 4. |
+| Impulse | Chained into Resignation, Bravado, Frenzy and Schadenfreude; stolen by Intimidation in 637 and played every round by the thief. |
+| Intimidation | Took Impulse in 637 round 1; took Remorse back in 636 round 1. |
+| Creativity | Copy of Compulsion in 636 (3 points, scored twice with Exhilaration), copy of Impulse (the Reverie bot, 637 round 1) and of Dejection (638 round 3). |
+| Compulsion | Four moves of the same Remorse in 636 rounds 1 and 2. |
+| Dejection, Nosiness | The hand lock in 638 rounds 2 to 4. |
+| Schadenfreude | 6 in 638 rounds 2 to 4 after discards from hand (Dejection, Nosiness); a plain 3 in 636, where Exhilaration never discarded from hand. |
+| Paranoia | Took Suspicion from Reverie's hand and drew Thrift (636 round 3). |
+| Resignation, Remorse | Resignation as the 6-point body that needs a card to bottom; Remorse as the extra play, or the cost for Exhilaration (636 round 4). |
+| Bravado, Frenzy | Extra plays chained from the stolen Impulse (637 rounds 2 and 3). |
+| Detachment | Played by the Reverie bot with Creativity as the blue mood (637 round 1). |
+| Hate | Bottomed from the pile by Reverie's entry (638 round 3). |
+| Thrift | Drawn by Exhilaration as the loser's draw (638 round 3) and taken by Nosiness before it could be played. |
