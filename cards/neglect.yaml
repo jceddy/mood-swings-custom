@@ -8,7 +8,7 @@ to_play: false
 while_in_play: true
 after_playing: false
 rules_text: >-
-  While in play — Before scoring, each opponent with no cards in their hand puts one of their highest value moods
+  While in play — Before scoring, each opponent with one or fewer cards in their hand puts one of their highest value moods
   into the discard pile.
 rulings:
   - Triggers once each round, after every player has taken their turn and before the round is scored, so it can trigger in the round you play it. The check is made before the round loser draws.
@@ -40,3 +40,8 @@ notes: >-
   not chosen: an empty-hand scaling body (3 per empty-handed opponent; too close to Vanity) and a discard-payoff loot (needs a
   new discard trigger in the simulator). impl_tier 2: "Before scoring" is a new trigger point (the original pool and the simulator
   have "after scoring" and "while scoring"); the highest-value choice, the empty-hand check and the discard exist already.
+  Changed after the Power Duel play tests (Q15): "no cards in their hand" became "one or fewer cards in their hand". It was not played in
+  the ten games of sessions 3h and 3i and was held with four other cards in game 627; it fired in five games (553, 555, 568, 571, and
+  630, where PG had played its last card and it removed a Determination that Fulfillment doubled). Opponents often hold zero or one
+  card by the end of a round, so the new threshold is the "two or fewer" lever below in a gentler form. Other levers if it is too
+  strong: the discard-first version, or going back to no cards.

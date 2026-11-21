@@ -67,7 +67,7 @@ questions:
       Black axis (tentative): hand pressure, meaning hand size and hand attacks (about 19 pool cards already touch hands, plus our
       Entitlement, Schadenfreude, FOMO, Yearning, Rapport, Premonition, Wariness). Chosen over a black discard-pile axis because blue (recycle)
       and green (replay) already use the discard pile; this keeps the five axes distinct (numbers, hand pressure, playing red moods,
-      replaying from the pile, recycling the pile). The mythic is Neglect (value 2; before scoring, each opponent with no cards in their hand puts one of their highest value moods into
+      replaying from the pile, recycling the pile). The mythic is Neglect (value 2; before scoring, each opponent with one or fewer cards in their hand puts one of their highest value moods into
       the discard pile). Hand sizes are public, so hand-size payoffs are also possible.
       Contributor discussion (the flexible slots above follow from this; the Complexity / Power Ratio reading of rarity is still
       only proposed): not every mythic has to be a build-around. How easy a card is to
@@ -120,8 +120,8 @@ questions:
       1. Colorless gate commons (value 5): the own-mood gate is paid once, then free for the rest of the game, so check 5 against 4.
       2. Reinvigoration: it scales with board size and can replay a whole board (boards grow about one mood per round), so check whether it
          needs a cap (for example "up to three").
-      3. Reverie: it draws on entry and on each later play (about one per round without extra plays, more with them), so check
-         whether it needs "once each turn".
+      3. Reverie: it draws on entry and on each later play (about one per round without extra plays, more with them), and its entry
+         also grants an extra play when a pile card is bottomed (Q15), so check whether it needs a cap such as "once each turn".
       4. Entitlement (restricted and unrestricted): hands are often small or empty, so the restricted version fizzles more and the
          unrestricted one forces more mood losses (see Q8).
       5. FOMO (value 7): paying a card every round drains the hand quickly, so check whether the mood is discarded too soon for 7 to be fair.
@@ -313,3 +313,45 @@ questions:
 
       Other levers considered and not recommended yet: Adrenaline (its free play is what builds the red count, and it is a 0 that loses a round-one turn),
       Verve (+2 on each red mood played that round was a small part of the 49: Frenzy 13) and Frenzy (6, discarded after scoring).
+  - id: Q15
+    status: decided
+    question: Which cards should change after the splash-deck play tests (the Power Duel variants, games 593 to 633)?
+    notes: |
+      Decided: four changes, after the group reviewed the suggestions. The simulator and the MSE set file need the same four changes; all play tests so far
+      used the old texts, so the next games should use the new ones once the simulator is updated.
+        - Thrift: "...from the discard pile if it has a 0, 1, or 2 in its top right corner." (was 0, 1, 2, or 3; the value stays 3). In the green decks Thrift
+          was in most of the best turns: it replayed the cards that the opponent's Suspicion and Dejection made PG discard (587, 588, 618, 619, 620), moods
+          that removal had put in the pile (Honesty in 591, Humility in 608) and the opponent's own cards (Rapport in 607). PG is 16 to 4 in its splash games.
+          The 0 to 2 filter stops the replays of Joy, Urgency, Honesty, Humility and Rapport (all 3) and keeps Maturity, Vindication, Kinship, Rashness, Hate.
+        - Neglect: "...each opponent with one or fewer cards in their hand..." (was no cards). It was not played in the ten games of sessions 3h and 3i, was
+          held with four other cards in 627, and fired in five games (553, 555, 568, 571 and 630, where it removed a Determination that Fulfillment doubled and
+          decided the game 5 to 4). Opponents often have zero or one card before scoring.
+        - Adrenaline: value 2 (was 0). As a turn-one 0 it lost round 1 in seven games (557, 561, 573, 581, 583, 615, 624).
+        - Reverie, with no point change for now (the value is left at 2 and will be decided after play tests; it may need to go down to 0):
+            Before: After playing this mood — You may put a card from the discard pile on the bottom of the deck. If you do, draw a card.
+                    While in play — Each time you play another mood, you may do this.
+            After:  After playing this mood — You may put a card from the discard pile on the bottom of the deck. If you do, draw a card and you may play an additional mood this turn.
+                    While in play — Each time you play another mood, you may put a card from the discard pile on the bottom of the deck. If you do, draw a card.
+          Why: the PU decks had card flow but not tempo. In 611, 617, 619 and 621 PU made one play a turn and ended with three to six cards in hand, and Reverie
+          was played in only 4 of 14 games. The extra play is only on entry and only if a pile card was put on the bottom.
+      Considered and not chosen (Reverie):
+        - A version where every later play also grants an extra play (the extra play inside "do this"): the chain is bounded only by the pile and the hand, and
+          PU's own Dejection, Suspicion and Nosiness refill the pile during the turn, so a turn could play the whole hand. A middle version is "the first time
+          you do this each turn, you may play an additional mood this turn".
+        - Putting a card from the discard pile or your hand on the bottom: it fixes the empty-pile problem (Reverie did nothing in 547 and 575) and cycles
+          dead cards (Detachment stuck in 615), but it adds no tempo and overlaps Reflection (blue rare 1).
+        - Only raising the value to 4: it would survive Shock and keep an even number against odd Impartiality, but in the four games where Reverie was
+          played (611, 613, 615, 617) two more points would not have flipped a round that mattered.
+        - Remorse's unconditional extra play with a value of 0: Remorse (a black common 0) has the entry effect with an unconditional extra play; at 0 or 1 Reverie
+          dies to Rashness (every splash deck runs it), at 2 only to Shock. This is the likely next step if the new version is too strong.
+      Considered and not chosen (other cards):
+        - Impartiality (white uncommon): it won round 1 in all five games against PB, four rounds against PG and two against PU (the odd-or-even guess is trivial
+          against a one-mood board), but PW splash is 5 to 11, so a nerf would make the deck worse. The card's notes list "up to two moods" as a lever, which
+          would not fix a one-mood board.
+        - Vengeance (black uncommon, value 3): unconditional removal of the best mood, in most of PB's and PG's good rounds; plain PB is 15 to 7 and PB splash 8 to 7,
+          so it is a watch item (a value of 2 is the lever).
+        - Fulfillment (green mythic): 43 and 44 when it ran, but PG won most games without it (16 to 4), so changing it would not touch the deck's real strength
+          (Thrift, Joy and cheap removal).
+        - Ardor: Q14, left as it is.
+      Levers if the changes miss: Thrift value 2; Neglect "two or fewer cards" or the discard-first version; Adrenaline value 1; Reverie value 0, the unconditional
+      extra play, or the once-per-turn middle version above.

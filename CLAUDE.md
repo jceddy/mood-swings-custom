@@ -61,6 +61,9 @@ This repo holds the work-in-progress design of a community-designed custom set f
   discard pile (Reverie), black hand pressure (Neglect), red playing red moods (Dominance), green replaying from the discard
   pile (Reinvigoration). White's partner cards are written; the other four axes' partners are not. Other rare/uncommon roles may be
   revised once they exist.
+- After the Power Duel variant play tests, four cards were changed (Q15): Thrift (a 0, 1, or 2 from the pile), Neglect (an opponent with one or
+  fewer cards in hand), Adrenaline (value 2) and Reverie (extra play on entry when a pile card is bottomed; value still 2, may go to 0). Ardor stays
+  as it is (Q14). The simulator and the MSE set file (`jceddy/edition1`) need the same changes; play tests before them used the old texts.
 - The colorless gate counts **only your own** moods ("if you have a white mood"), decided in Q7 (originally any player's), and the
   value was raised from 4 to 5 to match (Q1). A suppressed mood still counts as a mood of its color for the gate. The five gate cards
   are drafted (X-C01..X-C05, placeholder names).

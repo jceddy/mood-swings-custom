@@ -8,8 +8,9 @@ to_play: false
 while_in_play: true
 after_playing: true
 rules_text: >-
-  After playing this mood — You may put a card from the discard pile on the bottom of the deck. If you do, draw a card.
-  While in play — Each time you play another mood, you may do this.
+  After playing this mood — You may put a card from the discard pile on the bottom of the deck. If you do, draw a card and
+  you may play an additional mood this turn. While in play — Each time you play another mood, you may put a card from the
+  discard pile on the bottom of the deck. If you do, draw a card.
 status: idea
 reprint_of: null
 impl_tier: 1
@@ -31,3 +32,11 @@ notes: >-
   sends to the discard pile are available as fuel. Combos: extra-play engines and Reinvigoration's replays each trigger a draw (Restraint
   shuts most of that off). impl_tier 1 is provisional: the reaction timing, bottom-of-deck and draw all exist; choosing which pile
   card to bottom must be submitted with the play's choices, like Scorn's target.
+  Changed after the Power Duel play tests (Q15): the entry effect now also grants an extra play, but only if a pile card was put on the
+  bottom, and the while-in-play trigger no longer says "you may do this" (it is the put-and-draw only, written out). The PU decks had
+  card flow but not tempo: in 611, 617, 619 and 621 PU made one play a turn and ended with three to six cards in hand. A version where
+  each later play also granted an extra play was not chosen: it is bounded only by the pile and the hand, and PU's own Dejection,
+  Suspicion and Nosiness refill the pile during the turn, so a chain could play the whole hand. The value stays 2 for the next play
+  tests; the group expects it may need to drop to 0 (Remorse, a common 0, has the entry effect with an unconditional extra play; at 0 or 1
+  Reverie is exposed to Rashness, at 2 only to Shock). Restraint also shuts off the new extra play. impl_tier 1 stays provisional: the
+  extra play depends on the put having happened, like Rapport's second loot.

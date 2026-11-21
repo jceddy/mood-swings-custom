@@ -2,7 +2,7 @@ slot: R-R04
 name: Adrenaline
 color: red
 rarity: rare
-base_value: 0
+base_value: 2
 alt_value: null
 to_play: false
 while_in_play: true
@@ -20,3 +20,5 @@ notes: >-
   wording follows Scorn, Validation and Duplicity ("each time you play another mood"), narrowed to red and to the first time
   each turn. Main playtest question: is a repeatable extra play every round too strong at rare? impl_tier 1 is provisional:
   the reaction timing and an extra-play grant both exist.
+  Changed after the Power Duel play tests (Q15): the printed value went from 0 to 2. As a 0 it was a turn-one play that lost round 1 in
+  seven games (557, 561, 573, 581, 583, 615, 624) and only paid off once it was on the board. The extra-play text is unchanged.
