@@ -282,6 +282,11 @@ the only mythic is the build-around card. Every card is from the custom set (the
 first pass over the play test results; none has been played in this form. Red and green are close to tested lists (R and G), white is the
 tested W list trimmed, and blue and black are new, so expect to change them. Set the Duel rules to 15 cards if the app asks for a minimum.
 
+**Card versions (Q15).** Every game so far (546 to 633) used the old texts of four cards: Thrift (a 0, 1, 2, or 3; now a 0, 1, or 2), Neglect
+(an opponent with no cards; now one or fewer), Adrenaline (a 0; now a 2) and Reverie (no extra play; now an extra play on entry when a pile card is
+bottomed). The decks below are unchanged. Games played after the simulator is updated use the new versions, so note which version a game used in the
+session log.
+
 ### PW Even numbers (white, Orderliness)
 
 The W list without its extra mythic and its weakest cards (Grudge, Levelheadedness, Largesse, Confidence, Solace). Orderliness (even) with the many

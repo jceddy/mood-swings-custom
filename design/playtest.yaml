@@ -26,8 +26,8 @@ cards:
     fallback: A cap such as "up to three".
   - card: Reverie
     tier: 1
-    check: It draws on entry and on each later play (about one per round, more with extra plays).
-    fallback: Once each turn.
+    check: It draws on entry and on each later play (about one per round, more with extra plays), and its entry grants an extra play when a pile card is bottomed (Q15). Printed 2; may need 0 (Rashness hits 0 or 1, Shock hits up to 3).
+    fallback: A value of 0, or once each turn.
   - card: Maturity
     tier: 1
     check: Prints 2 and grows by 2 each round (2, 4, 6, 8). Is it too strong when left alone, and do opponents have time to remove it? On paper it needs a counter such as a die.
@@ -167,8 +167,8 @@ cards:
     fallback: A value of 1 or less.
   - card: Neglect
     tier: 2
-    check: Value 2, and before scoring each opponent with no cards in hand loses a highest value mood (it can trigger the round you play it). The first playtest found the old version far too weak. Is an empty hand reachable without hand disruption, and is it strong enough now?
-    fallback: Each opponent discards a card from their hand first, and loses the mood only if they can't (before scoring), or a threshold of two or fewer cards.
+    check: Value 2, and before scoring each opponent with one or fewer cards in hand loses a highest value mood (it can trigger the round you play it; the threshold was no cards until Q15). Is it strong enough now, and does it fire against decks that hold cards?
+    fallback: A threshold of two or fewer cards, or each opponent discards a card from their hand first and loses the mood only if they can't (before scoring), or back to no cards if it is too strong.
   - card: Heartlessness
     tier: 2
     check: It also hits your own board. Check it works when you are behind.

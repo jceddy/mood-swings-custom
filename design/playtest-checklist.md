@@ -32,8 +32,8 @@ be too weak, and tier 4 about rules questions.
   - Fallback: One for every two other red moods, or a cap such as "up to three".
 - [ ] **Reinvigoration** (green mythic, G-M01): It scales with board size and can replay a whole board (boards grow about one mood per round).
   - Fallback: A cap such as "up to three".
-- [ ] **Reverie** (blue mythic, U-M01): It draws on entry and on each later play (about one per round, more with extra plays).
-  - Fallback: Once each turn.
+- [ ] **Reverie** (blue mythic, U-M01): It draws on entry and on each later play (about one per round, more with extra plays), and its entry grants an extra play when a pile card is bottomed (Q15). Printed 2; may need 0 (Rashness hits 0 or 1, Shock hits up to 3).
+  - Fallback: A value of 0, or once each turn.
 - [ ] **Maturity** (green rare, G-R05): Prints 2 and grows by 2 each round (2, 4, 6, 8). Is it too strong when left alone, and do opponents have time to remove it? On paper it needs a counter such as a die.
   - Fallback: Grow by 1.
 - [ ] **Vitality** (green rare, G-R06): +2 to every mood of a chosen color each round, including moods played later that round (Q12), is very strong in mono-color decks and rewards extra plays.
@@ -105,8 +105,8 @@ be too weak, and tier 4 about rules questions.
   - Fallback: None chosen yet.
 - [ ] **Rancor** (red uncommon, R-U04): Mandatory and random, so nobody is prompted. Is a random pick among moods with a value of 3 or less too harsh on cheap engines? The simulator must be able to tell which player controls the effect.
   - Fallback: A value of 1 or less.
-- [ ] **Neglect** (black mythic, B-M01): Value 2, and before scoring each opponent with no cards in hand loses a highest value mood (it can trigger the round you play it). The first playtest found the old version far too weak. Is an empty hand reachable without hand disruption, and is it strong enough now?
-  - Fallback: Each opponent discards a card from their hand first, and loses the mood only if they can't (before scoring), or a threshold of two or fewer cards.
+- [ ] **Neglect** (black mythic, B-M01): Value 2, and before scoring each opponent with one or fewer cards in hand loses a highest value mood (it can trigger the round you play it; the threshold was no cards until Q15). Is it strong enough now, and does it fire against decks that hold cards?
+  - Fallback: A threshold of two or fewer cards, or each opponent discards a card from their hand first and loses the mood only if they can't (before scoring), or back to no cards if it is too strong.
 - [ ] **Heartlessness** (black uncommon, B-U02): It also hits your own board. Check it works when you are behind.
   - Fallback: None chosen yet.
 - [ ] **Sentimentality** (black uncommon, B-U04): Check that it does not break the draw rule with a sacrifice engine such as Martyrdom.

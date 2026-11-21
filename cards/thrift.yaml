@@ -8,8 +8,8 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood — You may play an additional mood this turn from the discard pile if it has a 0, 1, 2, or 3 in
-  its top right corner.
+  After playing this mood — You may play an additional mood this turn from the discard pile if it has a 0, 1, or 2 in its
+  top right corner.
 status: idea
 reprint_of: null
 impl_tier: 1
@@ -21,3 +21,7 @@ notes: >-
   provisional: Harmony's grant with a printed-number filter.
   Value 3, not 2 (group decision after review): Harmony (green uncommon 2) is the unrestricted original, so this narrower
   version gets a higher body to compensate, the same logic as the cycle pass (a weaker effect should not print low).
+  Changed after the Power Duel play tests (Q15): the filter was a 0, 1, 2, or 3 and is now a 0, 1, or 2. In the green decks Thrift was in
+  most of the best turns: it replayed the cards that the opponent's Suspicion and Dejection made PG discard (Joy, Maturity, Urgency, Honesty),
+  moods that removal had put in the pile, and even the opponent's own cards (Humility, Rapport). A 0, 1, or 2 stops the replays of the
+  3-value cards and keeps Maturity, Vindication, Kinship, Rashness and Hate. The value stays 3 for now (the replay axis still wants it).

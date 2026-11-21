@@ -52,8 +52,8 @@ visible, so paper tracking is not an issue.
 
 ## Blue: recycle the discard pile and play many moods (`U-M01`, Reverie)
 
-**Idea.** Each play draws a card by sending a discard-pile card to the bottom of the deck. The axis wants plenty of plays (extra
-plays) and plenty of fuel in the pile.
+**Idea.** Each play draws a card by sending a discard-pile card to the bottom of the deck, and Reverie's own play also grants an extra
+play when it does (Q15). The axis wants plenty of plays (extra plays) and plenty of fuel in the pile.
 
 | Slot | Role in the skeleton | What it would do for the axis |
 |---|---|---|
@@ -76,7 +76,7 @@ plays) and plenty of fuel in the pile.
 
 ## Black: hand pressure (`B-M01`, Neglect)
 
-**Idea.** Hand size and hand attacks. The mythic is Neglect (value 2): before scoring, each opponent with no cards in their
+**Idea.** Hand size and hand attacks. The mythic is Neglect (value 2): before scoring, each opponent with one or fewer cards in their
 hand puts one of their highest value moods into the discard pile. It rewards every card that empties or drains hands, and it taxes opponents even when
 it never triggers, since they must keep a card in hand. Hand sizes are public, so scaling by hand size was also possible. A discard
 engine that makes opponents discard each time they play was considered and rejected as too oppressive.
@@ -126,7 +126,7 @@ Infatuation, Excitement, Frustration, Triumph, Glee, Embarrassment, Animosity as
 | `R-M02` | flexible mythic | Ardor (written): each red mood gets +1 for every other red mood you have |
 | `R-R04` | tempo-engine | Adrenaline (written): first red play each turn grants an extra play |
 | `R-R05` | flex | FOMO (written): value 7, with an upkeep |
-| `G-U01` | play-grant | Thrift (written): extra play from the pile for a 0, 1, 2, or 3 |
+| `G-U01` | play-grant | Thrift (written): extra play from the pile for a 0, 1, or 2 |
 | `G-U02` | play-grant-2 | Optimism (written): re-trigger another of your moods' after-playing effect |
 | `U-C04` | play-grant | Fear (reprint): puts a mood in hand, extra play |
 | `W-U01` | play-grant-restricted | extra play restricted by color (red) |
@@ -146,7 +146,7 @@ Altruism and Cynicism (pickups), Bravado, Hostility, Rebellion, Self-Loathing, E
 |---|---|---|
 | `G-C01` | ally-count | Warmth (written): pickup from the pile |
 | `G-C05` | card-flow | Nostalgia (reprint): pickup plus an extra play |
-| `G-U01` | play-grant | Thrift (written): extra play from the pile for a 0, 1, 2, or 3 |
+| `G-U01` | play-grant | Thrift (written): extra play from the pile for a 0, 1, or 2 |
 | `G-U02` | play-grant-2 | Optimism (written): re-trigger another of your moods' after-playing effect |
 | `G-U08` | flex | Perseverance (written): not a pile card; grows by 2 after scoring while you are behind in rounds |
 | `G-R01` | play-grant-engine | Resilience (written): a cheap extra play from the pile each turn |
