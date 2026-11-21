@@ -657,6 +657,421 @@ engine mood in time, whether Rashness gives Urgency its two plays, and whether P
 For every game note the Power Duel setup (15 cards, one mythic, no extra mythics), the result by round, the largest turn, and whether any player
 ran short of cards or decked out.
 
+## Session 4: first-edition and Emotional Baggage mixed Power Duel decks
+
+Power Duel is 15 cards with one mythic and singleton lists. Every deck that uses first-edition cards includes the same five cards: **Creativity** (blue rare, 0, a copy of any mood), **Intimidation** (black rare, 1: take a card from their hand and play it as an extra mood), **Paranoia** (black uncommon, 2: bottom a random card from their hand and draw), **Compulsion** (red common, 3: they give you a card) and **Hate** (black common, 0: any mood to the bottom, draw a card). That leaves one mythic and nine free slots per deck.
+
+Part 1 is five first-edition-only decks (supplied from a pick order spreadsheet; the pick-order numbers and the card codes are ignored). Part 2 is ten mixed decks, one for each of their five mythics and for the five Emotional Baggage mythics we have been testing (Orderliness, Reverie, Neglect, Ardor, Fulfillment). The free slots can mix first-edition and Emotional Baggage cards. They use the Q15 texts of Thrift, Neglect, Adrenaline and Reverie, so the simulator needs the update before these games.
+
+The fixed five put blue, black and red in every deck, and three of them are black. That helps cards that count moods sharing a color or black moods (Determination, Obsession, Excitement, the colorless Resentment, which needs a black mood) and hurts cards that want a single color (Honesty, Kinship and Vitality are not used in these decks). Creativity is a 0 unless it copies a mood. The fixed five are all hand and card-flow effects, so every deck pressures hands and every deck has card movement.
+
+### Part 1: the five first-edition decks
+
+Typos in the spreadsheet are corrected (Exhilaration, Intimidation). Each deck is the mythic, the fixed five and nine more cards.
+
+**FE Validation** (Validation)
+
+```
+About
+Name FE Validation
+
+1 Validation
+1 Creativity
+1 Intimidation
+1 Paranoia
+1 Compulsion
+1 Hate
+1 Rationalization
+1 Recklessness
+1 Euphoria
+1 Anger
+1 Denial
+1 Passion
+1 Fear
+1 Panic
+1 Fondness
+```
+
+**FE Exhilaration** (Exhilaration)
+
+```
+About
+Name FE Exhilaration
+
+1 Exhilaration
+1 Creativity
+1 Intimidation
+1 Paranoia
+1 Compulsion
+1 Hate
+1 Anger
+1 Melancholy
+1 Harmony
+1 Suspicion
+1 Gluttony
+1 Nostalgia
+1 Ambition
+1 Bravado
+1 Shock
+```
+
+**FE Bliss** (Bliss)
+
+```
+About
+Name FE Bliss
+
+1 Bliss
+1 Creativity
+1 Intimidation
+1 Paranoia
+1 Compulsion
+1 Hate
+1 Euphoria
+1 Hope
+1 Awe
+1 Harmony
+1 Eagerness
+1 Enthusiasm
+1 Nostalgia
+1 Determination
+1 Joy
+```
+
+**FE Duplicity** (Duplicity)
+
+```
+About
+Name FE Duplicity
+
+1 Duplicity
+1 Creativity
+1 Intimidation
+1 Paranoia
+1 Compulsion
+1 Hate
+1 Rationalization
+1 Recklessness
+1 Regret
+1 Anger
+1 Insecurity
+1 Fear
+1 Suspicion
+1 Zeal
+1 Pacifism
+```
+
+**FE Thrill** (Thrill)
+
+```
+About
+Name FE Thrill
+
+1 Thrill
+1 Creativity
+1 Intimidation
+1 Paranoia
+1 Compulsion
+1 Hate
+1 Rationalization
+1 Recklessness
+1 Regret
+1 Hope
+1 Insecurity
+1 Fear
+1 Conviction
+1 Panic
+1 Zeal
+```
+
+### Part 2: the ten mixed decks
+
+#### MX Validation chain
+
+Validation gives an extra play when it comes down and again for each later mood with a 0 or 1 in its top right corner. Hate (0), Creativity (0) and Intimidation (1) from the fixed five all trigger it, and so do Charity (1, itself an extra play), Hope (0, an extra play every turn), Levity, Remorse, Nostalgia, Fear and Glee (0, a 6 on the round it is played). Euphoria (0) grows with every mood in play, and Resentment (5, gated by the black fixed cards) is the one big body.
+
+Look for: how long a turn gets (Hope and Charity make the chain long), whether the hand lasts (Hate, Levity, Remorse, Nostalgia and Intimidation refill it), and whether the 0-value bodies score enough before Euphoria and Glee come online.
+
+```
+About
+Name MX Validation chain
+
+1 Validation
+1 Creativity
+1 Intimidation
+1 Paranoia
+1 Compulsion
+1 Hate
+1 Charity
+1 Hope
+1 Euphoria
+1 Glee
+1 Levity
+1 Remorse
+1 Nostalgia
+1 Fear
+1 Resentment
+```
+
+#### MX Exhilaration double
+
+Exhilaration scores each of your moods an extra time, and costs one of your moods (it cannot be a turn-one play). The deck is big bodies (Resentment 5, Impatience 5, Dejection 5, Frenzy 6 and Resignation 6, so 10 to 12 each) and cheap fodder for the cost: Hate, Intimidation, Paranoia and Bravado, which puts one of your own moods into the pile. Thrift (a 0, 1, or 2 from the pile after Q15) and Nostalgia bring the fodder back to be played again and trigger its effect. Impatience needs a red mood (Exhilaration, Compulsion, Frenzy, Bravado).
+
+Look for: whether Exhilaration is a dead card early, whether the cost is cheap enough, and how big a round the doubled Frenzy (12) wins.
+
+```
+About
+Name MX Exhilaration double
+
+1 Exhilaration
+1 Creativity
+1 Intimidation
+1 Paranoia
+1 Compulsion
+1 Hate
+1 Resentment
+1 Impatience
+1 Dejection
+1 Frenzy
+1 Resignation
+1 Bravado
+1 Nostalgia
+1 Thrift
+1 Remorse
+```
+
+#### MX Bliss black
+
+Bliss costs a discard from your hand and then scores each of your moods that shares a color with the discarded card two extra times (three times in all). Twelve of the 15 cards are black (the fixed Hate, Intimidation and Paranoia, plus nine more), so discarding a black card triples the board: Dejection 15, Self-Loathing 18, Disgust 18. Creativity and Compulsion do not triple. Self-Loathing costs a mood (Hate is the fodder). Composure (6 with the most cards in hand) fits the hand attacks; Pity is a 6 with two blue and/or red moods (Creativity and Compulsion).
+
+Look for: whether Bliss is drawn and survives, whether a deck with no Bliss still scores (5 to 6 bodies), Dejection against Composure (each player discards), and Disgust dropping to 3 when two or more green and/or white moods are in play.
+
+```
+About
+Name MX Bliss black
+
+1 Bliss
+1 Creativity
+1 Intimidation
+1 Paranoia
+1 Compulsion
+1 Hate
+1 Dejection
+1 Self-Loathing
+1 Disgust
+1 Superiority
+1 Schadenfreude
+1 Composure
+1 Pity
+1 Vengeance
+1 Suspicion
+```
+
+#### MX Duplicity echo
+
+Duplicity gives an extra play and lets every mood played afterwards have its after-playing effect happen an additional time. The fixed five are all after-playing effects (Hate: two moods to the bottom and two cards drawn; Intimidation and Compulsion: two cards from their hand; Paranoia: two random cards bottomed), and the free slots add Vengeance (their two best moods), Nosiness, Suspicion, Shock (up to two moods worth 3 or less, twice), Courage (moods worth 5 or more), Remorse, Zeal and Dejection. Resentment is the body.
+
+Look for: scores (bodies are 0 to 5), whether the opponent's hand and board are stripped faster than PU's old decks managed, and whether the effects have targets (an empty hand wastes half the deck).
+
+```
+About
+Name MX Duplicity echo
+
+1 Duplicity
+1 Creativity
+1 Intimidation
+1 Paranoia
+1 Compulsion
+1 Hate
+1 Vengeance
+1 Nosiness
+1 Suspicion
+1 Shock
+1 Remorse
+1 Zeal
+1 Courage
+1 Resentment
+1 Dejection
+```
+
+#### MX Thrill replay
+
+Thrill puts any number of your other moods into your hand and gives that many extra plays, so the whole board can be played again and every after-playing effect happens again (Hate, Intimidation, Paranoia, Compulsion, Zeal, Shock, Pacifism, Panic). Insecurity (an extra play, and the mood goes back to hand after scoring) and Fear (a bounce and an extra play) keep it going, Nostalgia refills the hand, and Impatience (red mood: Thrill, Compulsion, Shock, Zeal) and Resentment are the bodies.
+
+Look for: whether Thrill is a tempo-neutral replay or a loss (the board is in hand until replayed), whether the hand is big enough for the extra plays, and removal in response (the replayed board is empty if the extra plays are not all used).
+
+```
+About
+Name MX Thrill replay
+
+1 Thrill
+1 Creativity
+1 Intimidation
+1 Paranoia
+1 Compulsion
+1 Hate
+1 Fear
+1 Panic
+1 Pacifism
+1 Shock
+1 Zeal
+1 Nostalgia
+1 Impatience
+1 Resentment
+1 Insecurity
+```
+
+#### MX Orderliness even
+
+Orderliness gives +1 to each of your other moods with the chosen parity. Even is the natural pick: Hate 0, Creativity 0 and Paranoia 2 are even, and the free slots are mostly 2s (Friendliness, Modesty, Familiarity, Solidarity, Impartiality), Equanimity (6 with four even-numbered moods), Resignation 6 and Frenzy 6 (7 each with Orderliness). Friendliness, Modesty and Familiarity are extra plays for even or cheap numbers. Humility (a 3, odd) adds +1 to moods with a 0, 1, or 2. Impartiality suppresses one parity for the round, including your own moods, so choose odd.
+
+Look for: how often Orderliness is in hand (it mattered in few of the games of the earlier PW decks), whether even beats the odd fixed cards (Intimidation 1, Compulsion 3), and Impartiality against decks full of odd numbers.
+
+```
+About
+Name MX Orderliness even
+
+1 Orderliness
+1 Creativity
+1 Intimidation
+1 Paranoia
+1 Compulsion
+1 Hate
+1 Humility
+1 Solidarity
+1 Friendliness
+1 Equanimity
+1 Modesty
+1 Familiarity
+1 Impartiality
+1 Resignation
+1 Frenzy
+```
+
+#### MX Reverie pile
+
+The pile deck from the PU Reverie discard tests with the new Reverie (an extra play on entry when a pile card is bottomed, Q15, value 2). Dejection, Suspicion and Nosiness fill the pile and Remorse uses it (the fixed five do not: Hate and Paranoia put cards on the bottom of the deck); Impulse is an extra play that returns to hand; Deflection bounces and locks a name; Resignation is a 6; Detachment is a 5 once you have a blue mood (Reverie, Creativity, Resignation, Impulse, Deflection); Schadenfreude is a 6 after an opponent discards.
+
+Look for: whether the new extra play fixes PU's tempo problem (Reverie was played in only 4 of 14 PU games), whether the value needs to drop to 0, and whether the pile has fuel in rounds 1 and 2.
+
+```
+About
+Name MX Reverie pile
+
+1 Reverie
+1 Creativity
+1 Intimidation
+1 Paranoia
+1 Compulsion
+1 Hate
+1 Impulse
+1 Dejection
+1 Suspicion
+1 Nosiness
+1 Remorse
+1 Schadenfreude
+1 Resignation
+1 Detachment
+1 Deflection
+```
+
+#### MX Neglect hands
+
+Neglect (Q15: an opponent with one or fewer cards loses a highest value mood before scoring) with three hand attackers already in the fixed five (Intimidation, Paranoia, Compulsion) and more in Suspicion, Nosiness, Dejection and Martyrdom (each turn start, sacrifice one of your other moods: the opponents discard). Opportunism takes the cards they discard, Schadenfreude is a 6 after an opponent discards, Composure is a 6 with the most cards in hand, Vengeance removes the best mood and Resentment is the body.
+
+Look for: how often Neglect fires now (it was not played in ten games before Q15), the deck hurting itself (Dejection, Martyrdom), and Composure against Dejection.
+
+```
+About
+Name MX Neglect hands
+
+1 Neglect
+1 Creativity
+1 Intimidation
+1 Paranoia
+1 Compulsion
+1 Hate
+1 Suspicion
+1 Nosiness
+1 Dejection
+1 Martyrdom
+1 Opportunism
+1 Schadenfreude
+1 Composure
+1 Resentment
+1 Vengeance
+```
+
+#### MX Ardor red
+
+Ardor gives each of your red moods +1 for each other red mood. Eleven cards are red (Ardor, Compulsion and nine more), and Creativity can copy a red mood. Adrenaline (value 2 after Q15: the first red mood each turn gives an extra play), Rashness and Whimsy are the chain, Verve adds +2 to the red moods played this round, Exuberance is a 6 with two other red moods, Frenzy is a 6, Excitement is a 6 with the black fixed cards (two or more black and/or green moods), Zeal loots and Shock removes cheap moods.
+
+Look for: Ardor's score (31 at five red moods against PW; no 30 or more yet against removal), Nosiness and Compulsion taking Ardor from the hand, and whether the fixed black cards slow the red chain.
+
+```
+About
+Name MX Ardor red
+
+1 Ardor
+1 Creativity
+1 Intimidation
+1 Paranoia
+1 Compulsion
+1 Hate
+1 Adrenaline
+1 Rashness
+1 Whimsy
+1 Verve
+1 Exuberance
+1 Frenzy
+1 Zeal
+1 Excitement
+1 Shock
+```
+
+#### MX Fulfillment sixes
+
+Fulfillment scores each mood worth 6 or more an extra time. The three fixed black cards switch several conditions on at once: Determination (three moods that share a color), Obsession (two or more white and/or black moods) and Excitement (two or more black and/or green moods) are 6s, and Restlessness is a 6 with three different values (the fixed five are already 0, 1, 2 and 3). Resignation and Frenzy are 6s, Resolve is a 6 when behind, Urgency is a 6 with two plays (Intimidation gives an extra play) and Maturity grows by 2 each turn.
+
+Look for: whether this is too strong (the sixes may reach 40 or more by round 4), and how it does when Fulfillment stays in the deck.
+
+```
+About
+Name MX Fulfillment sixes
+
+1 Fulfillment
+1 Creativity
+1 Intimidation
+1 Paranoia
+1 Compulsion
+1 Hate
+1 Determination
+1 Obsession
+1 Excitement
+1 Restlessness
+1 Resignation
+1 Frenzy
+1 Maturity
+1 Resolve
+1 Urgency
+```
+
+### Games to play (Session 4)
+
+Five first-edition mythic decks (V Validation, E Exhilaration, B Bliss, D Duplicity, T Thrill, in both the FE and the MX version) and five Emotional Baggage mythic decks (O Orderliness, R Reverie, N Neglect, A Ardor, F Fulfillment). The cross pairings are a rotation: play rotation 1 first (five games), then rotation 2, and so on up to rotation 5 (25 games in all). Swap who goes first between games, and use the MX version of the first-edition mythic (FE versions are for the same-mythic games below).
+
+| Rotation | Pairings |
+|---|---|
+| 1 | V against O, E against R, B against N, D against A, T against F |
+| 2 | V against R, E against N, B against A, D against F, T against O |
+| 3 | V against N, E against A, B against F, D against O, T against R |
+| 4 | V against A, E against F, B against O, D against R, T against N |
+| 5 | V against F, E against O, B against R, D against N, T against A |
+
+Same-mythic games (the first-edition-only deck against its mixed version, five games, one each for V, E, B, D and T): they show what the mixed free slots add. Play them once rotation 1 is done.
+
+What to look for in every game: the Power Duel setup (15 cards, one mythic), the result by round, the largest turn, whether the mythic was drawn and played, which of the fixed five did the most (Intimidation and Compulsion take cards, Hate and Paranoia move cards), whether the three black fixed cards turned on the color-sharing conditions, and whether any player ran out of cards or decked out. Note which card versions the simulator used (Q15) in the session log.
+
 ## Coverage of the first tier
 
 Every card in the first tier of the checklist is in a deck above.
