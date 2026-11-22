@@ -169,6 +169,10 @@ cards:
     tier: 2
     check: Value 2, and before scoring each opponent with one or fewer cards in hand loses a highest value mood (it can trigger the round you play it; the threshold was no cards until Q15). Is it strong enough now, and does it fire against decks that hold cards?
     fallback: A threshold of two or fewer cards, or each opponent discards a card from their hand first and loses the mood only if they can't (before scoring), or back to no cards if it is too strong.
+  - card: Vengeance
+    tier: 1
+    check: A 3 that puts one of the opponent's highest value moods into the discard pile, but only against an opponent with as many or more moods than you (Q16; before that it had no condition and was about a 9 point swing). Is it still the best black removal, and is it dead too often for the first player?
+    fallback: Value 2 or 1; or "as many or more moods than you had before playing this one" if it is often dead.
   - card: Heartlessness
     tier: 2
     check: It also hits your own board. Check it works when you are behind.

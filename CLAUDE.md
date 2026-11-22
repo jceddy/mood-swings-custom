@@ -64,6 +64,7 @@ This repo holds the work-in-progress design of a community-designed custom set f
 - After the Power Duel variant play tests, four cards were changed (Q15): Thrift (a 0, 1, or 2 from the pile), Neglect (an opponent with one or
   fewer cards in hand), Adrenaline (value 2) and Reverie (extra play on entry when a pile card is bottomed; value still 2, may go to 0). Ardor stays
   as it is (Q14). The simulator and the MSE set file (`jceddy/edition1`) need the same changes; play tests before them used the old texts.
+- After a tester read Vengeance (Q16), it got a catch-up condition: "Choose an opponent who has as many or more moods than you" (value stays 3). Games before that used the old text.
 - The colorless gate counts **only your own** moods ("if you have a white mood"), decided in Q7 (originally any player's), and the
   value was raised from 4 to 5 to match (Q1). A suppressed mood still counts as a mood of its color for the gate. The five gate cards
   are drafted (X-C01..X-C05, placeholder names).

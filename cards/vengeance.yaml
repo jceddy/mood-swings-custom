@@ -8,14 +8,22 @@ to_play: false
 while_in_play: false
 after_playing: true
 rules_text: >-
-  After playing this mood — Choose an opponent. That player puts one of their highest value moods into the discard pile.
+  After playing this mood — Choose an opponent who has as many or more moods than you. That player puts one of their highest value moods into the discard pile.
 status: idea
 reprint_of: null
 impl_tier: 1
 designer: ""
+rulings:
+  - Count moods after this one is played, so this mood counts as one of yours. Suppressed moods count. If no opponent has as many moods as you, nothing happens and this is a 3.
+  - As the first player of a round you usually have more moods than the opponent after your first play, so it needs the opponent to be ahead from extra plays; as the second player it is almost always live.
 notes: >-
   Black uncommon, targeted removal. The name is a placeholder. The original black cards with this role include Fury ("one of
   their highest value moods") and Cruelty; this uses Fury's wording for the target restriction, so the opponent chooses among
-  ties and there is no free pick of the best answer for you. It is the clean, no-condition removal at uncommon, with a
-  printed value of 3 as its price. impl_tier 1 is provisional: a choose-an-opponent effect with a highest-value filter
-  exists.
+  ties and there is no free pick of the best answer for you. Q16: the first version had no condition and a tester read it as far
+  too strong (in a 1 against 1 game it is about a 9 point swing: the 3 printed plus the opponent's best mood, usually a 5 or a 6,
+  gone for good); in the logged games it removed the opponent's best mood in most of plain PB's and PB splash's good rounds.
+  It is now revenge for the player who is behind on board size (the catch-up condition), which fits the name and stops it from
+  being the best play when you are already ahead. The value stays 3. Levers if it is still too strong: value 2 or 1; if it is
+  now too weak or often dead for the first player: "as many or more moods than you had before playing this one".
+  impl_tier 1 is provisional: a choose-an-opponent effect with a highest-value filter exists, and the added filter is a mood
+  count comparison. It does not prompt anyone on an opponent's turn.
