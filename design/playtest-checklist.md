@@ -24,7 +24,7 @@ spreadsheet has the same list as the **Playtest** and **Playtest games** sheets,
 Test tier 1 first, since those cards could break a game. Tier 2 cards are about interactions, tier 3 about cards that may
 be too weak, and tier 4 about rules questions.
 
-## Tier 1: Could break the game (test first) (23 cards)
+## Tier 1: Could break the game (test first) (24 cards)
 
 - [ ] **Fulfillment** (green mythic, G-M03): Each of your moods worth 6 or more scores twice. Three conditional moods at 6 can run away.
   - Fallback: A threshold of 7, or score only one such mood an extra time (Enthusiasm style).
@@ -72,6 +72,8 @@ be too weak, and tier 4 about rules questions.
   - Fallback: Value 4.
 - [ ] **FOMO** (red rare, R-R05): Value 7, and paying a card every round drains the hand quickly. Is the mood discarded too soon for 7 to be fair?
   - Fallback: None chosen yet.
+- [ ] **Vengeance** (black uncommon, B-U01): A 3 that puts one of the opponent's highest value moods into the discard pile, but only against an opponent with as many or more moods than you (Q16; before that it had no condition and was about a 9 point swing). Is it still the best black removal, and is it dead too often for the first player?
+  - Fallback: Value 2 or 1; or "as many or more moods than you had before playing this one" if it is often dead.
 
 ## Tier 2: Interactions (18 cards)
 

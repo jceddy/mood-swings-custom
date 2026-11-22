@@ -349,9 +349,29 @@ questions:
           against a one-mood board), but PW splash is 5 to 11, so a nerf would make the deck worse. The card's notes list "up to two moods" as a lever, which
           would not fix a one-mood board.
         - Vengeance (black uncommon, value 3): unconditional removal of the best mood, in most of PB's and PG's good rounds; plain PB is 15 to 7 and PB splash 8 to 7,
-          so it is a watch item (a value of 2 is the lever).
+          so it was a watch item (a value of 2 is the lever); a tester then flagged it independently, see Q16.
         - Fulfillment (green mythic): 43 and 44 when it ran, but PG won most games without it (16 to 4), so changing it would not touch the deck's real strength
           (Thrift, Joy and cheap removal).
         - Ardor: Q14, left as it is.
       Levers if the changes miss: Thrift value 2; Neglect "two or fewer cards" or the discard-first version; Adrenaline value 1; Reverie value 0, the unconditional
       extra play, or the once-per-turn middle version above.
+
+  - id: Q16
+    status: decided
+    question: Is Vengeance (black uncommon, value 3) too strong, and what should change?
+    notes: |
+      Decided: add a catch-up condition and keep the value at 3. A tester who was cutting out cards read it for the first time and said it needs a nerf: "3 points,
+      make an opponent lose their biggest mood". In a 1 against 1 game it is usually about a 9 point swing (the 3 printed plus the opponent's best mood, usually a
+      5 or a 6, gone for good because boards persist). It is the only unconditional, one-sided, best-target removal in the set that also carries a body: the
+      nearest originals are Cruelty (3, random mood, needs two or more moods), Spite (1, even values only), Shock (2, values of 3 or less) and Fury (4, but you lose
+      your own highest mood too). In the logged games it answered the opponent's best mood in most of plain PB's and PB splash's good rounds (Q15 had it as a watch item).
+        Before: After playing this mood — Choose an opponent. That player puts one of their highest value moods into the discard pile.
+        After:  After playing this mood — Choose an opponent who has as many or more moods than you. That player puts one of their highest value moods into the discard pile.
+      The condition counts moods after Vengeance is played (it counts as one of yours), so as the second player of a round it is almost always live, and as the first
+      player it needs the opponent to be ahead from extra plays. If no opponent qualifies, nothing happens and it is a 3. It does not prompt anyone on an opponent's turn.
+      Considered and not chosen:
+        - Value 3 to 1: the swing drops to about 7, but it stays unconditional best-target removal.
+        - Cruelty's "two or more moods": only blocks the turn-one case, because boards reach two moods by round 2.
+        - Value 0: about a 6 point swing, the same as Hate without the draw, so it is mostly redundant.
+      Levers if it misses: value 2 or 1; "as many or more moods than you had before playing this one" if it is often dead for the first player. The simulator and the
+      MSE set file need the same change; games before it used the old text.

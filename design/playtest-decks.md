@@ -287,6 +287,8 @@ tested W list trimmed, and blue and black are new, so expect to change them. Set
 bottomed). The decks below are unchanged. Games played after the simulator is updated use the new versions, so note which version a game used in the
 session log.
 
+**Card version (Q16).** Vengeance was changed after a tester read it ("3 points, make an opponent lose their biggest mood"): it now reads "Choose an opponent who has as many or more moods than you. That player puts one of their highest value moods into the discard pile." (the value stays 3). Every game so far (546 to 638) used the old text, with no condition. Note which version a game used.
+
 ### PW Even numbers (white, Orderliness)
 
 The W list without its extra mythic and its weakest cards (Grudge, Levelheadedness, Largesse, Confidence, Solace). Orderliness (even) with the many
@@ -595,7 +597,7 @@ A variant of PG built after its Power Duel games (games 563 to 592, where PG wen
 other decks' engines. This version keeps 11 green cards and Contentment (Kinship and Vitality only reward green moods, so the splash is three cards) and swaps Honesty (removed every time it was played against black or red, and it needs every card in hand to share a color with a mood in play, which off-color cards break),
 Nostalgia (never played in these games; Thrift and Joy already give PG its extra plays) and Perseverance (a 2 that only grows when PG is behind).
 
-- **Vengeance** (black, 3): a body that puts one of the opponent's highest value moods into the discard pile; the answer to Orderliness, Reverie, Ardor or Neglect, and to an opponent's best mood in general.
+- **Vengeance** (black, 3; the old text, before Q16 added "an opponent who has as many or more moods than you"): a body that puts one of the opponent's highest value moods into the discard pile; the answer to Orderliness, Reverie, Ardor or Neglect, and to an opponent's best mood in general.
 - **Hate** (black reprint, 0): puts any mood on the bottom of the deck and draws, so it is card-neutral and permanent.
 - **Rashness** (red, 0): a free extra play (Urgency is a 6 with two or more plays this round, and Joy and Thrift also want plays) and removal of an opponent's mood worth 1 or less.
 
