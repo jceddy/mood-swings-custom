@@ -2851,3 +2851,92 @@ The first tester (P1) played Reverie in 636 and 638 and Exhilaration in 637; the
 | Detachment | Played by the Reverie bot with Creativity as the blue mood (637 round 1). |
 | Hate | Bottomed from the pile by Reverie's entry (638 round 3). |
 | Thrift | Drawn by Exhilaration as the loser's draw (638 round 3) and taken by Nosiness before it could be played. |
+
+## Session 4c: MX Bliss black against MX Neglect hands (6 games)
+
+**Source.** The simulator exports of games 639 to 644 (22 and 23 November), the third rotation 1 pairing of Session 4 (see `design/playtest-decks.md`): **MX Bliss black** (the first-edition green mythic Bliss with Dejection, Self-Loathing, Disgust, Superiority, Schadenfreude, Composure, Pity, Vengeance and Suspicion) against **MX Neglect hands** (Neglect with Suspicion, Nosiness, Dejection, Martyrdom, Opportunism, Schadenfreude, Composure, Resentment and Vengeance). Both decks hold the five fixed cards (Creativity, Intimidation, Paranoia, Compulsion, Hate) and share Dejection, Suspicion, Schadenfreude, Composure and Vengeance.
+The first tester (P1) played Neglect in 639, 641 and 643 and Bliss in 640, 642 and 644; the other seat was a practice bot in every game. **The simulator still had the old Vengeance text in these games** (no catch-up condition, Q16); the other card texts are the Q15 ones.
+
+### Summary
+
+| | |
+|---|---|
+| Result | **Bliss 5, Neglect 1.** Bliss won 639 (3 to 2, the bot against P1), 641 (3 to 0, the bot against P1), 642 (3 to 2, P1 against the bot), 643 (3 to 0, the bot against P1) and 644 (3 to 1, P1 against the bot); Neglect won 640 (3 to 2, the bot against P1). Rounds: Bliss 17, Neglect 8. P1 as Bliss 2 to 1, as Neglect 0 to 3. |
+| Scores by round, Bliss | 639: 2, 5, 5, 17, 7. 640: 3, 6, 20, 23, 8. 641: 6, 11, 11. 642: 2, 5, 8, 20, 35. 643: 6, 9, 6. 644: 3, 6, 11, 11. |
+| Scores by round, Neglect | 639: 3, 6, 3, 9, 6. 640: 5, 10, 10, 10, 12. 641: 3, 11, 10. 642: 2, 7, 10, 12, 12. 643: 2, 2, 5. 644: 5, 5, 6, 4. |
+| Game length | 5, 5, 3, 5, 3 and 4 rounds, 4.2 on average. |
+| Biggest turn | 2 plays (Intimidation and the card it took, in 639 and 642 round 1 and 644 round 3); every other turn was 1 play. Highest scores: Bliss 35 (642 round 5), 23 (640 round 4), 20 (640 round 3 and 642 round 4); Neglect 12 at most. |
+
+### Insights
+
+1. **Bliss is the payoff in this deck, as built.** It was played in four of six games (639 round 4, 640 round 3, 642 round 4, 644 round 3) and the Bliss deck won eight of the nine rounds from the round it was played on. Every one of its discards was a black card (Suspicion, Hate, Martyrdom, Pity), so the black moods score three times: in 640 round 3 Self-Loathing (6) counts 18 and the round is 20 to 10 with a board of Bliss and Self-Loathing; in 639 round 4 Intimidation, Opportunism, Vengeance and Bliss make 17. Bliss is a 2 on its own, so the deck depends on its black bodies, not on the mythic's value.
+2. **The deck still wins without Bliss.** In 641 (Bliss was in hand, and the bot played Creativity in round 3 instead of discarding it for Bliss; at the end Bliss was its only card and could not pay its discard) and 643 (never drawn, still in the deck) the Bliss deck won 3 to 0 twice, with rounds of 6, 11, 11 and 6, 9, 6: Disgust 6, Dejection 5 and Vengeance 3 are bodies on their own.
+3. **Removal is worth a lot against tripled moods, and it decided 640.** In round 5 Neglect's trigger took Self-Loathing (counted three times, 18 points) off a Bliss board: 26 became 8, and the Neglect bot won 12 to 8 and the game 3 to 2. In 639 round 5 P1's Creativity as Hate put Bliss itself on the bottom of the deck: the board fell from the 17 of round 4 to 7, and P1 still lost 6 to 7. Answers to Bliss are the Bliss card and its highest mood, not the low ones.
+4. **Neglect fired twice in three plays and it works against this deck.** It was played in 640 round 5 (removed Self-Loathing, above), 641 round 3 (removed Bliss's Creativity; Neglect lost 10 to 11 all the same) and 642 round 4 (did not fire: Bliss held three cards). The Bliss deck's hand was 1 or 0 in the late rounds of 639 to 641 and 643, which is when Neglect's check is met. In 643 Neglect was in P1's opening hand and was never played, with five cards in hand at the end (see the questions).
+5. **P1 lost all three games as Neglect, and the deck stalls on one play per turn.** In 643 its hand was 6, 6 and 5 after the rounds and it played one mood each turn (Paranoia, Nosiness, Vengeance); in 641 it ended with Creativity, Hate and Paranoia in hand. The Bliss deck's hand was 3, 1 and 0 in 643. Neglect has no extra plays; P1's only round wins as Neglect were two small ones in 639 (3 to 2 and 6 to 5).
+6. **Opportunism turned the Bliss deck's discards into cards in 642.** It is a Neglect-deck rare, and the Neglect side gave it up three times (639 round 1 and 642 round 1 to Intimidation, 640 round 4 to Compulsion). In 642 Bliss held it from round 1 and it returned cards the bot had discarded: a Martyrdom (round 3, after Suspicion) that Bliss then discarded to its own mythic in round 4, and a Dejection (round 5). Bliss's hand was 5, 5, 3 and 2 against the bot's 2, 1, 1 and 0, and the bot passed on round 5 with no cards. The same Martyrdom changed hands three times.
+7. **Compulsion and Creativity as Compulsion passed cards back and forth again.** In 639 the Vengeance P1 took from Bliss's hand in round 1 was taken back by Creativity as Compulsion in round 2 and played in round 3; in 642 the Martyrdom crossed three times (above).
+8. **Vengeance (old text) flipped two rounds, and the Q16 condition would not have touched either.** It was played five times: on Compulsion (3, 639 round 3), Paranoia (2, 643 round 2), Self-Loathing (6, 643 round 3), Resentment (5, 644 round 2) and Dejection (5, 644 round 4, played as a copy by Creativity). In 639 round 3 it took Neglect from 6 (Schadenfreude, Compulsion, Hate) against Bliss's 5 down to 3 against 5; with the round, Neglect would have won the game 3 to 0 instead of losing 2 to 3. In 644 round 2 it took Resentment off Neglect (5 against 6 instead of 10 against 6). The 643 and 644 round 4 plays did not change a result. Four of the five were legal under Q16: the boards were level (three as the second player of the round, and 644 round 4 as the first player with three moods each). The one that would have been dead was 643 round 2: Bliss was the first player with two moods against one, and its Vengeance removed Paranoia, Neglect's only mood; Bliss would still have won 9 to 4. So in this matchup the condition only closes the first player's lead play and leaves the strongest uses alone (a player who is level or behind). If the group wants a real nerf, the value is the other lever.
+9. **First-player ties went to the first player, as the rule says** (641 round 2, 11 to 11, and 642 round 1, 2 to 2, both won by Bliss).
+
+### Questions for the testers
+
+- Game 643: Neglect was in your opening hand and never came down. Bliss's hand was 3, 1 and 0 after the rounds, so Neglect would have fired in rounds 2 and 3. Was it held for a better play each turn (Paranoia, Nosiness, Vengeance)?
+- Games 640, 642 and 644: you discarded Hate, Martyrdom and Pity to Bliss. Was the black color (tripling the black moods) a deliberate choice, and was it easy to find a black card to spare?
+- Is a Bliss turn that scores 20 to 35 (642 round 5) a problem for the card, or is it the payoff of a deck of black moods that the card asks for? Would you want the Bliss discard cost to be harder?
+- Games 639, 642 and 640: the Neglect side gave away Opportunism three times when asked for a card (Intimidation and Compulsion). Was it the least useful card in hand, or did it not look like a risk?
+- Does the Neglect deck feel too slow with one play a turn and a hand of five or six cards (643)? What would you cut or add?
+
+### Game logs
+
+**Game 639.** Neglect (P1, seat 0) against Bliss (bot, seat 1). Bliss won 3 to 2.
+- Scores: Neglect 3, Bliss 2; Neglect 6, Bliss 5; Neglect 3, Bliss 5; Neglect 9, Bliss 17; Neglect 6, Bliss 7.
+- Longest turn: 2 plays (Bliss in round 1: Intimidation and Opportunism).
+- Hands: Neglect ended with Nosiness and Resentment; Bliss with Schadenfreude.
+- Decided: Compulsion against Intimidation and Opportunism (round 1, 3 to 2); Vengeance on Compulsion, the Vengeance that P1 took in round 1 and Bliss took back with Creativity as Compulsion (round 3, 3 to 5, instead of 6 to 5); Bliss discarding Suspicion (round 4, 17 to 9); Creativity as Hate on Bliss (round 5, 6 to 7).
+
+**Game 640.** Bliss (P1, seat 0) against Neglect (bot, seat 1). Neglect won 3 to 2.
+- Scores: Bliss 3, Neglect 5; Bliss 6, Neglect 10; Bliss 20, Neglect 10; Bliss 23, Neglect 10; Bliss 8, Neglect 12.
+- Longest turn: 1 play. Neglect passed automatically in rounds 3 and 4 with no cards.
+- Hands: both ended with no cards.
+- Decided: Dejection and Creativity as Dejection (rounds 1 and 2); Bliss discarding Hate (round 3, 20 to 10); Compulsion taking Neglect's last card (round 4); Neglect removing Self-Loathing before scoring (round 5, 8 to 12).
+
+**Game 641.** Neglect (P1, seat 0) against Bliss (bot, seat 1). Bliss won 3 to 0.
+- Scores: Neglect 3, Bliss 6; Neglect 11, Bliss 11; Neglect 10, Bliss 11.
+- Longest turn: 1 play.
+- Hands: Neglect ended with Creativity, Hate and Paranoia; Bliss with Bliss (its only card; it cannot pay its own discard).
+- Decided: Disgust against Schadenfreude (round 1); Dejection (round 2, a tie won by the first player); Neglect removing Creativity (round 3, 10 to 11).
+
+**Game 642.** Bliss (P1, seat 0) against Neglect (bot, seat 1). Bliss won 3 to 2.
+- Scores: Bliss 2, Neglect 2; Bliss 5, Neglect 7; Bliss 8, Neglect 10; Bliss 20, Neglect 12; Bliss 35, Neglect 12.
+- Longest turn: 2 plays (Bliss in round 1: Intimidation and Opportunism).
+- Hands: Bliss ended with Dejection and Vengeance; Neglect with none (it passed automatically in round 5).
+- Decided: a tie won by the first player (round 1); Compulsion and Suspicion with Opportunism returning Martyrdom (rounds 2 and 3); Bliss discarding Martyrdom (round 4, 20 to 12); Dejection against an empty hand (round 5, 35 to 12).
+
+**Game 643.** Neglect (P1, seat 0) against Bliss (bot, seat 1). Bliss won 3 to 0.
+- Scores: Neglect 2, Bliss 6; Neglect 2, Bliss 9; Neglect 5, Bliss 6.
+- Longest turn: 1 play.
+- Hands: Neglect ended with Composure, Hate, Martyrdom, Neglect and Opportunism; Bliss with none.
+- Decided: Paranoia against Disgust (round 1, 2 to 6); Vengeance on Paranoia and Nosiness (round 2, 2 to 9); Self-Loathing against Vengeance on Self-Loathing (round 3, 5 to 6).
+
+**Game 644.** Bliss (P1, seat 0) against Neglect (bot, seat 1). Bliss won 3 to 1.
+- Scores: Bliss 3, Neglect 5; Bliss 6, Neglect 5; Bliss 11, Neglect 6; Bliss 11, Neglect 4.
+- Longest turn: 2 plays (Neglect in round 3: Intimidation and Hate).
+- Hands: Bliss ended with no cards; Neglect with Compulsion and Suspicion.
+- Decided: Dejection and Compulsion (round 1); Vengeance on Resentment (round 2, 6 to 5); Bliss discarding Pity (round 3, 11 to 6); Creativity as Vengeance on Dejection, then Neglect's Creativity on Bliss's Creativity (round 4, 11 to 4).
+
+### Notes by card (MX Bliss black against MX Neglect hands)
+
+| Card | What the games showed |
+|---|---|
+| Bliss | Played in 639, 640, 642 and 644 (17, 20, 20, 11 points); stuck in hand in 641; not drawn in 643. Discards were black (Suspicion, Hate, Martyrdom, Pity). |
+| Neglect | Played in 640 (removed Self-Loathing, decided the game), 641 (removed Creativity) and 642 (did not fire); held unplayed in 643. |
+| Self-Loathing, Disgust, Dejection | The 5 and 6 bodies of the Bliss deck; Self-Loathing tripled to 18 in 640. |
+| Vengeance (old text) | Five plays: Compulsion, Paranoia, Self-Loathing, Resentment, Dejection. It flipped 639 round 3 (and the game) and 644 round 2. Four of the five would have been legal under Q16. |
+| Opportunism | Given away three times; in 642 it returned Martyrdom and Dejection to Bliss's hand. |
+| Intimidation, Compulsion | Moved Opportunism, Vengeance and Martyrdom between hands in 639, 640 and 642. |
+| Creativity | Copied Compulsion (639), Hate on Bliss (639 round 5), Dejection (640) and Vengeance (644). |
+| Hate | Bottomed Bliss's Creativity (639 round 3) and Compulsion (644 round 3). |
+| Paranoia | Bottomed Pity (643 round 1) and Intimidation (639 round 5), and drew a card each time. |
+| Dejection, Suspicion, Nosiness | Hand pressure on both sides; left the Neglect bot with no cards in 640 and 642. |
+| Superiority, Composure, Pity, Schadenfreude | Rarely seen; Composure and Pity were discards, Schadenfreude a 3. |
